@@ -1,0 +1,239 @@
+{
+  "design": {
+    "tier": "E4_plus_well_record",
+    "fractions_of_training_pool": [
+      0.25,
+      0.4,
+      0.55,
+      0.7,
+      0.85,
+      1.0
+    ],
+    "test_fraction": 0.25,
+    "draws_per_point": 40,
+    "note": "The test partition is a fixed fraction of the dataset and is drawn afresh at each repeat, so the quantity varying across points is the training size alone."
+  },
+  "interpretation": "A curve still rising at the full sample indicates that data volume limits performance; a flat curve indicates the predictors do.",
+  "results": {
+    "AsTot": {
+      "points": [
+        {
+          "fraction_of_pool": 0.25,
+          "n_train": 51,
+          "n_test": 68,
+          "r2_mean": -0.08184896108616685,
+          "r2_sd": 0.6295958905590691,
+          "r2_median": -0.010298378641641848
+        },
+        {
+          "fraction_of_pool": 0.4,
+          "n_train": 81,
+          "n_test": 68,
+          "r2_mean": 0.033439147136927416,
+          "r2_sd": 0.1488580248365061,
+          "r2_median": 0.020884807338354572
+        },
+        {
+          "fraction_of_pool": 0.55,
+          "n_train": 112,
+          "n_test": 68,
+          "r2_mean": -5.022709485551922,
+          "r2_sd": 27.458456556419122,
+          "r2_median": 0.005621434003446224
+        },
+        {
+          "fraction_of_pool": 0.7,
+          "n_train": 142,
+          "n_test": 68,
+          "r2_mean": 0.07435041974057999,
+          "r2_sd": 0.11285451340992748,
+          "r2_median": 0.06567057190172182
+        },
+        {
+          "fraction_of_pool": 0.85,
+          "n_train": 173,
+          "n_test": 68,
+          "r2_mean": 0.07892513212422302,
+          "r2_sd": 0.12136601676495137,
+          "r2_median": 0.037314801950159515
+        },
+        {
+          "fraction_of_pool": 1.0,
+          "n_train": 203,
+          "n_test": 68,
+          "r2_mean": 0.07330443203510865,
+          "r2_sd": 0.1166762161165143,
+          "r2_median": 0.0718037405262465
+        }
+      ],
+      "gain_over_range": 0.1552,
+      "gain_in_final_step": -0.0056,
+      "verdict": "flattening"
+    },
+    "U": {
+      "points": [
+        {
+          "fraction_of_pool": 0.25,
+          "n_train": 51,
+          "n_test": 68,
+          "r2_mean": 0.17949439558006497,
+          "r2_sd": 0.12901451178822568,
+          "r2_median": 0.1568168292569172
+        },
+        {
+          "fraction_of_pool": 0.4,
+          "n_train": 81,
+          "n_test": 68,
+          "r2_mean": 0.0929032620859441,
+          "r2_sd": 0.8173061317373767,
+          "r2_median": 0.22458428919035667
+        },
+        {
+          "fraction_of_pool": 0.55,
+          "n_train": 112,
+          "n_test": 68,
+          "r2_mean": 0.2921556366189467,
+          "r2_sd": 0.12088898578231362,
+          "r2_median": 0.2752164398678531
+        },
+        {
+          "fraction_of_pool": 0.7,
+          "n_train": 142,
+          "n_test": 68,
+          "r2_mean": 0.2749362476264618,
+          "r2_sd": 0.11740507381435553,
+          "r2_median": 0.2869084411010353
+        },
+        {
+          "fraction_of_pool": 0.85,
+          "n_train": 173,
+          "n_test": 68,
+          "r2_mean": 0.32989045707895837,
+          "r2_sd": 0.135180685026622,
+          "r2_median": 0.36004607900590974
+        },
+        {
+          "fraction_of_pool": 1.0,
+          "n_train": 203,
+          "n_test": 68,
+          "r2_mean": 0.33356747643074136,
+          "r2_sd": 0.1087474290387476,
+          "r2_median": 0.3081486369569611
+        }
+      ],
+      "gain_over_range": 0.1541,
+      "gain_in_final_step": 0.0037,
+      "verdict": "flattening"
+    },
+    "Mo": {
+      "points": [
+        {
+          "fraction_of_pool": 0.25,
+          "n_train": 51,
+          "n_test": 68,
+          "r2_mean": -12.438592280643599,
+          "r2_sd": 78.48757571185766,
+          "r2_median": 0.16411258781501975
+        },
+        {
+          "fraction_of_pool": 0.4,
+          "n_train": 81,
+          "n_test": 68,
+          "r2_mean": 0.19660460635338822,
+          "r2_sd": 0.12280941563965106,
+          "r2_median": 0.19320837628065624
+        },
+        {
+          "fraction_of_pool": 0.55,
+          "n_train": 112,
+          "n_test": 68,
+          "r2_mean": 0.19988620312626493,
+          "r2_sd": 0.2013405385947636,
+          "r2_median": 0.19697653419891187
+        },
+        {
+          "fraction_of_pool": 0.7,
+          "n_train": 142,
+          "n_test": 68,
+          "r2_mean": 0.2333849386269216,
+          "r2_sd": 0.10676790430233148,
+          "r2_median": 0.23779030828117204
+        },
+        {
+          "fraction_of_pool": 0.85,
+          "n_train": 173,
+          "n_test": 68,
+          "r2_mean": 0.29835951163980223,
+          "r2_sd": 0.11128774375060335,
+          "r2_median": 0.2874745894513003
+        },
+        {
+          "fraction_of_pool": 1.0,
+          "n_train": 203,
+          "n_test": 68,
+          "r2_mean": 0.3557629334716327,
+          "r2_sd": 0.1171073536021516,
+          "r2_median": 0.3465230014997609
+        }
+      ],
+      "gain_over_range": 12.7944,
+      "gain_in_final_step": 0.0574,
+      "verdict": "still improving"
+    },
+    "Ba": {
+      "points": [
+        {
+          "fraction_of_pool": 0.25,
+          "n_train": 51,
+          "n_test": 68,
+          "r2_mean": 0.2808029783148454,
+          "r2_sd": 0.35238715136506726,
+          "r2_median": 0.363659866668343
+        },
+        {
+          "fraction_of_pool": 0.4,
+          "n_train": 81,
+          "n_test": 68,
+          "r2_mean": 0.40526938406031887,
+          "r2_sd": 0.1506547232803146,
+          "r2_median": 0.4531843767958338
+        },
+        {
+          "fraction_of_pool": 0.55,
+          "n_train": 112,
+          "n_test": 68,
+          "r2_mean": 0.5197767099198333,
+          "r2_sd": 0.10015246404732289,
+          "r2_median": 0.5208231392617088
+        },
+        {
+          "fraction_of_pool": 0.7,
+          "n_train": 142,
+          "n_test": 68,
+          "r2_mean": 0.5250019766740308,
+          "r2_sd": 0.12373641255877262,
+          "r2_median": 0.5368430480645239
+        },
+        {
+          "fraction_of_pool": 0.85,
+          "n_train": 173,
+          "n_test": 68,
+          "r2_mean": 0.5543213757309693,
+          "r2_sd": 0.07974306692468802,
+          "r2_median": 0.5535767096321226
+        },
+        {
+          "fraction_of_pool": 1.0,
+          "n_train": 203,
+          "n_test": 68,
+          "r2_mean": 0.5421411077115545,
+          "r2_sd": 0.10003313763575516,
+          "r2_median": 0.5213494620070589
+        }
+      ],
+      "gain_over_range": 0.2613,
+      "gain_in_final_step": -0.0122,
+      "verdict": "flattening"
+    }
+  }
+}

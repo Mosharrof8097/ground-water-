@@ -1,0 +1,11 @@
+# Stages 1-2 (implemented)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Stage 3 (methods) — see 03_methods/README.md
+scikit-learn>=1.3.0
+scipy>=1.10.0
+statsmodels>=0.14.0      # censored / Tobit regression
+matplotlib>=3.7.0
+seaborn>=0.12.0
+shap>=0.41.0

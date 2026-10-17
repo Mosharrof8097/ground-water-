@@ -1,0 +1,14 @@
+target,n_valid,pct_censored,n_distinct,modal_value,pct_at_modal_value,median,max,who_limit_ug_L,n_exceeding_who,modellable,exclusion_reason
+Ba,271,0.0,171,0.01,2.2,0.114,0.657,1300.0,0.0,True,
+Zn,260,0.4,74,3.0,8.5,8.0,301.0,3000.0,0.0,True,
+Ni,271,1.1,61,2.1,6.3,2.4,18.8,20.0,0.0,True,
+Mo,271,7.4,61,0.1,9.2,1.1,20.5,70.0,0.0,True,
+Pb,271,12.5,61,0.05,9.2,0.1,28.6,10.0,1.0,True,
+U,271,22.9,163,0.01,25.1,0.42,47.1,30.0,4.0,True,
+AsTot,271,33.9,149,6.0,28.4,22.0,2400.0,10.0,156.0,True,
+Se,19,7.0,1,0.2,7.0,0.2,0.2,40.0,0.0,False,only 19 measurements (< 100); only 1 distinct values (< 10)
+Sb,271,46.5,25,0.02,45.8,0.03,1.18,20.0,0.0,False,46% of rows share the single value 0.02 (> 40%)
+AsIII,270,51.7,109,6.0,42.4,6.0,2540.0,,,False,42% of rows share the single value 6.0 (> 40%)
+Cu,271,81.2,23,1.0,84.5,1.0,19.3,2000.0,0.0,False,81% censored (> 60%); 85% of rows share the single value 1.0 (> 40%)
+Cd,271,84.1,12,0.02,78.2,0.02,0.19,3.0,0.0,False,84% censored (> 60%); 78% of rows share the single value 0.02 (> 40%)
+Cr,271,97.0,6,0.5,87.1,0.5,1.3,50.0,0.0,False,97% censored (> 60%); only 6 distinct values (< 10); 87% of rows share the single value 0.5 (> 40%)

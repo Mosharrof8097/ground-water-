@@ -1,0 +1,137 @@
+{
+  "n_wells": 271,
+  "tiers": {
+    "E1_meter": {
+      "features": [
+        "pH",
+        "Eh",
+        "SEC",
+        "T"
+      ],
+      "missing": [],
+      "cost": "multiparameter field meter only; negligible per-sample cost",
+      "n_complete_case": 254
+    },
+    "E2_meter_kit": {
+      "features": [
+        "pH",
+        "Eh",
+        "SEC",
+        "T",
+        "Fe",
+        "Mn"
+      ],
+      "missing": [],
+      "cost": "E1 + colorimetric field kits for Fe and Mn",
+      "n_complete_case": 254
+    },
+    "E3_meter_kit_titration": {
+      "features": [
+        "pH",
+        "Eh",
+        "SEC",
+        "T",
+        "Fe",
+        "Mn",
+        "Cl",
+        "HCO3"
+      ],
+      "missing": [],
+      "cost": "E2 + chloride and alkalinity titration",
+      "n_complete_case": 253
+    },
+    "E4_plus_well_record": {
+      "features": [
+        "pH",
+        "Eh",
+        "SEC",
+        "T",
+        "Fe",
+        "Mn",
+        "Cl",
+        "HCO3",
+        "WELL_DEPTH"
+      ],
+      "missing": [],
+      "cost": "E3 + well depth from the installation record (free)",
+      "n_complete_case": 243
+    },
+    "REF_full_cheap": {
+      "features": [
+        "pH",
+        "Eh",
+        "SEC",
+        "T",
+        "Fe",
+        "Mn",
+        "Cl",
+        "HCO3",
+        "WELL_DEPTH",
+        "SO4",
+        "NH4-N",
+        "DOC",
+        "NO3-N",
+        "diss O2"
+      ],
+      "missing": [],
+      "cost": "reference ceiling: every non-ICP-MS determinand, including the heavily censored ones; not a field-deployable tier",
+      "n_complete_case": 229
+    }
+  },
+  "targets_modellable": [
+    "AsTot",
+    "Ni",
+    "Pb",
+    "Zn",
+    "U",
+    "Mo",
+    "Ba"
+  ],
+  "targets_excluded": [
+    {
+      "target": "AsIII",
+      "reason": "42% of rows share the single value 6.0 (> 40%)"
+    },
+    {
+      "target": "Cd",
+      "reason": "84% censored (> 60%); 78% of rows share the single value 0.02 (> 40%)"
+    },
+    {
+      "target": "Cr",
+      "reason": "97% censored (> 60%); only 6 distinct values (< 10); 87% of rows share the single value 0.5 (> 40%)"
+    },
+    {
+      "target": "Cu",
+      "reason": "81% censored (> 60%); 85% of rows share the single value 1.0 (> 40%)"
+    },
+    {
+      "target": "Sb",
+      "reason": "46% of rows share the single value 0.02 (> 40%)"
+    },
+    {
+      "target": "Se",
+      "reason": "only 19 measurements (< 100); only 1 distinct values (< 10)"
+    }
+  ],
+  "screening_thresholds": {
+    "max_censored_pct": 60.0,
+    "max_modal_pct": 40.0,
+    "min_valid": 100,
+    "min_distinct": 10
+  },
+  "who_limits_ug_L": {
+    "AsTot": 10.0,
+    "Cd": 3.0,
+    "Ni": 20.0,
+    "Pb": 10.0,
+    "Cr": 50.0,
+    "Cu": 2000.0,
+    "Zn": 3000.0,
+    "U": 30.0,
+    "Sb": 20.0,
+    "Se": 40.0,
+    "Mo": 70.0,
+    "Ba": 1300.0
+  },
+  "note": "No imputation or scaling applied here; both belong inside the cross-validation fold in stage 3."
+}

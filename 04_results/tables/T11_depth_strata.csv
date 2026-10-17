@@ -1,0 +1,5 @@
+stratum,n_wells,median_As_ugL,mean_As_ugL,n_above_WHO,pct_above_WHO,median_Fe_mgL
+shallow <20 m,87,65.0,118.01,66,75.9,1.01
+intermediate 20-30 m,60,15.0,259.86,33,55.0,0.748
+deep 30-50 m,75,8.9,72.41,35,46.7,1.02
+very deep >=50 m,39,6.0,35.61,12,30.8,4.53

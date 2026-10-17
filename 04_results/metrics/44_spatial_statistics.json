@@ -1,0 +1,16 @@
+{
+  "morans_I_arsenic_development": {
+    "radius_km": 10.0,
+    "morans_I": 0.2586,
+    "expected_I": -0.0037,
+    "p_permutation": 0.001,
+    "n_permutations": 999,
+    "mean_neighbours": 43.3,
+    "verdict": "significant positive clustering",
+    "transform": "log1p"
+  },
+  "basemap_source": "BGS Bangladesh coastline and districts reference file; approximate, not for precise mapping",
+  "geology_source": "BGS surface geology classification of survey sites after Alam et al. (1990)",
+  "geology_units_reported": 15,
+  "note": "Moran's I complements the variogram of stage 3.6 by giving a single statistic with a permutation reference distribution."
+}

@@ -1,0 +1,6 @@
+statistic,value
+n_evaluated,271.0
+median_abs_CBE_pct,1.535
+within_5pct,261.0
+within_10pct,270.0
+pct_within_10,99.6

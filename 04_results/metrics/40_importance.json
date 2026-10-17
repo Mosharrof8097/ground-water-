@@ -1,0 +1,377 @@
+{
+  "method": "permutation importance on held-out folds, mean drop in R-squared over 15 permutations, model searched within each training fold",
+  "tier": "E4_plus_well_record",
+  "redox_proxies": [
+    "Eh",
+    "Fe",
+    "Mn",
+    "diss O2"
+  ],
+  "note": "Share is computed over positive importances only; a negative mean drop indicates a predictor whose removal does not hurt, and is reported but not given share.",
+  "results": {
+    "AsTot": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": true,
+      "redox_proxy_share": 0.4588,
+      "importance": {
+        "Fe": {
+          "mean_r2_drop": 0.3928,
+          "sd": 0.11214,
+          "share": 0.3665
+        },
+        "pH": {
+          "mean_r2_drop": 0.3365,
+          "sd": 0.12632,
+          "share": 0.314
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.10155,
+          "sd": 0.04504,
+          "share": 0.0948
+        },
+        "Mn": {
+          "mean_r2_drop": 0.09487,
+          "sd": 0.06339,
+          "share": 0.0885
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.05827,
+          "sd": 0.05081,
+          "share": 0.0544
+        },
+        "T": {
+          "mean_r2_drop": 0.05039,
+          "sd": 0.02452,
+          "share": 0.047
+        },
+        "SEC": {
+          "mean_r2_drop": 0.02347,
+          "sd": 0.03518,
+          "share": 0.0219
+        },
+        "Cl": {
+          "mean_r2_drop": 0.00984,
+          "sd": 0.0209,
+          "share": 0.0092
+        },
+        "Eh": {
+          "mean_r2_drop": 0.00394,
+          "sd": 0.03224,
+          "share": 0.0037
+        }
+      }
+    },
+    "Ni": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": false,
+      "redox_proxy_share": 0.4183,
+      "importance": {
+        "Mn": {
+          "mean_r2_drop": 0.13429,
+          "sd": 0.067,
+          "share": 0.3347
+        },
+        "SEC": {
+          "mean_r2_drop": 0.10934,
+          "sd": 0.10098,
+          "share": 0.2725
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.06559,
+          "sd": 0.05437,
+          "share": 0.1635
+        },
+        "Eh": {
+          "mean_r2_drop": 0.02791,
+          "sd": 0.03059,
+          "share": 0.0696
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.02281,
+          "sd": 0.03775,
+          "share": 0.0569
+        },
+        "pH": {
+          "mean_r2_drop": 0.02146,
+          "sd": 0.02039,
+          "share": 0.0535
+        },
+        "Cl": {
+          "mean_r2_drop": 0.00969,
+          "sd": 0.02856,
+          "share": 0.0242
+        },
+        "Fe": {
+          "mean_r2_drop": 0.00566,
+          "sd": 0.01198,
+          "share": 0.0141
+        },
+        "T": {
+          "mean_r2_drop": 0.00452,
+          "sd": 0.0141,
+          "share": 0.0113
+        }
+      }
+    },
+    "Pb": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": false,
+      "redox_proxy_share": 0.3189,
+      "importance": {
+        "HCO3": {
+          "mean_r2_drop": 0.03872,
+          "sd": 0.07385,
+          "share": 0.287
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.02653,
+          "sd": 0.06662,
+          "share": 0.1966
+        },
+        "Mn": {
+          "mean_r2_drop": 0.01979,
+          "sd": 0.03145,
+          "share": 0.1467
+        },
+        "Eh": {
+          "mean_r2_drop": 0.01846,
+          "sd": 0.03319,
+          "share": 0.1368
+        },
+        "SEC": {
+          "mean_r2_drop": 0.0125,
+          "sd": 0.02383,
+          "share": 0.0926
+        },
+        "pH": {
+          "mean_r2_drop": 0.00764,
+          "sd": 0.01433,
+          "share": 0.0566
+        },
+        "Cl": {
+          "mean_r2_drop": 0.0065,
+          "sd": 0.02097,
+          "share": 0.0482
+        },
+        "Fe": {
+          "mean_r2_drop": 0.00478,
+          "sd": 0.03543,
+          "share": 0.0354
+        },
+        "T": {
+          "mean_r2_drop": -0.00548,
+          "sd": 0.00873,
+          "share": 0.0
+        }
+      }
+    },
+    "Zn": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": false,
+      "redox_proxy_share": 0.1873,
+      "importance": {
+        "Cl": {
+          "mean_r2_drop": 0.07616,
+          "sd": 0.10364,
+          "share": 0.3159
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.04449,
+          "sd": 0.06564,
+          "share": 0.1845
+        },
+        "Eh": {
+          "mean_r2_drop": 0.03928,
+          "sd": 0.01704,
+          "share": 0.1629
+        },
+        "SEC": {
+          "mean_r2_drop": 0.03892,
+          "sd": 0.05833,
+          "share": 0.1614
+        },
+        "T": {
+          "mean_r2_drop": 0.03635,
+          "sd": 0.03996,
+          "share": 0.1508
+        },
+        "Fe": {
+          "mean_r2_drop": 0.00588,
+          "sd": 0.00913,
+          "share": 0.0244
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": -0.00137,
+          "sd": 0.03081,
+          "share": 0.0
+        },
+        "Mn": {
+          "mean_r2_drop": -0.00234,
+          "sd": 0.01465,
+          "share": 0.0
+        },
+        "pH": {
+          "mean_r2_drop": -0.0246,
+          "sd": 0.03423,
+          "share": 0.0
+        }
+      }
+    },
+    "U": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": true,
+      "redox_proxy_share": 0.8324,
+      "importance": {
+        "Fe": {
+          "mean_r2_drop": 0.98246,
+          "sd": 0.11475,
+          "share": 0.7925
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.12103,
+          "sd": 0.04894,
+          "share": 0.0976
+        },
+        "SEC": {
+          "mean_r2_drop": 0.06594,
+          "sd": 0.04361,
+          "share": 0.0532
+        },
+        "Mn": {
+          "mean_r2_drop": 0.04471,
+          "sd": 0.02796,
+          "share": 0.0361
+        },
+        "pH": {
+          "mean_r2_drop": 0.01505,
+          "sd": 0.00804,
+          "share": 0.0121
+        },
+        "Eh": {
+          "mean_r2_drop": 0.00476,
+          "sd": 0.01148,
+          "share": 0.0038
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.00435,
+          "sd": 0.01706,
+          "share": 0.0035
+        },
+        "Cl": {
+          "mean_r2_drop": 0.00148,
+          "sd": 0.00962,
+          "share": 0.0012
+        },
+        "T": {
+          "mean_r2_drop": -0.00215,
+          "sd": 0.00414,
+          "share": 0.0
+        }
+      }
+    },
+    "Mo": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": true,
+      "redox_proxy_share": 0.1354,
+      "importance": {
+        "pH": {
+          "mean_r2_drop": 0.46598,
+          "sd": 0.09831,
+          "share": 0.4942
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.20809,
+          "sd": 0.08596,
+          "share": 0.2207
+        },
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.09546,
+          "sd": 0.06776,
+          "share": 0.1012
+        },
+        "Fe": {
+          "mean_r2_drop": 0.07389,
+          "sd": 0.03121,
+          "share": 0.0784
+        },
+        "T": {
+          "mean_r2_drop": 0.03077,
+          "sd": 0.03836,
+          "share": 0.0326
+        },
+        "Mn": {
+          "mean_r2_drop": 0.02882,
+          "sd": 0.01418,
+          "share": 0.0306
+        },
+        "Eh": {
+          "mean_r2_drop": 0.02495,
+          "sd": 0.02875,
+          "share": 0.0265
+        },
+        "SEC": {
+          "mean_r2_drop": 0.00798,
+          "sd": 0.01495,
+          "share": 0.0085
+        },
+        "Cl": {
+          "mean_r2_drop": 0.00689,
+          "sd": 0.01779,
+          "share": 0.0073
+        }
+      }
+    },
+    "Ba": {
+      "tier": "E4_plus_well_record",
+      "spatially_robust": true,
+      "redox_proxy_share": 0.2253,
+      "importance": {
+        "WELL_DEPTH": {
+          "mean_r2_drop": 0.49891,
+          "sd": 0.12301,
+          "share": 0.5
+        },
+        "Fe": {
+          "mean_r2_drop": 0.1814,
+          "sd": 0.05167,
+          "share": 0.1818
+        },
+        "SEC": {
+          "mean_r2_drop": 0.1793,
+          "sd": 0.06202,
+          "share": 0.1797
+        },
+        "HCO3": {
+          "mean_r2_drop": 0.06388,
+          "sd": 0.02134,
+          "share": 0.064
+        },
+        "Mn": {
+          "mean_r2_drop": 0.03599,
+          "sd": 0.01942,
+          "share": 0.0361
+        },
+        "pH": {
+          "mean_r2_drop": 0.01727,
+          "sd": 0.01099,
+          "share": 0.0173
+        },
+        "Cl": {
+          "mean_r2_drop": 0.01108,
+          "sd": 0.01202,
+          "share": 0.0111
+        },
+        "Eh": {
+          "mean_r2_drop": 0.00742,
+          "sd": 0.00676,
+          "share": 0.0074
+        },
+        "T": {
+          "mean_r2_drop": 0.00261,
+          "sd": 0.00472,
+          "share": 0.0026
+        }
+      }
+    }
+  }
+}

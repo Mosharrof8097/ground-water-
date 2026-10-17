@@ -1,0 +1,3535 @@
+SAMPLE_ID,SAMPLE_FIELD_ID,GEOL_UNIT,GSB_ABBREV,LITHOLOGY
+S98_00701,"RIP3491, BTS101",Tidal deltaic deposits,dt,Alluvium
+S98_00718,"RIP3492, BTS118",Chandina Alluvium,ac,Alluvium
+S98_00724,"RIP3493, BTS124",Chandina Alluvium,ac,Alluvium
+S98_00727,"RIP3498, BTS127",Chandina Alluvium,ac,Alluvium
+S98_00733,"RIP3494, BTS133",Tidal deltaic deposits,dt,Alluvium
+S98_00734,"RIP3499, BTS134",Tidal deltaic deposits,dt,Alluvium
+S98_00736,"RIP3495, BTS136",Tidal deltaic deposits,dt,Alluvium
+S98_00749,"RIP3496, BTS149",Tidal deltaic deposits,dt,Alluvium
+S98_00752,"RIP3500, BTS152",Alluvial silt and clay,asc,Alluvium
+S98_00756,"RIP3497, BTS156",Chandina Alluvium,ac,Alluvium
+S98_00777,"RIP1961, BTS211",Marsh clay and peat,ppc,Alluvium
+S98_00781,"RIP1962, BTS215",Deltaic Silt,dsl,Alluvium
+S98_00784,"RIP1963, BTS218",Deltaic Silt,dsl,Alluvium
+S98_00791,"RIP1964, BTS224",Deltaic Sand,dsd,Alluvium
+S98_00796,"RIP1969, BTS228",Deltaic Sand,dsd,Alluvium
+S98_00798,"RIP1970, BTS230",Deltaic Silt,dsl,Alluvium
+S98_00818,"RIP1965, BTS249",Alluvial Sand,asd,Alluvium
+S98_00821,"RIP1966, BTS252",Deltaic Silt,dsl,Alluvium
+S98_00824,"RIP1967, BTS254",Deltaic Sand,dsd,Alluvium
+S98_00829,"RIP1968, BTS259",Deltaic Sand,dsd,Alluvium
+S98_00854,"RIP2261, BTS301",Alluvial Silt,asl,Alluvium
+S98_00858,"RIP2262, BTS305",Barind Clay Residuum,rb,Old Alluvium
+S98_00871,"RIP2263, BTS317",Alluvial silt and clay,asc,Alluvium
+S98_00877,"RIP2264, BTS322",Alluvial Silt,asl,Alluvium
+S98_00881,"RIP2265, BTS326",Barind Clay Residuum,rb,Old Alluvium
+S98_00883,"RIP2266, BTS327",Alluvial Sand,asd,Alluvium
+S98_00890,"RIP2267, BTS334",Alluvial Sand,asd,Alluvium
+S98_00891,"RIP2268, BTS335",Alluvial Sand,asd,Alluvium
+S98_00894,"RIP2269, BTS338",Alluvial Sand,asd,Alluvium
+S98_00910,"RIP2270, BTS353",Barind Clay Residuum,rb,Old Alluvium
+S98_02451,RIP0001,Alluvial Sand,asd,Alluvium
+S98_02452,RIP0009,Alluvial Silt,asl,Alluvium
+S98_02453,RIP0014,Alluvial Silt,asl,Alluvium
+S98_02454,RIP0020,Alluvial Silt,asl,Alluvium
+S98_02455,RIP0023,Alluvial Silt,asl,Alluvium
+S98_02456,RIP0025,Alluvial silt and clay,asc,Alluvium
+S98_02457,RIP0030,Alluvial Silt,asl,Alluvium
+S98_02458,RIP0033,Alluvial Silt,asl,Alluvium
+S98_02459,RIP0035,Alluvial silt and clay,asc,Alluvium
+S98_02460,RIP0042,Alluvial Silt,asl,Alluvium
+S98_02461,RIP0048,Alluvial Silt,asl,Alluvium
+S98_02462,RIP0050,Alluvial Silt,asl,Alluvium
+S98_02463,RIP0057,Alluvial silt and clay,asc,Alluvium
+S98_02464,RIP0074,Alluvial Silt,asl,Alluvium
+S98_02465,RIP0084,Alluvial silt and clay,asc,Alluvium
+S98_02466,RIP0092,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02467,RIP0102,Alluvial silt and clay,asc,Alluvium
+S98_02468,RIP0110,Alluvial Silt,asl,Alluvium
+S98_02469,RIP0118,Alluvial Silt,asl,Alluvium
+S98_02470,RIP1001,Deltaic Silt,dsl,Alluvium
+S98_02471,RIP1009,Tidal deltaic deposits,dt,Alluvium
+S98_02472,RIP1016,Tidal deltaic deposits,dt,Alluvium
+S98_02473,RIP1029,Deltaic Silt,dsl,Alluvium
+S98_02474,RIP1031,Marsh clay and peat,ppc,Alluvium
+S98_02475,RIP1037,Tidal deltaic deposits,dt,Alluvium
+S98_02476,RIP1040,Tidal deltaic deposits,dt,Alluvium
+S98_02477,RIP1050,Tidal deltaic deposits,dt,Alluvium
+S98_02478,RIP1061,Tidal deltaic deposits,dt,Alluvium
+S98_02479,RIP1066,Deltaic Silt,dsl,Alluvium
+S98_02480,RIP1068,Deltaic Silt,dsl,Alluvium
+S98_02481,RIP1076,Tidal deltaic deposits,dt,Alluvium
+S98_02482,RIP1089,Tidal deltaic deposits,dt,Alluvium
+S98_02483,RIP1097,Tidal deltaic deposits,dt,Alluvium
+S98_02484,RIP1104,Tidal deltaic deposits,dt,Alluvium
+S98_02485,RIP1111,Marsh clay and peat,ppc,Alluvium
+S98_02486,RIP1119,Deltaic Silt,dsl,Alluvium
+S98_02487,RIP1138,Deltaic Silt,dsl,Alluvium
+S98_02488,RIP1146,Tidal deltaic deposits,dt,Alluvium
+S98_02489,RIP1155,Tidal deltaic deposits,dt,Alluvium
+S98_02490,RIP1164,Tidal deltaic deposits,dt,Alluvium
+S98_02491,RIP1177,Tidal deltaic deposits,dt,Alluvium
+S98_02492,RIP1183,Tidal deltaic deposits,dt,Alluvium
+S98_02493,RIP1189,Tidal deltaic deposits,dt,Alluvium
+S98_02494,RIP1193,Tidal deltaic deposits,dt,Alluvium
+S98_02495,RIP1219,Deltaic Silt,dsl,Alluvium
+S98_02496,RIP1227,Deltaic Silt,dsl,Alluvium
+S98_02497,RIP1235,Deltaic Silt,dsl,Alluvium
+S98_02498,RIP1242,Deltaic Silt,dsl,Alluvium
+S98_02499,RIP1246,Deltaic Silt,dsl,Alluvium
+S98_02500,RIP1252,Deltaic Silt,dsl,Alluvium
+S98_02501,RIP1259,Deltaic Silt,dsl,Alluvium
+S98_02502,RIP1268,Deltaic Silt,dsl,Alluvium
+S98_02503,RIP1275,Deltaic Silt,dsl,Alluvium
+S98_02504,RIP1285,Tidal deltaic deposits,dt,Alluvium
+S98_02505,RIP1286,Marsh clay and peat,ppc,Alluvium
+S98_02506,RIP1293,Deltaic Silt,dsl,Alluvium
+S98_02507,RIP1294,Deltaic Silt,dsl,Alluvium
+S98_02508,RIP1313,Deltaic Silt,dsl,Alluvium
+S98_02509,RIP1334,Deltaic Sand,dsd,Alluvium
+S98_02510,RIP1341,Deltaic Silt,dsl,Alluvium
+S98_02511,RIP1353,Deltaic Silt,dsl,Alluvium
+S98_02512,RIP1354,Deltaic Silt,dsl,Alluvium
+S98_02513,RIP1362,Deltaic Silt,dsl,Alluvium
+S98_02514,RIP1378,Deltaic Silt,dsl,Alluvium
+S98_02515,RIP1386,Deltaic Silt,dsl,Alluvium
+S98_02516,RIP1392,Deltaic Silt,dsl,Alluvium
+S98_02517,RIP1399,Deltaic Silt,dsl,Alluvium
+S98_02518,RIP1416,Deltaic Silt,dsl,Alluvium
+S98_02519,RIP1417,Deltaic Silt,dsl,Alluvium
+S98_02520,RIP1426,Deltaic Silt,dsl,Alluvium
+S98_02521,RIP1435,Deltaic Silt,dsl,Alluvium
+S98_02522,RIP1443,Deltaic Sand,dsd,Alluvium
+S98_02523,RIP1457,Deltaic Silt,dsl,Alluvium
+S98_02524,RIP1458,Deltaic Silt,dsl,Alluvium
+S98_02525,RIP1475,Deltaic Silt,dsl,Alluvium
+S98_02526,RIP1481,Deltaic Silt,dsl,Alluvium
+S98_02527,RIP1525,Tidal deltaic deposits,dt,Alluvium
+S98_02528,RIP1531,Deltaic Silt,dsl,Alluvium
+S98_02529,RIP1549,Tidal deltaic deposits,dt,Alluvium
+S98_02530,RIP1556,Tidal deltaic deposits,dt,Alluvium
+S98_02531,RIP1565,Tidal deltaic deposits,dt,Alluvium
+S98_02532,RIP1573,Tidal deltaic deposits,dt,Alluvium
+S98_02533,RIP1593,Tidal deltaic deposits,dt,Alluvium
+S98_02534,RIP1601,Tidal deltaic deposits,dt,Alluvium
+S98_02535,RIP1608,Tidal deltaic deposits,dt,Alluvium
+S98_02536,RIP1617,Tidal deltaic deposits,dt,Alluvium
+S98_02537,RIP1653,Deltaic Sand,dsd,Alluvium
+S98_02538,RIP1661,Tidal deltaic deposits,dt,Alluvium
+S98_02539,RIP1665,Tidal deltaic deposits,dt,Alluvium
+S98_02540,RIP1671,Tidal deltaic deposits,dt,Alluvium
+S98_02541,RIP1677,Tidal deltaic deposits,dt,Alluvium
+S98_02542,RIP1682,Tidal deltaic deposits,dt,Alluvium
+S98_02543,RIP1692,Tidal deltaic deposits,dt,Alluvium
+S98_02544,RIP1699,Tidal deltaic deposits,dt,Alluvium
+S98_02545,RIP1708,Tidal deltaic deposits,dt,Alluvium
+S98_02546,RIP1719,Tidal deltaic deposits,dt,Alluvium
+S98_02547,RIP1738,Deltaic Sand,dsd,Alluvium
+S98_02548,RIP1759,Deltaic Sand,dsd,Alluvium
+S98_02549,RIP1762,Deltaic Sand,dsd,Alluvium
+S98_02550,RIP1767,Chandina Alluvium,ac,Alluvium
+S98_02551,RIP1775,Marsh clay and peat,ppc,Alluvium
+S98_02552,RIP1783,Deltaic Silt,dsl,Alluvium
+S98_02553,RIP1791,Chandina Alluvium,ac,Alluvium
+S98_02554,RIP1800,Marsh clay and peat,ppc,Alluvium
+S98_02555,RIP1808,Deltaic Silt,dsl,Alluvium
+S98_02556,RIP1811,Deltaic Silt,dsl,Alluvium
+S98_02557,RIP1817,Deltaic Silt,dsl,Alluvium
+S98_02558,RIP1819,Deltaic Silt,dsl,Alluvium
+S98_02559,RIP1827,Deltaic Silt,dsl,Alluvium
+S98_02560,RIP1836,Deltaic Sand,dsd,Alluvium
+S98_02561,RIP1844,Deltaic Silt,dsl,Alluvium
+S98_02562,RIP1868,Deltaic Silt,dsl,Alluvium
+S98_02563,RIP1882,Deltaic Silt,dsl,Alluvium
+S98_02564,RIP1890,Deltaic Silt,dsl,Alluvium
+S98_02565,RIP1898,Deltaic Silt,dsl,Alluvium
+S98_02566,RIP1906,Deltaic Silt,dsl,Alluvium
+S98_02567,RIP1949,Tidal deltaic deposits,dt,Alluvium
+S98_02568,RIP2009,Alluvial Silt,asl,Alluvium
+S98_02569,RIP2015,Alluvial Silt,asl,Alluvium
+S98_02570,RIP2016,Barind Clay Residuum,rb,Old Alluvium
+S98_02571,RIP2026,Marsh clay and peat,ppc,Alluvium
+S98_02572,RIP2036,Barind Clay Residuum,rb,Old Alluvium
+S98_02573,RIP2046,Marsh clay and peat,ppc,Alluvium
+S98_02574,RIP2056,Alluvial Silt,asl,Alluvium
+S98_02575,RIP2066,Alluvial Silt,asl,Alluvium
+S98_02576,RIP2098,Alluvial Silt,asl,Alluvium
+S98_02577,RIP2116,Alluvial Silt,asl,Alluvium
+S98_02578,RIP2124,Alluvial Silt,asl,Alluvium
+S98_02579,RIP2131,Alluvial silt and clay,asc,Alluvium
+S98_02580,RIP2140,Alluvial silt and clay,asc,Alluvium
+S98_02581,RIP2148,Alluvial silt and clay,asc,Alluvium
+S98_02582,RIP2160,Alluvial silt and clay,asc,Alluvium
+S98_02583,RIP2167,Alluvial Silt,asl,Alluvium
+S98_02584,RIP2176,Alluvial silt and clay,asc,Alluvium
+S98_02585,RIP2193,Alluvial silt and clay,asc,Alluvium
+S98_02586,RIP2200,Alluvial silt and clay,asc,Alluvium
+S98_02587,RIP2208,Alluvial Silt,asl,Alluvium
+S98_02588,RIP2218,Alluvial Silt,asl,Alluvium
+S98_02589,RIP3001,Alluvial silt and clay,asc,Alluvium
+S98_02590,RIP3008,Alluvial silt and clay,asc,Alluvium
+S98_02591,RIP3017,Chandina Alluvium,ac,Alluvium
+S98_02592,RIP3026,Alluvial Silt,asl,Alluvium
+S98_02593,RIP3041,Alluvial silt and clay,asc,Alluvium
+S98_02594,RIP3049,Alluvial silt and clay,asc,Alluvium
+S98_02595,RIP3051,Alluvial silt and clay,asc,Alluvium
+S98_02596,RIP3059,Marsh clay and peat,ppc,Alluvium
+S98_02597,RIP3070,Valley aluvium & colluviu,ava,Alluvium
+S98_02598,RIP3087,Alluvial Silt,asl,Alluvium
+S98_02599,RIP3094,Chandina Alluvium,ac,Alluvium
+S98_02600,RIP3106,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02601,RIP3117,Chandina Alluvium,ac,Alluvium
+S98_02602,RIP3127,Alluvial Sand,asd,Alluvium
+S98_02603,RIP3132,Alluvial silt and clay,asc,Alluvium
+S98_02604,RIP3146,Chandina Alluvium,ac,Alluvium
+S98_02605,RIP3159,Chandina Alluvium,ac,Alluvium
+S98_02606,RIP3169,Chandina Alluvium,ac,Alluvium
+S98_02607,RIP3177,Tidal deltaic deposits,dt,Alluvium
+S98_02608,RIP3182,Tidal deltaic deposits,dt,Alluvium
+S98_02609,RIP3191,Tidal deltaic deposits,dt,Alluvium
+S98_02610,RIP3194,Estuarine deposits,de,Alluvium
+S98_02611,RIP3218,Alluvial silt and clay,asc,Alluvium
+S98_02612,RIP3229,Alluvial silt and clay,asc,Alluvium
+S98_02613,RIP3237,Tidal deltaic deposits,dt,Alluvium
+S98_02614,RIP3246,Valley aluvium & colluviu,ava,Alluvium
+S98_02615,RIP3266,Estuarine deposits,de,Alluvium
+S98_02616,RIP3282,Alluvial silt and clay,asc,Alluvium
+S98_02617,RIP3294,Alluvial silt and clay,asc,Alluvium
+S98_02618,RIP3302,Chandina Alluvium,ac,Alluvium
+S98_02619,RIP3311,Chandina Alluvium,ac,Alluvium
+S98_02620,RIP3323,Valley aluvium & colluviu,ava,Alluvium
+S98_02621,RIP3329,Alluvial silt and clay,asc,Alluvium
+S98_02622,RIP3338,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_02623,RIP3347,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02624,RIP3349,Valley aluvium & colluviu,ava,Alluvium
+S98_02625,RIP3356,Valley aluvium & colluviu,ava,Alluvium
+S98_02626,RIP3364,Chandina Alluvium,ac,Alluvium
+S98_02627,RIP3374,Valley aluvium & colluviu,ava,Alluvium
+S98_02628,RIP3384,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_02629,RIP3386,Beach and Dune  Sand,csd,Alluvium
+S98_02630,RIP3388,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02631,RIP3396,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02632,RIP3404,Beach and Dune  Sand,csd,Alluvium
+S98_02633,RIP3451,Valley aluvium & colluviu,ava,Alluvium
+S98_02634,RIP3452,Valley aluvium & colluviu,ava,Alluvium
+S98_02635,RIP3461,Beach and Dune  Sand,csd,Alluvium
+S98_02636,RIP3468,Girujan Clay,QTg,Clay / shale
+S98_02637,RIP0301,Valley aluvium & colluviu,ava,Alluvium
+S98_02638,RIP0310,Valley aluvium & colluviu,ava,Alluvium
+S98_02639,RIP0320,Alluvial silt and clay,asc,Alluvium
+S98_02640,RIP0327,Alluvial silt and clay,asc,Alluvium
+S98_02641,RIP0331,Alluvial silt and clay,asc,Alluvium
+S98_02642,RIP0341,Alluvial silt and clay,asc,Alluvium
+S98_02643,RIP0349,Marsh clay and peat,ppc,Alluvium
+S98_02644,RIP0358,Alluvial silt and clay,asc,Alluvium
+S98_02645,RIP0361,Valley aluvium & colluviu,ava,Alluvium
+S98_02646,RIP0369,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02647,RIP0377,Marsh clay and peat,ppc,Alluvium
+S98_02648,RIP0383,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02649,RIP0391,Young gravelly sand,afy,Alluvium
+S98_02650,RIP0397,Young gravelly sand,afy,Alluvium
+S98_02651,RIP0409,Marsh clay and peat,ppc,Alluvium
+S98_02652,RIP0417,Marsh clay and peat,ppc,Alluvium
+S98_02653,RIP0425,Boka Bil Formation,Tbb,Sandstone/Shale
+S98_02654,RIP0431,Alluvial silt and clay,asc,Alluvium
+S98_02655,RIP0432,Alluvial silt and clay,asc,Alluvium
+S98_02656,RIP0440,Alluvial silt and clay,asc,Alluvium
+S98_02657,RIP0454,Valley aluvium & colluviu,ava,Alluvium
+S98_02658,RIP0462,Alluvial silt and clay,asc,Alluvium
+S98_02659,RIP0467,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02660,RIP0471,Marsh clay and peat,ppc,Alluvium
+S98_02661,RIP0478,Marsh clay and peat,ppc,Alluvium
+S98_02662,RIP0486,Alluvial silt and clay,asc,Alluvium
+S98_02663,RIP0494,Marsh clay and peat,ppc,Alluvium
+S98_02664,RIP0500,Marsh clay and peat,ppc,Alluvium
+S98_02665,RIP0501,Chandina Alluvium,ac,Alluvium
+S98_02666,RIP0514,Alluvial silt and clay,asc,Alluvium
+S98_02667,RIP0520,Alluvial silt and clay,asc,Alluvium
+S98_02668,RIP0601,Alluvial Silt,asl,Alluvium
+S98_02669,RIP0608,Alluvial Sand,asd,Alluvium
+S98_02670,RIP0614,Chandina Alluvium,ac,Alluvium
+S98_02671,RIP0626,Alluvial Sand,asd,Alluvium
+S98_02672,RIP0632,Marsh clay and peat,ppc,Alluvium
+S98_02673,RIP0640,Chandina Alluvium,ac,Alluvium
+S98_02674,RIP3035,Alluvial Silt,asl,Alluvium
+S98_02675,RIP3080,Alluvial Silt,asl,Alluvium
+S98_02676,RIP3475,Beach and Dune  Sand,csd,Alluvium
+S98_02677,RIP3483,Valley aluvium & colluviu,ava,Alluvium
+S98_02678,RIP3453,Valley aluvium & colluviu,ava,Alluvium
+S98_02679,RIP0008,Alluvial Silt,asl,Alluvium
+S98_02680,RIP0405,Marsh clay and peat,ppc,Alluvium
+S98_02681,RIP1022,Tidal deltaic deposits,dt,Alluvium
+S98_02682,RIP1126,Deltaic Silt,dsl,Alluvium
+S98_02683,RIP1170,Tidal deltaic deposits,dt,Alluvium
+S98_02684,RIP1176,Tidal deltaic deposits,dt,Alluvium
+S98_02685,RIP1203,Deltaic Silt,dsl,Alluvium
+S98_02686,RIP1209,Deltaic Silt,dsl,Alluvium
+S98_02687,RIP1321,Tidal deltaic deposits,dt,Alluvium
+S98_02688,RIP1328,Estuarine deposits,de,Alluvium
+S98_02689,RIP1331,Deltaic Silt,dsl,Alluvium
+S98_02690,RIP1340,Alluvial Sand,asd,Alluvium
+S98_02691,RIP1499,Deltaic Silt,dsl,Alluvium
+S98_02692,RIP1509,Tidal deltaic deposits,dt,Alluvium
+S98_02693,RIP1518,Tidal deltaic deposits,dt,Alluvium
+S98_02694,RIP1541,Deltaic Silt,dsl,Alluvium
+S98_02695,RIP1570,Tidal deltaic deposits,dt,Alluvium
+S98_02696,RIP1580,Tidal deltaic deposits,dt,Alluvium
+S98_02697,RIP1581,Estuarine deposits,de,Alluvium
+S98_02698,RIP1583,Estuarine deposits,de,Alluvium
+S98_02699,RIP1622,Marsh clay and peat,ppc,Alluvium
+S98_02700,RIP1630,Marsh clay and peat,ppc,Alluvium
+S98_02701,RIP1640,Tidal deltaic deposits,dt,Alluvium
+S98_02702,RIP1643,Marsh clay and peat,ppc,Alluvium
+S98_02703,RIP1645,Deltaic Sand,dsd,Alluvium
+S98_02704,RIP1723,Deltaic Sand,dsd,Alluvium
+S98_02705,RIP1729,Deltaic Silt,dsl,Alluvium
+S98_02706,RIP1750,Deltaic Silt,dsl,Alluvium
+S98_02707,RIP1875,Deltaic Silt,dsl,Alluvium
+S98_02708,RIP1887,Deltaic Silt,dsl,Alluvium
+S98_02709,RIP1914,Deltaic Sand,dsd,Alluvium
+S98_02710,RIP2001,Alluvial Silt,asl,Alluvium
+S98_02711,RIP2074,Alluvial Silt,asl,Alluvium
+S98_02712,RIP2080,Alluvial Sand,asd,Alluvium
+S98_02713,RIP2090,Alluvial Sand,asd,Alluvium
+S98_02714,RIP2108,Alluvial silt and clay,asc,Alluvium
+S98_02715,RIP2184,Alluvial Silt,asl,Alluvium
+S98_02716,RIP2228,Alluvial silt and clay,asc,Alluvium
+S98_02717,RIP3079,Alluvial Silt,asl,Alluvium
+S98_02718,RIP3096,Chandina Alluvium,ac,Alluvium
+S98_02719,RIP3200,Estuarine deposits,de,Alluvium
+S98_02720,RIP3209,Estuarine deposits,de,Alluvium
+S98_02721,RIP3258,Estuarine deposits,de,Alluvium
+S98_02722,RIP3274,Estuarine deposits,de,Alluvium
+S98_02724,RIP0003,Alluvial Sand,asd,Alluvium
+S98_02725,RIP0004,Alluvial Sand,asd,Alluvium
+S98_02726,RIP0005,Alluvial Silt,asl,Alluvium
+S98_02727,RIP0006,Alluvial Silt,asl,Alluvium
+S98_02728,RIP0007,Alluvial Silt,asl,Alluvium
+S98_02729,RIP0010,Alluvial Silt,asl,Alluvium
+S98_02730,RIP0011,Alluvial Silt,asl,Alluvium
+S98_02731,RIP0012,Alluvial Silt,asl,Alluvium
+S98_02732,RIP0013,Alluvial Silt,asl,Alluvium
+S98_02733,RIP0015,Alluvial Silt,asl,Alluvium
+S98_02734,RIP0016,Alluvial Silt,asl,Alluvium
+S98_02735,RIP0017,Alluvial Sand,asd,Alluvium
+S98_02736,RIP0018,Alluvial Silt,asl,Alluvium
+S98_02737,RIP0019,Alluvial Sand,asd,Alluvium
+S98_02738,RIP0021,Alluvial Silt,asl,Alluvium
+S98_02739,RIP0022,Alluvial Silt,asl,Alluvium
+S98_02740,RIP0024,Alluvial Silt,asl,Alluvium
+S98_02741,RIP0026,Alluvial silt and clay,asc,Alluvium
+S98_02742,RIP0027,Alluvial silt and clay,asc,Alluvium
+S98_02743,RIP0028,Alluvial silt and clay,asc,Alluvium
+S98_02744,RIP0029,Alluvial silt and clay,asc,Alluvium
+S98_02745,RIP0031,Alluvial Silt,asl,Alluvium
+S98_02746,RIP0032,Alluvial Silt,asl,Alluvium
+S98_02747,RIP0034,Alluvial Silt,asl,Alluvium
+S98_02748,RIP0036,Alluvial Silt,asl,Alluvium
+S98_02749,RIP0037,Alluvial silt and clay,asc,Alluvium
+S98_02750,RIP0038,Alluvial Silt,asl,Alluvium
+S98_02751,RIP0039,Alluvial silt and clay,asc,Alluvium
+S98_02752,RIP0040,Alluvial silt and clay,asc,Alluvium
+S98_02753,RIP0041,Alluvial silt and clay,asc,Alluvium
+S98_02754,RIP0043,Alluvial Silt,asl,Alluvium
+S98_02755,RIP0044,Alluvial Silt,asl,Alluvium
+S98_02756,RIP0045,Alluvial Sand,asd,Alluvium
+S98_02757,RIP0046,Alluvial Sand,asd,Alluvium
+S98_02758,RIP0047,Alluvial Silt,asl,Alluvium
+S98_02759,RIP0049,Alluvial Silt,asl,Alluvium
+S98_02760,RIP0051,Alluvial Silt,asl,Alluvium
+S98_02761,RIP0052,Alluvial silt and clay,asc,Alluvium
+S98_02762,RIP0053,Alluvial Silt,asl,Alluvium
+S98_02763,RIP0054,Alluvial Silt,asl,Alluvium
+S98_02764,RIP0055,Alluvial Silt,asl,Alluvium
+S98_02765,RIP0058,Alluvial Silt,asl,Alluvium
+S98_02766,RIP0059,Alluvial Silt,asl,Alluvium
+S98_02767,RIP0060,Alluvial Silt,asl,Alluvium
+S98_02768,RIP0061,Alluvial Silt,asl,Alluvium
+S98_02769,RIP0062,Alluvial Silt,asl,Alluvium
+S98_02770,RIP0063,Alluvial silt and clay,asc,Alluvium
+S98_02771,RIP0070,Alluvial silt and clay,asc,Alluvium
+S98_02772,RIP0071,Alluvial silt and clay,asc,Alluvium
+S98_02773,RIP0072,Alluvial Silt,asl,Alluvium
+S98_02774,RIP0073,Alluvial Silt,asl,Alluvium
+S98_02775,RIP0075,Alluvial Silt,asl,Alluvium
+S98_02776,RIP0076,Alluvial Silt,asl,Alluvium
+S98_02777,RIP0077,Alluvial Silt,asl,Alluvium
+S98_02778,RIP0078,Alluvial Silt,asl,Alluvium
+S98_02779,RIP0079,Alluvial Silt,asl,Alluvium
+S98_02780,RIP0080,Alluvial Silt,asl,Alluvium
+S98_02781,RIP0081,Alluvial Silt,asl,Alluvium
+S98_02782,RIP0082,Alluvial Silt,asl,Alluvium
+S98_02783,RIP0083,Alluvial Silt,asl,Alluvium
+S98_02784,RIP0085,Alluvial silt and clay,asc,Alluvium
+S98_02785,RIP0086,Alluvial silt and clay,asc,Alluvium
+S98_02786,RIP0087,Alluvial Silt,asl,Alluvium
+S98_02787,RIP0088,Alluvial Silt,asl,Alluvium
+S98_02788,RIP0089,Alluvial silt and clay,asc,Alluvium
+S98_02789,RIP0090,Alluvial silt and clay,asc,Alluvium
+S98_02790,RIP0091,Alluvial silt and clay,asc,Alluvium
+S98_02791,RIP0093,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02792,RIP0094,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02793,RIP0095,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02794,RIP0096,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02795,RIP0097,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02796,RIP0098,Madhupur Clay Residuum,rm,Old Alluvium
+S98_02797,RIP0099,Alluvial silt and clay,asc,Alluvium
+S98_02798,RIP0100,Alluvial silt and clay,asc,Alluvium
+S98_02799,RIP0103,Alluvial silt and clay,asc,Alluvium
+S98_02800,RIP0104,Alluvial silt and clay,asc,Alluvium
+S98_02801,RIP0105,Alluvial silt and clay,asc,Alluvium
+S98_02802,RIP0106,Alluvial Silt,asl,Alluvium
+S98_02803,RIP0107,Alluvial Silt,asl,Alluvium
+S98_02804,RIP0108,Alluvial silt and clay,asc,Alluvium
+S98_02805,RIP0109,Alluvial silt and clay,asc,Alluvium
+S98_02806,RIP0111,Alluvial Sand,asd,Alluvium
+S98_02807,RIP0112,Alluvial Silt,asl,Alluvium
+S98_02808,RIP0113,Alluvial Silt,asl,Alluvium
+S98_02809,RIP0114,Alluvial Silt,asl,Alluvium
+S98_02810,RIP0115,Alluvial Silt,asl,Alluvium
+S98_02811,RIP0119,Alluvial Silt,asl,Alluvium
+S98_02812,RIP0120,Alluvial Silt,asl,Alluvium
+S98_02813,RIP0121,Alluvial silt and clay,asc,Alluvium
+S98_02814,RIP0122,Alluvial silt and clay,asc,Alluvium
+S98_02815,RIP0123,Alluvial silt and clay,asc,Alluvium
+S98_02816,RIP0124,Alluvial silt and clay,asc,Alluvium
+S98_02817,RIP0302,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02818,RIP0303,Valley aluvium & colluviu,ava,Alluvium
+S98_02819,RIP0304,Valley aluvium & colluviu,ava,Alluvium
+S98_02820,RIP0305,Valley aluvium & colluviu,ava,Alluvium
+S98_02821,RIP0306,Valley aluvium & colluviu,ava,Alluvium
+S98_02822,RIP0307,Valley aluvium & colluviu,ava,Alluvium
+S98_02823,RIP0308,Valley aluvium & colluviu,ava,Alluvium
+S98_02824,RIP0309,Valley aluvium & colluviu,ava,Alluvium
+S98_02825,RIP0311,Alluvial silt and clay,asc,Alluvium
+S98_02826,RIP0312,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02827,RIP0313,Valley aluvium & colluviu,ava,Alluvium
+S98_02828,RIP0314,Valley aluvium & colluviu,ava,Alluvium
+S98_02829,RIP0315,Valley aluvium & colluviu,ava,Alluvium
+S98_02830,RIP0316,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02831,RIP0317,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02832,RIP0318,Alluvial silt and clay,asc,Alluvium
+S98_02833,RIP0319,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02834,RIP0321,Alluvial silt and clay,asc,Alluvium
+S98_02835,RIP0322,Alluvial silt and clay,asc,Alluvium
+S98_02836,RIP0323,Alluvial silt and clay,asc,Alluvium
+S98_02837,RIP0324,Alluvial silt and clay,asc,Alluvium
+S98_02838,RIP0325,Alluvial silt and clay,asc,Alluvium
+S98_02839,RIP0326,Alluvial silt and clay,asc,Alluvium
+S98_02840,RIP0328,Alluvial silt and clay,asc,Alluvium
+S98_02841,RIP0329,Alluvial silt and clay,asc,Alluvium
+S98_02842,RIP0330,Young gravelly sand,afy,Alluvium
+S98_02843,RIP0332,Alluvial silt and clay,asc,Alluvium
+S98_02844,RIP0333,Alluvial silt and clay,asc,Alluvium
+S98_02845,RIP0334,Alluvial silt and clay,asc,Alluvium
+S98_02846,RIP0335,Alluvial silt and clay,asc,Alluvium
+S98_02847,RIP0336,Alluvial silt and clay,asc,Alluvium
+S98_02848,RIP0337,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02849,RIP0338,Alluvial silt and clay,asc,Alluvium
+S98_02850,RIP0339,Alluvial silt and clay,asc,Alluvium
+S98_02851,RIP0340,Alluvial silt and clay,asc,Alluvium
+S98_02852,RIP0342,Marsh clay and peat,ppc,Alluvium
+S98_02853,RIP0343,Alluvial silt and clay,asc,Alluvium
+S98_02854,RIP0344,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02855,RIP0345,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02856,RIP0346,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02857,RIP0347,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02858,RIP0348,Alluvial silt and clay,asc,Alluvium
+S98_02859,RIP0350,Alluvial silt and clay,asc,Alluvium
+S98_02860,RIP0351,Alluvial silt and clay,asc,Alluvium
+S98_02861,RIP0352,Alluvial silt and clay,asc,Alluvium
+S98_02862,RIP0353,Alluvial silt and clay,asc,Alluvium
+S98_02863,RIP0354,Marsh clay and peat,ppc,Alluvium
+S98_02864,RIP0355,Marsh clay and peat,ppc,Alluvium
+S98_02865,RIP0356,Alluvial silt and clay,asc,Alluvium
+S98_02866,RIP0357,Alluvial silt and clay,asc,Alluvium
+S98_02867,RIP0359,Alluvial silt and clay,asc,Alluvium
+S98_02868,RIP0360,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02869,RIP0362,Valley aluvium & colluviu,ava,Alluvium
+S98_02870,RIP0363,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02871,RIP0364,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02872,RIP0365,Valley aluvium & colluviu,ava,Alluvium
+S98_02873,RIP0366,Marsh clay and peat,ppc,Alluvium
+S98_02874,RIP0367,Valley aluvium & colluviu,ava,Alluvium
+S98_02875,RIP0368,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02876,RIP0370,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02877,RIP0371,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02878,RIP0372,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02879,RIP0373,Alluvial silt and clay,asc,Alluvium
+S98_02880,RIP0374,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02881,RIP0375,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02882,RIP0376,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02883,RIP0378,Marsh clay and peat,ppc,Alluvium
+S98_02884,RIP0379,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02885,RIP0380,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02886,RIP0381,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02887,RIP0382,Marsh clay and peat,ppc,Alluvium
+S98_02888,RIP0384,Alluvial silt and clay,asc,Alluvium
+S98_02889,RIP0385,Alluvial silt and clay,asc,Alluvium
+S98_02890,RIP0386,Alluvial silt and clay,asc,Alluvium
+S98_02891,RIP0387,Alluvial silt and clay,asc,Alluvium
+S98_02892,RIP0388,Alluvial silt and clay,asc,Alluvium
+S98_02893,RIP0389,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02894,RIP0390,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02895,RIP0392,Young gravelly sand,afy,Alluvium
+S98_02896,RIP0393,Alluvial silt and clay,asc,Alluvium
+S98_02897,RIP0394,Alluvial silt and clay,asc,Alluvium
+S98_02898,RIP0395,Young gravelly sand,afy,Alluvium
+S98_02899,RIP0396,Young gravelly sand,afy,Alluvium
+S98_02900,RIP0398,Young gravelly sand,afy,Alluvium
+S98_02901,RIP0399,Young gravelly sand,afy,Alluvium
+S98_02902,RIP0400,Alluvial silt and clay,asc,Alluvium
+S98_02903,RIP0401,Young gravelly sand,afy,Alluvium
+S98_02904,RIP0402,Young gravelly sand,afy,Alluvium
+S98_02905,RIP0403,Alluvial silt and clay,asc,Alluvium
+S98_02906,RIP0404,Alluvial silt and clay,asc,Alluvium
+S98_02907,RIP0406,Young gravelly sand,afy,Alluvium
+S98_02908,RIP0407,Alluvial silt and clay,asc,Alluvium
+S98_02909,RIP0408,Alluvial silt and clay,asc,Alluvium
+S98_02910,RIP0410,Marsh clay and peat,ppc,Alluvium
+S98_02911,RIP0411,Marsh clay and peat,ppc,Alluvium
+S98_02912,RIP0412,Marsh clay and peat,ppc,Alluvium
+S98_02913,RIP0413,Marsh clay and peat,ppc,Alluvium
+S98_02914,RIP0414,Marsh clay and peat,ppc,Alluvium
+S98_02915,RIP0415,Marsh clay and peat,ppc,Alluvium
+S98_02916,RIP0416,Marsh clay and peat,ppc,Alluvium
+S98_02917,RIP0418,Alluvial silt and clay,asc,Alluvium
+S98_02918,RIP0419,Marsh clay and peat,ppc,Alluvium
+S98_02919,RIP0420,Alluvial silt and clay,asc,Alluvium
+S98_02920,RIP0421,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02921,RIP0422,Alluvial silt and clay,asc,Alluvium
+S98_02922,RIP0423,Alluvial silt and clay,asc,Alluvium
+S98_02923,RIP0424,Marsh clay and peat,ppc,Alluvium
+S98_02924,RIP0426,Marsh clay and peat,ppc,Alluvium
+S98_02925,RIP0427,Barail Formation,Tba,Sandstone/Shale
+S98_02926,RIP0428,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02927,RIP0429,Alluvial silt and clay,asc,Alluvium
+S98_02928,RIP0430,Young gravelly sand,afy,Alluvium
+S98_02929,RIP0433,Alluvial silt and clay,asc,Alluvium
+S98_02930,RIP0434,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_02931,RIP0435,Alluvial silt and clay,asc,Alluvium
+S98_02932,RIP0436,Alluvial silt and clay,asc,Alluvium
+S98_02933,RIP0437,Alluvial silt and clay,asc,Alluvium
+S98_02934,RIP0438,Alluvial silt and clay,asc,Alluvium
+S98_02935,RIP0439,Alluvial silt and clay,asc,Alluvium
+S98_02936,RIP0441,Alluvial silt and clay,asc,Alluvium
+S98_02937,RIP0442,Alluvial silt and clay,asc,Alluvium
+S98_02938,RIP0443,Alluvial silt and clay,asc,Alluvium
+S98_02939,RIP0444,Alluvial silt and clay,asc,Alluvium
+S98_02940,RIP0445,Alluvial silt and clay,asc,Alluvium
+S98_02941,RIP0446,Alluvial silt and clay,asc,Alluvium
+S98_02942,RIP0447,Alluvial silt and clay,asc,Alluvium
+S98_02943,RIP0448,Marsh clay and peat,ppc,Alluvium
+S98_02944,RIP0449,Marsh clay and peat,ppc,Alluvium
+S98_02945,RIP0450,Alluvial silt and clay,asc,Alluvium
+S98_02946,RIP0451,Marsh clay and peat,ppc,Alluvium
+S98_02947,RIP0452,Marsh clay and peat,ppc,Alluvium
+S98_02948,RIP0453,Alluvial silt and clay,asc,Alluvium
+S98_02949,RIP0455,Valley aluvium & colluviu,ava,Alluvium
+S98_02950,RIP0456,Valley aluvium & colluviu,ava,Alluvium
+S98_02951,RIP0457,Valley aluvium & colluviu,ava,Alluvium
+S98_02952,RIP0458,Alluvial silt and clay,asc,Alluvium
+S98_02953,RIP0459,Alluvial silt and clay,asc,Alluvium
+S98_02954,RIP0460,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02955,RIP0461,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02956,RIP0463,Alluvial silt and clay,asc,Alluvium
+S98_02957,RIP0464,Alluvial silt and clay,asc,Alluvium
+S98_02958,RIP0465,Alluvial silt and clay,asc,Alluvium
+S98_02959,RIP0466,Alluvial silt and clay,asc,Alluvium
+S98_02960,RIP0468,Alluvial silt and clay,asc,Alluvium
+S98_02961,RIP0469,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02962,RIP0470,Alluvial silt and clay,asc,Alluvium
+S98_02963,RIP0472,Alluvial silt and clay,asc,Alluvium
+S98_02964,RIP0473,Alluvial silt and clay,asc,Alluvium
+S98_02965,RIP0474,Valley aluvium & colluviu,ava,Alluvium
+S98_02966,RIP0475,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02967,RIP0476,Alluvial silt and clay,asc,Alluvium
+S98_02968,RIP0477,Marsh clay and peat,ppc,Alluvium
+S98_02969,RIP0479,Marsh clay and peat,ppc,Alluvium
+S98_02970,RIP0480,Alluvial silt and clay,asc,Alluvium
+S98_02971,RIP0481,Alluvial silt and clay,asc,Alluvium
+S98_02972,RIP0482,Alluvial silt and clay,asc,Alluvium
+S98_02973,RIP0483,Alluvial silt and clay,asc,Alluvium
+S98_02974,RIP0484,Marsh clay and peat,ppc,Alluvium
+S98_02975,RIP0485,Marsh clay and peat,ppc,Alluvium
+S98_02976,RIP0487,Alluvial silt and clay,asc,Alluvium
+S98_02977,RIP0488,Alluvial silt and clay,asc,Alluvium
+S98_02978,RIP0489,Alluvial silt and clay,asc,Alluvium
+S98_02979,RIP0490,Alluvial silt and clay,asc,Alluvium
+S98_02980,RIP0491,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02981,RIP0492,Alluvial silt and clay,asc,Alluvium
+S98_02982,RIP0493,Alluvial silt and clay,asc,Alluvium
+S98_02983,RIP0495,Alluvial Silt,asl,Alluvium
+S98_02984,RIP0496,Alluvial Silt,asl,Alluvium
+S98_02985,RIP0497,Alluvial Silt,asl,Alluvium
+S98_02986,RIP0498,Marsh clay and peat,ppc,Alluvium
+S98_02987,RIP0499,Alluvial Silt,asl,Alluvium
+S98_02988,RIP0502,Chandina Alluvium,ac,Alluvium
+S98_02989,RIP0503,Chandina Alluvium,ac,Alluvium
+S98_02990,RIP0504,Alluvial silt and clay,asc,Alluvium
+S98_02991,RIP0505,Alluvial silt and clay,asc,Alluvium
+S98_02992,RIP0506,Chandina Alluvium,ac,Alluvium
+S98_02993,RIP0507,Alluvial silt and clay,asc,Alluvium
+S98_02994,RIP0508,Alluvial silt and clay,asc,Alluvium
+S98_02995,RIP0509,Alluvial Sand,asd,Alluvium
+S98_02996,RIP0510,Alluvial Sand,asd,Alluvium
+S98_02997,RIP0511,Alluvial silt and clay,asc,Alluvium
+S98_02998,RIP0512,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_02999,RIP0513,Alluvial silt and clay,asc,Alluvium
+S98_03000,RIP0515,Alluvial silt and clay,asc,Alluvium
+S98_03001,RIP0516,Alluvial silt and clay,asc,Alluvium
+S98_03002,RIP0517,Alluvial silt and clay,asc,Alluvium
+S98_03003,RIP0518,Alluvial silt and clay,asc,Alluvium
+S98_03004,RIP0519,Alluvial silt and clay,asc,Alluvium
+S98_03005,RIP0521,Valley aluvium & colluviu,ava,Alluvium
+S98_03006,RIP0522,Alluvial silt and clay,asc,Alluvium
+S98_03007,RIP0523,Marsh clay and peat,ppc,Alluvium
+S98_03008,RIP0524,Alluvial silt and clay,asc,Alluvium
+S98_03009,RIP0525,Chandina Alluvium,ac,Alluvium
+S98_03010,RIP0526,Alluvial silt and clay,asc,Alluvium
+S98_03011,RIP0527,Marsh clay and peat,ppc,Alluvium
+S98_03012,RIP0528,Alluvial Silt,asl,Alluvium
+S98_03013,RIP0529,Alluvial silt and clay,asc,Alluvium
+S98_03014,RIP0530,Valley aluvium & colluviu,ava,Alluvium
+S98_03015,RIP0531,Valley aluvium & colluviu,ava,Alluvium
+S98_03016,RIP0532,Alluvial Silt,asl,Alluvium
+S98_03017,RIP0533,Alluvial Silt,asl,Alluvium
+S98_03018,RIP0534,Alluvial Silt,asl,Alluvium
+S98_03019,RIP0535,Valley aluvium & colluviu,ava,Alluvium
+S98_03020,RIP0602,Alluvial Silt,asl,Alluvium
+S98_03021,RIP0603,Alluvial Silt,asl,Alluvium
+S98_03022,RIP0604,Alluvial Silt,asl,Alluvium
+S98_03023,RIP0605,Alluvial Silt,asl,Alluvium
+S98_03024,RIP0606,Alluvial Silt,asl,Alluvium
+S98_03025,RIP0607,Alluvial Silt,asl,Alluvium
+S98_03026,RIP0609,Alluvial Silt,asl,Alluvium
+S98_03027,RIP0610,Alluvial Silt,asl,Alluvium
+S98_03028,RIP0611,Alluvial Silt,asl,Alluvium
+S98_03029,RIP0612,Alluvial Sand,asd,Alluvium
+S98_03030,RIP0613,Alluvial Sand,asd,Alluvium
+S98_03031,RIP0615,Chandina Alluvium,ac,Alluvium
+S98_03032,RIP0616,Chandina Alluvium,ac,Alluvium
+S98_03033,RIP0617,Chandina Alluvium,ac,Alluvium
+S98_03034,RIP0618,Chandina Alluvium,ac,Alluvium
+S98_03035,RIP0619,Chandina Alluvium,ac,Alluvium
+S98_03036,RIP0620,Alluvial silt and clay,asc,Alluvium
+S98_03037,RIP0621,Alluvial silt and clay,asc,Alluvium
+S98_03038,RIP0622,Alluvial Silt,asl,Alluvium
+S98_03039,RIP0623,Alluvial Silt,asl,Alluvium
+S98_03040,RIP0627,Chandina Alluvium,ac,Alluvium
+S98_03041,RIP0628,Chandina Alluvium,ac,Alluvium
+S98_03042,RIP0629,Chandina Alluvium,ac,Alluvium
+S98_03043,RIP0630,Alluvial Silt,asl,Alluvium
+S98_03044,RIP0631,Alluvial Silt,asl,Alluvium
+S98_03045,RIP0633,Alluvial Silt,asl,Alluvium
+S98_03046,RIP0634,Alluvial silt and clay,asc,Alluvium
+S98_03047,RIP0635,Alluvial silt and clay,asc,Alluvium
+S98_03048,RIP0636,Alluvial silt and clay,asc,Alluvium
+S98_03049,RIP0637,Alluvial silt and clay,asc,Alluvium
+S98_03050,RIP0638,Alluvial silt and clay,asc,Alluvium
+S98_03051,RIP0639,Marsh clay and peat,ppc,Alluvium
+S98_03052,RIP0641,Chandina Alluvium,ac,Alluvium
+S98_03053,RIP0642,Chandina Alluvium,ac,Alluvium
+S98_03054,RIP0643,Chandina Alluvium,ac,Alluvium
+S98_03055,RIP0644,Chandina Alluvium,ac,Alluvium
+S98_03056,RIP0645,Chandina Alluvium,ac,Alluvium
+S98_03057,RIP0646,Alluvial Silt,asl,Alluvium
+S98_03058,RIP0647,Alluvial Silt,asl,Alluvium
+S98_03059,RIP0648,Alluvial Silt,asl,Alluvium
+S98_03060,RIP0649,Alluvial Silt,asl,Alluvium
+S98_03061,RIP0650,Alluvial Silt,asl,Alluvium
+S98_03062,RIP1002,Deltaic Silt,dsl,Alluvium
+S98_03063,RIP1003,Deltaic Silt,dsl,Alluvium
+S98_03064,RIP1004,Deltaic Silt,dsl,Alluvium
+S98_03065,RIP1005,Marsh clay and peat,ppc,Alluvium
+S98_03066,RIP1006,Deltaic Silt,dsl,Alluvium
+S98_03067,RIP1007,Deltaic Silt,dsl,Alluvium
+S98_03068,RIP1008,Deltaic Silt,dsl,Alluvium
+S98_03069,RIP1010,Tidal deltaic deposits,dt,Alluvium
+S98_03070,RIP1011,Tidal deltaic deposits,dt,Alluvium
+S98_03071,RIP1012,Tidal deltaic deposits,dt,Alluvium
+S98_03072,RIP1013,Marsh clay and peat,ppc,Alluvium
+S98_03073,RIP1014,Marsh clay and peat,ppc,Alluvium
+S98_03074,RIP1015,Marsh clay and peat,ppc,Alluvium
+S98_03075,RIP1017,Tidal deltaic deposits,dt,Alluvium
+S98_03076,RIP1018,Tidal deltaic deposits,dt,Alluvium
+S98_03077,RIP1019,Tidal deltaic deposits,dt,Alluvium
+S98_03078,RIP1020,Tidal deltaic deposits,dt,Alluvium
+S98_03079,RIP1021,Tidal deltaic deposits,dt,Alluvium
+S98_03080,RIP1023,Tidal deltaic deposits,dt,Alluvium
+S98_03081,RIP1024,Tidal deltaic deposits,dt,Alluvium
+S98_03082,RIP1025,Tidal deltaic deposits,dt,Alluvium
+S98_03083,RIP1026,Tidal deltaic deposits,dt,Alluvium
+S98_03084,RIP1027,Deltaic Silt,dsl,Alluvium
+S98_03085,RIP1028,Marsh clay and peat,ppc,Alluvium
+S98_03086,RIP1030,Deltaic Silt,dsl,Alluvium
+S98_03087,RIP1032,Marsh clay and peat,ppc,Alluvium
+S98_03088,RIP1033,Marsh clay and peat,ppc,Alluvium
+S98_03089,RIP1034,Marsh clay and peat,ppc,Alluvium
+S98_03090,RIP1035,Marsh clay and peat,ppc,Alluvium
+S98_03091,RIP1036,Marsh clay and peat,ppc,Alluvium
+S98_03092,RIP1038,Tidal deltaic deposits,dt,Alluvium
+S98_03093,RIP1039,Tidal deltaic deposits,dt,Alluvium
+S98_03094,RIP1041,Tidal deltaic deposits,dt,Alluvium
+S98_03095,RIP1042,Tidal deltaic deposits,dt,Alluvium
+S98_03096,RIP1043,Tidal deltaic deposits,dt,Alluvium
+S98_03097,RIP1044,Tidal deltaic deposits,dt,Alluvium
+S98_03098,RIP1045,Tidal deltaic deposits,dt,Alluvium
+S98_03099,RIP1046,Tidal deltaic deposits,dt,Alluvium
+S98_03100,RIP1047,Tidal deltaic deposits,dt,Alluvium
+S98_03101,RIP1048,Tidal deltaic deposits,dt,Alluvium
+S98_03102,RIP1049,Tidal deltaic deposits,dt,Alluvium
+S98_03103,RIP1051,Tidal deltaic deposits,dt,Alluvium
+S98_03104,RIP1052,Tidal deltaic deposits,dt,Alluvium
+S98_03105,RIP1053,Tidal deltaic deposits,dt,Alluvium
+S98_03106,RIP1054,Tidal deltaic deposits,dt,Alluvium
+S98_03107,RIP1055,Tidal deltaic deposits,dt,Alluvium
+S98_03108,RIP1056,Tidal deltaic deposits,dt,Alluvium
+S98_03109,RIP1057,Tidal deltaic deposits,dt,Alluvium
+S98_03110,RIP1058,Tidal deltaic deposits,dt,Alluvium
+S98_03111,RIP1059,Tidal deltaic deposits,dt,Alluvium
+S98_03112,RIP1060,Tidal deltaic deposits,dt,Alluvium
+S98_03113,RIP1062,Tidal deltaic deposits,dt,Alluvium
+S98_03114,RIP1063,Tidal deltaic deposits,dt,Alluvium
+S98_03115,RIP1064,Deltaic Silt,dsl,Alluvium
+S98_03116,RIP1065,Marsh clay and peat,ppc,Alluvium
+S98_03117,RIP1067,Tidal deltaic deposits,dt,Alluvium
+S98_03118,RIP1069,Deltaic Silt,dsl,Alluvium
+S98_03119,RIP1070,Tidal deltaic deposits,dt,Alluvium
+S98_03120,RIP1071,Tidal deltaic deposits,dt,Alluvium
+S98_03121,RIP1072,Deltaic Silt,dsl,Alluvium
+S98_03122,RIP1073,Deltaic Silt,dsl,Alluvium
+S98_03123,RIP1074,Deltaic Silt,dsl,Alluvium
+S98_03124,RIP1075,Marsh clay and peat,ppc,Alluvium
+S98_03125,RIP1077,Tidal deltaic deposits,dt,Alluvium
+S98_03126,RIP1078,Marsh clay and peat,ppc,Alluvium
+S98_03127,RIP1079,Tidal deltaic deposits,dt,Alluvium
+S98_03128,RIP1080,Tidal deltaic deposits,dt,Alluvium
+S98_03129,RIP1081,Tidal deltaic deposits,dt,Alluvium
+S98_03130,RIP1082,Tidal deltaic deposits,dt,Alluvium
+S98_03131,RIP1083,Tidal deltaic deposits,dt,Alluvium
+S98_03132,RIP1084,Deltaic Silt,dsl,Alluvium
+S98_03133,RIP1085,Tidal deltaic deposits,dt,Alluvium
+S98_03134,RIP1086,Tidal deltaic deposits,dt,Alluvium
+S98_03135,RIP1087,Tidal deltaic deposits,dt,Alluvium
+S98_03136,RIP1088,Tidal deltaic deposits,dt,Alluvium
+S98_03137,RIP1090,Tidal deltaic deposits,dt,Alluvium
+S98_03138,RIP1091,Tidal deltaic deposits,dt,Alluvium
+S98_03139,RIP1092,Tidal deltaic deposits,dt,Alluvium
+S98_03140,RIP1093,Tidal deltaic deposits,dt,Alluvium
+S98_03141,RIP1094,Tidal deltaic deposits,dt,Alluvium
+S98_03142,RIP1095,Tidal deltaic deposits,dt,Alluvium
+S98_03143,RIP1096,Tidal deltaic deposits,dt,Alluvium
+S98_03144,RIP1098,Tidal deltaic deposits,dt,Alluvium
+S98_03145,RIP1099,Tidal deltaic deposits,dt,Alluvium
+S98_03146,RIP1100,Tidal deltaic deposits,dt,Alluvium
+S98_03147,RIP1101,Tidal deltaic deposits,dt,Alluvium
+S98_03148,RIP1102,Tidal deltaic deposits,dt,Alluvium
+S98_03149,RIP1103,Deltaic Silt,dsl,Alluvium
+S98_03150,RIP1105,Marsh clay and peat,ppc,Alluvium
+S98_03151,RIP1106,Marsh clay and peat,ppc,Alluvium
+S98_03152,RIP1107,Tidal deltaic deposits,dt,Alluvium
+S98_03153,RIP1108,Marsh clay and peat,ppc,Alluvium
+S98_03154,RIP1109,Marsh clay and peat,ppc,Alluvium
+S98_03155,RIP1110,Marsh clay and peat,ppc,Alluvium
+S98_03156,RIP1112,Marsh clay and peat,ppc,Alluvium
+S98_03157,RIP1113,Marsh clay and peat,ppc,Alluvium
+S98_03158,RIP1114,Marsh clay and peat,ppc,Alluvium
+S98_03159,RIP1115,Marsh clay and peat,ppc,Alluvium
+S98_03160,RIP1116,Marsh clay and peat,ppc,Alluvium
+S98_03161,RIP1117,Marsh clay and peat,ppc,Alluvium
+S98_03162,RIP1118,Marsh clay and peat,ppc,Alluvium
+S98_03163,RIP1120,Deltaic Silt,dsl,Alluvium
+S98_03164,RIP1121,Marsh clay and peat,ppc,Alluvium
+S98_03165,RIP1122,Deltaic Silt,dsl,Alluvium
+S98_03166,RIP1123,Deltaic Silt,dsl,Alluvium
+S98_03167,RIP1124,Deltaic Silt,dsl,Alluvium
+S98_03168,RIP1125,Marsh clay and peat,ppc,Alluvium
+S98_03169,RIP1127,Deltaic Silt,dsl,Alluvium
+S98_03170,RIP1128,Deltaic Silt,dsl,Alluvium
+S98_03171,RIP1129,Deltaic Silt,dsl,Alluvium
+S98_03172,RIP1130,Deltaic Silt,dsl,Alluvium
+S98_03173,RIP1131,Deltaic Silt,dsl,Alluvium
+S98_03174,RIP1132,Deltaic Silt,dsl,Alluvium
+S98_03175,RIP1133,Deltaic Silt,dsl,Alluvium
+S98_03176,RIP1134,Deltaic Silt,dsl,Alluvium
+S98_03177,RIP1135,Deltaic Silt,dsl,Alluvium
+S98_03178,RIP1136,Tidal deltaic deposits,dt,Alluvium
+S98_03179,RIP1137,Deltaic Silt,dsl,Alluvium
+S98_03180,RIP1139,Deltaic Silt,dsl,Alluvium
+S98_03181,RIP1140,Deltaic Silt,dsl,Alluvium
+S98_03182,RIP1141,Deltaic Silt,dsl,Alluvium
+S98_03183,RIP1142,Deltaic Silt,dsl,Alluvium
+S98_03184,RIP1143,Deltaic Silt,dsl,Alluvium
+S98_03185,RIP1144,Deltaic Silt,dsl,Alluvium
+S98_03186,RIP1145,Deltaic Silt,dsl,Alluvium
+S98_03187,RIP1147,Tidal deltaic deposits,dt,Alluvium
+S98_03188,RIP1148,Tidal deltaic deposits,dt,Alluvium
+S98_03189,RIP1149,Tidal deltaic deposits,dt,Alluvium
+S98_03190,RIP1150,Tidal deltaic deposits,dt,Alluvium
+S98_03191,RIP1151,Tidal deltaic deposits,dt,Alluvium
+S98_03192,RIP1152,Tidal deltaic deposits,dt,Alluvium
+S98_03193,RIP1153,Tidal deltaic deposits,dt,Alluvium
+S98_03194,RIP1154,Marsh clay and peat,ppc,Alluvium
+S98_03195,RIP1156,Tidal deltaic deposits,dt,Alluvium
+S98_03196,RIP1157,Deltaic Silt,dsl,Alluvium
+S98_03197,RIP1158,Deltaic Silt,dsl,Alluvium
+S98_03198,RIP1159,Deltaic Silt,dsl,Alluvium
+S98_03199,RIP1160,Tidal deltaic deposits,dt,Alluvium
+S98_03200,RIP1161,Tidal deltaic deposits,dt,Alluvium
+S98_03201,RIP1162,Tidal deltaic deposits,dt,Alluvium
+S98_03202,RIP1163,Tidal deltaic deposits,dt,Alluvium
+S98_03203,RIP1165,Tidal deltaic deposits,dt,Alluvium
+S98_03204,RIP1166,Tidal deltaic deposits,dt,Alluvium
+S98_03205,RIP1167,Tidal deltaic deposits,dt,Alluvium
+S98_03206,RIP1168,Tidal deltaic deposits,dt,Alluvium
+S98_03207,RIP1169,Tidal deltaic deposits,dt,Alluvium
+S98_03208,RIP1171,Tidal deltaic deposits,dt,Alluvium
+S98_03209,RIP1172,Tidal deltaic deposits,dt,Alluvium
+S98_03210,RIP1173,Tidal deltaic deposits,dt,Alluvium
+S98_03211,RIP1174,Tidal deltaic deposits,dt,Alluvium
+S98_03212,RIP1175,Tidal deltaic deposits,dt,Alluvium
+S98_03213,RIP1178,Tidal deltaic deposits,dt,Alluvium
+S98_03214,RIP1179,Tidal deltaic deposits,dt,Alluvium
+S98_03215,RIP1180,Tidal deltaic deposits,dt,Alluvium
+S98_03216,RIP1181,Tidal deltaic deposits,dt,Alluvium
+S98_03217,RIP1182,Tidal deltaic deposits,dt,Alluvium
+S98_03218,RIP1184,Tidal deltaic deposits,dt,Alluvium
+S98_03219,RIP1185,Tidal deltaic deposits,dt,Alluvium
+S98_03220,RIP1186,Tidal deltaic deposits,dt,Alluvium
+S98_03221,RIP1187,Tidal deltaic deposits,dt,Alluvium
+S98_03222,RIP1188,Tidal deltaic deposits,dt,Alluvium
+S98_03223,RIP1190,Tidal deltaic deposits,dt,Alluvium
+S98_03224,RIP1191,Tidal deltaic deposits,dt,Alluvium
+S98_03225,RIP1192,Tidal deltaic deposits,dt,Alluvium
+S98_03226,RIP1194,Tidal deltaic deposits,dt,Alluvium
+S98_03227,RIP1195,Tidal deltaic deposits,dt,Alluvium
+S98_03228,RIP1196,Tidal deltaic deposits,dt,Alluvium
+S98_03229,RIP1197,Tidal deltaic deposits,dt,Alluvium
+S98_03230,RIP1198,Tidal deltaic deposits,dt,Alluvium
+S98_03231,RIP1199,Tidal deltaic deposits,dt,Alluvium
+S98_03232,RIP1200,Tidal deltaic deposits,dt,Alluvium
+S98_03233,RIP1201,Tidal deltaic deposits,dt,Alluvium
+S98_03234,RIP1202,Marsh clay and peat,ppc,Alluvium
+S98_03235,RIP1204,Deltaic Silt,dsl,Alluvium
+S98_03236,RIP1205,Deltaic Silt,dsl,Alluvium
+S98_03237,RIP1206,Deltaic Silt,dsl,Alluvium
+S98_03238,RIP1207,Deltaic Silt,dsl,Alluvium
+S98_03239,RIP1208,Deltaic Silt,dsl,Alluvium
+S98_03240,RIP1210,Deltaic Silt,dsl,Alluvium
+S98_03241,RIP1211,Deltaic Silt,dsl,Alluvium
+S98_03242,RIP1212,Deltaic Silt,dsl,Alluvium
+S98_03243,RIP1213,Deltaic Silt,dsl,Alluvium
+S98_03244,RIP1214,Deltaic Silt,dsl,Alluvium
+S98_03245,RIP1215,Deltaic Silt,dsl,Alluvium
+S98_03246,RIP1216,Deltaic Silt,dsl,Alluvium
+S98_03247,RIP1217,Deltaic Silt,dsl,Alluvium
+S98_03248,RIP1218,Deltaic Silt,dsl,Alluvium
+S98_03249,RIP1220,Deltaic Silt,dsl,Alluvium
+S98_03250,RIP1221,Deltaic Silt,dsl,Alluvium
+S98_03251,RIP1222,Deltaic Silt,dsl,Alluvium
+S98_03252,RIP1223,Deltaic Silt,dsl,Alluvium
+S98_03253,RIP1224,Deltaic Silt,dsl,Alluvium
+S98_03254,RIP1225,Deltaic Silt,dsl,Alluvium
+S98_03255,RIP1226,Deltaic Silt,dsl,Alluvium
+S98_03256,RIP1228,Deltaic Silt,dsl,Alluvium
+S98_03257,RIP1229,Deltaic Silt,dsl,Alluvium
+S98_03258,RIP1230,Deltaic Silt,dsl,Alluvium
+S98_03259,RIP1231,Deltaic Silt,dsl,Alluvium
+S98_03260,RIP1232,Deltaic Silt,dsl,Alluvium
+S98_03261,RIP1233,Deltaic Silt,dsl,Alluvium
+S98_03262,RIP1234,Deltaic Silt,dsl,Alluvium
+S98_03263,RIP1236,Deltaic Silt,dsl,Alluvium
+S98_03264,RIP1237,Deltaic Silt,dsl,Alluvium
+S98_03265,RIP1238,Deltaic Silt,dsl,Alluvium
+S98_03266,RIP1239,Deltaic Silt,dsl,Alluvium
+S98_03267,RIP1240,Deltaic Silt,dsl,Alluvium
+S98_03268,RIP1241,Deltaic Silt,dsl,Alluvium
+S98_03269,RIP1243,Deltaic Silt,dsl,Alluvium
+S98_03270,RIP1244,Deltaic Silt,dsl,Alluvium
+S98_03271,RIP1245,Deltaic Silt,dsl,Alluvium
+S98_03272,RIP1247,Deltaic Silt,dsl,Alluvium
+S98_03273,RIP1248,Deltaic Silt,dsl,Alluvium
+S98_03274,RIP1249,Deltaic Silt,dsl,Alluvium
+S98_03275,RIP1250,Deltaic Silt,dsl,Alluvium
+S98_03276,RIP1251,Deltaic Silt,dsl,Alluvium
+S98_03277,RIP1253,Deltaic Silt,dsl,Alluvium
+S98_03278,RIP1254,Deltaic Silt,dsl,Alluvium
+S98_03279,RIP1255,Marsh clay and peat,ppc,Alluvium
+S98_03280,RIP1256,Deltaic Silt,dsl,Alluvium
+S98_03281,RIP1257,Deltaic Silt,dsl,Alluvium
+S98_03282,RIP1258,Deltaic Silt,dsl,Alluvium
+S98_03283,RIP1260,Deltaic Sand,dsd,Alluvium
+S98_03284,RIP1261,Deltaic Sand,dsd,Alluvium
+S98_03285,RIP1262,Deltaic Silt,dsl,Alluvium
+S98_03286,RIP1263,Deltaic Silt,dsl,Alluvium
+S98_03287,RIP1264,Deltaic Silt,dsl,Alluvium
+S98_03288,RIP1265,Deltaic Silt,dsl,Alluvium
+S98_03289,RIP1266,Deltaic Silt,dsl,Alluvium
+S98_03290,RIP1267,Deltaic Silt,dsl,Alluvium
+S98_03291,RIP1269,Deltaic Silt,dsl,Alluvium
+S98_03292,RIP1270,Deltaic Silt,dsl,Alluvium
+S98_03293,RIP1271,Deltaic Silt,dsl,Alluvium
+S98_03294,RIP1272,Deltaic Silt,dsl,Alluvium
+S98_03295,RIP1273,Marsh clay and peat,ppc,Alluvium
+S98_03296,RIP1274,Deltaic Silt,dsl,Alluvium
+S98_03297,RIP1276,Deltaic Silt,dsl,Alluvium
+S98_03298,RIP1277,Alluvial Sand,asd,Alluvium
+S98_03299,RIP1278,Deltaic Silt,dsl,Alluvium
+S98_03300,RIP1279,Deltaic Silt,dsl,Alluvium
+S98_03301,RIP1280,Deltaic Silt,dsl,Alluvium
+S98_03302,RIP1281,Tidal deltaic deposits,dt,Alluvium
+S98_03303,RIP1282,Tidal deltaic deposits,dt,Alluvium
+S98_03304,RIP1283,Tidal deltaic deposits,dt,Alluvium
+S98_03305,RIP1284,Tidal deltaic deposits,dt,Alluvium
+S98_03306,RIP1287,Marsh clay and peat,ppc,Alluvium
+S98_03307,RIP1288,Mangrove Swamp,dsw,Alluvium
+S98_03308,RIP1289,Marsh clay and peat,ppc,Alluvium
+S98_03309,RIP1290,Deltaic Silt,dsl,Alluvium
+S98_03310,RIP1291,Deltaic Silt,dsl,Alluvium
+S98_03311,RIP1292,Deltaic Silt,dsl,Alluvium
+S98_03312,RIP1295,Deltaic Silt,dsl,Alluvium
+S98_03313,RIP1296,Deltaic Silt,dsl,Alluvium
+S98_03314,RIP1297,Deltaic Silt,dsl,Alluvium
+S98_03315,RIP1298,Deltaic Silt,dsl,Alluvium
+S98_03316,RIP1299,Deltaic Silt,dsl,Alluvium
+S98_03317,RIP1300,Deltaic Silt,dsl,Alluvium
+S98_03318,RIP1311,Deltaic Silt,dsl,Alluvium
+S98_03319,RIP1312,Deltaic Silt,dsl,Alluvium
+S98_03320,RIP1314,Deltaic Silt,dsl,Alluvium
+S98_03321,RIP1315,Alluvial Sand,asd,Alluvium
+S98_03322,RIP1316,Deltaic Silt,dsl,Alluvium
+S98_03323,RIP1317,Deltaic Silt,dsl,Alluvium
+S98_03324,RIP1318,Deltaic Silt,dsl,Alluvium
+S98_03325,RIP1319,Deltaic Silt,dsl,Alluvium
+S98_03326,RIP1320,Deltaic Silt,dsl,Alluvium
+S98_03327,RIP1322,Tidal deltaic deposits,dt,Alluvium
+S98_03328,RIP1323,Tidal deltaic deposits,dt,Alluvium
+S98_03329,RIP1324,Tidal deltaic deposits,dt,Alluvium
+S98_03330,RIP1325,Tidal deltaic deposits,dt,Alluvium
+S98_03331,RIP1326,Tidal deltaic deposits,dt,Alluvium
+S98_03332,RIP1327,Tidal deltaic deposits,dt,Alluvium
+S98_03333,RIP1329,Estuarine deposits,de,Alluvium
+S98_03334,RIP1330,Estuarine deposits,de,Alluvium
+S98_03335,RIP1332,Deltaic Silt,dsl,Alluvium
+S98_03336,RIP1333,Deltaic Silt,dsl,Alluvium
+S98_03337,RIP1335,Deltaic Sand,dsd,Alluvium
+S98_03338,RIP1336,Deltaic Silt,dsl,Alluvium
+S98_03339,RIP1337,Deltaic Silt,dsl,Alluvium
+S98_03340,RIP1338,Deltaic Silt,dsl,Alluvium
+S98_03341,RIP1339,Deltaic Silt,dsl,Alluvium
+S98_03342,RIP1342,Deltaic Silt,dsl,Alluvium
+S98_03343,RIP1343,Alluvial Sand,asd,Alluvium
+S98_03344,RIP1344,Alluvial Sand,asd,Alluvium
+S98_03345,RIP1345,Deltaic Silt,dsl,Alluvium
+S98_03346,RIP1346,Deltaic Silt,dsl,Alluvium
+S98_03347,RIP1347,Deltaic Silt,dsl,Alluvium
+S98_03348,RIP1348,Deltaic Silt,dsl,Alluvium
+S98_03349,RIP1349,Deltaic Silt,dsl,Alluvium
+S98_03350,RIP1350,Deltaic Silt,dsl,Alluvium
+S98_03351,RIP1351,Deltaic Silt,dsl,Alluvium
+S98_03352,RIP1352,Deltaic Silt,dsl,Alluvium
+S98_03353,RIP1355,Deltaic Silt,dsl,Alluvium
+S98_03354,RIP1356,Deltaic Silt,dsl,Alluvium
+S98_03355,RIP1357,Deltaic Silt,dsl,Alluvium
+S98_03356,RIP1358,Deltaic Silt,dsl,Alluvium
+S98_03357,RIP1359,Deltaic Silt,dsl,Alluvium
+S98_03358,RIP1360,Deltaic Silt,dsl,Alluvium
+S98_03359,RIP1361,Deltaic Silt,dsl,Alluvium
+S98_03360,RIP1363,Deltaic Silt,dsl,Alluvium
+S98_03361,RIP1364,Deltaic Silt,dsl,Alluvium
+S98_03362,RIP1365,Deltaic Silt,dsl,Alluvium
+S98_03363,RIP1366,Deltaic Silt,dsl,Alluvium
+S98_03364,RIP1367,Marsh clay and peat,ppc,Alluvium
+S98_03365,RIP1368,Marsh clay and peat,ppc,Alluvium
+S98_03366,RIP1369,Deltaic Silt,dsl,Alluvium
+S98_03367,RIP1370,Deltaic Silt,dsl,Alluvium
+S98_03368,RIP1371,Deltaic Silt,dsl,Alluvium
+S98_03369,RIP1372,Deltaic Silt,dsl,Alluvium
+S98_03370,RIP1373,Marsh clay and peat,ppc,Alluvium
+S98_03371,RIP1374,Deltaic Silt,dsl,Alluvium
+S98_03372,RIP1375,Deltaic Silt,dsl,Alluvium
+S98_03373,RIP1376,Deltaic Silt,dsl,Alluvium
+S98_03374,RIP1377,Deltaic Silt,dsl,Alluvium
+S98_03375,RIP1379,Deltaic Silt,dsl,Alluvium
+S98_03376,RIP1380,Deltaic Silt,dsl,Alluvium
+S98_03377,RIP1381,Deltaic Silt,dsl,Alluvium
+S98_03378,RIP1382,Deltaic Silt,dsl,Alluvium
+S98_03379,RIP1383,Deltaic Silt,dsl,Alluvium
+S98_03380,RIP1384,Deltaic Silt,dsl,Alluvium
+S98_03381,RIP1385,Deltaic Silt,dsl,Alluvium
+S98_03382,RIP1387,Deltaic Silt,dsl,Alluvium
+S98_03383,RIP1388,Deltaic Silt,dsl,Alluvium
+S98_03384,RIP1389,Deltaic Silt,dsl,Alluvium
+S98_03385,RIP1390,Deltaic Silt,dsl,Alluvium
+S98_03386,RIP1391,Deltaic Silt,dsl,Alluvium
+S98_03387,RIP1393,Deltaic Silt,dsl,Alluvium
+S98_03388,RIP1394,Deltaic Silt,dsl,Alluvium
+S98_03389,RIP1395,Deltaic Silt,dsl,Alluvium
+S98_03390,RIP1396,Deltaic Sand,dsd,Alluvium
+S98_03391,RIP1397,Deltaic Silt,dsl,Alluvium
+S98_03392,RIP1398,Deltaic Silt,dsl,Alluvium
+S98_03393,RIP1400,Deltaic Silt,dsl,Alluvium
+S98_03394,RIP1401,Marsh clay and peat,ppc,Alluvium
+S98_03395,RIP1402,Deltaic Silt,dsl,Alluvium
+S98_03396,RIP1403,Deltaic Silt,dsl,Alluvium
+S98_03397,RIP1404,Deltaic Silt,dsl,Alluvium
+S98_03398,RIP1405,Deltaic Silt,dsl,Alluvium
+S98_03399,RIP1406,Deltaic Silt,dsl,Alluvium
+S98_03400,RIP1407,Deltaic Silt,dsl,Alluvium
+S98_03401,RIP1408,Deltaic Silt,dsl,Alluvium
+S98_03402,RIP1409,Deltaic Silt,dsl,Alluvium
+S98_03403,RIP1410,Deltaic Silt,dsl,Alluvium
+S98_03404,RIP1411,Deltaic Silt,dsl,Alluvium
+S98_03405,RIP1412,Deltaic Silt,dsl,Alluvium
+S98_03406,RIP1413,Deltaic Silt,dsl,Alluvium
+S98_03407,RIP1414,Deltaic Silt,dsl,Alluvium
+S98_03408,RIP1415,Deltaic Silt,dsl,Alluvium
+S98_03409,RIP1418,Deltaic Silt,dsl,Alluvium
+S98_03410,RIP1419,Deltaic Silt,dsl,Alluvium
+S98_03411,RIP1420,Deltaic Silt,dsl,Alluvium
+S98_03412,RIP1421,Deltaic Silt,dsl,Alluvium
+S98_03413,RIP1422,Deltaic Silt,dsl,Alluvium
+S98_03414,RIP1423,Deltaic Silt,dsl,Alluvium
+S98_03415,RIP1424,Deltaic Silt,dsl,Alluvium
+S98_03416,RIP1425,Marsh clay and peat,ppc,Alluvium
+S98_03417,RIP1427,Marsh clay and peat,ppc,Alluvium
+S98_03418,RIP1428,Marsh clay and peat,ppc,Alluvium
+S98_03419,RIP1429,Marsh clay and peat,ppc,Alluvium
+S98_03420,RIP1430,Deltaic Silt,dsl,Alluvium
+S98_03421,RIP1431,Deltaic Silt,dsl,Alluvium
+S98_03422,RIP1432,Deltaic Silt,dsl,Alluvium
+S98_03423,RIP1433,Deltaic Silt,dsl,Alluvium
+S98_03424,RIP1434,Deltaic Silt,dsl,Alluvium
+S98_03425,RIP1436,Deltaic Silt,dsl,Alluvium
+S98_03426,RIP1437,Deltaic Silt,dsl,Alluvium
+S98_03427,RIP1438,Marsh clay and peat,ppc,Alluvium
+S98_03428,RIP1439,Deltaic Silt,dsl,Alluvium
+S98_03429,RIP1440,Marsh clay and peat,ppc,Alluvium
+S98_03430,RIP1441,Marsh clay and peat,ppc,Alluvium
+S98_03431,RIP1442,Deltaic Silt,dsl,Alluvium
+S98_03432,RIP1444,Deltaic Sand,dsd,Alluvium
+S98_03433,RIP1445,Deltaic Silt,dsl,Alluvium
+S98_03434,RIP1446,Deltaic Silt,dsl,Alluvium
+S98_03435,RIP1447,Deltaic Silt,dsl,Alluvium
+S98_03436,RIP1448,Deltaic Sand,dsd,Alluvium
+S98_03437,RIP1449,Deltaic Silt,dsl,Alluvium
+S98_03438,RIP1450,Deltaic Silt,dsl,Alluvium
+S98_03439,RIP1451,Deltaic Sand,dsd,Alluvium
+S98_03440,RIP1452,Deltaic Sand,dsd,Alluvium
+S98_03441,RIP1453,Deltaic Silt,dsl,Alluvium
+S98_03442,RIP1454,Deltaic Silt,dsl,Alluvium
+S98_03443,RIP1455,Deltaic Silt,dsl,Alluvium
+S98_03444,RIP1456,Deltaic Silt,dsl,Alluvium
+S98_03445,RIP1459,Deltaic Silt,dsl,Alluvium
+S98_03446,RIP1460,Deltaic Silt,dsl,Alluvium
+S98_03447,RIP1461,Deltaic Silt,dsl,Alluvium
+S98_03448,RIP1462,Deltaic Silt,dsl,Alluvium
+S98_03449,RIP1463,Deltaic Silt,dsl,Alluvium
+S98_03450,RIP1464,Deltaic Silt,dsl,Alluvium
+S98_03451,RIP1465,Deltaic Silt,dsl,Alluvium
+S98_03452,RIP1466,Deltaic Silt,dsl,Alluvium
+S98_03453,RIP1467,Deltaic Silt,dsl,Alluvium
+S98_03454,RIP1468,Deltaic Silt,dsl,Alluvium
+S98_03455,RIP1469,Marsh clay and peat,ppc,Alluvium
+S98_03456,RIP1470,Deltaic Silt,dsl,Alluvium
+S98_03457,RIP1471,Deltaic Silt,dsl,Alluvium
+S98_03458,RIP1472,Deltaic Silt,dsl,Alluvium
+S98_03459,RIP1473,Deltaic Silt,dsl,Alluvium
+S98_03460,RIP1474,Deltaic Silt,dsl,Alluvium
+S98_03461,RIP1476,Marsh clay and peat,ppc,Alluvium
+S98_03462,RIP1477,Deltaic Silt,dsl,Alluvium
+S98_03463,RIP1478,Deltaic Silt,dsl,Alluvium
+S98_03464,RIP1479,Deltaic Silt,dsl,Alluvium
+S98_03465,RIP1480,Deltaic Silt,dsl,Alluvium
+S98_03466,RIP1482,Marsh clay and peat,ppc,Alluvium
+S98_03467,RIP1483,Deltaic Silt,dsl,Alluvium
+S98_03468,RIP1484,Deltaic Silt,dsl,Alluvium
+S98_03469,RIP1485,Marsh clay and peat,ppc,Alluvium
+S98_03470,RIP1486,Marsh clay and peat,ppc,Alluvium
+S98_03471,RIP1487,Deltaic Silt,dsl,Alluvium
+S98_03472,RIP1488,Deltaic Silt,dsl,Alluvium
+S98_03473,RIP1489,Deltaic Silt,dsl,Alluvium
+S98_03474,RIP1490,Deltaic Sand,dsd,Alluvium
+S98_03475,RIP1491,Deltaic Sand,dsd,Alluvium
+S98_03476,RIP1492,Marsh clay and peat,ppc,Alluvium
+S98_03477,RIP1493,Deltaic Silt,dsl,Alluvium
+S98_03478,RIP1494,Deltaic Sand,dsd,Alluvium
+S98_03479,RIP1495,Tidal deltaic deposits,dt,Alluvium
+S98_03480,RIP1496,Tidal deltaic deposits,dt,Alluvium
+S98_03481,RIP1497,Tidal deltaic deposits,dt,Alluvium
+S98_03482,RIP1498,Tidal deltaic deposits,dt,Alluvium
+S98_03483,RIP1500,Deltaic Silt,dsl,Alluvium
+S98_03484,RIP1501,Deltaic Silt,dsl,Alluvium
+S98_03485,RIP1502,Deltaic Silt,dsl,Alluvium
+S98_03486,RIP1503,Deltaic Silt,dsl,Alluvium
+S98_03487,RIP1504,Deltaic Silt,dsl,Alluvium
+S98_03488,RIP1505,Deltaic Silt,dsl,Alluvium
+S98_03489,RIP1506,Deltaic Silt,dsl,Alluvium
+S98_03490,RIP1507,Deltaic Silt,dsl,Alluvium
+S98_03491,RIP1508,Deltaic Silt,dsl,Alluvium
+S98_03492,RIP1510,Tidal deltaic deposits,dt,Alluvium
+S98_03493,RIP1511,Tidal deltaic deposits,dt,Alluvium
+S98_03494,RIP1512,Tidal deltaic deposits,dt,Alluvium
+S98_03495,RIP1513,Tidal deltaic deposits,dt,Alluvium
+S98_03496,RIP1514,Tidal deltaic deposits,dt,Alluvium
+S98_03497,RIP1515,Tidal deltaic deposits,dt,Alluvium
+S98_03498,RIP1516,Marsh clay and peat,ppc,Alluvium
+S98_03499,RIP1517,Marsh clay and peat,ppc,Alluvium
+S98_03500,RIP1519,Tidal deltaic deposits,dt,Alluvium
+S98_03501,RIP1520,Tidal deltaic deposits,dt,Alluvium
+S98_03502,RIP1521,Tidal deltaic deposits,dt,Alluvium
+S98_03503,RIP1522,Tidal deltaic deposits,dt,Alluvium
+S98_03504,RIP1523,Tidal deltaic deposits,dt,Alluvium
+S98_03505,RIP1524,Tidal deltaic deposits,dt,Alluvium
+S98_03506,RIP1526,Tidal deltaic deposits,dt,Alluvium
+S98_03507,RIP1527,Tidal deltaic deposits,dt,Alluvium
+S98_03508,RIP1528,Tidal deltaic deposits,dt,Alluvium
+S98_03509,RIP1529,Tidal deltaic deposits,dt,Alluvium
+S98_03510,RIP1530,Tidal deltaic deposits,dt,Alluvium
+S98_03511,RIP1532,Deltaic Silt,dsl,Alluvium
+S98_03512,RIP1533,Deltaic Silt,dsl,Alluvium
+S98_03513,RIP1534,Deltaic Silt,dsl,Alluvium
+S98_03514,RIP1535,Deltaic Silt,dsl,Alluvium
+S98_03515,RIP1536,Deltaic Silt,dsl,Alluvium
+S98_03516,RIP1537,Marsh clay and peat,ppc,Alluvium
+S98_03517,RIP1538,Marsh clay and peat,ppc,Alluvium
+S98_03518,RIP1539,Deltaic Silt,dsl,Alluvium
+S98_03519,RIP1540,Deltaic Silt,dsl,Alluvium
+S98_03520,RIP1542,Deltaic Silt,dsl,Alluvium
+S98_03521,RIP1543,Deltaic Silt,dsl,Alluvium
+S98_03522,RIP1544,Deltaic Silt,dsl,Alluvium
+S98_03523,RIP1545,Deltaic Silt,dsl,Alluvium
+S98_03524,RIP1546,Deltaic Silt,dsl,Alluvium
+S98_03525,RIP1547,Deltaic Silt,dsl,Alluvium
+S98_03526,RIP1548,Deltaic Silt,dsl,Alluvium
+S98_03527,RIP1550,Tidal deltaic deposits,dt,Alluvium
+S98_03528,RIP1551,Marsh clay and peat,ppc,Alluvium
+S98_03529,RIP1552,Tidal deltaic deposits,dt,Alluvium
+S98_03530,RIP1553,Tidal deltaic deposits,dt,Alluvium
+S98_03531,RIP1554,Tidal deltaic deposits,dt,Alluvium
+S98_03532,RIP1555,Tidal deltaic deposits,dt,Alluvium
+S98_03533,RIP1557,Tidal deltaic deposits,dt,Alluvium
+S98_03534,RIP1558,Tidal deltaic deposits,dt,Alluvium
+S98_03535,RIP1559,Tidal deltaic deposits,dt,Alluvium
+S98_03536,RIP1560,Tidal deltaic deposits,dt,Alluvium
+S98_03537,RIP1561,Tidal deltaic deposits,dt,Alluvium
+S98_03538,RIP1562,Tidal deltaic deposits,dt,Alluvium
+S98_03539,RIP1563,Tidal deltaic deposits,dt,Alluvium
+S98_03540,RIP1564,Tidal deltaic deposits,dt,Alluvium
+S98_03541,RIP1566,Tidal deltaic deposits,dt,Alluvium
+S98_03542,RIP1567,Tidal deltaic deposits,dt,Alluvium
+S98_03543,RIP1568,Tidal deltaic deposits,dt,Alluvium
+S98_03544,RIP1569,Tidal deltaic deposits,dt,Alluvium
+S98_03545,RIP1571,Tidal deltaic deposits,dt,Alluvium
+S98_03546,RIP1572,Tidal deltaic deposits,dt,Alluvium
+S98_03547,RIP1574,Tidal deltaic deposits,dt,Alluvium
+S98_03549,RIP1576,Tidal deltaic deposits,dt,Alluvium
+S98_03550,RIP1577,Tidal deltaic deposits,dt,Alluvium
+S98_03551,RIP1578,Tidal deltaic deposits,dt,Alluvium
+S98_03552,RIP1579,Tidal deltaic deposits,dt,Alluvium
+S98_03553,RIP1582,Estuarine deposits,de,Alluvium
+S98_03554,RIP1584,Estuarine deposits,de,Alluvium
+S98_03555,RIP1585,Estuarine deposits,de,Alluvium
+S98_03556,RIP1586,Estuarine deposits,de,Alluvium
+S98_03557,RIP1587,Estuarine deposits,de,Alluvium
+S98_03558,RIP1588,Deltaic Silt,dsl,Alluvium
+S98_03559,RIP1589,Estuarine deposits,de,Alluvium
+S98_03560,RIP1590,Estuarine deposits,de,Alluvium
+S98_03561,RIP1591,Tidal deltaic deposits,dt,Alluvium
+S98_03562,RIP1592,Tidal deltaic deposits,dt,Alluvium
+S98_03563,RIP1594,Tidal deltaic deposits,dt,Alluvium
+S98_03564,RIP1595,Tidal deltaic deposits,dt,Alluvium
+S98_03565,RIP1596,Tidal deltaic deposits,dt,Alluvium
+S98_03566,RIP1597,Tidal deltaic deposits,dt,Alluvium
+S98_03567,RIP1598,Tidal deltaic deposits,dt,Alluvium
+S98_03568,RIP1599,Tidal deltaic deposits,dt,Alluvium
+S98_03569,RIP1600,Tidal deltaic deposits,dt,Alluvium
+S98_03570,RIP1602,Tidal deltaic deposits,dt,Alluvium
+S98_03571,RIP1603,Tidal deltaic deposits,dt,Alluvium
+S98_03572,RIP1604,Tidal deltaic deposits,dt,Alluvium
+S98_03573,RIP1605,Tidal deltaic deposits,dt,Alluvium
+S98_03574,RIP1606,Tidal deltaic deposits,dt,Alluvium
+S98_03575,RIP1607,Tidal deltaic deposits,dt,Alluvium
+S98_03576,RIP1609,Tidal deltaic deposits,dt,Alluvium
+S98_03577,RIP1610,Tidal deltaic deposits,dt,Alluvium
+S98_03578,RIP1611,Tidal deltaic deposits,dt,Alluvium
+S98_03579,RIP1612,Tidal deltaic deposits,dt,Alluvium
+S98_03580,RIP1613,Tidal deltaic deposits,dt,Alluvium
+S98_03581,RIP1614,Tidal deltaic deposits,dt,Alluvium
+S98_03582,RIP1615,Tidal deltaic deposits,dt,Alluvium
+S98_03583,RIP1616,Tidal deltaic deposits,dt,Alluvium
+S98_03584,RIP1618,Tidal deltaic deposits,dt,Alluvium
+S98_03585,RIP1619,Tidal deltaic deposits,dt,Alluvium
+S98_03586,RIP1620,Marsh clay and peat,ppc,Alluvium
+S98_03587,RIP1621,Tidal deltaic deposits,dt,Alluvium
+S98_03588,RIP1623,Marsh clay and peat,ppc,Alluvium
+S98_03589,RIP1624,Tidal deltaic deposits,dt,Alluvium
+S98_03590,RIP1625,Tidal deltaic deposits,dt,Alluvium
+S98_03591,RIP1626,Marsh clay and peat,ppc,Alluvium
+S98_03592,RIP1627,Marsh clay and peat,ppc,Alluvium
+S98_03593,RIP1628,Marsh clay and peat,ppc,Alluvium
+S98_03594,RIP1629,Marsh clay and peat,ppc,Alluvium
+S98_03595,RIP1631,Marsh clay and peat,ppc,Alluvium
+S98_03596,RIP1632,Tidal deltaic deposits,dt,Alluvium
+S98_03597,RIP1633,Tidal deltaic deposits,dt,Alluvium
+S98_03598,RIP1634,Marsh clay and peat,ppc,Alluvium
+S98_03599,RIP1635,Marsh clay and peat,ppc,Alluvium
+S98_03600,RIP1636,Tidal deltaic deposits,dt,Alluvium
+S98_03601,RIP1637,Tidal deltaic deposits,dt,Alluvium
+S98_03602,RIP1638,Tidal deltaic deposits,dt,Alluvium
+S98_03603,RIP1639,Tidal deltaic deposits,dt,Alluvium
+S98_03604,RIP1641,Marsh clay and peat,ppc,Alluvium
+S98_03605,RIP1642,Tidal deltaic deposits,dt,Alluvium
+S98_03606,RIP1644,Marsh clay and peat,ppc,Alluvium
+S98_03607,RIP1646,Deltaic Sand,dsd,Alluvium
+S98_03608,RIP1647,Deltaic Sand,dsd,Alluvium
+S98_03609,RIP1648,Deltaic Sand,dsd,Alluvium
+S98_03610,RIP1649,Marsh clay and peat,ppc,Alluvium
+S98_03611,RIP1650,Deltaic Sand,dsd,Alluvium
+S98_03612,RIP1651,Deltaic Sand,dsd,Alluvium
+S98_03613,RIP1652,Deltaic Sand,dsd,Alluvium
+S98_03614,RIP1654,Deltaic Sand,dsd,Alluvium
+S98_03615,RIP1655,Deltaic Silt,dsl,Alluvium
+S98_03616,RIP1656,Deltaic Silt,dsl,Alluvium
+S98_03617,RIP1657,Deltaic Silt,dsl,Alluvium
+S98_03618,RIP1658,Deltaic Silt,dsl,Alluvium
+S98_03619,RIP1659,Deltaic Sand,dsd,Alluvium
+S98_03620,RIP1660,Deltaic Sand,dsd,Alluvium
+S98_03621,RIP1662,Tidal deltaic deposits,dt,Alluvium
+S98_03622,RIP1663,Tidal deltaic deposits,dt,Alluvium
+S98_03623,RIP1664,Tidal deltaic deposits,dt,Alluvium
+S98_03624,RIP1666,Tidal deltaic deposits,dt,Alluvium
+S98_03625,RIP1667,Tidal deltaic deposits,dt,Alluvium
+S98_03626,RIP1668,Tidal deltaic deposits,dt,Alluvium
+S98_03627,RIP1669,Tidal deltaic deposits,dt,Alluvium
+S98_03628,RIP1670,Tidal deltaic deposits,dt,Alluvium
+S98_03629,RIP1672,Tidal deltaic deposits,dt,Alluvium
+S98_03630,RIP1673,Marsh clay and peat,ppc,Alluvium
+S98_03631,RIP1674,Marsh clay and peat,ppc,Alluvium
+S98_03632,RIP1675,Tidal deltaic deposits,dt,Alluvium
+S98_03633,RIP1676,Tidal deltaic deposits,dt,Alluvium
+S98_03634,RIP1678,Tidal deltaic deposits,dt,Alluvium
+S98_03635,RIP1679,Tidal deltaic deposits,dt,Alluvium
+S98_03636,RIP1680,Tidal deltaic deposits,dt,Alluvium
+S98_03637,RIP1681,Tidal deltaic deposits,dt,Alluvium
+S98_03638,RIP1683,Tidal deltaic deposits,dt,Alluvium
+S98_03639,RIP1684,Tidal deltaic deposits,dt,Alluvium
+S98_03640,RIP1685,Tidal deltaic deposits,dt,Alluvium
+S98_03641,RIP1686,Tidal deltaic deposits,dt,Alluvium
+S98_03642,RIP1687,Tidal deltaic deposits,dt,Alluvium
+S98_03643,RIP1688,Tidal deltaic deposits,dt,Alluvium
+S98_03644,RIP1689,Tidal deltaic deposits,dt,Alluvium
+S98_03645,RIP1690,Tidal deltaic deposits,dt,Alluvium
+S98_03646,RIP1691,Tidal deltaic deposits,dt,Alluvium
+S98_03647,RIP1693,Tidal deltaic deposits,dt,Alluvium
+S98_03648,RIP1694,Tidal deltaic deposits,dt,Alluvium
+S98_03649,RIP1695,Tidal deltaic deposits,dt,Alluvium
+S98_03650,RIP1696,Tidal deltaic deposits,dt,Alluvium
+S98_03651,RIP1697,Tidal deltaic deposits,dt,Alluvium
+S98_03652,RIP1698,Tidal deltaic deposits,dt,Alluvium
+S98_03653,RIP1700,Tidal deltaic deposits,dt,Alluvium
+S98_03654,RIP1701,Tidal deltaic deposits,dt,Alluvium
+S98_03655,RIP1702,Tidal deltaic deposits,dt,Alluvium
+S98_03656,RIP1703,Tidal deltaic deposits,dt,Alluvium
+S98_03657,RIP1704,Tidal deltaic deposits,dt,Alluvium
+S98_03658,RIP1705,Tidal deltaic deposits,dt,Alluvium
+S98_03659,RIP1706,Tidal deltaic deposits,dt,Alluvium
+S98_03660,RIP1707,Tidal deltaic deposits,dt,Alluvium
+S98_03661,RIP1709,Tidal deltaic deposits,dt,Alluvium
+S98_03662,RIP1710,Tidal deltaic deposits,dt,Alluvium
+S98_03663,RIP1711,Tidal deltaic deposits,dt,Alluvium
+S98_03664,RIP1712,Tidal deltaic deposits,dt,Alluvium
+S98_03665,RIP1713,Tidal deltaic deposits,dt,Alluvium
+S98_03666,RIP1714,Tidal deltaic deposits,dt,Alluvium
+S98_03667,RIP1715,Tidal deltaic deposits,dt,Alluvium
+S98_03668,RIP1716,Tidal deltaic deposits,dt,Alluvium
+S98_03669,RIP1717,Tidal deltaic deposits,dt,Alluvium
+S98_03670,RIP1718,Tidal deltaic deposits,dt,Alluvium
+S98_03671,RIP1720,Marsh clay and peat,ppc,Alluvium
+S98_03672,RIP1721,Tidal deltaic deposits,dt,Alluvium
+S98_03673,RIP1722,Tidal deltaic deposits,dt,Alluvium
+S98_03674,RIP1724,Deltaic Silt,dsl,Alluvium
+S98_03675,RIP1725,Deltaic Silt,dsl,Alluvium
+S98_03676,RIP1726,Deltaic Silt,dsl,Alluvium
+S98_03677,RIP1727,Deltaic Sand,dsd,Alluvium
+S98_03678,RIP1728,Deltaic Silt,dsl,Alluvium
+S98_03679,RIP1730,Deltaic Silt,dsl,Alluvium
+S98_03680,RIP1731,Deltaic Silt,dsl,Alluvium
+S98_03681,RIP1732,Deltaic Silt,dsl,Alluvium
+S98_03682,RIP1733,Deltaic Silt,dsl,Alluvium
+S98_03683,RIP1734,Deltaic Silt,dsl,Alluvium
+S98_03684,RIP1735,Deltaic Silt,dsl,Alluvium
+S98_03685,RIP1736,Deltaic Silt,dsl,Alluvium
+S98_03686,RIP1737,Deltaic Silt,dsl,Alluvium
+S98_03687,RIP1739,Deltaic Sand,dsd,Alluvium
+S98_03688,RIP1740,Deltaic Sand,dsd,Alluvium
+S98_03689,RIP1741,Tidal deltaic deposits,dt,Alluvium
+S98_03690,RIP1742,Tidal deltaic deposits,dt,Alluvium
+S98_03691,RIP1743,Tidal deltaic deposits,dt,Alluvium
+S98_03692,RIP1744,Tidal deltaic deposits,dt,Alluvium
+S98_03693,RIP1745,Tidal deltaic deposits,dt,Alluvium
+S98_03694,RIP1746,Deltaic Silt,dsl,Alluvium
+S98_03695,RIP1747,Deltaic Silt,dsl,Alluvium
+S98_03696,RIP1748,Deltaic Silt,dsl,Alluvium
+S98_03697,RIP1749,Deltaic Silt,dsl,Alluvium
+S98_03698,RIP1751,Deltaic Silt,dsl,Alluvium
+S98_03699,RIP1752,Deltaic Silt,dsl,Alluvium
+S98_03700,RIP1753,Deltaic Silt,dsl,Alluvium
+S98_03701,RIP1754,Deltaic Silt,dsl,Alluvium
+S98_03702,RIP1755,Deltaic Silt,dsl,Alluvium
+S98_03703,RIP1756,Deltaic Silt,dsl,Alluvium
+S98_03704,RIP1757,Deltaic Silt,dsl,Alluvium
+S98_03705,RIP1758,Deltaic Silt,dsl,Alluvium
+S98_03706,RIP1760,Deltaic Sand,dsd,Alluvium
+S98_03707,RIP1761,Deltaic Sand,dsd,Alluvium
+S98_03708,RIP1763,Deltaic Sand,dsd,Alluvium
+S98_03709,RIP1764,Deltaic Sand,dsd,Alluvium
+S98_03710,RIP1765,Deltaic Sand,dsd,Alluvium
+S98_03711,RIP1766,Chandina Alluvium,ac,Alluvium
+S98_03712,RIP1768,Chandina Alluvium,ac,Alluvium
+S98_03713,RIP1769,Chandina Alluvium,ac,Alluvium
+S98_03714,RIP1770,Chandina Alluvium,ac,Alluvium
+S98_03715,RIP1771,Deltaic Sand,dsd,Alluvium
+S98_03716,RIP1772,Chandina Alluvium,ac,Alluvium
+S98_03717,RIP1773,Chandina Alluvium,ac,Alluvium
+S98_03718,RIP1774,Chandina Alluvium,ac,Alluvium
+S98_03719,RIP1776,Tidal deltaic deposits,dt,Alluvium
+S98_03720,RIP1777,Tidal deltaic deposits,dt,Alluvium
+S98_03721,RIP1778,Tidal deltaic deposits,dt,Alluvium
+S98_03722,RIP1779,Tidal deltaic deposits,dt,Alluvium
+S98_03723,RIP1780,Marsh clay and peat,ppc,Alluvium
+S98_03724,RIP1781,Marsh clay and peat,ppc,Alluvium
+S98_03725,RIP1782,Marsh clay and peat,ppc,Alluvium
+S98_03726,RIP1784,Marsh clay and peat,ppc,Alluvium
+S98_03727,RIP1785,Deltaic Silt,dsl,Alluvium
+S98_03728,RIP1786,Deltaic Silt,dsl,Alluvium
+S98_03729,RIP1787,Marsh clay and peat,ppc,Alluvium
+S98_03730,RIP1788,Marsh clay and peat,ppc,Alluvium
+S98_03731,RIP1789,Deltaic Silt,dsl,Alluvium
+S98_03732,RIP1790,Deltaic Silt,dsl,Alluvium
+S98_03733,RIP1792,Deltaic Silt,dsl,Alluvium
+S98_03734,RIP1793,Chandina Alluvium,ac,Alluvium
+S98_03735,RIP1794,Deltaic Silt,dsl,Alluvium
+S98_03736,RIP1795,Chandina Alluvium,ac,Alluvium
+S98_03737,RIP1796,Chandina Alluvium,ac,Alluvium
+S98_03738,RIP1797,Chandina Alluvium,ac,Alluvium
+S98_03739,RIP1798,Chandina Alluvium,ac,Alluvium
+S98_03740,RIP1799,Chandina Alluvium,ac,Alluvium
+S98_03741,RIP1801,Marsh clay and peat,ppc,Alluvium
+S98_03742,RIP1802,Marsh clay and peat,ppc,Alluvium
+S98_03743,RIP1803,Marsh clay and peat,ppc,Alluvium
+S98_03744,RIP1804,Marsh clay and peat,ppc,Alluvium
+S98_03745,RIP1805,Marsh clay and peat,ppc,Alluvium
+S98_03746,RIP1806,Marsh clay and peat,ppc,Alluvium
+S98_03747,RIP1807,Marsh clay and peat,ppc,Alluvium
+S98_03748,RIP1809,Deltaic Silt,dsl,Alluvium
+S98_03749,RIP1810,Deltaic Silt,dsl,Alluvium
+S98_03750,RIP1812,Deltaic Silt,dsl,Alluvium
+S98_03751,RIP1813,Deltaic Silt,dsl,Alluvium
+S98_03752,RIP1814,Deltaic Silt,dsl,Alluvium
+S98_03753,RIP1815,Deltaic Silt,dsl,Alluvium
+S98_03754,RIP1816,Deltaic Silt,dsl,Alluvium
+S98_03755,RIP1818,Deltaic Silt,dsl,Alluvium
+S98_03756,RIP1820,Deltaic Silt,dsl,Alluvium
+S98_03757,RIP1821,Deltaic Silt,dsl,Alluvium
+S98_03758,RIP1822,Deltaic Sand,dsd,Alluvium
+S98_03759,RIP1823,Deltaic Silt,dsl,Alluvium
+S98_03760,RIP1824,Deltaic Silt,dsl,Alluvium
+S98_03761,RIP1825,Deltaic Silt,dsl,Alluvium
+S98_03762,RIP1826,Deltaic Silt,dsl,Alluvium
+S98_03763,RIP1828,Deltaic Silt,dsl,Alluvium
+S98_03764,RIP1829,Deltaic Silt,dsl,Alluvium
+S98_03765,RIP1830,Deltaic Silt,dsl,Alluvium
+S98_03766,RIP1831,Deltaic Sand,dsd,Alluvium
+S98_03767,RIP1832,Deltaic Sand,dsd,Alluvium
+S98_03768,RIP1833,Deltaic Silt,dsl,Alluvium
+S98_03769,RIP1834,Chandina Alluvium,ac,Alluvium
+S98_03770,RIP1835,Chandina Alluvium,ac,Alluvium
+S98_03771,RIP1837,Deltaic Sand,dsd,Alluvium
+S98_03772,RIP1838,Deltaic Sand,dsd,Alluvium
+S98_03773,RIP1839,Deltaic Sand,dsd,Alluvium
+S98_03774,RIP1840,Deltaic Sand,dsd,Alluvium
+S98_03775,RIP1841,Marsh clay and peat,ppc,Alluvium
+S98_03776,RIP1842,Deltaic Sand,dsd,Alluvium
+S98_03777,RIP1843,Deltaic Sand,dsd,Alluvium
+S98_03778,RIP1845,Deltaic Silt,dsl,Alluvium
+S98_03779,RIP1846,Deltaic Silt,dsl,Alluvium
+S98_03780,RIP1847,Deltaic Silt,dsl,Alluvium
+S98_03781,RIP1848,Marsh clay and peat,ppc,Alluvium
+S98_03782,RIP1849,Marsh clay and peat,ppc,Alluvium
+S98_03783,RIP1850,Deltaic Silt,dsl,Alluvium
+S98_03784,RIP1851,Deltaic Silt,dsl,Alluvium
+S98_03785,RIP1852,Deltaic Silt,dsl,Alluvium
+S98_03786,RIP1853,Deltaic Silt,dsl,Alluvium
+S98_03787,RIP1854,Deltaic Silt,dsl,Alluvium
+S98_03788,RIP1855,Deltaic Silt,dsl,Alluvium
+S98_03789,RIP1856,Deltaic Silt,dsl,Alluvium
+S98_03790,RIP1857,Deltaic Silt,dsl,Alluvium
+S98_03791,RIP1858,Deltaic Silt,dsl,Alluvium
+S98_03792,RIP1859,Deltaic Silt,dsl,Alluvium
+S98_03793,RIP1860,Deltaic Silt,dsl,Alluvium
+S98_03794,RIP1861,Deltaic Silt,dsl,Alluvium
+S98_03795,RIP1862,Deltaic Silt,dsl,Alluvium
+S98_03796,RIP1863,Deltaic Silt,dsl,Alluvium
+S98_03797,RIP1864,Deltaic Silt,dsl,Alluvium
+S98_03798,RIP1865,Deltaic Silt,dsl,Alluvium
+S98_03799,RIP1866,Deltaic Silt,dsl,Alluvium
+S98_03800,RIP1867,Deltaic Silt,dsl,Alluvium
+S98_03801,RIP1869,Deltaic Silt,dsl,Alluvium
+S98_03802,RIP1870,Deltaic Silt,dsl,Alluvium
+S98_03803,RIP1871,Deltaic Sand,dsd,Alluvium
+S98_03804,RIP1872,Deltaic Sand,dsd,Alluvium
+S98_03805,RIP1873,Deltaic Silt,dsl,Alluvium
+S98_03806,RIP1874,Deltaic Silt,dsl,Alluvium
+S98_03807,RIP1876,Deltaic Silt,dsl,Alluvium
+S98_03808,RIP1877,Deltaic Silt,dsl,Alluvium
+S98_03809,RIP1878,Deltaic Silt,dsl,Alluvium
+S98_03810,RIP1879,Deltaic Sand,dsd,Alluvium
+S98_03811,RIP1880,Deltaic Silt,dsl,Alluvium
+S98_03812,RIP1881,Marsh clay and peat,ppc,Alluvium
+S98_03813,RIP1883,Deltaic Silt,dsl,Alluvium
+S98_03814,RIP1884,Deltaic Silt,dsl,Alluvium
+S98_03815,RIP1885,Deltaic Silt,dsl,Alluvium
+S98_03816,RIP1886,Deltaic Silt,dsl,Alluvium
+S98_03817,RIP1888,Deltaic Silt,dsl,Alluvium
+S98_03818,RIP1889,Deltaic Silt,dsl,Alluvium
+S98_03819,RIP1891,Marsh clay and peat,ppc,Alluvium
+S98_03820,RIP1892,Deltaic Silt,dsl,Alluvium
+S98_03821,RIP1893,Deltaic Silt,dsl,Alluvium
+S98_03822,RIP1894,Deltaic Silt,dsl,Alluvium
+S98_03823,RIP1895,Deltaic Silt,dsl,Alluvium
+S98_03824,RIP1896,Deltaic Silt,dsl,Alluvium
+S98_03825,RIP1897,Deltaic Silt,dsl,Alluvium
+S98_03826,RIP1899,Deltaic Silt,dsl,Alluvium
+S98_03827,RIP1900,Deltaic Silt,dsl,Alluvium
+S98_03828,RIP1901,Deltaic Silt,dsl,Alluvium
+S98_03829,RIP1902,Deltaic Silt,dsl,Alluvium
+S98_03830,RIP1903,Deltaic Silt,dsl,Alluvium
+S98_03831,RIP1904,Deltaic Silt,dsl,Alluvium
+S98_03832,RIP1905,Deltaic Silt,dsl,Alluvium
+S98_03833,RIP1907,Deltaic Silt,dsl,Alluvium
+S98_03834,RIP1908,Alluvial Sand,asd,Alluvium
+S98_03835,RIP1909,Alluvial Sand,asd,Alluvium
+S98_03836,RIP1910,Deltaic Silt,dsl,Alluvium
+S98_03837,RIP1911,Deltaic Silt,dsl,Alluvium
+S98_03838,RIP1912,Deltaic Silt,dsl,Alluvium
+S98_03839,RIP1913,Deltaic Silt,dsl,Alluvium
+S98_03840,RIP1915,Deltaic Sand,dsd,Alluvium
+S98_03841,RIP1916,Alluvial Sand,asd,Alluvium
+S98_03842,RIP1917,Alluvial Sand,asd,Alluvium
+S98_03843,RIP1918,Deltaic Sand,dsd,Alluvium
+S98_03844,RIP1919,Alluvial Sand,asd,Alluvium
+S98_03845,RIP1920,Deltaic Silt,dsl,Alluvium
+S98_03846,RIP1921,Deltaic Silt,dsl,Alluvium
+S98_03847,RIP1922,Alluvial Sand,asd,Alluvium
+S98_03848,RIP1923,Alluvial Sand,asd,Alluvium
+S98_03849,RIP1924,Deltaic Silt,dsl,Alluvium
+S98_03850,RIP1925,Deltaic Silt,dsl,Alluvium
+S98_03851,RIP1931,Estuarine deposits,de,Alluvium
+S98_03852,RIP1932,Estuarine deposits,de,Alluvium
+S98_03853,RIP1933,Estuarine deposits,de,Alluvium
+S98_03854,RIP1934,Estuarine deposits,de,Alluvium
+S98_03855,RIP1935,Estuarine deposits,de,Alluvium
+S98_03856,RIP1936,Estuarine deposits,de,Alluvium
+S98_03857,RIP1937,Estuarine deposits,de,Alluvium
+S98_03858,RIP1938,Estuarine deposits,de,Alluvium
+S98_03859,RIP1939,Estuarine deposits,de,Alluvium
+S98_03860,RIP1940,Estuarine deposits,de,Alluvium
+S98_03861,RIP1950,Tidal deltaic deposits,dt,Alluvium
+S98_03862,RIP1951,Tidal deltaic deposits,dt,Alluvium
+S98_03863,RIP1952,Tidal deltaic deposits,dt,Alluvium
+S98_03864,RIP1953,Tidal deltaic deposits,dt,Alluvium
+S98_03865,RIP1954,Tidal deltaic deposits,dt,Alluvium
+S98_03866,RIP1955,Tidal deltaic deposits,dt,Alluvium
+S98_03867,RIP1956,Tidal deltaic deposits,dt,Alluvium
+S98_03868,RIP1957,Tidal deltaic deposits,dt,Alluvium
+S98_03869,RIP1958,Tidal deltaic deposits,dt,Alluvium
+S98_03870,RIP1959,Tidal deltaic deposits,dt,Alluvium
+S98_03872,RIP2002,Alluvial Silt,asl,Alluvium
+S98_03873,RIP2003,Alluvial Silt,asl,Alluvium
+S98_03874,RIP2004,Alluvial Silt,asl,Alluvium
+S98_03875,RIP2005,Alluvial Silt,asl,Alluvium
+S98_03876,RIP2006,Alluvial Sand,asd,Alluvium
+S98_03877,RIP2007,Alluvial Silt,asl,Alluvium
+S98_03878,RIP2008,Marsh clay and peat,ppc,Alluvium
+S98_03879,RIP2010,Marsh clay and peat,ppc,Alluvium
+S98_03880,RIP2011,Alluvial Silt,asl,Alluvium
+S98_03881,RIP2012,Alluvial Silt,asl,Alluvium
+S98_03882,RIP2013,Alluvial Silt,asl,Alluvium
+S98_03883,RIP2014,Marsh clay and peat,ppc,Alluvium
+S98_03884,RIP2017,Barind Clay Residuum,rb,Old Alluvium
+S98_03885,RIP2018,Barind Clay Residuum,rb,Old Alluvium
+S98_03886,RIP2019,Barind Clay Residuum,rb,Old Alluvium
+S98_03887,RIP2020,Barind Clay Residuum,rb,Old Alluvium
+S98_03888,RIP2021,Barind Clay Residuum,rb,Old Alluvium
+S98_03889,RIP2022,Barind Clay Residuum,rb,Old Alluvium
+S98_03890,RIP2023,Barind Clay Residuum,rb,Old Alluvium
+S98_03891,RIP2024,Barind Clay Residuum,rb,Old Alluvium
+S98_03892,RIP2025,Alluvial Silt,asl,Alluvium
+S98_03893,RIP2027,Alluvial Silt,asl,Alluvium
+S98_03894,RIP2028,Alluvial Silt,asl,Alluvium
+S98_03895,RIP2029,Alluvial Silt,asl,Alluvium
+S98_03896,RIP2030,Barind Clay Residuum,rb,Old Alluvium
+S98_03897,RIP2031,Alluvial Silt,asl,Alluvium
+S98_03898,RIP2032,Barind Clay Residuum,rb,Old Alluvium
+S98_03899,RIP2033,Barind Clay Residuum,rb,Old Alluvium
+S98_03900,RIP2034,Barind Clay Residuum,rb,Old Alluvium
+S98_03901,RIP2035,Alluvial Silt,asl,Alluvium
+S98_03902,RIP2037,Marsh clay and peat,ppc,Alluvium
+S98_03903,RIP2038,Barind Clay Residuum,rb,Old Alluvium
+S98_03904,RIP2039,Barind Clay Residuum,rb,Old Alluvium
+S98_03905,RIP2040,Barind Clay Residuum,rb,Old Alluvium
+S98_03906,RIP2041,Barind Clay Residuum,rb,Old Alluvium
+S98_03907,RIP2042,Marsh clay and peat,ppc,Alluvium
+S98_03908,RIP2043,Barind Clay Residuum,rb,Old Alluvium
+S98_03909,RIP2047,Barind Clay Residuum,rb,Old Alluvium
+S98_03910,RIP2048,Marsh clay and peat,ppc,Alluvium
+S98_03911,RIP2049,Barind Clay Residuum,rb,Old Alluvium
+S98_03912,RIP2050,Barind Clay Residuum,rb,Old Alluvium
+S98_03913,RIP2051,Barind Clay Residuum,rb,Old Alluvium
+S98_03914,RIP2052,Barind Clay Residuum,rb,Old Alluvium
+S98_03915,RIP2053,Barind Clay Residuum,rb,Old Alluvium
+S98_03916,RIP2054,Barind Clay Residuum,rb,Old Alluvium
+S98_03917,RIP2055,Barind Clay Residuum,rb,Old Alluvium
+S98_03918,RIP2057,Alluvial silt and clay,asc,Alluvium
+S98_03919,RIP2058,Alluvial silt and clay,asc,Alluvium
+S98_03920,RIP2059,Alluvial Silt,asl,Alluvium
+S98_03921,RIP2060,Alluvial Silt,asl,Alluvium
+S98_03922,RIP2061,Alluvial Silt,asl,Alluvium
+S98_03923,RIP2062,Alluvial Silt,asl,Alluvium
+S98_03924,RIP2063,Alluvial Silt,asl,Alluvium
+S98_03925,RIP2064,Alluvial Silt,asl,Alluvium
+S98_03926,RIP2065,Alluvial Silt,asl,Alluvium
+S98_03927,RIP2067,Alluvial Silt,asl,Alluvium
+S98_03928,RIP2068,Alluvial Silt,asl,Alluvium
+S98_03929,RIP2069,Marsh clay and peat,ppc,Alluvium
+S98_03930,RIP2070,Marsh clay and peat,ppc,Alluvium
+S98_03931,RIP2071,Marsh clay and peat,ppc,Alluvium
+S98_03932,RIP2072,Marsh clay and peat,ppc,Alluvium
+S98_03933,RIP2073,Marsh clay and peat,ppc,Alluvium
+S98_03934,RIP2075,Alluvial Silt,asl,Alluvium
+S98_03935,RIP2076,Alluvial Silt,asl,Alluvium
+S98_03936,RIP2077,Alluvial Silt,asl,Alluvium
+S98_03937,RIP2078,Alluvial Silt,asl,Alluvium
+S98_03938,RIP2079,Alluvial Silt,asl,Alluvium
+S98_03939,RIP2081,Alluvial Sand,asd,Alluvium
+S98_03940,RIP2082,Alluvial Sand,asd,Alluvium
+S98_03941,RIP2083,Alluvial Silt,asl,Alluvium
+S98_03942,RIP2084,Alluvial Silt,asl,Alluvium
+S98_03943,RIP2085,Alluvial Silt,asl,Alluvium
+S98_03944,RIP2086,Alluvial Silt,asl,Alluvium
+S98_03945,RIP2087,Alluvial Silt,asl,Alluvium
+S98_03946,RIP2088,Alluvial Sand,asd,Alluvium
+S98_03947,RIP2089,Alluvial Silt,asl,Alluvium
+S98_03948,RIP2091,Alluvial silt and clay,asc,Alluvium
+S98_03949,RIP2092,Alluvial silt and clay,asc,Alluvium
+S98_03950,RIP2093,Alluvial silt and clay,asc,Alluvium
+S98_03951,RIP2094,Alluvial silt and clay,asc,Alluvium
+S98_03952,RIP2095,Alluvial silt and clay,asc,Alluvium
+S98_03953,RIP2096,Alluvial silt and clay,asc,Alluvium
+S98_03954,RIP2097,Alluvial Silt,asl,Alluvium
+S98_03955,RIP2099,Alluvial Sand,asd,Alluvium
+S98_03956,RIP2100,Alluvial Silt,asl,Alluvium
+S98_03957,RIP2101,Marsh clay and peat,ppc,Alluvium
+S98_03958,RIP2102,Alluvial Silt,asl,Alluvium
+S98_03959,RIP2103,Alluvial Silt,asl,Alluvium
+S98_03960,RIP2104,Alluvial Silt,asl,Alluvium
+S98_03961,RIP2105,Alluvial Silt,asl,Alluvium
+S98_03962,RIP2106,Alluvial silt and clay,asc,Alluvium
+S98_03963,RIP2107,Alluvial Silt,asl,Alluvium
+S98_03964,RIP2109,Alluvial Silt,asl,Alluvium
+S98_03965,RIP2110,Alluvial silt and clay,asc,Alluvium
+S98_03966,RIP2111,Alluvial Silt,asl,Alluvium
+S98_03967,RIP2112,Alluvial Silt,asl,Alluvium
+S98_03968,RIP2113,Marsh clay and peat,ppc,Alluvium
+S98_03969,RIP2114,Alluvial silt and clay,asc,Alluvium
+S98_03970,RIP2115,Alluvial Silt,asl,Alluvium
+S98_03971,RIP2117,Alluvial Silt,asl,Alluvium
+S98_03972,RIP2118,Alluvial silt and clay,asc,Alluvium
+S98_03973,RIP2119,Alluvial silt and clay,asc,Alluvium
+S98_03974,RIP2120,Alluvial Silt,asl,Alluvium
+S98_03975,RIP2121,Alluvial Silt,asl,Alluvium
+S98_03976,RIP2122,Alluvial Silt,asl,Alluvium
+S98_03977,RIP2123,Alluvial Silt,asl,Alluvium
+S98_03978,RIP2125,Alluvial Sand,asd,Alluvium
+S98_03979,RIP2126,Alluvial Sand,asd,Alluvium
+S98_03980,RIP2127,Alluvial Sand,asd,Alluvium
+S98_03981,RIP2128,Alluvial Sand,asd,Alluvium
+S98_03982,RIP2129,Alluvial Silt,asl,Alluvium
+S98_03983,RIP2130,Marsh clay and peat,ppc,Alluvium
+S98_03984,RIP2132,Alluvial silt and clay,asc,Alluvium
+S98_03985,RIP2133,Alluvial silt and clay,asc,Alluvium
+S98_03986,RIP2134,Marsh clay and peat,ppc,Alluvium
+S98_03987,RIP2135,Alluvial Silt,asl,Alluvium
+S98_03988,RIP2136,Alluvial silt and clay,asc,Alluvium
+S98_03989,RIP2137,Marsh clay and peat,ppc,Alluvium
+S98_03990,RIP2138,Alluvial silt and clay,asc,Alluvium
+S98_03991,RIP2139,Alluvial silt and clay,asc,Alluvium
+S98_03992,RIP2141,Alluvial silt and clay,asc,Alluvium
+S98_03993,RIP2142,Marsh clay and peat,ppc,Alluvium
+S98_03994,RIP2143,Marsh clay and peat,ppc,Alluvium
+S98_03995,RIP2144,Alluvial silt and clay,asc,Alluvium
+S98_03996,RIP2145,Alluvial silt and clay,asc,Alluvium
+S98_03997,RIP2146,Alluvial silt and clay,asc,Alluvium
+S98_03998,RIP2147,Alluvial silt and clay,asc,Alluvium
+S98_03999,RIP2149,Alluvial silt and clay,asc,Alluvium
+S98_04000,RIP2150,Alluvial silt and clay,asc,Alluvium
+S98_04001,RIP2151,Alluvial silt and clay,asc,Alluvium
+S98_04002,RIP2152,Alluvial Silt,asl,Alluvium
+S98_04003,RIP2154,Alluvial Silt,asl,Alluvium
+S98_04004,RIP2155,Alluvial silt and clay,asc,Alluvium
+S98_04005,RIP2156,Alluvial Silt,asl,Alluvium
+S98_04006,RIP2157,Alluvial Silt,asl,Alluvium
+S98_04007,RIP2158,Alluvial Silt,asl,Alluvium
+S98_04008,RIP2159,Alluvial silt and clay,asc,Alluvium
+S98_04009,RIP2161,Marsh clay and peat,ppc,Alluvium
+S98_04010,RIP2162,Marsh clay and peat,ppc,Alluvium
+S98_04011,RIP2163,Alluvial silt and clay,asc,Alluvium
+S98_04012,RIP2164,Alluvial silt and clay,asc,Alluvium
+S98_04013,RIP2165,Alluvial silt and clay,asc,Alluvium
+S98_04014,RIP2166,Alluvial silt and clay,asc,Alluvium
+S98_04015,RIP2168,Alluvial silt and clay,asc,Alluvium
+S98_04016,RIP2169,Alluvial Silt,asl,Alluvium
+S98_04017,RIP2170,Alluvial Silt,asl,Alluvium
+S98_04018,RIP2171,Alluvial Silt,asl,Alluvium
+S98_04019,RIP2172,Alluvial Silt,asl,Alluvium
+S98_04020,RIP2173,Alluvial silt and clay,asc,Alluvium
+S98_04021,RIP2175,Alluvial silt and clay,asc,Alluvium
+S98_04022,RIP2177,Alluvial Silt,asl,Alluvium
+S98_04023,RIP2178,Alluvial Sand,asd,Alluvium
+S98_04024,RIP2179,Alluvial Silt,asl,Alluvium
+S98_04025,RIP2180,Alluvial Sand,asd,Alluvium
+S98_04026,RIP2181,Alluvial silt and clay,asc,Alluvium
+S98_04027,RIP2182,Alluvial silt and clay,asc,Alluvium
+S98_04028,RIP2183,Alluvial silt and clay,asc,Alluvium
+S98_04029,RIP2185,Marsh clay and peat,ppc,Alluvium
+S98_04030,RIP2186,Alluvial Sand,asd,Alluvium
+S98_04031,RIP2187,Alluvial Silt,asl,Alluvium
+S98_04032,RIP2188,Alluvial Silt,asl,Alluvium
+S98_04033,RIP2189,Alluvial Sand,asd,Alluvium
+S98_04034,RIP2190,Alluvial Sand,asd,Alluvium
+S98_04035,RIP2191,Alluvial silt and clay,asc,Alluvium
+S98_04036,RIP2192,Alluvial silt and clay,asc,Alluvium
+S98_04037,RIP2194,Marsh clay and peat,ppc,Alluvium
+S98_04038,RIP2195,Alluvial silt and clay,asc,Alluvium
+S98_04039,RIP2196,Alluvial silt and clay,asc,Alluvium
+S98_04040,RIP2197,Marsh clay and peat,ppc,Alluvium
+S98_04041,RIP2198,Alluvial silt and clay,asc,Alluvium
+S98_04042,RIP2199,Alluvial silt and clay,asc,Alluvium
+S98_04043,RIP2201,Marsh clay and peat,ppc,Alluvium
+S98_04044,RIP2202,Alluvial silt and clay,asc,Alluvium
+S98_04045,RIP2203,Alluvial silt and clay,asc,Alluvium
+S98_04046,RIP2204,Marsh clay and peat,ppc,Alluvium
+S98_04047,RIP2205,Alluvial silt and clay,asc,Alluvium
+S98_04048,RIP2206,Marsh clay and peat,ppc,Alluvium
+S98_04049,RIP2207,Alluvial silt and clay,asc,Alluvium
+S98_04050,RIP2209,Alluvial Silt,asl,Alluvium
+S98_04051,RIP2210,Alluvial Silt,asl,Alluvium
+S98_04052,RIP2211,Alluvial Silt,asl,Alluvium
+S98_04053,RIP2212,Alluvial Sand,asd,Alluvium
+S98_04054,RIP2213,Alluvial Silt,asl,Alluvium
+S98_04055,RIP2214,Alluvial Silt,asl,Alluvium
+S98_04056,RIP2215,Alluvial Silt,asl,Alluvium
+S98_04057,RIP2216,Alluvial Silt,asl,Alluvium
+S98_04058,RIP2217,Alluvial Silt,asl,Alluvium
+S98_04059,RIP2219,Alluvial Sand,asd,Alluvium
+S98_04060,RIP2220,Alluvial Sand,asd,Alluvium
+S98_04061,RIP2221,Alluvial Silt,asl,Alluvium
+S98_04062,RIP2222,Alluvial Sand,asd,Alluvium
+S98_04063,RIP2223,Alluvial Sand,asd,Alluvium
+S98_04064,RIP2224,Alluvial Sand,asd,Alluvium
+S98_04065,RIP2225,Alluvial Silt,asl,Alluvium
+S98_04066,RIP2226,Alluvial Silt,asl,Alluvium
+S98_04067,RIP2227,Alluvial Silt,asl,Alluvium
+S98_04068,RIP2229,Alluvial silt and clay,asc,Alluvium
+S98_04069,RIP2230,Alluvial silt and clay,asc,Alluvium
+S98_04070,RIP2231,Alluvial silt and clay,asc,Alluvium
+S98_04071,RIP2232,Alluvial silt and clay,asc,Alluvium
+S98_04072,RIP2233,Alluvial silt and clay,asc,Alluvium
+S98_04073,RIP2234,Alluvial silt and clay,asc,Alluvium
+S98_04074,RIP2235,Alluvial silt and clay,asc,Alluvium
+S98_04075,RIP2236,Alluvial silt and clay,asc,Alluvium
+S98_04076,RIP2237,Alluvial silt and clay,asc,Alluvium
+S98_04077,RIP2238,Alluvial silt and clay,asc,Alluvium
+S98_04078,RIP3002,Alluvial silt and clay,asc,Alluvium
+S98_04079,RIP3003,Alluvial silt and clay,asc,Alluvium
+S98_04080,RIP3004,Marsh clay and peat,ppc,Alluvium
+S98_04081,RIP3005,Marsh clay and peat,ppc,Alluvium
+S98_04082,RIP3006,Alluvial silt and clay,asc,Alluvium
+S98_04083,RIP3007,Alluvial silt and clay,asc,Alluvium
+S98_04084,RIP3009,Alluvial silt and clay,asc,Alluvium
+S98_04085,RIP3010,Alluvial silt and clay,asc,Alluvium
+S98_04086,RIP3011,Alluvial silt and clay,asc,Alluvium
+S98_04087,RIP3012,Marsh clay and peat,ppc,Alluvium
+S98_04088,RIP3013,Marsh clay and peat,ppc,Alluvium
+S98_04089,RIP3014,Marsh clay and peat,ppc,Alluvium
+S98_04090,RIP3015,Marsh clay and peat,ppc,Alluvium
+S98_04091,RIP3016,Marsh clay and peat,ppc,Alluvium
+S98_04092,RIP3018,Chandina Alluvium,ac,Alluvium
+S98_04093,RIP3019,Chandina Alluvium,ac,Alluvium
+S98_04094,RIP3020,Chandina Alluvium,ac,Alluvium
+S98_04095,RIP3021,Chandina Alluvium,ac,Alluvium
+S98_04096,RIP3022,Chandina Alluvium,ac,Alluvium
+S98_04097,RIP3023,Chandina Alluvium,ac,Alluvium
+S98_04098,RIP3024,Chandina Alluvium,ac,Alluvium
+S98_04099,RIP3025,Chandina Alluvium,ac,Alluvium
+S98_04100,RIP3027,Alluvial silt and clay,asc,Alluvium
+S98_04101,RIP3028,Alluvial silt and clay,asc,Alluvium
+S98_04102,RIP3029,Alluvial Silt,asl,Alluvium
+S98_04103,RIP3030,Alluvial Silt,asl,Alluvium
+S98_04104,RIP3031,Alluvial Silt,asl,Alluvium
+S98_04105,RIP3032,Chandina Alluvium,ac,Alluvium
+S98_04106,RIP3033,Alluvial silt and clay,asc,Alluvium
+S98_04107,RIP3034,Chandina Alluvium,ac,Alluvium
+S98_04108,RIP3036,Alluvial Sand,asd,Alluvium
+S98_04109,RIP3037,Alluvial Sand,asd,Alluvium
+S98_04110,RIP3038,Alluvial Silt,asl,Alluvium
+S98_04111,RIP3039,Alluvial Silt,asl,Alluvium
+S98_04112,RIP3040,Alluvial Silt,asl,Alluvium
+S98_04113,RIP3042,Alluvial silt and clay,asc,Alluvium
+S98_04114,RIP3043,Chandina Alluvium,ac,Alluvium
+S98_04115,RIP3044,Chandina Alluvium,ac,Alluvium
+S98_04116,RIP3045,Chandina Alluvium,ac,Alluvium
+S98_04117,RIP3046,Chandina Alluvium,ac,Alluvium
+S98_04118,RIP3047,Chandina Alluvium,ac,Alluvium
+S98_04119,RIP3048,Chandina Alluvium,ac,Alluvium
+S98_04120,RIP3050,Alluvial silt and clay,asc,Alluvium
+S98_04121,RIP3052,Alluvial silt and clay,asc,Alluvium
+S98_04122,RIP3053,Alluvial silt and clay,asc,Alluvium
+S98_04123,RIP3054,Chandina Alluvium,ac,Alluvium
+S98_04124,RIP3055,Valley aluvium & colluviu,ava,Alluvium
+S98_04125,RIP3056,Alluvial silt and clay,asc,Alluvium
+S98_04126,RIP3057,Chandina Alluvium,ac,Alluvium
+S98_04127,RIP3058,Chandina Alluvium,ac,Alluvium
+S98_04128,RIP3060,Chandina Alluvium,ac,Alluvium
+S98_04129,RIP3061,Chandina Alluvium,ac,Alluvium
+S98_04130,RIP3062,Chandina Alluvium,ac,Alluvium
+S98_04131,RIP3063,Chandina Alluvium,ac,Alluvium
+S98_04132,RIP3064,Chandina Alluvium,ac,Alluvium
+S98_04133,RIP3065,Chandina Alluvium,ac,Alluvium
+S98_04134,RIP3066,Chandina Alluvium,ac,Alluvium
+S98_04135,RIP3067,Chandina Alluvium,ac,Alluvium
+S98_04136,RIP3068,Chandina Alluvium,ac,Alluvium
+S98_04137,RIP3069,Chandina Alluvium,ac,Alluvium
+S98_04138,RIP3071,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04139,RIP3072,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04140,RIP3073,Valley aluvium & colluviu,ava,Alluvium
+S98_04141,RIP3074,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04142,RIP3075,Alluvial silt and clay,asc,Alluvium
+S98_04143,RIP3076,Alluvial silt and clay,asc,Alluvium
+S98_04144,RIP3077,Valley aluvium & colluviu,ava,Alluvium
+S98_04145,RIP3078,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04146,RIP3081,Alluvial Silt,asl,Alluvium
+S98_04147,RIP3082,Marsh clay and peat,ppc,Alluvium
+S98_04148,RIP3083,Marsh clay and peat,ppc,Alluvium
+S98_04149,RIP3084,Alluvial Silt,asl,Alluvium
+S98_04150,RIP3085,Marsh clay and peat,ppc,Alluvium
+S98_04151,RIP3086,Alluvial Silt,asl,Alluvium
+S98_04152,RIP3088,Alluvial Silt,asl,Alluvium
+S98_04153,RIP3089,Alluvial Silt,asl,Alluvium
+S98_04154,RIP3090,Alluvial Silt,asl,Alluvium
+S98_04155,RIP3091,Alluvial Silt,asl,Alluvium
+S98_04156,RIP3092,Alluvial silt and clay,asc,Alluvium
+S98_04157,RIP3093,Alluvial Silt,asl,Alluvium
+S98_04158,RIP3095,Alluvial silt and clay,asc,Alluvium
+S98_04159,RIP3097,Chandina Alluvium,ac,Alluvium
+S98_04160,RIP3098,Chandina Alluvium,ac,Alluvium
+S98_04161,RIP3099,Alluvial silt and clay,asc,Alluvium
+S98_04162,RIP3100,Chandina Alluvium,ac,Alluvium
+S98_04163,RIP3101,Chandina Alluvium,ac,Alluvium
+S98_04164,RIP3102,Chandina Alluvium,ac,Alluvium
+S98_04165,RIP3103,Chandina Alluvium,ac,Alluvium
+S98_04166,RIP3104,Chandina Alluvium,ac,Alluvium
+S98_04167,RIP3105,Chandina Alluvium,ac,Alluvium
+S98_04168,RIP3107,Madhupur Clay Residuum,rm,Old Alluvium
+S98_04169,RIP3108,Alluvial silt and clay,asc,Alluvium
+S98_04170,RIP3109,Valley aluvium & colluviu,ava,Alluvium
+S98_04171,RIP3110,Valley aluvium & colluviu,ava,Alluvium
+S98_04172,RIP3111,Valley aluvium & colluviu,ava,Alluvium
+S98_04173,RIP3112,Alluvial silt and clay,asc,Alluvium
+S98_04174,RIP3113,Valley aluvium & colluviu,ava,Alluvium
+S98_04175,RIP3114,Chandina Alluvium,ac,Alluvium
+S98_04176,RIP3115,Chandina Alluvium,ac,Alluvium
+S98_04177,RIP3116,Chandina Alluvium,ac,Alluvium
+S98_04178,RIP3118,Chandina Alluvium,ac,Alluvium
+S98_04179,RIP3119,Chandina Alluvium,ac,Alluvium
+S98_04180,RIP3120,Chandina Alluvium,ac,Alluvium
+S98_04181,RIP3121,Chandina Alluvium,ac,Alluvium
+S98_04182,RIP3122,Alluvial silt and clay,asc,Alluvium
+S98_04183,RIP3123,Chandina Alluvium,ac,Alluvium
+S98_04184,RIP3124,Chandina Alluvium,ac,Alluvium
+S98_04185,RIP3125,Chandina Alluvium,ac,Alluvium
+S98_04186,RIP3126,Chandina Alluvium,ac,Alluvium
+S98_04187,RIP3128,Alluvial Sand,asd,Alluvium
+S98_04188,RIP3129,Alluvial Sand,asd,Alluvium
+S98_04189,RIP3130,Alluvial Silt,asl,Alluvium
+S98_04190,RIP3131,Alluvial Silt,asl,Alluvium
+S98_04191,RIP3133,Alluvial silt and clay,asc,Alluvium
+S98_04192,RIP3134,Alluvial silt and clay,asc,Alluvium
+S98_04193,RIP3135,Alluvial silt and clay,asc,Alluvium
+S98_04194,RIP3136,Alluvial silt and clay,asc,Alluvium
+S98_04195,RIP3137,Alluvial silt and clay,asc,Alluvium
+S98_04196,RIP3138,Alluvial silt and clay,asc,Alluvium
+S98_04197,RIP3139,Alluvial silt and clay,asc,Alluvium
+S98_04198,RIP3140,Alluvial silt and clay,asc,Alluvium
+S98_04199,RIP3141,Alluvial silt and clay,asc,Alluvium
+S98_04200,RIP3142,Alluvial Silt,asl,Alluvium
+S98_04201,RIP3143,Alluvial Silt,asl,Alluvium
+S98_04202,RIP3144,Chandina Alluvium,ac,Alluvium
+S98_04203,RIP3145,Alluvial Silt,asl,Alluvium
+S98_04204,RIP3147,Chandina Alluvium,ac,Alluvium
+S98_04205,RIP3148,Chandina Alluvium,ac,Alluvium
+S98_04206,RIP3149,Chandina Alluvium,ac,Alluvium
+S98_04207,RIP3150,Alluvial silt and clay,asc,Alluvium
+S98_04208,RIP3151,Alluvial silt and clay,asc,Alluvium
+S98_04209,RIP3152,Alluvial Silt,asl,Alluvium
+S98_04210,RIP3153,Alluvial Silt,asl,Alluvium
+S98_04211,RIP3154,Alluvial Silt,asl,Alluvium
+S98_04212,RIP3155,Alluvial Silt,asl,Alluvium
+S98_04213,RIP3156,Alluvial Silt,asl,Alluvium
+S98_04214,RIP3157,Alluvial Silt,asl,Alluvium
+S98_04215,RIP3158,Alluvial Silt,asl,Alluvium
+S98_04216,RIP3160,Chandina Alluvium,ac,Alluvium
+S98_04217,RIP3161,Chandina Alluvium,ac,Alluvium
+S98_04218,RIP3162,Chandina Alluvium,ac,Alluvium
+S98_04219,RIP3163,Chandina Alluvium,ac,Alluvium
+S98_04220,RIP3164,Alluvial silt and clay,asc,Alluvium
+S98_04221,RIP3165,Chandina Alluvium,ac,Alluvium
+S98_04222,RIP3166,Chandina Alluvium,ac,Alluvium
+S98_04223,RIP3167,Alluvial silt and clay,asc,Alluvium
+S98_04224,RIP3168,Chandina Alluvium,ac,Alluvium
+S98_04225,RIP3170,Alluvial silt and clay,asc,Alluvium
+S98_04226,RIP3171,Chandina Alluvium,ac,Alluvium
+S98_04227,RIP3172,Chandina Alluvium,ac,Alluvium
+S98_04228,RIP3173,Chandina Alluvium,ac,Alluvium
+S98_04229,RIP3174,Chandina Alluvium,ac,Alluvium
+S98_04230,RIP3175,Alluvial silt and clay,asc,Alluvium
+S98_04231,RIP3176,Chandina Alluvium,ac,Alluvium
+S98_04232,RIP3178,Tidal deltaic deposits,dt,Alluvium
+S98_04233,RIP3179,Tidal deltaic deposits,dt,Alluvium
+S98_04235,RIP3181,Alluvial silt and clay,asc,Alluvium
+S98_04236,RIP3183,Tidal deltaic deposits,dt,Alluvium
+S98_04237,RIP3184,Tidal deltaic deposits,dt,Alluvium
+S98_04238,RIP3185,Tidal deltaic deposits,dt,Alluvium
+S98_04239,RIP3186,Tidal deltaic deposits,dt,Alluvium
+S98_04240,RIP3187,Tidal deltaic deposits,dt,Alluvium
+S98_04241,RIP3188,Tidal deltaic deposits,dt,Alluvium
+S98_04242,RIP3189,Tidal deltaic deposits,dt,Alluvium
+S98_04243,RIP3190,Tidal deltaic deposits,dt,Alluvium
+S98_04244,RIP3192,Tidal deltaic deposits,dt,Alluvium
+S98_04245,RIP3193,Tidal deltaic deposits,dt,Alluvium
+S98_04246,RIP3195,Estuarine deposits,de,Alluvium
+S98_04247,RIP3196,Estuarine deposits,de,Alluvium
+S98_04248,RIP3197,Estuarine deposits,de,Alluvium
+S98_04249,RIP3198,Estuarine deposits,de,Alluvium
+S98_04250,RIP3199,Estuarine deposits,de,Alluvium
+S98_04251,RIP3201,Estuarine deposits,de,Alluvium
+S98_04252,RIP3202,Estuarine deposits,de,Alluvium
+S98_04253,RIP3203,Estuarine deposits,de,Alluvium
+S98_04254,RIP3204,Estuarine deposits,de,Alluvium
+S98_04255,RIP3205,Estuarine deposits,de,Alluvium
+S98_04256,RIP3206,Estuarine deposits,de,Alluvium
+S98_04257,RIP3207,Estuarine deposits,de,Alluvium
+S98_04258,RIP3208,Estuarine deposits,de,Alluvium
+S98_04259,RIP3210,Estuarine deposits,de,Alluvium
+S98_04260,RIP3211,Estuarine deposits,de,Alluvium
+S98_04261,RIP3212,Estuarine deposits,de,Alluvium
+S98_04262,RIP3213,Estuarine deposits,de,Alluvium
+S98_04263,RIP3214,Estuarine deposits,de,Alluvium
+S98_04264,RIP3215,Estuarine deposits,de,Alluvium
+S98_04265,RIP3216,Estuarine deposits,de,Alluvium
+S98_04266,RIP3217,Estuarine deposits,de,Alluvium
+S98_04267,RIP3219,Alluvial silt and clay,asc,Alluvium
+S98_04268,RIP3220,Chandina Alluvium,ac,Alluvium
+S98_04269,RIP3221,Chandina Alluvium,ac,Alluvium
+S98_04270,RIP3222,Chandina Alluvium,ac,Alluvium
+S98_04271,RIP3223,Tidal deltaic deposits,dt,Alluvium
+S98_04272,RIP3224,Tidal deltaic deposits,dt,Alluvium
+S98_04273,RIP3225,Tidal deltaic deposits,dt,Alluvium
+S98_04274,RIP3226,Alluvial silt and clay,asc,Alluvium
+S98_04275,RIP3227,Alluvial silt and clay,asc,Alluvium
+S98_04276,RIP3228,Tidal deltaic deposits,dt,Alluvium
+S98_04277,RIP3230,Alluvial silt and clay,asc,Alluvium
+S98_04278,RIP3231,Chandina Alluvium,ac,Alluvium
+S98_04279,RIP3232,Chandina Alluvium,ac,Alluvium
+S98_04280,RIP3233,Chandina Alluvium,ac,Alluvium
+S98_04281,RIP3234,Chandina Alluvium,ac,Alluvium
+S98_04282,RIP3235,Chandina Alluvium,ac,Alluvium
+S98_04283,RIP3236,Chandina Alluvium,ac,Alluvium
+S98_04284,RIP3238,Tidal deltaic deposits,dt,Alluvium
+S98_04285,RIP3239,Tidal deltaic deposits,dt,Alluvium
+S98_04286,RIP3240,Tidal deltaic deposits,dt,Alluvium
+S98_04287,RIP3241,Tidal deltaic deposits,dt,Alluvium
+S98_04288,RIP3242,Tidal deltaic deposits,dt,Alluvium
+S98_04289,RIP3243,Tidal deltaic deposits,dt,Alluvium
+S98_04290,RIP3244,Tidal deltaic deposits,dt,Alluvium
+S98_04291,RIP3245,Tidal deltaic deposits,dt,Alluvium
+S98_04292,RIP3247,Valley aluvium & colluviu,ava,Alluvium
+S98_04293,RIP3248,Valley aluvium & colluviu,ava,Alluvium
+S98_04294,RIP3249,Valley aluvium & colluviu,ava,Alluvium
+S98_04295,RIP3250,Valley aluvium & colluviu,ava,Alluvium
+S98_04296,RIP3251,Alluvial silt and clay,asc,Alluvium
+S98_04297,RIP3252,Chandina Alluvium,ac,Alluvium
+S98_04298,RIP3253,Alluvial silt and clay,asc,Alluvium
+S98_04299,RIP3254,Alluvial silt and clay,asc,Alluvium
+S98_04300,RIP3255,Alluvial silt and clay,asc,Alluvium
+S98_04301,RIP3256,Alluvial silt and clay,asc,Alluvium
+S98_04302,RIP3257,Alluvial silt and clay,asc,Alluvium
+S98_04303,RIP3259,Tidal mud,dm,Alluvium
+S98_04304,RIP3260,Estuarine deposits,de,Alluvium
+S98_04305,RIP3261,Tidal mud,dm,Alluvium
+S98_04306,RIP3262,Estuarine deposits,de,Alluvium
+S98_04307,RIP3263,Estuarine deposits,de,Alluvium
+S98_04308,RIP3264,Estuarine deposits,de,Alluvium
+S98_04309,RIP3265,Estuarine deposits,de,Alluvium
+S98_04310,RIP3267,Estuarine deposits,de,Alluvium
+S98_04311,RIP3268,Estuarine deposits,de,Alluvium
+S98_04312,RIP3269,Estuarine deposits,de,Alluvium
+S98_04313,RIP3270,Estuarine deposits,de,Alluvium
+S98_04314,RIP3271,Estuarine deposits,de,Alluvium
+S98_04315,RIP3272,Estuarine deposits,de,Alluvium
+S98_04316,RIP3273,Estuarine deposits,de,Alluvium
+S98_04317,RIP3275,Estuarine deposits,de,Alluvium
+S98_04318,RIP3276,Estuarine deposits,de,Alluvium
+S98_04319,RIP3277,Estuarine deposits,de,Alluvium
+S98_04320,RIP3278,Estuarine deposits,de,Alluvium
+S98_04321,RIP3279,Estuarine deposits,de,Alluvium
+S98_04322,RIP3280,Estuarine deposits,de,Alluvium
+S98_04323,RIP3281,Estuarine deposits,de,Alluvium
+S98_04324,RIP3283,Alluvial silt and clay,asc,Alluvium
+S98_04325,RIP3284,Chandina Alluvium,ac,Alluvium
+S98_04326,RIP3285,Chandina Alluvium,ac,Alluvium
+S98_04327,RIP3286,Alluvial silt and clay,asc,Alluvium
+S98_04328,RIP3287,Alluvial silt and clay,asc,Alluvium
+S98_04329,RIP3288,Alluvial silt and clay,asc,Alluvium
+S98_04330,RIP3289,Alluvial silt and clay,asc,Alluvium
+S98_04331,RIP3290,Alluvial silt and clay,asc,Alluvium
+S98_04332,RIP3291,Alluvial silt and clay,asc,Alluvium
+S98_04333,RIP3292,Alluvial silt and clay,asc,Alluvium
+S98_04334,RIP3293,Alluvial silt and clay,asc,Alluvium
+S98_04335,RIP3295,Chandina Alluvium,ac,Alluvium
+S98_04336,RIP3296,Chandina Alluvium,ac,Alluvium
+S98_04337,RIP3297,Chandina Alluvium,ac,Alluvium
+S98_04338,RIP3298,Chandina Alluvium,ac,Alluvium
+S98_04339,RIP3299,Chandina Alluvium,ac,Alluvium
+S98_04340,RIP3300,Chandina Alluvium,ac,Alluvium
+S98_04341,RIP3301,Chandina Alluvium,ac,Alluvium
+S98_04342,RIP3303,Chandina Alluvium,ac,Alluvium
+S98_04343,RIP3304,Chandina Alluvium,ac,Alluvium
+S98_04344,RIP3305,Chandina Alluvium,ac,Alluvium
+S98_04345,RIP3306,Chandina Alluvium,ac,Alluvium
+S98_04346,RIP3307,Alluvial silt and clay,asc,Alluvium
+S98_04347,RIP3308,Chandina Alluvium,ac,Alluvium
+S98_04348,RIP3309,Chandina Alluvium,ac,Alluvium
+S98_04349,RIP3310,Alluvial silt and clay,asc,Alluvium
+S98_04350,RIP3312,Valley aluvium & colluviu,ava,Alluvium
+S98_04351,RIP3313,Valley aluvium & colluviu,ava,Alluvium
+S98_04352,RIP3314,Chandina Alluvium,ac,Alluvium
+S98_04353,RIP3315,Chandina Alluvium,ac,Alluvium
+S98_04354,RIP3316,Valley aluvium & colluviu,ava,Alluvium
+S98_04355,RIP3317,Chandina Alluvium,ac,Alluvium
+S98_04356,RIP3318,Valley aluvium & colluviu,ava,Alluvium
+S98_04357,RIP3319,Tidal deltaic deposits,dt,Alluvium
+S98_04358,RIP3320,Chandina Alluvium,ac,Alluvium
+S98_04359,RIP3321,Chandina Alluvium,ac,Alluvium
+S98_04360,RIP3322,Chandina Alluvium,ac,Alluvium
+S98_04361,RIP3324,Valley aluvium & colluviu,ava,Alluvium
+S98_04362,RIP3325,Valley aluvium & colluviu,ava,Alluvium
+S98_04363,RIP3326,Valley aluvium & colluviu,ava,Alluvium
+S98_04364,RIP3327,Valley aluvium & colluviu,ava,Alluvium
+S98_04365,RIP3328,Valley aluvium & colluviu,ava,Alluvium
+S98_04366,RIP3330,Chandina Alluvium,ac,Alluvium
+S98_04367,RIP3331,Chandina Alluvium,ac,Alluvium
+S98_04368,RIP3332,Chandina Alluvium,ac,Alluvium
+S98_04369,RIP3333,Chandina Alluvium,ac,Alluvium
+S98_04370,RIP3334,Chandina Alluvium,ac,Alluvium
+S98_04371,RIP3335,Chandina Alluvium,ac,Alluvium
+S98_04372,RIP3336,Alluvial silt and clay,asc,Alluvium
+S98_04373,RIP3339,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04374,RIP3340,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04375,RIP3341,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04376,RIP3342,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04377,RIP3343,Beach and Dune  Sand,csd,Alluvium
+S98_04378,RIP3344,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04379,RIP3345,Girujan Clay,QTg,Clay / shale
+S98_04380,RIP3346,Valley aluvium & colluviu,ava,Alluvium
+S98_04381,RIP3348,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_04382,RIP3350,Valley aluvium & colluviu,ava,Alluvium
+S98_04383,RIP3351,Valley aluvium & colluviu,ava,Alluvium
+S98_04384,RIP3352,Valley aluvium & colluviu,ava,Alluvium
+S98_04385,RIP3353,Valley aluvium & colluviu,ava,Alluvium
+S98_04386,RIP3354,Valley aluvium & colluviu,ava,Alluvium
+S98_04388,RIP3357,Valley aluvium & colluviu,ava,Alluvium
+S98_04389,RIP3358,Valley aluvium & colluviu,ava,Alluvium
+S98_04390,RIP3359,Valley aluvium & colluviu,ava,Alluvium
+S98_04391,RIP3360,Valley aluvium & colluviu,ava,Alluvium
+S98_04392,RIP3361,Valley aluvium & colluviu,ava,Alluvium
+S98_04393,RIP3362,Valley aluvium & colluviu,ava,Alluvium
+S98_04394,RIP3363,Valley aluvium & colluviu,ava,Alluvium
+S98_04395,RIP3365,Chandina Alluvium,ac,Alluvium
+S98_04396,RIP3366,Tidal deltaic deposits,dt,Alluvium
+S98_04397,RIP3367,Tidal deltaic deposits,dt,Alluvium
+S98_04398,RIP3368,Tidal deltaic deposits,dt,Alluvium
+S98_04399,RIP3369,Tidal deltaic deposits,dt,Alluvium
+S98_04400,RIP3370,Tidal deltaic deposits,dt,Alluvium
+S98_04401,RIP3371,Tidal deltaic deposits,dt,Alluvium
+S98_04402,RIP3372,Tidal deltaic deposits,dt,Alluvium
+S98_04403,RIP3373,Tidal deltaic deposits,dt,Alluvium
+S98_04404,RIP3375,Beach and Dune  Sand,csd,Alluvium
+S98_04405,RIP3376,Beach and Dune  Sand,csd,Alluvium
+S98_04406,RIP3377,Beach and Dune  Sand,csd,Alluvium
+S98_04407,RIP3378,Beach and Dune  Sand,csd,Alluvium
+S98_04408,RIP3379,Valley aluvium & colluviu,ava,Alluvium
+S98_04409,RIP3380,Valley aluvium & colluviu,ava,Alluvium
+S98_04410,RIP3381,Valley aluvium & colluviu,ava,Alluvium
+S98_04411,RIP3382,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04412,RIP3383,Valley aluvium & colluviu,ava,Alluvium
+S98_04413,RIP3385,Beach and Dune  Sand,csd,Alluvium
+S98_04414,RIP3387,Valley aluvium & colluviu,ava,Alluvium
+S98_04415,RIP3389,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04416,RIP3390,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04417,RIP3391,Valley aluvium & colluviu,ava,Alluvium
+S98_04418,RIP3392,Valley aluvium & colluviu,ava,Alluvium
+S98_04419,RIP3393,Valley aluvium & colluviu,ava,Alluvium
+S98_04420,RIP3394,Beach and Dune  Sand,csd,Alluvium
+S98_04421,RIP3395,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04422,RIP3397,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_04423,RIP3398,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_04424,RIP3399,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04425,RIP3400,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04426,RIP3401,Girujan Clay,QTg,Clay / shale
+S98_04427,RIP3402,Boka Bil Formation,Tbb,Sandstone/Shale
+S98_04428,RIP3403,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_04429,RIP3405,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04430,RIP3406,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04431,RIP3407,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04432,RIP3408,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04433,RIP3409,Beach and Dune  Sand,csd,Alluvium
+S98_04434,RIP3454,Valley aluvium & colluviu,ava,Alluvium
+S98_04435,RIP3455,Dihing Formation,QTdi,Sandstone/Shale
+S98_04436,RIP3456,Dupi Tila Fm,QTdt,Sandstone/Shale
+S98_04437,RIP3457,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04438,RIP3458,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04439,RIP3459,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04440,RIP3460,Girujan Clay,QTg,Clay / shale
+S98_04441,RIP3462,Beach and Dune  Sand,csd,Alluvium
+S98_04443,RIP3464,Boka Bil Formation,Tbb,Sandstone/Shale
+S98_04444,RIP3465,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04445,RIP3466,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04446,RIP3467,Tipam Sandstone Fm,Tt,Sandstone/Shale
+S98_04447,RIP3469,Valley aluvium & colluviu,ava,Alluvium
+S98_04448,RIP3470,Beach and Dune  Sand,csd,Alluvium
+S98_04449,RIP3471,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04450,RIP3472,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S98_04451,RIP3473,Boka Bil Formation,Tbb,Sandstone/Shale
+S98_04452,RIP3474,Boka Bil Formation,Tbb,Sandstone/Shale
+S98_04453,RIP3476,Valley aluvium & colluviu,ava,Alluvium
+S98_04454,RIP3477,Beach and Dune  Sand,csd,Alluvium
+S98_04455,RIP3478,Beach and Dune  Sand,csd,Alluvium
+S98_04456,RIP3479,Beach and Dune  Sand,csd,Alluvium
+S98_04457,RIP3480,Beach and Dune  Sand,csd,Alluvium
+S98_04458,RIP3481,Beach and Dune  Sand,csd,Alluvium
+S98_04459,RIP3482,Beach and Dune  Sand,csd,Alluvium
+S98_04461,RIP3485,Valley aluvium & colluviu,ava,Alluvium
+S98_04462,RIP3486,Beach and Dune  Sand,csd,Alluvium
+S98_04463,RIP3487,Valley aluvium & colluviu,ava,Alluvium
+S98_04464,RIP3488,Valley aluvium & colluviu,ava,Alluvium
+S98_04465,RIP3489,Valley aluvium & colluviu,ava,Alluvium
+S98_04466,RIP3490,Beach and Dune  Sand,csd,Alluvium
+S99_01545,"RIP7501, DW1",Madhupur Clay Residuum,rm,Old Alluvium
+S99_01546,"RIP7502, DWASA01",Madhupur Clay Residuum,rm,Old Alluvium
+S99_01547,"RIP7503, DWASA02",Madhupur Clay Residuum,rm,Old Alluvium
+S99_01548,"RIP7504, DWASA03",Madhupur Clay Residuum,rm,Old Alluvium
+S99_01549,"RIP7505, DWASA04",Alluvial silt and clay,asc,Alluvium
+S99_01550,"RIP7506, DWASA05",Madhupur Clay Residuum,rm,Old Alluvium
+S99_01551,"RIP7507, DWASA06",Alluvial silt and clay,asc,Alluvium
+S99_04001,RIP4001,Alluvial Silt,asl,Alluvium
+S99_04002,RIP4002,Alluvial Silt,asl,Alluvium
+S99_04003,RIP4003,Alluvial Silt,asl,Alluvium
+S99_04004,RIP4004,Alluvial Silt,asl,Alluvium
+S99_04005,RIP4005,Marsh clay and peat,ppc,Alluvium
+S99_04006,RIP4006,Alluvial Silt,asl,Alluvium
+S99_04007,RIP4007,Alluvial Silt,asl,Alluvium
+S99_04008,RIP4008,Alluvial Silt,asl,Alluvium
+S99_04009,RIP4009,Alluvial Silt,asl,Alluvium
+S99_04010,RIP4010,Alluvial silt and clay,asc,Alluvium
+S99_04011,RIP4011,Alluvial Silt,asl,Alluvium
+S99_04012,RIP4012,Alluvial silt and clay,asc,Alluvium
+S99_04013,RIP4013,Alluvial silt and clay,asc,Alluvium
+S99_04014,RIP4014,Alluvial silt and clay,asc,Alluvium
+S99_04015,RIP4015,Alluvial silt and clay,asc,Alluvium
+S99_04016,RIP4016,Alluvial silt and clay,asc,Alluvium
+S99_04017,RIP4017,Alluvial silt and clay,asc,Alluvium
+S99_04018,RIP4018,Alluvial silt and clay,asc,Alluvium
+S99_04019,RIP4019,Marsh clay and peat,ppc,Alluvium
+S99_04020,RIP4020,Marsh clay and peat,ppc,Alluvium
+S99_04021,RIP4021,Marsh clay and peat,ppc,Alluvium
+S99_04022,RIP4022,Alluvial Silt,asl,Alluvium
+S99_04023,RIP4023,Alluvial Silt,asl,Alluvium
+S99_04024,RIP4024,Marsh clay and peat,ppc,Alluvium
+S99_04025,RIP4025,Alluvial Silt,asl,Alluvium
+S99_04026,RIP4026,Alluvial Silt,asl,Alluvium
+S99_04027,RIP4027,Alluvial Silt,asl,Alluvium
+S99_04028,RIP4028,Alluvial Silt,asl,Alluvium
+S99_04029,RIP4029,Alluvial Silt,asl,Alluvium
+S99_04030,RIP4030,Alluvial Silt,asl,Alluvium
+S99_04031,RIP4031,Marsh clay and peat,ppc,Alluvium
+S99_04032,RIP4032,Marsh clay and peat,ppc,Alluvium
+S99_04033,RIP4033,Marsh clay and peat,ppc,Alluvium
+S99_04034,RIP4034,Alluvial silt and clay,asc,Alluvium
+S99_04035,RIP4035,Alluvial silt and clay,asc,Alluvium
+S99_04036,RIP4036,Alluvial silt and clay,asc,Alluvium
+S99_04037,RIP4037,Alluvial silt and clay,asc,Alluvium
+S99_04038,RIP4038,Alluvial silt and clay,asc,Alluvium
+S99_04039,RIP4039,Alluvial silt and clay,asc,Alluvium
+S99_04040,RIP4040,Alluvial silt and clay,asc,Alluvium
+S99_04041,RIP4041,Alluvial silt and clay,asc,Alluvium
+S99_04042,RIP4042,Marsh clay and peat,ppc,Alluvium
+S99_04043,RIP4043,Marsh clay and peat,ppc,Alluvium
+S99_04044,RIP4044,Marsh clay and peat,ppc,Alluvium
+S99_04045,RIP4045,Marsh clay and peat,ppc,Alluvium
+S99_04046,RIP4046,Marsh clay and peat,ppc,Alluvium
+S99_04047,RIP4047,Marsh clay and peat,ppc,Alluvium
+S99_04048,RIP4048,Marsh clay and peat,ppc,Alluvium
+S99_04049,RIP4049,Marsh clay and peat,ppc,Alluvium
+S99_04050,RIP4050,Alluvial silt and clay,asc,Alluvium
+S99_04051,RIP4051,Alluvial silt and clay,asc,Alluvium
+S99_04052,RIP4052,Alluvial silt and clay,asc,Alluvium
+S99_04053,RIP4053,Alluvial silt and clay,asc,Alluvium
+S99_04054,RIP4054,Alluvial silt and clay,asc,Alluvium
+S99_04055,RIP4055,Alluvial silt and clay,asc,Alluvium
+S99_04056,RIP4056,Alluvial silt and clay,asc,Alluvium
+S99_04057,RIP4057,Alluvial silt and clay,asc,Alluvium
+S99_04058,RIP4058,Alluvial silt and clay,asc,Alluvium
+S99_04059,RIP4059,Alluvial silt and clay,asc,Alluvium
+S99_04060,RIP4060,Alluvial silt and clay,asc,Alluvium
+S99_04063,RIP4063,Alluvial silt and clay,asc,Alluvium
+S99_04064,RIP4064,Alluvial silt and clay,asc,Alluvium
+S99_04065,RIP4065,Alluvial silt and clay,asc,Alluvium
+S99_04066,RIP4066,Marsh clay and peat,ppc,Alluvium
+S99_04067,RIP4067,Alluvial silt and clay,asc,Alluvium
+S99_04068,RIP4068,Alluvial Silt,asl,Alluvium
+S99_04069,RIP4069,Alluvial Silt,asl,Alluvium
+S99_04070,RIP4070,Marsh clay and peat,ppc,Alluvium
+S99_04071,RIP4071,Alluvial Silt,asl,Alluvium
+S99_04072,RIP4072,Alluvial Silt,asl,Alluvium
+S99_04073,RIP4073,Alluvial Silt,asl,Alluvium
+S99_04074,RIP4074,Alluvial Silt,asl,Alluvium
+S99_04075,RIP4075,Marsh clay and peat,ppc,Alluvium
+S99_04076,RIP4076,Marsh clay and peat,ppc,Alluvium
+S99_04077,RIP4077,Marsh clay and peat,ppc,Alluvium
+S99_04078,RIP4078,Marsh clay and peat,ppc,Alluvium
+S99_04079,RIP4079,Marsh clay and peat,ppc,Alluvium
+S99_04080,RIP4080,Young gravelly sand,afy,Alluvium
+S99_04081,RIP4081,Young gravelly sand,afy,Alluvium
+S99_04082,RIP4082,Dihing & Dupi Tila undivi,QTdd,Sandstone/Shale
+S99_04083,RIP4083,Young gravelly sand,afy,Alluvium
+S99_04084,RIP4084,Young gravelly sand,afy,Alluvium
+S99_04085,RIP4085,Young gravelly sand,afy,Alluvium
+S99_04086,RIP4086,Marsh clay and peat,ppc,Alluvium
+S99_04087,RIP4087,Young gravelly sand,afy,Alluvium
+S99_04088,RIP4088,Young gravelly sand,afy,Alluvium
+S99_04089,RIP4089,Young gravelly sand,afy,Alluvium
+S99_04090,RIP4090,Young gravelly sand,afy,Alluvium
+S99_04091,RIP4091,Young gravelly sand,afy,Alluvium
+S99_04092,RIP4092,Young gravelly sand,afy,Alluvium
+S99_04093,RIP4093,Young gravelly sand,afy,Alluvium
+S99_04094,RIP4094,Young gravelly sand,afy,Alluvium
+S99_04095,RIP4095,Chandina Alluvium,ac,Alluvium
+S99_04096,RIP4096,Chandina Alluvium,ac,Alluvium
+S99_04097,RIP4097,Chandina Alluvium,ac,Alluvium
+S99_04098,RIP4098,Alluvial Silt,asl,Alluvium
+S99_04099,RIP4099,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04100,RIP4100,Chandina Alluvium,ac,Alluvium
+S99_04101,RIP4101,Marsh clay and peat,ppc,Alluvium
+S99_04102,RIP4102,Chandina Alluvium,ac,Alluvium
+S99_04103,RIP4103,Chandina Alluvium,ac,Alluvium
+S99_04104,RIP4104,Chandina Alluvium,ac,Alluvium
+S99_04105,RIP4105,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04106,RIP4106,Alluvial silt and clay,asc,Alluvium
+S99_04107,RIP4107,Alluvial silt and clay,asc,Alluvium
+S99_04108,RIP4108,Alluvial Silt,asl,Alluvium
+S99_04109,RIP4109,Alluvial Silt,asl,Alluvium
+S99_04110,RIP4110,Alluvial silt and clay,asc,Alluvium
+S99_04111,RIP4111,Alluvial silt and clay,asc,Alluvium
+S99_04112,RIP4112,Alluvial Silt,asl,Alluvium
+S99_04113,RIP4113,Alluvial Silt,asl,Alluvium
+S99_04114,RIP4114,Alluvial silt and clay,asc,Alluvium
+S99_04115,RIP4115,Chandina Alluvium,ac,Alluvium
+S99_04116,RIP4116,Alluvial silt and clay,asc,Alluvium
+S99_04117,RIP4117,Marsh clay and peat,ppc,Alluvium
+S99_04118,RIP4118,Chandina Alluvium,ac,Alluvium
+S99_04119,RIP4119,Alluvial Silt,asl,Alluvium
+S99_04120,RIP4120,Chandina Alluvium,ac,Alluvium
+S99_04121,RIP4121,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04122,RIP4122,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04123,RIP4123,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04124,RIP4124,Alluvial Silt,asl,Alluvium
+S99_04125,RIP4125,Alluvial silt and clay,asc,Alluvium
+S99_04126,RIP4126,Alluvial silt and clay,asc,Alluvium
+S99_04127,RIP4127,Alluvial silt and clay,asc,Alluvium
+S99_04128,RIP4128,Marsh clay and peat,ppc,Alluvium
+S99_04129,RIP4129,Marsh clay and peat,ppc,Alluvium
+S99_04130,RIP4130,Marsh clay and peat,ppc,Alluvium
+S99_04131,RIP4131,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04132,RIP4132,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04133,RIP4133,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04134,RIP4134,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04135,RIP4135,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04136,RIP4136,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04137,RIP4137,Alluvial silt and clay,asc,Alluvium
+S99_04138,RIP4138,Alluvial silt and clay,asc,Alluvium
+S99_04139,RIP4139,Alluvial Silt,asl,Alluvium
+S99_04140,RIP4140,Alluvial Silt,asl,Alluvium
+S99_04141,RIP4141,Alluvial Sand,asd,Alluvium
+S99_04142,RIP4142,Alluvial Silt,asl,Alluvium
+S99_04143,RIP4143,Alluvial silt and clay,asc,Alluvium
+S99_04144,RIP4144,Alluvial Silt,asl,Alluvium
+S99_04145,RIP4145,Alluvial silt and clay,asc,Alluvium
+S99_04146,RIP4146,Alluvial Silt,asl,Alluvium
+S99_04147,RIP4147,Alluvial Silt,asl,Alluvium
+S99_04148,RIP4148,Alluvial Silt,asl,Alluvium
+S99_04149,RIP4149,Alluvial Silt,asl,Alluvium
+S99_04150,RIP4150,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04151,RIP4151,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04152,RIP4152,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04153,RIP4153,Alluvial silt and clay,asc,Alluvium
+S99_04154,RIP4154,Alluvial silt and clay,asc,Alluvium
+S99_04155,RIP4155,Alluvial silt and clay,asc,Alluvium
+S99_04156,RIP4156,Alluvial silt and clay,asc,Alluvium
+S99_04157,RIP4157,Alluvial silt and clay,asc,Alluvium
+S99_04158,RIP4158,Alluvial silt and clay,asc,Alluvium
+S99_04159,RIP4159,Marsh clay and peat,ppc,Alluvium
+S99_04160,RIP4160,Marsh clay and peat,ppc,Alluvium
+S99_04161,RIP4161,Alluvial silt and clay,asc,Alluvium
+S99_04162,RIP4162,Alluvial silt and clay,asc,Alluvium
+S99_04163,RIP4163,Alluvial Silt,asl,Alluvium
+S99_04164,RIP4164,Marsh clay and peat,ppc,Alluvium
+S99_04165,RIP4165,Alluvial silt and clay,asc,Alluvium
+S99_04170,RIP4170,Alluvial Silt,asl,Alluvium
+S99_04171,RIP4171,Alluvial Silt,asl,Alluvium
+S99_04172,RIP4172,Alluvial Silt,asl,Alluvium
+S99_04174,RIP4174,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04175,RIP4175,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04176,RIP4176,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04177,RIP4177,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04178,RIP4178,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04179,RIP4179,Alluvial silt and clay,asc,Alluvium
+S99_04180,RIP4180,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04181,RIP4181,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04182,RIP4182,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04183,RIP4183,Alluvial silt and clay,asc,Alluvium
+S99_04184,RIP4184,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04185,RIP4185,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04186,RIP4186,Alluvial silt and clay,asc,Alluvium
+S99_04187,RIP4187,Madhupur Clay Residuum,rm,Old Alluvium
+S99_04188,RIP4188,Alluvial silt and clay,asc,Alluvium
+S99_04189,RIP4189,Alluvial Silt,asl,Alluvium
+S99_04190,RIP4190,Marsh clay and peat,ppc,Alluvium
+S99_04191,RIP4191,Alluvial Silt,asl,Alluvium
+S99_04192,RIP4192,Alluvial Silt,asl,Alluvium
+S99_04193,RIP4193,Alluvial Silt,asl,Alluvium
+S99_04194,RIP4194,Alluvial Silt,asl,Alluvium
+S99_04195,RIP4195,Alluvial Silt,asl,Alluvium
+S99_04196,RIP4196,Alluvial Silt,asl,Alluvium
+S99_04197,RIP4197,Alluvial silt and clay,asc,Alluvium
+S99_04198,RIP4198,Alluvial Silt,asl,Alluvium
+S99_04199,RIP4199,Alluvial Silt,asl,Alluvium
+S99_04200,RIP4200,Alluvial Silt,asl,Alluvium
+S99_04201,RIP4201,Barind Clay Residuum,rb,Old Alluvium
+S99_04202,RIP4202,Barind Clay Residuum,rb,Old Alluvium
+S99_04203,RIP4203,Barind Clay Residuum,rb,Old Alluvium
+S99_04204,RIP4204,Barind Clay Residuum,rb,Old Alluvium
+S99_04205,RIP4205,Alluvial Silt,asl,Alluvium
+S99_04206,RIP4206,Barind Clay Residuum,rb,Old Alluvium
+S99_04207,RIP4207,Alluvial Silt,asl,Alluvium
+S99_04208,RIP4208,Barind Clay Residuum,rb,Old Alluvium
+S99_04209,RIP4209,Barind Clay Residuum,rb,Old Alluvium
+S99_04210,RIP4210,Barind Clay Residuum,rb,Old Alluvium
+S99_04211,RIP4211,Barind Clay Residuum,rb,Old Alluvium
+S99_04212,RIP4212,Barind Clay Residuum,rb,Old Alluvium
+S99_04213,RIP4213,Barind Clay Residuum,rb,Old Alluvium
+S99_04214,RIP4214,Alluvial Silt,asl,Alluvium
+S99_04215,RIP4215,Alluvial Silt,asl,Alluvium
+S99_04216,RIP4216,Alluvial Silt,asl,Alluvium
+S99_04217,RIP4217,Alluvial Silt,asl,Alluvium
+S99_04218,RIP4218,Alluvial Silt,asl,Alluvium
+S99_04219,RIP4219,Alluvial Silt,asl,Alluvium
+S99_04220,RIP4220,Alluvial Silt,asl,Alluvium
+S99_04221,RIP4221,Barind Clay Residuum,rb,Old Alluvium
+S99_04222,RIP4222,Barind Clay Residuum,rb,Old Alluvium
+S99_04223,RIP4223,Barind Clay Residuum,rb,Old Alluvium
+S99_04224,RIP4224,Barind Clay Residuum,rb,Old Alluvium
+S99_04225,RIP4225,Barind Clay Residuum,rb,Old Alluvium
+S99_04226,RIP4226,Barind Clay Residuum,rb,Old Alluvium
+S99_04227,RIP4227,Barind Clay Residuum,rb,Old Alluvium
+S99_04228,RIP4228,Barind Clay Residuum,rb,Old Alluvium
+S99_04229,RIP4229,Alluvial Silt,asl,Alluvium
+S99_04230,RIP4230,Alluvial Silt,asl,Alluvium
+S99_04231,RIP4231,Alluvial Silt,asl,Alluvium
+S99_04232,RIP4232,Barind Clay Residuum,rb,Old Alluvium
+S99_04233,RIP4233,Young gravelly sand,afy,Alluvium
+S99_04234,RIP4234,Young gravelly sand,afy,Alluvium
+S99_04235,RIP4235,Young gravelly sand,afy,Alluvium
+S99_04236,RIP4236,Young gravelly sand,afy,Alluvium
+S99_04237,RIP4237,Young gravelly sand,afy,Alluvium
+S99_04238,RIP4238,Young gravelly sand,afy,Alluvium
+S99_04239,RIP4239,Young gravelly sand,afy,Alluvium
+S99_04240,RIP4240,Alluvial Sand,asd,Alluvium
+S99_04241,RIP4241,Young gravelly sand,afy,Alluvium
+S99_04242,RIP4242,Alluvial Silt,asl,Alluvium
+S99_04243,RIP4243,Alluvial Sand,asd,Alluvium
+S99_04244,RIP4244,Alluvial Sand,asd,Alluvium
+S99_04245,RIP4245,Alluvial Sand,asd,Alluvium
+S99_04246,RIP4246,Alluvial Silt,asl,Alluvium
+S99_04247,RIP4247,Alluvial Silt,asl,Alluvium
+S99_04248,RIP4248,Alluvial Sand,asd,Alluvium
+S99_04249,RIP4249,Alluvial Silt,asl,Alluvium
+S99_04250,RIP4250,Alluvial Silt,asl,Alluvium
+S99_04251,RIP4251,Alluvial Silt,asl,Alluvium
+S99_04252,RIP4252,Alluvial Silt,asl,Alluvium
+S99_04253,RIP4253,Alluvial Sand,asd,Alluvium
+S99_04254,RIP4254,Alluvial Silt,asl,Alluvium
+S99_04255,RIP4255,Alluvial Silt,asl,Alluvium
+S99_04256,RIP4256,Alluvial Silt,asl,Alluvium
+S99_04257,RIP4257,Alluvial Silt,asl,Alluvium
+S99_04258,RIP4258,Alluvial Sand,asd,Alluvium
+S99_04259,RIP4259,Alluvial Sand,asd,Alluvium
+S99_04260,RIP4260,Alluvial Sand,asd,Alluvium
+S99_04261,RIP4261,Alluvial Sand,asd,Alluvium
+S99_04262,RIP4262,Alluvial Sand,asd,Alluvium
+S99_04263,RIP4263,Alluvial Sand,asd,Alluvium
+S99_04264,RIP4264,Alluvial Sand,asd,Alluvium
+S99_04265,RIP4265,Alluvial Sand,asd,Alluvium
+S99_04266,RIP4266,Young gravelly sand,afy,Alluvium
+S99_04267,RIP4267,Young gravelly sand,afy,Alluvium
+S99_04268,RIP4268,Alluvial Sand,asd,Alluvium
+S99_04269,RIP4269,Young gravelly sand,afy,Alluvium
+S99_04270,RIP4270,Young gravelly sand,afy,Alluvium
+S99_04271,RIP4271,Young gravelly sand,afy,Alluvium
+S99_04272,RIP4272,Young gravelly sand,afy,Alluvium
+S99_04273,RIP4273,Young gravelly sand,afy,Alluvium
+S99_04274,RIP4274,Young gravelly sand,afy,Alluvium
+S99_04275,RIP4275,Young gravelly sand,afy,Alluvium
+S99_04276,RIP4276,Young gravelly sand,afy,Alluvium
+S99_04277,RIP4277,Young gravelly sand,afy,Alluvium
+S99_04278,RIP4278,Young gravelly sand,afy,Alluvium
+S99_04279,RIP4279,Young gravelly sand,afy,Alluvium
+S99_04280,RIP4280,Young gravelly sand,afy,Alluvium
+S99_04281,RIP4281,Young gravelly sand,afy,Alluvium
+S99_04282,RIP4282,Young gravelly sand,afy,Alluvium
+S99_04283,RIP4283,Young gravelly sand,afy,Alluvium
+S99_04284,RIP4284,Young gravelly sand,afy,Alluvium
+S99_04285,RIP4285,Young gravelly sand,afy,Alluvium
+S99_04286,RIP4286,Young gravelly sand,afy,Alluvium
+S99_04287,RIP4287,Young gravelly sand,afy,Alluvium
+S99_04288,RIP4288,Young gravelly sand,afy,Alluvium
+S99_04289,RIP4289,Young gravelly sand,afy,Alluvium
+S99_04290,RIP4290,Young gravelly sand,afy,Alluvium
+S99_04291,RIP4291,Young gravelly sand,afy,Alluvium
+S99_04292,RIP4292,Young gravelly sand,afy,Alluvium
+S99_04293,RIP4293,Young gravelly sand,afy,Alluvium
+S99_04294,RIP4294,Young gravelly sand,afy,Alluvium
+S99_04295,RIP4295,Young gravelly sand,afy,Alluvium
+S99_04296,RIP4296,Young gravelly sand,afy,Alluvium
+S99_04297,RIP4297,Young gravelly sand,afy,Alluvium
+S99_04298,RIP4298,Young gravelly sand,afy,Alluvium
+S99_04299,RIP4299,Young gravelly sand,afy,Alluvium
+S99_04300,RIP4300,Young gravelly sand,afy,Alluvium
+S99_04301,RIP4301,Young gravelly sand,afy,Alluvium
+S99_04302,RIP4302,Young gravelly sand,afy,Alluvium
+S99_04303,RIP4303,Young gravelly sand,afy,Alluvium
+S99_04304,RIP4304,Alluvial Sand,asd,Alluvium
+S99_04305,RIP4305,Alluvial Sand,asd,Alluvium
+S99_04306,RIP4306,Young gravelly sand,afy,Alluvium
+S99_04307,RIP4307,Young gravelly sand,afy,Alluvium
+S99_04308,RIP4308,Young gravelly sand,afy,Alluvium
+S99_04309,RIP4309,Young gravelly sand,afy,Alluvium
+S99_04310,RIP4310,Young gravelly sand,afy,Alluvium
+S99_04311,RIP4311,Young gravelly sand,afy,Alluvium
+S99_04312,RIP4312,Young gravelly sand,afy,Alluvium
+S99_04313,RIP4313,Young gravelly sand,afy,Alluvium
+S99_04314,RIP4314,Young gravelly sand,afy,Alluvium
+S99_04315,RIP4315,Young gravelly sand,afy,Alluvium
+S99_04316,RIP4316,Old gravelly sand,afo,Alluvium
+S99_04317,RIP4317,Old gravelly sand,afo,Alluvium
+S99_04318,RIP4318,Old gravelly sand,afo,Alluvium
+S99_04319,RIP4319,Old gravelly sand,afo,Alluvium
+S99_04320,RIP4320,Old gravelly sand,afo,Alluvium
+S99_04321,RIP4321,Old gravelly sand,afo,Alluvium
+S99_04322,RIP4322,Old gravelly sand,afo,Alluvium
+S99_04323,RIP4323,Old gravelly sand,afo,Alluvium
+S99_04324,RIP4324,Old gravelly sand,afo,Alluvium
+S99_04325,RIP4325,Old gravelly sand,afo,Alluvium
+S99_04326,RIP4326,Old gravelly sand,afo,Alluvium
+S99_04327,RIP4327,Old gravelly sand,afo,Alluvium
+S99_04328,RIP4328,Old gravelly sand,afo,Alluvium
+S99_04329,RIP4329,Old gravelly sand,afo,Alluvium
+S99_04330,RIP4330,Old gravelly sand,afo,Alluvium
+S99_04331,RIP4331,Old gravelly sand,afo,Alluvium
+S99_04332,RIP4332,Old gravelly sand,afo,Alluvium
+S99_04333,RIP4333,Old gravelly sand,afo,Alluvium
+S99_04334,RIP4334,Old gravelly sand,afo,Alluvium
+S99_04335,RIP4335,Old gravelly sand,afo,Alluvium
+S99_04336,RIP4336,Old gravelly sand,afo,Alluvium
+S99_04337,RIP4337,Old gravelly sand,afo,Alluvium
+S99_04338,RIP4338,Old gravelly sand,afo,Alluvium
+S99_04339,RIP4339,Old gravelly sand,afo,Alluvium
+S99_04340,RIP4340,Old gravelly sand,afo,Alluvium
+S99_04341,RIP4341,Old gravelly sand,afo,Alluvium
+S99_04342,RIP4342,Old gravelly sand,afo,Alluvium
+S99_04343,RIP4343,Old gravelly sand,afo,Alluvium
+S99_04344,RIP4344,Old gravelly sand,afo,Alluvium
+S99_04345,RIP4345,Old gravelly sand,afo,Alluvium
+S99_04346,RIP4346,Old gravelly sand,afo,Alluvium
+S99_04347,RIP4347,Old gravelly sand,afo,Alluvium
+S99_04348,RIP4348,Old gravelly sand,afo,Alluvium
+S99_04349,RIP4349,Old gravelly sand,afo,Alluvium
+S99_04350,RIP4350,Old gravelly sand,afo,Alluvium
+S99_04351,RIP4351,Old gravelly sand,afo,Alluvium
+S99_04352,RIP4352,Old gravelly sand,afo,Alluvium
+S99_04353,RIP4353,Old gravelly sand,afo,Alluvium
+S99_04354,RIP4354,Old gravelly sand,afo,Alluvium
+S99_04355,RIP4355,Old gravelly sand,afo,Alluvium
+S99_04356,RIP4356,Old gravelly sand,afo,Alluvium
+S99_04357,RIP4357,Old gravelly sand,afo,Alluvium
+S99_04358,RIP4358,Old gravelly sand,afo,Alluvium
+S99_04359,RIP4359,Old gravelly sand,afo,Alluvium
+S99_04360,RIP4360,Alluvial Silt,asl,Alluvium
+S99_04361,RIP4361,Barind Clay Residuum,rb,Old Alluvium
+S99_04362,RIP4362,Alluvial Silt,asl,Alluvium
+S99_04363,RIP4363,Alluvial Silt,asl,Alluvium
+S99_04364,RIP4364,Barind Clay Residuum,rb,Old Alluvium
+S99_04365,RIP4365,Barind Clay Residuum,rb,Old Alluvium
+S99_04366,RIP4366,Barind Clay Residuum,rb,Old Alluvium
+S99_04367,RIP4367,Barind Clay Residuum,rb,Old Alluvium
+S99_04368,RIP4368,Barind Clay Residuum,rb,Old Alluvium
+S99_04369,RIP4369,Barind Clay Residuum,rb,Old Alluvium
+S99_04370,RIP4370,Barind Clay Residuum,rb,Old Alluvium
+S99_04371,RIP4371,Barind Clay Residuum,rb,Old Alluvium
+S99_04372,RIP4372,Barind Clay Residuum,rb,Old Alluvium
+S99_04373,RIP4373,Barind Clay Residuum,rb,Old Alluvium
+S99_04374,RIP4374,Alluvial Silt,asl,Alluvium
+S99_04375,RIP4375,Alluvial Silt,asl,Alluvium
+S99_04376,RIP4376,Alluvial Silt,asl,Alluvium
+S99_04377,RIP4377,Alluvial Silt,asl,Alluvium
+S99_04378,RIP4378,Alluvial Silt,asl,Alluvium
+S99_04379,RIP4379,Alluvial Silt,asl,Alluvium
+S99_05001,RIP5001,Marsh clay and peat,ppc,Alluvium
+S99_05002,RIP5002,Marsh clay and peat,ppc,Alluvium
+S99_05003,RIP5003,Marsh clay and peat,ppc,Alluvium
+S99_05004,RIP5004,Marsh clay and peat,ppc,Alluvium
+S99_05005,RIP5005,Alluvial silt and clay,asc,Alluvium
+S99_05006,RIP5006,Alluvial silt and clay,asc,Alluvium
+S99_05007,RIP5007,Alluvial silt and clay,asc,Alluvium
+S99_05008,RIP5008,Alluvial silt and clay,asc,Alluvium
+S99_05009,RIP5009,Alluvial silt and clay,asc,Alluvium
+S99_05010,RIP5010,Marsh clay and peat,ppc,Alluvium
+S99_05011,RIP5011,Marsh clay and peat,ppc,Alluvium
+S99_05012,RIP5012,Marsh clay and peat,ppc,Alluvium
+S99_05013,RIP5013,Marsh clay and peat,ppc,Alluvium
+S99_05014,RIP5014,Marsh clay and peat,ppc,Alluvium
+S99_05015,RIP5015,Marsh clay and peat,ppc,Alluvium
+S99_05016,RIP5016,Young gravelly sand,afy,Alluvium
+S99_05017,RIP5017,Young gravelly sand,afy,Alluvium
+S99_05018,RIP5018,Young gravelly sand,afy,Alluvium
+S99_05019,RIP5019,Young gravelly sand,afy,Alluvium
+S99_05020,RIP5020,Marsh clay and peat,ppc,Alluvium
+S99_05021,RIP5021,Marsh clay and peat,ppc,Alluvium
+S99_05022,RIP5022,Young gravelly sand,afy,Alluvium
+S99_05023,RIP5023,Young gravelly sand,afy,Alluvium
+S99_05024,RIP5024,Young gravelly sand,afy,Alluvium
+S99_05025,RIP5025,Young gravelly sand,afy,Alluvium
+S99_05026,RIP5026,Young gravelly sand,afy,Alluvium
+S99_05027,RIP5027,Young gravelly sand,afy,Alluvium
+S99_05028,RIP5028,Young gravelly sand,afy,Alluvium
+S99_05029,RIP5029,Young gravelly sand,afy,Alluvium
+S99_05030,RIP5030,Young gravelly sand,afy,Alluvium
+S99_05031,RIP5031,Marsh clay and peat,ppc,Alluvium
+S99_05032,RIP5032,Marsh clay and peat,ppc,Alluvium
+S99_05033,RIP5033,Marsh clay and peat,ppc,Alluvium
+S99_05034,RIP5034,Alluvial silt and clay,asc,Alluvium
+S99_05035,RIP5035,Alluvial silt and clay,asc,Alluvium
+S99_05036,RIP5036,Alluvial silt and clay,asc,Alluvium
+S99_05037,RIP5037,Marsh clay and peat,ppc,Alluvium
+S99_05038,RIP5038,Alluvial Silt,asl,Alluvium
+S99_05039,RIP5039,Marsh clay and peat,ppc,Alluvium
+S99_05040,RIP5040,Alluvial silt and clay,asc,Alluvium
+S99_05041,RIP5041,Alluvial Silt,asl,Alluvium
+S99_05042,RIP5042,Alluvial Silt,asl,Alluvium
+S99_05043,RIP5043,Marsh clay and peat,ppc,Alluvium
+S99_05044,RIP5044,Alluvial Silt,asl,Alluvium
+S99_05045,RIP5045,Marsh clay and peat,ppc,Alluvium
+S99_05046,RIP5046,Alluvial silt and clay,asc,Alluvium
+S99_05047,RIP5047,Alluvial silt and clay,asc,Alluvium
+S99_05048,RIP5048,Marsh clay and peat,ppc,Alluvium
+S99_05049,RIP5049,Marsh clay and peat,ppc,Alluvium
+S99_05050,RIP5050,Marsh clay and peat,ppc,Alluvium
+S99_05051,RIP5051,Young gravelly sand,afy,Alluvium
+S99_05052,RIP5052,Young gravelly sand,afy,Alluvium
+S99_05053,RIP5053,Marsh clay and peat,ppc,Alluvium
+S99_05054,RIP5054,Alluvial silt and clay,asc,Alluvium
+S99_05055,RIP5055,Alluvial silt and clay,asc,Alluvium
+S99_05056,RIP5056,Marsh clay and peat,ppc,Alluvium
+S99_05057,RIP5057,Marsh clay and peat,ppc,Alluvium
+S99_05058,RIP5058,Young gravelly sand,afy,Alluvium
+S99_05059,RIP5059,Young gravelly sand,afy,Alluvium
+S99_05060,RIP5060,Young gravelly sand,afy,Alluvium
+S99_05061,RIP5061,Young gravelly sand,afy,Alluvium
+S99_05062,RIP5062,Young gravelly sand,afy,Alluvium
+S99_05063,RIP5063,Alluvial silt and clay,asc,Alluvium
+S99_05064,RIP5064,Alluvial silt and clay,asc,Alluvium
+S99_05065,RIP5065,Marsh clay and peat,ppc,Alluvium
+S99_05066,RIP5066,Alluvial silt and clay,asc,Alluvium
+S99_05067,RIP5067,Alluvial silt and clay,asc,Alluvium
+S99_05068,RIP5068,Alluvial silt and clay,asc,Alluvium
+S99_05069,RIP5069,Marsh clay and peat,ppc,Alluvium
+S99_05070,RIP5070,Marsh clay and peat,ppc,Alluvium
+S99_05071,RIP5071,Alluvial silt and clay,asc,Alluvium
+S99_05072,RIP5072,Alluvial silt and clay,asc,Alluvium
+S99_05073,RIP5073,Marsh clay and peat,ppc,Alluvium
+S99_05074,RIP5074,Marsh clay and peat,ppc,Alluvium
+S99_05075,RIP5075,Marsh clay and peat,ppc,Alluvium
+S99_05076,RIP5076,Marsh clay and peat,ppc,Alluvium
+S99_05077,RIP5077,Marsh clay and peat,ppc,Alluvium
+S99_05078,RIP5078,Alluvial silt and clay,asc,Alluvium
+S99_05079,RIP5079,Alluvial silt and clay,asc,Alluvium
+S99_05080,RIP5080,Alluvial Silt,asl,Alluvium
+S99_05081,RIP5081,Alluvial Silt,asl,Alluvium
+S99_05082,RIP5082,Alluvial Silt,asl,Alluvium
+S99_05083,RIP5083,Alluvial Silt,asl,Alluvium
+S99_05084,RIP5084,Alluvial Silt,asl,Alluvium
+S99_05085,RIP5085,Marsh clay and peat,ppc,Alluvium
+S99_05086,RIP5086,Marsh clay and peat,ppc,Alluvium
+S99_05087,RIP5087,Alluvial Silt,asl,Alluvium
+S99_05088,RIP5088,Alluvial Silt,asl,Alluvium
+S99_05089,RIP5089,Alluvial Silt,asl,Alluvium
+S99_05090,RIP5090,Alluvial Silt,asl,Alluvium
+S99_05091,RIP5091,Marsh clay and peat,ppc,Alluvium
+S99_05092,RIP5092,Young gravelly sand,afy,Alluvium
+S99_05093,RIP5093,Young gravelly sand,afy,Alluvium
+S99_05094,RIP5094,Marsh clay and peat,ppc,Alluvium
+S99_05095,RIP5095,Young gravelly sand,afy,Alluvium
+S99_05096,RIP5096,Young gravelly sand,afy,Alluvium
+S99_05097,RIP5097,Young gravelly sand,afy,Alluvium
+S99_05098,RIP5098,Marsh clay and peat,ppc,Alluvium
+S99_05099,RIP5099,Young gravelly sand,afy,Alluvium
+S99_05100,RIP5100,Young gravelly sand,afy,Alluvium
+S99_05102,RIP5102,Alluvial Silt,asl,Alluvium
+S99_05103,RIP5103,Alluvial Silt,asl,Alluvium
+S99_05104,RIP5104,Young gravelly sand,afy,Alluvium
+S99_05105,RIP5105,Young gravelly sand,afy,Alluvium
+S99_05106,RIP5106,Young gravelly sand,afy,Alluvium
+S99_05107,RIP5107,Young gravelly sand,afy,Alluvium
+S99_05108,RIP5108,Alluvial Silt,asl,Alluvium
+S99_05109,RIP5109,Alluvial Silt,asl,Alluvium
+S99_05110,RIP5110,Alluvial Silt,asl,Alluvium
+S99_05113,RIP5113,Alluvial Silt,asl,Alluvium
+S99_05114,RIP5114,Alluvial Silt,asl,Alluvium
+S99_05115,RIP5115,Alluvial Silt,asl,Alluvium
+S99_05116,RIP5116,Alluvial Silt,asl,Alluvium
+S99_05117,RIP5117,Alluvial Silt,asl,Alluvium
+S99_05118,RIP5118,Alluvial Silt,asl,Alluvium
+S99_05119,RIP5119,Alluvial Silt,asl,Alluvium
+S99_05120,RIP5120,Alluvial Silt,asl,Alluvium
+S99_05121,RIP5121,Alluvial Silt,asl,Alluvium
+S99_05122,RIP5122,Alluvial Silt,asl,Alluvium
+S99_05123,RIP5123,Alluvial Silt,asl,Alluvium
+S99_05124,RIP5124,Alluvial Silt,asl,Alluvium
+S99_05125,RIP5125,Alluvial Silt,asl,Alluvium
+S99_05126,RIP5126,Alluvial Silt,asl,Alluvium
+S99_05127,RIP5127,Alluvial Silt,asl,Alluvium
+S99_05129,RIP5129,Alluvial Sand,asd,Alluvium
+S99_05130,RIP5130,Alluvial Silt,asl,Alluvium
+S99_05131,RIP5131,Alluvial Silt,asl,Alluvium
+S99_05132,RIP5132,Alluvial Silt,asl,Alluvium
+S99_05133,RIP5133,Alluvial Silt,asl,Alluvium
+S99_05134,RIP5134,Alluvial Silt,asl,Alluvium
+S99_05135,RIP5135,Alluvial Silt,asl,Alluvium
+S99_05136,RIP5136,Alluvial Silt,asl,Alluvium
+S99_05137,RIP5137,Alluvial silt and clay,asc,Alluvium
+S99_05139,RIP5139,Alluvial Sand,asd,Alluvium
+S99_05140,RIP5140,Alluvial Sand,asd,Alluvium
+S99_05141,RIP5141,Alluvial Sand,asd,Alluvium
+S99_05142,RIP5142,Alluvial Sand,asd,Alluvium
+S99_05143,RIP5143,Alluvial Silt,asl,Alluvium
+S99_05144,RIP5144,Alluvial Silt,asl,Alluvium
+S99_05145,RIP5145,Alluvial Silt,asl,Alluvium
+S99_05146,RIP5146,Alluvial Silt,asl,Alluvium
+S99_05147,RIP5147,Alluvial Silt,asl,Alluvium
+S99_05148,RIP5148,Alluvial Silt,asl,Alluvium
+S99_05149,RIP5149,Alluvial Silt,asl,Alluvium
+S99_05150,RIP5150,Alluvial Silt,asl,Alluvium
+S99_05151,RIP5151,Alluvial Silt,asl,Alluvium
+S99_05152,RIP5152,Madhupur Clay Residuum,rm,Old Alluvium
+S99_05153,RIP5153,Madhupur Clay Residuum,rm,Old Alluvium
+S99_05154,RIP5154,Alluvial Silt,asl,Alluvium
+S99_05155,RIP5155,Alluvial Sand,asd,Alluvium
+S99_05156,RIP5156,Alluvial Sand,asd,Alluvium
+S99_05157,RIP5157,Alluvial Silt,asl,Alluvium
+S99_05158,RIP5158,Alluvial Silt,asl,Alluvium
+S99_05159,RIP5159,Alluvial Silt,asl,Alluvium
+S99_05160,RIP5160,Madhupur Clay Residuum,rm,Old Alluvium
+S99_05161,RIP5161,Alluvial Silt,asl,Alluvium
+S99_05162,RIP5162,Alluvial Silt,asl,Alluvium
+S99_05163,RIP5163,Alluvial Silt,asl,Alluvium
+S99_05164,RIP5164,Alluvial Silt,asl,Alluvium
+S99_05165,RIP5165,Alluvial Silt,asl,Alluvium
+S99_05166,RIP5166,Alluvial Silt,asl,Alluvium
+S99_05167,RIP5167,Alluvial Silt,asl,Alluvium
+S99_05168,RIP5168,Alluvial Silt,asl,Alluvium
+S99_05169,RIP5169,Alluvial Sand,asd,Alluvium
+S99_05170,RIP5170,Alluvial Silt,asl,Alluvium
+S99_05171,RIP5171,Alluvial Silt,asl,Alluvium
+S99_05172,RIP5172,Alluvial Silt,asl,Alluvium
+S99_05173,RIP5173,Alluvial Silt,asl,Alluvium
+S99_05174,RIP5174,Alluvial Silt,asl,Alluvium
+S99_05175,RIP5175,Alluvial silt and clay,asc,Alluvium
+S99_05176,RIP5176,Alluvial silt and clay,asc,Alluvium
+S99_05177,RIP5177,Alluvial silt and clay,asc,Alluvium
+S99_05178,RIP5178,Barind Clay Residuum,rb,Old Alluvium
+S99_05179,RIP5179,Barind Clay Residuum,rb,Old Alluvium
+S99_05180,RIP5180,Alluvial silt and clay,asc,Alluvium
+S99_05181,RIP5181,Alluvial silt and clay,asc,Alluvium
+S99_05182,RIP5182,Alluvial silt and clay,asc,Alluvium
+S99_05183,RIP5183,Alluvial silt and clay,asc,Alluvium
+S99_05184,RIP5184,Alluvial Silt,asl,Alluvium
+S99_05185,RIP5185,Alluvial Silt,asl,Alluvium
+S99_05186,RIP5186,Alluvial Silt,asl,Alluvium
+S99_05187,RIP5187,Alluvial Silt,asl,Alluvium
+S99_05188,RIP5188,Alluvial Silt,asl,Alluvium
+S99_05189,RIP5189,Alluvial Silt,asl,Alluvium
+S99_05190,RIP5190,Marsh clay and peat,ppc,Alluvium
+S99_05191,RIP5191,Alluvial Silt,asl,Alluvium
+S99_05192,RIP5192,Alluvial Silt,asl,Alluvium
+S99_05193,RIP5193,Marsh clay and peat,ppc,Alluvium
+S99_05194,RIP5194,Alluvial Silt,asl,Alluvium
+S99_05195,RIP5195,Alluvial Silt,asl,Alluvium
+S99_05196,RIP5196,Alluvial Sand,asd,Alluvium
+S99_05197,RIP5197,Alluvial Sand,asd,Alluvium
+S99_05198,RIP5198,Alluvial Silt,asl,Alluvium
+S99_05199,RIP5199,Alluvial Silt,asl,Alluvium
+S99_05200,RIP5200,Alluvial Silt,asl,Alluvium
+S99_05201,RIP5201,Alluvial Silt,asl,Alluvium
+S99_05202,RIP5202,Alluvial Silt,asl,Alluvium
+S99_05203,RIP5203,Alluvial Sand,asd,Alluvium
+S99_05204,RIP5204,Alluvial Sand,asd,Alluvium
+S99_05205,RIP5205,Alluvial Silt,asl,Alluvium
+S99_05206,RIP5206,Alluvial Silt,asl,Alluvium
+S99_05207,RIP5207,Alluvial Silt,asl,Alluvium
+S99_05208,RIP5208,Alluvial Silt,asl,Alluvium
+S99_05209,RIP5209,Alluvial Silt,asl,Alluvium
+S99_05210,RIP5210,Alluvial Silt,asl,Alluvium
+S99_05211,RIP5211,Young gravelly sand,afy,Alluvium
+S99_05212,RIP5212,Young gravelly sand,afy,Alluvium
+S99_05213,RIP5213,Young gravelly sand,afy,Alluvium
+S99_05214,RIP5214,Young gravelly sand,afy,Alluvium
+S99_05215,RIP5215,Young gravelly sand,afy,Alluvium
+S99_05216,RIP5216,Young gravelly sand,afy,Alluvium
+S99_05217,RIP5217,Young gravelly sand,afy,Alluvium
+S99_05218,RIP5218,Barind Clay Residuum,rb,Old Alluvium
+S99_05219,RIP5219,Young gravelly sand,afy,Alluvium
+S99_05220,RIP5220,Young gravelly sand,afy,Alluvium
+S99_05221,RIP5221,Alluvial Silt,asl,Alluvium
+S99_05222,RIP5222,Barind Clay Residuum,rb,Old Alluvium
+S99_05223,RIP5223,Barind Clay Residuum,rb,Old Alluvium
+S99_05224,RIP5224,Barind Clay Residuum,rb,Old Alluvium
+S99_05225,RIP5225,Alluvial Silt,asl,Alluvium
+S99_05226,RIP5226,Alluvial Silt,asl,Alluvium
+S99_05227,RIP5227,Alluvial Silt,asl,Alluvium
+S99_05228,RIP5228,Alluvial Silt,asl,Alluvium
+S99_05229,RIP5229,Alluvial Silt,asl,Alluvium
+S99_05230,RIP5230,Alluvial Silt,asl,Alluvium
+S99_05231,RIP5231,Alluvial Silt,asl,Alluvium
+S99_05232,RIP5232,Alluvial Silt,asl,Alluvium
+S99_05233,RIP5233,Alluvial Silt,asl,Alluvium
+S99_05234,RIP5234,Alluvial Silt,asl,Alluvium
+S99_05235,RIP5235,Alluvial Silt,asl,Alluvium
+S99_05236,RIP5236,Alluvial Silt,asl,Alluvium
+S99_05237,RIP5237,Alluvial Silt,asl,Alluvium
+S99_05238,RIP5238,Alluvial Silt,asl,Alluvium
+S99_05239,RIP5239,Alluvial Silt,asl,Alluvium
+S99_05240,RIP5240,Alluvial Silt,asl,Alluvium
+S99_05241,RIP5241,Young gravelly sand,afy,Alluvium
+S99_05242,RIP5242,Young gravelly sand,afy,Alluvium
+S99_05243,RIP5243,Young gravelly sand,afy,Alluvium
+S99_05244,RIP5244,Young gravelly sand,afy,Alluvium
+S99_05245,RIP5245,Young gravelly sand,afy,Alluvium
+S99_05246,RIP5246,Young gravelly sand,afy,Alluvium
+S99_05247,RIP5247,Young gravelly sand,afy,Alluvium
+S99_05248,RIP5248,Young gravelly sand,afy,Alluvium
+S99_05249,RIP5249,Young gravelly sand,afy,Alluvium
+S99_05250,RIP5250,Young gravelly sand,afy,Alluvium
+S99_05251,RIP5251,Young gravelly sand,afy,Alluvium
+S99_05252,RIP5252,Young gravelly sand,afy,Alluvium
+S99_05253,RIP5253,Young gravelly sand,afy,Alluvium
+S99_05254,RIP5254,Young gravelly sand,afy,Alluvium
+S99_05255,RIP5255,Young gravelly sand,afy,Alluvium
+S99_05256,RIP5256,Young gravelly sand,afy,Alluvium
+S99_05257,RIP5257,Barind Clay Residuum,rb,Old Alluvium
+S99_05258,RIP5258,Barind Clay Residuum,rb,Old Alluvium
+S99_05259,RIP5259,Young gravelly sand,afy,Alluvium
+S99_05260,RIP5260,Barind Clay Residuum,rb,Old Alluvium
+S99_05261,RIP5261,Barind Clay Residuum,rb,Old Alluvium
+S99_05262,RIP5262,Young gravelly sand,afy,Alluvium
+S99_05263,RIP5263,Young gravelly sand,afy,Alluvium
+S99_05264,RIP5264,Young gravelly sand,afy,Alluvium
+S99_05265,RIP5265,Young gravelly sand,afy,Alluvium
+S99_05266,RIP5266,Young gravelly sand,afy,Alluvium
+S99_05267,RIP5267,Young gravelly sand,afy,Alluvium
+S99_05268,RIP5268,Young gravelly sand,afy,Alluvium
+S99_05269,RIP5269,Young gravelly sand,afy,Alluvium
+S99_05270,RIP5270,Barind Clay Residuum,rb,Old Alluvium
+S99_05272,RIP5272,Barind Clay Residuum,rb,Old Alluvium
+S99_05273,RIP5273,Young gravelly sand,afy,Alluvium
+S99_05274,RIP5274,Young gravelly sand,afy,Alluvium
+S99_05275,RIP5275,Young gravelly sand,afy,Alluvium
+S99_05276,RIP5276,Young gravelly sand,afy,Alluvium
+S99_05277,RIP5277,Young gravelly sand,afy,Alluvium
+S99_05278,RIP5278,Young gravelly sand,afy,Alluvium
+S99_05279,RIP5279,Young gravelly sand,afy,Alluvium
+S99_05280,RIP5280,Young gravelly sand,afy,Alluvium
+S99_05281,RIP5281,Young gravelly sand,afy,Alluvium
+S99_05282,RIP5282,Young gravelly sand,afy,Alluvium
+S99_05283,RIP5283,Young gravelly sand,afy,Alluvium
+S99_05284,RIP5284,Young gravelly sand,afy,Alluvium
+S99_05285,RIP5285,Old gravelly sand,afo,Alluvium
+S99_05286,RIP5286,Old gravelly sand,afo,Alluvium
+S99_05287,RIP5287,Barind Clay Residuum,rb,Old Alluvium
+S99_05288,RIP5288,Old gravelly sand,afo,Alluvium
+S99_05289,RIP5289,Old gravelly sand,afo,Alluvium
+S99_05290,RIP5290,Old gravelly sand,afo,Alluvium
+S99_05291,RIP5291,Young gravelly sand,afy,Alluvium
+S99_05292,RIP5292,Young gravelly sand,afy,Alluvium
+S99_05293,RIP5293,Young gravelly sand,afy,Alluvium
+S99_05294,RIP5294,Barind Clay Residuum,rb,Old Alluvium
+S99_05295,RIP5295,Barind Clay Residuum,rb,Old Alluvium
+S99_05296,RIP5296,Barind Clay Residuum,rb,Old Alluvium
+S99_05297,RIP5297,Barind Clay Residuum,rb,Old Alluvium
+S99_05298,RIP5298,Old gravelly sand,afo,Alluvium
+S99_05299,RIP5299,Old gravelly sand,afo,Alluvium
+S99_05300,RIP5300,Young gravelly sand,afy,Alluvium
+S99_05301,RIP5301,Young gravelly sand,afy,Alluvium
+S99_05302,RIP5302,Young gravelly sand,afy,Alluvium
+S99_05303,RIP5303,Young gravelly sand,afy,Alluvium
+S99_05304,RIP5304,Young gravelly sand,afy,Alluvium
+S99_05305,RIP5305,Young gravelly sand,afy,Alluvium
+S99_05306,RIP5306,Young gravelly sand,afy,Alluvium
+S99_05307,RIP5307,Young gravelly sand,afy,Alluvium
+S99_05308,RIP5308,Young gravelly sand,afy,Alluvium
+S99_05309,RIP5309,Young gravelly sand,afy,Alluvium
+S99_05310,RIP5310,Young gravelly sand,afy,Alluvium
+S99_05311,RIP5311,Young gravelly sand,afy,Alluvium
+S99_05312,RIP5312,Barind Clay Residuum,rb,Old Alluvium
+S99_05313,RIP5313,Barind Clay Residuum,rb,Old Alluvium
+S99_05314,RIP5314,Young gravelly sand,afy,Alluvium
+S99_05315,RIP5315,Barind Clay Residuum,rb,Old Alluvium
+S99_05316,RIP5316,Alluvial Silt,asl,Alluvium
+S99_05317,RIP5317,Barind Clay Residuum,rb,Old Alluvium
+S99_05318,RIP5318,Alluvial Silt,asl,Alluvium
+S99_05319,RIP5319,Alluvial Silt,asl,Alluvium
+S99_05320,RIP5320,Alluvial Silt,asl,Alluvium
+S99_05321,RIP5321,Barind Clay Residuum,rb,Old Alluvium
+S99_05322,RIP5322,Young gravelly sand,afy,Alluvium
+S99_05323,RIP5323,Young gravelly sand,afy,Alluvium
+S99_05324,RIP5324,Barind Clay Residuum,rb,Old Alluvium
+S99_05325,RIP5325,Barind Clay Residuum,rb,Old Alluvium
+S99_05326,RIP5326,Barind Clay Residuum,rb,Old Alluvium
+S99_05327,RIP5327,Barind Clay Residuum,rb,Old Alluvium
+S99_05328,RIP5328,Barind Clay Residuum,rb,Old Alluvium
+S99_05329,RIP5329,Barind Clay Residuum,rb,Old Alluvium
+S99_05330,RIP5330,Barind Clay Residuum,rb,Old Alluvium
+S99_05331,RIP5331,Alluvial Silt,asl,Alluvium
+S99_05332,RIP5332,Alluvial Silt,asl,Alluvium
+S99_05333,RIP5333,Barind Clay Residuum,rb,Old Alluvium
+S99_05334,RIP5334,Alluvial Silt,asl,Alluvium
+S99_05335,RIP5335,Barind Clay Residuum,rb,Old Alluvium
+S99_05336,RIP5336,Marsh clay and peat,ppc,Alluvium
+S99_05337,RIP5337,Barind Clay Residuum,rb,Old Alluvium
+S99_05338,RIP5338,Alluvial Silt,asl,Alluvium
+S99_05339,RIP5339,Alluvial Silt,asl,Alluvium
+S99_05340,RIP5340,Alluvial Silt,asl,Alluvium
+S99_05341,RIP5341,Barind Clay Residuum,rb,Old Alluvium
+S99_05342,RIP5342,Alluvial Silt,asl,Alluvium
+S99_05343,RIP5343,Alluvial Silt,asl,Alluvium
+S99_05344,RIP5344,Alluvial Silt,asl,Alluvium
+S99_05345,RIP5345,Alluvial Silt,asl,Alluvium
+S99_05346,RIP5346,Alluvial Silt,asl,Alluvium
+S99_05347,RIP5347,Alluvial Silt,asl,Alluvium
+S99_05348,RIP5348,Alluvial Silt,asl,Alluvium
+S99_05349,RIP5349,Alluvial Silt,asl,Alluvium
+S99_05350,RIP5350,Alluvial Silt,asl,Alluvium
+S99_05351,RIP5351,Alluvial Silt,asl,Alluvium
+S99_05352,RIP5352,Barind Clay Residuum,rb,Old Alluvium
+S99_05353,RIP5353,Alluvial Silt,asl,Alluvium
+S99_05354,RIP5354,Barind Clay Residuum,rb,Old Alluvium
+S99_05355,RIP5355,Alluvial Silt,asl,Alluvium
+S99_05356,RIP5356,Alluvial Silt,asl,Alluvium
+S99_05357,RIP5357,Alluvial Silt,asl,Alluvium
+S99_05358,RIP5358,Barind Clay Residuum,rb,Old Alluvium
+S99_05359,RIP5359,Alluvial Silt,asl,Alluvium
+S99_05360,RIP5360,Alluvial Silt,asl,Alluvium
+S99_05361,RIP5361,Alluvial Silt,asl,Alluvium
+S99_05362,RIP5362,Marsh clay and peat,ppc,Alluvium
+S99_05363,RIP5363,Marsh clay and peat,ppc,Alluvium
+S99_05364,RIP5364,Marsh clay and peat,ppc,Alluvium
+S99_05365,RIP5365,Marsh clay and peat,ppc,Alluvium
+S99_05366,RIP5366,Marsh clay and peat,ppc,Alluvium
+S99_05367,RIP5367,Alluvial Silt,asl,Alluvium
+S99_05368,RIP5368,Barind Clay Residuum,rb,Old Alluvium
+S99_05369,RIP5369,Barind Clay Residuum,rb,Old Alluvium
+S99_05370,RIP5370,Barind Clay Residuum,rb,Old Alluvium
+S99_05371,RIP5371,Barind Clay Residuum,rb,Old Alluvium
+S99_05372,RIP5372,Barind Clay Residuum,rb,Old Alluvium
+S99_05373,RIP5373,Barind Clay Residuum,rb,Old Alluvium
+S99_05374,RIP5374,Barind Clay Residuum,rb,Old Alluvium
+S99_05375,RIP5375,Barind Clay Residuum,rb,Old Alluvium
+S99_05376,RIP5376,Barind Clay Residuum,rb,Old Alluvium
+S99_05377,RIP5377,Barind Clay Residuum,rb,Old Alluvium
+S99_05378,RIP5378,Barind Clay Residuum,rb,Old Alluvium
+S99_06001,RIP6001,Marsh clay and peat,ppc,Alluvium
+S99_06002,RIP6002,Marsh clay and peat,ppc,Alluvium
+S99_06003,RIP6003,Marsh clay and peat,ppc,Alluvium
+S99_06004,RIP6004,Marsh clay and peat,ppc,Alluvium
+S99_06005,RIP6005,Marsh clay and peat,ppc,Alluvium
+S99_06006,RIP6006,Alluvial silt and clay,asc,Alluvium
+S99_06008,RIP6008,Marsh clay and peat,ppc,Alluvium
+S99_06009,RIP6009,Marsh clay and peat,ppc,Alluvium
+S99_06010,RIP6010,Marsh clay and peat,ppc,Alluvium
+S99_06011,RIP6011,Marsh clay and peat,ppc,Alluvium
+S99_06012,RIP6012,Marsh clay and peat,ppc,Alluvium
+S99_06013,RIP6013,Marsh clay and peat,ppc,Alluvium
+S99_06014,RIP6014,Marsh clay and peat,ppc,Alluvium
+S99_06015,RIP6015,Marsh clay and peat,ppc,Alluvium
+S99_06016,RIP6016,Marsh clay and peat,ppc,Alluvium
+S99_06017,RIP6017,Alluvial Silt,asl,Alluvium
+S99_06018,RIP6018,Alluvial Silt,asl,Alluvium
+S99_06019,RIP6019,Marsh clay and peat,ppc,Alluvium
+S99_06020,RIP6020,Marsh clay and peat,ppc,Alluvium
+S99_06021,RIP6021,Marsh clay and peat,ppc,Alluvium
+S99_06022,RIP6022,Alluvial silt and clay,asc,Alluvium
+S99_06023,RIP6023,Alluvial Silt,asl,Alluvium
+S99_06024,RIP6024,Marsh clay and peat,ppc,Alluvium
+S99_06025,RIP6025,Alluvial silt and clay,asc,Alluvium
+S99_06026,RIP6026,Alluvial silt and clay,asc,Alluvium
+S99_06027,RIP6027,Alluvial Silt,asl,Alluvium
+S99_06028,RIP6028,Alluvial Silt,asl,Alluvium
+S99_06029,RIP6029,Marsh clay and peat,ppc,Alluvium
+S99_06030,RIP6030,Marsh clay and peat,ppc,Alluvium
+S99_06031,RIP6031,Marsh clay and peat,ppc,Alluvium
+S99_06032,RIP6032,Marsh clay and peat,ppc,Alluvium
+S99_06033,RIP6033,Marsh clay and peat,ppc,Alluvium
+S99_06034,RIP6034,Marsh clay and peat,ppc,Alluvium
+S99_06035,RIP6035,Marsh clay and peat,ppc,Alluvium
+S99_06036,RIP6036,Marsh clay and peat,ppc,Alluvium
+S99_06037,RIP6037,Marsh clay and peat,ppc,Alluvium
+S99_06038,RIP6038,Marsh clay and peat,ppc,Alluvium
+S99_06041,RIP6041,Alluvial silt and clay,asc,Alluvium
+S99_06042,RIP6042,Alluvial silt and clay,asc,Alluvium
+S99_06043,RIP6043,Marsh clay and peat,ppc,Alluvium
+S99_06044,RIP6044,Alluvial silt and clay,asc,Alluvium
+S99_06045,RIP6045,Alluvial silt and clay,asc,Alluvium
+S99_06046,RIP6046,Alluvial Silt,asl,Alluvium
+S99_06047,RIP6047,Chandina Alluvium,ac,Alluvium
+S99_06048,RIP6048,Chandina Alluvium,ac,Alluvium
+S99_06049,RIP6049,Chandina Alluvium,ac,Alluvium
+S99_06050,RIP6050,Chandina Alluvium,ac,Alluvium
+S99_06051,RIP6051,Chandina Alluvium,ac,Alluvium
+S99_06052,RIP6052,Chandina Alluvium,ac,Alluvium
+S99_06053,RIP6053,Chandina Alluvium,ac,Alluvium
+S99_06054,RIP6054,Chandina Alluvium,ac,Alluvium
+S99_06055,RIP6055,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06056,RIP6056,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06057,RIP6057,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06058,RIP6058,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06059,RIP6059,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06060,RIP6060,Alluvial Silt,asl,Alluvium
+S99_06061,RIP6061,Alluvial Silt,asl,Alluvium
+S99_06062,RIP6062,Alluvial Silt,asl,Alluvium
+S99_06063,RIP6063,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06064,RIP6064,Chandina Alluvium,ac,Alluvium
+S99_06065,RIP6065,Chandina Alluvium,ac,Alluvium
+S99_06066,RIP6066,Marsh clay and peat,ppc,Alluvium
+S99_06067,RIP6067,Marsh clay and peat,ppc,Alluvium
+S99_06068,RIP6068,Chandina Alluvium,ac,Alluvium
+S99_06069,RIP6069,Chandina Alluvium,ac,Alluvium
+S99_06070,RIP6070,Chandina Alluvium,ac,Alluvium
+S99_06071,RIP6071,Alluvial Silt,asl,Alluvium
+S99_06072,RIP6072,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06073,RIP6073,Marsh clay and peat,ppc,Alluvium
+S99_06074,RIP6074,Marsh clay and peat,ppc,Alluvium
+S99_06075,RIP6075,Alluvial Silt,asl,Alluvium
+S99_06076,RIP6076,Alluvial silt and clay,asc,Alluvium
+S99_06077,RIP6077,Alluvial silt and clay,asc,Alluvium
+S99_06078,RIP6078,Alluvial silt and clay,asc,Alluvium
+S99_06079,RIP6079,Alluvial silt and clay,asc,Alluvium
+S99_06080,RIP6080,Alluvial silt and clay,asc,Alluvium
+S99_06081,RIP6081,Alluvial silt and clay,asc,Alluvium
+S99_06082,RIP6082,Alluvial silt and clay,asc,Alluvium
+S99_06083,RIP6083,Alluvial silt and clay,asc,Alluvium
+S99_06084,RIP6084,Alluvial silt and clay,asc,Alluvium
+S99_06085,RIP6085,Alluvial silt and clay,asc,Alluvium
+S99_06086,RIP6086,Alluvial silt and clay,asc,Alluvium
+S99_06087,RIP6087,Alluvial silt and clay,asc,Alluvium
+S99_06088,RIP6088,Alluvial silt and clay,asc,Alluvium
+S99_06089,RIP6089,Alluvial Silt,asl,Alluvium
+S99_06090,RIP6090,Chandina Alluvium,ac,Alluvium
+S99_06091,RIP6091,Chandina Alluvium,ac,Alluvium
+S99_06092,RIP6092,Chandina Alluvium,ac,Alluvium
+S99_06093,RIP6093,Chandina Alluvium,ac,Alluvium
+S99_06094,RIP6094,Chandina Alluvium,ac,Alluvium
+S99_06095,RIP6095,Chandina Alluvium,ac,Alluvium
+S99_06096,RIP6096,Alluvial Silt,asl,Alluvium
+S99_06097,RIP6097,Alluvial Silt,asl,Alluvium
+S99_06098,RIP6098,Alluvial Silt,asl,Alluvium
+S99_06099,RIP6099,Alluvial Silt,asl,Alluvium
+S99_06100,RIP6100,Alluvial Silt,asl,Alluvium
+S99_06101,RIP6101,Alluvial silt and clay,asc,Alluvium
+S99_06102,RIP6102,Alluvial silt and clay,asc,Alluvium
+S99_06103,RIP6103,Alluvial silt and clay,asc,Alluvium
+S99_06104,RIP6104,Alluvial silt and clay,asc,Alluvium
+S99_06105,RIP6105,Alluvial silt and clay,asc,Alluvium
+S99_06106,RIP6106,Alluvial silt and clay,asc,Alluvium
+S99_06107,RIP6107,Alluvial silt and clay,asc,Alluvium
+S99_06108,RIP6108,Alluvial silt and clay,asc,Alluvium
+S99_06109,RIP6109,Alluvial silt and clay,asc,Alluvium
+S99_06110,RIP6110,Alluvial silt and clay,asc,Alluvium
+S99_06111,RIP6111,Marsh clay and peat,ppc,Alluvium
+S99_06112,RIP6112,Marsh clay and peat,ppc,Alluvium
+S99_06113,RIP6113,Marsh clay and peat,ppc,Alluvium
+S99_06114,RIP6114,Alluvial silt and clay,asc,Alluvium
+S99_06115,RIP6115,Alluvial silt and clay,asc,Alluvium
+S99_06116,RIP6116,Alluvial Silt,asl,Alluvium
+S99_06117,RIP6117,Alluvial Silt,asl,Alluvium
+S99_06118,RIP6118,Alluvial Silt,asl,Alluvium
+S99_06119,RIP6119,Alluvial silt and clay,asc,Alluvium
+S99_06120,RIP6120,Alluvial Silt,asl,Alluvium
+S99_06121,RIP6121,Alluvial Silt,asl,Alluvium
+S99_06122,RIP6122,Alluvial Silt,asl,Alluvium
+S99_06123,RIP6123,Alluvial Silt,asl,Alluvium
+S99_06124,RIP6124,Alluvial Silt,asl,Alluvium
+S99_06125,RIP6125,Alluvial Silt,asl,Alluvium
+S99_06126,RIP6126,Alluvial Silt,asl,Alluvium
+S99_06127,RIP6127,Alluvial Silt,asl,Alluvium
+S99_06128,RIP6128,Alluvial Silt,asl,Alluvium
+S99_06129,RIP6129,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06130,RIP6130,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06131,RIP6131,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06132,RIP6132,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06133,RIP6133,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06134,RIP6134,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06135,RIP6135,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06136,RIP6136,Alluvial silt and clay,asc,Alluvium
+S99_06137,RIP6137,Alluvial silt and clay,asc,Alluvium
+S99_06138,RIP6138,Alluvial Silt,asl,Alluvium
+S99_06139,RIP6139,Alluvial Silt,asl,Alluvium
+S99_06140,RIP6140,Alluvial Silt,asl,Alluvium
+S99_06143,RIP6143,Alluvial silt and clay,asc,Alluvium
+S99_06144,RIP6144,Alluvial silt and clay,asc,Alluvium
+S99_06145,RIP6145,Alluvial Silt,asl,Alluvium
+S99_06146,RIP6146,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06147,RIP6147,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06148,RIP6148,Marsh clay and peat,ppc,Alluvium
+S99_06149,RIP6149,Marsh clay and peat,ppc,Alluvium
+S99_06150,RIP6150,Alluvial Silt,asl,Alluvium
+S99_06151,RIP6151,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06153,RIP6153,Marsh clay and peat,ppc,Alluvium
+S99_06155,RIP6155,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06156,RIP6156,Alluvial Silt,asl,Alluvium
+S99_06157,RIP6157,Alluvial silt and clay,asc,Alluvium
+S99_06158,RIP6158,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06159,RIP6159,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06160,RIP6160,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06161,RIP6161,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06162,RIP6162,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06163,RIP6163,Alluvial silt and clay,asc,Alluvium
+S99_06164,RIP6164,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06165,RIP6165,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06166,RIP6166,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06167,RIP6167,Madhupur Clay Residuum,rm,Old Alluvium
+S99_06168,RIP6168,Marsh clay and peat,ppc,Alluvium
+S99_06169,RIP6169,Marsh clay and peat,ppc,Alluvium
+S99_06170,RIP6170,Marsh clay and peat,ppc,Alluvium
+S99_06171,RIP6171,Marsh clay and peat,ppc,Alluvium
+S99_06172,RIP6172,Alluvial silt and clay,asc,Alluvium
+S99_06173,RIP6173,Alluvial silt and clay,asc,Alluvium
+S99_06174,RIP6174,Alluvial silt and clay,asc,Alluvium
+S99_06175,RIP6175,Alluvial silt and clay,asc,Alluvium
+S99_06176,RIP6176,Alluvial Silt,asl,Alluvium
+S99_06177,RIP6177,Alluvial silt and clay,asc,Alluvium
+S99_06178,RIP6178,Alluvial silt and clay,asc,Alluvium
+S99_06179,RIP6179,Alluvial silt and clay,asc,Alluvium
+S99_06180,RIP6180,Alluvial silt and clay,asc,Alluvium
+S99_06181,RIP6181,Alluvial silt and clay,asc,Alluvium
+S99_06182,RIP6182,Barind Clay Residuum,rb,Old Alluvium
+S99_06183,RIP6183,Barind Clay Residuum,rb,Old Alluvium
+S99_06184,RIP6184,Barind Clay Residuum,rb,Old Alluvium
+S99_06185,RIP6185,Barind Clay Residuum,rb,Old Alluvium
+S99_06186,RIP6186,Barind Clay Residuum,rb,Old Alluvium
+S99_06187,RIP6187,Barind Clay Residuum,rb,Old Alluvium
+S99_06188,RIP6188,Barind Clay Residuum,rb,Old Alluvium
+S99_06189,RIP6189,Barind Clay Residuum,rb,Old Alluvium
+S99_06190,RIP6190,Barind Clay Residuum,rb,Old Alluvium
+S99_06191,RIP6191,Barind Clay Residuum,rb,Old Alluvium
+S99_06192,RIP6192,Barind Clay Residuum,rb,Old Alluvium
+S99_06193,RIP6193,Barind Clay Residuum,rb,Old Alluvium
+S99_06194,RIP6194,Barind Clay Residuum,rb,Old Alluvium
+S99_06195,RIP6195,Barind Clay Residuum,rb,Old Alluvium
+S99_06196,RIP6196,Barind Clay Residuum,rb,Old Alluvium
+S99_06197,RIP6197,Barind Clay Residuum,rb,Old Alluvium
+S99_06198,RIP6198,Alluvial Silt,asl,Alluvium
+S99_06199,RIP6199,Barind Clay Residuum,rb,Old Alluvium
+S99_06200,RIP6200,Barind Clay Residuum,rb,Old Alluvium
+S99_06201,RIP6201,Barind Clay Residuum,rb,Old Alluvium
+S99_06202,RIP6202,Barind Clay Residuum,rb,Old Alluvium
+S99_06203,RIP6203,Alluvial Silt,asl,Alluvium
+S99_06204,RIP6204,Alluvial Silt,asl,Alluvium
+S99_06205,RIP6205,Alluvial Silt,asl,Alluvium
+S99_06206,RIP6206,Alluvial Silt,asl,Alluvium
+S99_06207,RIP6207,Alluvial Silt,asl,Alluvium
+S99_06208,RIP6208,Alluvial Sand,asd,Alluvium
+S99_06209,RIP6209,Alluvial Sand,asd,Alluvium
+S99_06210,RIP6210,Alluvial Silt,asl,Alluvium
+S99_06211,RIP6211,Alluvial Sand,asd,Alluvium
+S99_06212,RIP6212,Alluvial Sand,asd,Alluvium
+S99_06213,RIP6213,Alluvial Sand,asd,Alluvium
+S99_06214,RIP6214,Alluvial Silt,asl,Alluvium
+S99_06215,RIP6215,Alluvial Silt,asl,Alluvium
+S99_06216,RIP6216,Alluvial Silt,asl,Alluvium
+S99_06217,RIP6217,Alluvial Silt,asl,Alluvium
+S99_06218,RIP6218,Alluvial Silt,asl,Alluvium
+S99_06219,RIP6219,Alluvial Silt,asl,Alluvium
+S99_06220,RIP6220,Barind Clay Residuum,rb,Old Alluvium
+S99_06221,RIP6221,Alluvial Silt,asl,Alluvium
+S99_06222,RIP6222,Alluvial silt and clay,asc,Alluvium
+S99_06223,RIP6223,Barind Clay Residuum,rb,Old Alluvium
+S99_06224,RIP6224,Barind Clay Residuum,rb,Old Alluvium
+S99_06225,RIP6225,Barind Clay Residuum,rb,Old Alluvium
+S99_06226,RIP6226,Young gravelly sand,afy,Alluvium
+S99_06227,RIP6227,Alluvial Sand,asd,Alluvium
+S99_06228,RIP6228,Alluvial Silt,asl,Alluvium
+S99_06229,RIP6229,Young gravelly sand,afy,Alluvium
+S99_06230,RIP6230,Young gravelly sand,afy,Alluvium
+S99_06231,RIP6231,Young gravelly sand,afy,Alluvium
+S99_06232,RIP6232,Alluvial Sand,asd,Alluvium
+S99_06233,RIP6233,Young gravelly sand,afy,Alluvium
+S99_06234,RIP6234,Young gravelly sand,afy,Alluvium
+S99_06235,RIP6235,Young gravelly sand,afy,Alluvium
+S99_06236,RIP6236,Young gravelly sand,afy,Alluvium
+S99_06237,RIP6237,Young gravelly sand,afy,Alluvium
+S99_06238,RIP6238,Young gravelly sand,afy,Alluvium
+S99_06239,RIP6239,Young gravelly sand,afy,Alluvium
+S99_06240,RIP6240,Young gravelly sand,afy,Alluvium
+S99_06241,RIP6241,Young gravelly sand,afy,Alluvium
+S99_06242,RIP6242,Alluvial Sand,asd,Alluvium
+S99_06243,RIP6243,Young gravelly sand,afy,Alluvium
+S99_06244,RIP6244,Alluvial Sand,asd,Alluvium
+S99_06245,RIP6245,Young gravelly sand,afy,Alluvium
+S99_06246,RIP6246,Young gravelly sand,afy,Alluvium
+S99_06247,RIP6247,Young gravelly sand,afy,Alluvium
+S99_06248,RIP6248,Young gravelly sand,afy,Alluvium
+S99_06249,RIP6249,Young gravelly sand,afy,Alluvium
+S99_06250,RIP6250,Young gravelly sand,afy,Alluvium
+S99_06251,RIP6251,Young gravelly sand,afy,Alluvium
+S99_06252,RIP6252,Young gravelly sand,afy,Alluvium
+S99_06253,RIP6253,Young gravelly sand,afy,Alluvium
+S99_06254,RIP6254,Young gravelly sand,afy,Alluvium
+S99_06255,RIP6255,Young gravelly sand,afy,Alluvium
+S99_06256,RIP6256,Young gravelly sand,afy,Alluvium
+S99_06257,RIP6257,Young gravelly sand,afy,Alluvium
+S99_06258,RIP6258,Young gravelly sand,afy,Alluvium
+S99_06259,RIP6259,Young gravelly sand,afy,Alluvium
+S99_06260,RIP6260,Young gravelly sand,afy,Alluvium
+S99_06261,RIP6261,Young gravelly sand,afy,Alluvium
+S99_06262,RIP6262,Young gravelly sand,afy,Alluvium
+S99_06263,RIP6263,Young gravelly sand,afy,Alluvium
+S99_06264,RIP6264,Young gravelly sand,afy,Alluvium
+S99_06265,RIP6265,Young gravelly sand,afy,Alluvium
+S99_06266,RIP6266,Young gravelly sand,afy,Alluvium
+S99_06267,RIP6267,Young gravelly sand,afy,Alluvium
+S99_06268,RIP6268,Young gravelly sand,afy,Alluvium
+S99_06269,RIP6269,Young gravelly sand,afy,Alluvium
+S99_06270,RIP6270,Young gravelly sand,afy,Alluvium
+S99_06271,RIP6271,Young gravelly sand,afy,Alluvium
+S99_06272,RIP6272,Young gravelly sand,afy,Alluvium
+S99_06273,RIP6273,Young gravelly sand,afy,Alluvium
+S99_06274,RIP6274,Young gravelly sand,afy,Alluvium
+S99_06275,RIP6275,Young gravelly sand,afy,Alluvium
+S99_06276,RIP6276,Young gravelly sand,afy,Alluvium
+S99_06277,RIP6277,Young gravelly sand,afy,Alluvium
+S99_06278,RIP6278,Young gravelly sand,afy,Alluvium
+S99_06279,RIP6279,Young gravelly sand,afy,Alluvium
+S99_06280,RIP6280,Young gravelly sand,afy,Alluvium
+S99_06281,RIP6281,Young gravelly sand,afy,Alluvium
+S99_06282,RIP6282,Young gravelly sand,afy,Alluvium
+S99_06283,RIP6283,Young gravelly sand,afy,Alluvium
+S99_06284,RIP6284,Young gravelly sand,afy,Alluvium
+S99_06285,RIP6285,Young gravelly sand,afy,Alluvium
+S99_06286,RIP6286,Young gravelly sand,afy,Alluvium
+S99_06287,RIP6287,Young gravelly sand,afy,Alluvium
+S99_06288,RIP6288,Young gravelly sand,afy,Alluvium
+S99_06289,RIP6289,Young gravelly sand,afy,Alluvium
+S99_06290,RIP6290,Young gravelly sand,afy,Alluvium
+S99_06291,RIP6291,Young gravelly sand,afy,Alluvium
+S99_06292,RIP6292,Young gravelly sand,afy,Alluvium
+S99_06293,RIP6293,Young gravelly sand,afy,Alluvium
+S99_06294,RIP6294,Young gravelly sand,afy,Alluvium
+S99_06295,RIP6295,Young gravelly sand,afy,Alluvium
+S99_06296,RIP6296,Young gravelly sand,afy,Alluvium
+S99_06297,RIP6297,Young gravelly sand,afy,Alluvium
+S99_06298,RIP6298,Young gravelly sand,afy,Alluvium
+S99_06299,RIP6299,Young gravelly sand,afy,Alluvium
+S99_06300,RIP6300,Young gravelly sand,afy,Alluvium
+S99_06301,RIP6301,Young gravelly sand,afy,Alluvium
+S99_06302,RIP6302,Young gravelly sand,afy,Alluvium
+S99_06303,RIP6303,Young gravelly sand,afy,Alluvium
+S99_06304,RIP6304,Young gravelly sand,afy,Alluvium
+S99_06305,RIP6305,Young gravelly sand,afy,Alluvium
+S99_06306,RIP6306,Young gravelly sand,afy,Alluvium
+S99_06307,RIP6307,Young gravelly sand,afy,Alluvium
+S99_06308,RIP6308,Young gravelly sand,afy,Alluvium
+S99_06309,RIP6309,Young gravelly sand,afy,Alluvium
+S99_06310,RIP6310,Young gravelly sand,afy,Alluvium
+S99_06311,RIP6311,Young gravelly sand,afy,Alluvium
+S99_06312,RIP6312,Young gravelly sand,afy,Alluvium
+S99_06313,RIP6313,Young gravelly sand,afy,Alluvium
+S99_06314,RIP6314,Old gravelly sand,afo,Alluvium
+S99_06315,RIP6315,Old gravelly sand,afo,Alluvium
+S99_06316,RIP6316,Old gravelly sand,afo,Alluvium
+S99_06317,RIP6317,Old gravelly sand,afo,Alluvium
+S99_06318,RIP6318,Old gravelly sand,afo,Alluvium
+S99_06319,RIP6319,Old gravelly sand,afo,Alluvium
+S99_06320,RIP6320,Old gravelly sand,afo,Alluvium
+S99_06321,RIP6321,Old gravelly sand,afo,Alluvium
+S99_06322,RIP6322,Old gravelly sand,afo,Alluvium
+S99_06323,RIP6323,Old gravelly sand,afo,Alluvium
+S99_06324,RIP6324,Old gravelly sand,afo,Alluvium
+S99_06325,RIP6325,Old gravelly sand,afo,Alluvium
+S99_06326,RIP6326,Old gravelly sand,afo,Alluvium
+S99_06327,RIP6327,Old gravelly sand,afo,Alluvium
+S99_06328,RIP6328,Old gravelly sand,afo,Alluvium
+S99_06329,RIP6329,Old gravelly sand,afo,Alluvium
+S99_06330,RIP6330,Old gravelly sand,afo,Alluvium
+S99_06331,RIP6331,Old gravelly sand,afo,Alluvium
+S99_06332,RIP6332,Old gravelly sand,afo,Alluvium
+S99_06333,RIP6333,Old gravelly sand,afo,Alluvium
+S99_06334,RIP6334,Old gravelly sand,afo,Alluvium
+S99_06335,RIP6335,Old gravelly sand,afo,Alluvium
+S99_06336,RIP6336,Old gravelly sand,afo,Alluvium
+S99_06337,RIP6337,Old gravelly sand,afo,Alluvium
+S99_06339,RIP6339,Old gravelly sand,afo,Alluvium
+S99_06340,RIP6340,Old gravelly sand,afo,Alluvium
+S99_06341,RIP6341,Old gravelly sand,afo,Alluvium
+S99_06342,RIP6342,Old gravelly sand,afo,Alluvium
+S99_06343,RIP6343,Old gravelly sand,afo,Alluvium
+S99_06344,RIP6344,Old gravelly sand,afo,Alluvium
+S99_06345,RIP6345,Old gravelly sand,afo,Alluvium
+S99_06346,RIP6346,Old gravelly sand,afo,Alluvium
+S99_06347,RIP6347,Old gravelly sand,afo,Alluvium
+S99_06348,RIP6348,Old gravelly sand,afo,Alluvium
+S99_06349,RIP6349,Old gravelly sand,afo,Alluvium
+S99_06350,RIP6350,Old gravelly sand,afo,Alluvium
+S99_06351,RIP6351,Old gravelly sand,afo,Alluvium
+S99_06352,RIP6352,Old gravelly sand,afo,Alluvium
+S99_06353,RIP6353,Old gravelly sand,afo,Alluvium
+S99_06354,RIP6354,Barind Clay Residuum,rb,Old Alluvium
+S99_06355,RIP6355,Barind Clay Residuum,rb,Old Alluvium
+S99_06356,RIP6356,Barind Clay Residuum,rb,Old Alluvium
+S99_06357,RIP6357,Barind Clay Residuum,rb,Old Alluvium
+S99_06358,RIP6358,Barind Clay Residuum,rb,Old Alluvium
+S99_06359,RIP6359,Barind Clay Residuum,rb,Old Alluvium
+S99_06360,RIP6360,Barind Clay Residuum,rb,Old Alluvium
+S99_06361,RIP6361,Barind Clay Residuum,rb,Old Alluvium
+S99_06362,RIP6362,Alluvial Silt,asl,Alluvium
+S99_06363,RIP6363,Barind Clay Residuum,rb,Old Alluvium
+S99_06364,RIP6364,Barind Clay Residuum,rb,Old Alluvium
+S99_06365,RIP6365,Barind Clay Residuum,rb,Old Alluvium
+S99_06366,RIP6366,Barind Clay Residuum,rb,Old Alluvium
+S99_06367,RIP6367,Barind Clay Residuum,rb,Old Alluvium
+S99_06368,RIP6368,Barind Clay Residuum,rb,Old Alluvium
+S99_06369,RIP6369,Alluvial Silt,asl,Alluvium
+S99_06370,RIP6370,Barind Clay Residuum,rb,Old Alluvium
+S99_06371,RIP6371,Barind Clay Residuum,rb,Old Alluvium
+S99_06372,RIP6372,Alluvial Silt,asl,Alluvium
+S99_06373,RIP6373,Alluvial Silt,asl,Alluvium
+S99_07001,RIP7001,Alluvial silt and clay,asc,Alluvium
+S99_07002,RIP7002,Alluvial silt and clay,asc,Alluvium
+S99_07003,RIP7003,Alluvial silt and clay,asc,Alluvium
+S99_07004,RIP7004,Alluvial silt and clay,asc,Alluvium
+S99_07005,RIP7005,Alluvial silt and clay,asc,Alluvium
+S99_07008,RIP7008,Alluvial silt and clay,asc,Alluvium
+S99_07009,RIP7009,Marsh clay and peat,ppc,Alluvium
+S99_07010,RIP7010,Marsh clay and peat,ppc,Alluvium
+S99_07011,RIP7011,Marsh clay and peat,ppc,Alluvium
+S99_07012,RIP7012,Marsh clay and peat,ppc,Alluvium
+S99_07013,RIP7013,Marsh clay and peat,ppc,Alluvium
+S99_07014,RIP7014,Marsh clay and peat,ppc,Alluvium
+S99_07015,RIP7015,Marsh clay and peat,ppc,Alluvium
+S99_07016,RIP7016,Marsh clay and peat,ppc,Alluvium
+S99_07019,RIP7019,Marsh clay and peat,ppc,Alluvium
+S99_07020,RIP7020,Marsh clay and peat,ppc,Alluvium
+S99_07021,RIP7021,Marsh clay and peat,ppc,Alluvium
+S99_07022,RIP7022,Marsh clay and peat,ppc,Alluvium
+S99_07023,RIP7023,Marsh clay and peat,ppc,Alluvium
+S99_07024,RIP7024,Marsh clay and peat,ppc,Alluvium
+S99_07025,RIP7025,Marsh clay and peat,ppc,Alluvium
+S99_07026,RIP7026,Marsh clay and peat,ppc,Alluvium
+S99_07027,RIP7027,Marsh clay and peat,ppc,Alluvium
+S99_07028,RIP7028,Marsh clay and peat,ppc,Alluvium
+S99_07029,RIP7029,Marsh clay and peat,ppc,Alluvium
+S99_07030,RIP7030,Marsh clay and peat,ppc,Alluvium
+S99_07031,RIP7031,Alluvial silt and clay,asc,Alluvium
+S99_07032,RIP7032,Marsh clay and peat,ppc,Alluvium
+S99_07033,RIP7033,Alluvial silt and clay,asc,Alluvium
+S99_07034,RIP7034,Alluvial silt and clay,asc,Alluvium
+S99_07035,RIP7035,Alluvial silt and clay,asc,Alluvium
+S99_07036,RIP7036,Alluvial silt and clay,asc,Alluvium
+S99_07037,RIP7037,Alluvial silt and clay,asc,Alluvium
+S99_07038,RIP7038,Alluvial silt and clay,asc,Alluvium
+S99_07039,RIP7039,Alluvial silt and clay,asc,Alluvium
+S99_07040,RIP7040,Marsh clay and peat,ppc,Alluvium
+S99_07041,RIP7041,Marsh clay and peat,ppc,Alluvium
+S99_07042,RIP7042,Marsh clay and peat,ppc,Alluvium
+S99_07043,RIP7043,Marsh clay and peat,ppc,Alluvium
+S99_07044,RIP7044,Alluvial silt and clay,asc,Alluvium
+S99_07045,RIP7045,Marsh clay and peat,ppc,Alluvium
+S99_07046,RIP7046,Alluvial silt and clay,asc,Alluvium
+S99_07047,RIP7047,Marsh clay and peat,ppc,Alluvium
+S99_07048,RIP7048,Marsh clay and peat,ppc,Alluvium
+S99_07049,RIP7049,Marsh clay and peat,ppc,Alluvium
+S99_07050,RIP7050,Marsh clay and peat,ppc,Alluvium
+S99_07051,RIP7051,Marsh clay and peat,ppc,Alluvium
+S99_07052,RIP7052,Marsh clay and peat,ppc,Alluvium
+S99_07053,RIP7053,Alluvial silt and clay,asc,Alluvium
+S99_07054,RIP7054,Alluvial silt and clay,asc,Alluvium
+S99_07055,RIP7055,Marsh clay and peat,ppc,Alluvium
+S99_07056,RIP7056,Alluvial silt and clay,asc,Alluvium
+S99_07057,RIP7057,Alluvial silt and clay,asc,Alluvium
+S99_07058,RIP7058,Alluvial silt and clay,asc,Alluvium
+S99_07059,RIP7059,Alluvial silt and clay,asc,Alluvium
+S99_07060,RIP7060,Alluvial silt and clay,asc,Alluvium
+S99_07061,RIP7061,Marsh clay and peat,ppc,Alluvium
+S99_07062,RIP7062,Marsh clay and peat,ppc,Alluvium
+S99_07063,RIP7063,Marsh clay and peat,ppc,Alluvium
+S99_07064,RIP7064,Marsh clay and peat,ppc,Alluvium
+S99_07065,RIP7065,Marsh clay and peat,ppc,Alluvium
+S99_07066,RIP7066,Marsh clay and peat,ppc,Alluvium
+S99_07067,RIP7067,Alluvial Silt,asl,Alluvium
+S99_07068,RIP7068,Marsh clay and peat,ppc,Alluvium
+S99_07069,RIP7069,Marsh clay and peat,ppc,Alluvium
+S99_07070,RIP7070,Marsh clay and peat,ppc,Alluvium
+S99_07071,RIP7071,Alluvial silt and clay,asc,Alluvium
+S99_07072,RIP7072,Alluvial silt and clay,asc,Alluvium
+S99_07073,RIP7073,Chandina Alluvium,ac,Alluvium
+S99_07074,RIP7074,Alluvial Silt,asl,Alluvium
+S99_07075,RIP7075,Alluvial Silt,asl,Alluvium
+S99_07076,RIP7076,Marsh clay and peat,ppc,Alluvium
+S99_07077,RIP7077,Marsh clay and peat,ppc,Alluvium
+S99_07078,RIP7078,Young gravelly sand,afy,Alluvium
+S99_07079,RIP7079,Young gravelly sand,afy,Alluvium
+S99_07080,RIP7080,Young gravelly sand,afy,Alluvium
+S99_07081,RIP7081,Young gravelly sand,afy,Alluvium
+S99_07082,RIP7082,Young gravelly sand,afy,Alluvium
+S99_07083,RIP7083,Young gravelly sand,afy,Alluvium
+S99_07084,RIP7084,Young gravelly sand,afy,Alluvium
+S99_07085,RIP7085,Alluvial silt and clay,asc,Alluvium
+S99_07086,RIP7086,Alluvial Silt,asl,Alluvium
+S99_07087,RIP7087,Alluvial Silt,asl,Alluvium
+S99_07088,RIP7088,Alluvial silt and clay,asc,Alluvium
+S99_07089,RIP7089,Alluvial silt and clay,asc,Alluvium
+S99_07090,RIP7090,Alluvial Silt,asl,Alluvium
+S99_07091,RIP7091,Alluvial Silt,asl,Alluvium
+S99_07092,RIP7092,Alluvial silt and clay,asc,Alluvium
+S99_07093,RIP7093,Alluvial Silt,asl,Alluvium
+S99_07094,RIP7094,Alluvial Silt,asl,Alluvium
+S99_07095,RIP7095,Alluvial Silt,asl,Alluvium
+S99_07096,RIP7096,Alluvial Silt,asl,Alluvium
+S99_07097,RIP7097,Alluvial Silt,asl,Alluvium
+S99_07098,RIP7098,Alluvial Silt,asl,Alluvium
+S99_07099,RIP7099,Alluvial Silt,asl,Alluvium
+S99_07100,RIP7100,Alluvial Silt,asl,Alluvium
+S99_07101,RIP7101,Alluvial Silt,asl,Alluvium
+S99_07102,RIP7102,Alluvial Silt,asl,Alluvium
+S99_07103,RIP7103,Alluvial Silt,asl,Alluvium
+S99_07104,RIP7104,Alluvial Silt,asl,Alluvium
+S99_07105,RIP7105,Alluvial Silt,asl,Alluvium
+S99_07106,RIP7106,Alluvial Silt,asl,Alluvium
+S99_07107,RIP7107,Alluvial Silt,asl,Alluvium
+S99_07108,RIP7108,Alluvial Silt,asl,Alluvium
+S99_07109,RIP7109,Alluvial Silt,asl,Alluvium
+S99_07110,RIP7110,Alluvial Silt,asl,Alluvium
+S99_07111,RIP7111,Alluvial Silt,asl,Alluvium
+S99_07112,RIP7112,Alluvial Silt,asl,Alluvium
+S99_07113,RIP7113,Alluvial Silt,asl,Alluvium
+S99_07114,RIP7114,Alluvial Silt,asl,Alluvium
+S99_07115,RIP7115,Alluvial Silt,asl,Alluvium
+S99_07116,RIP7116,Alluvial Silt,asl,Alluvium
+S99_07117,RIP7117,Alluvial Silt,asl,Alluvium
+S99_07118,RIP7118,Alluvial Silt,asl,Alluvium
+S99_07119,RIP7119,Alluvial Silt,asl,Alluvium
+S99_07120,RIP7120,Alluvial Silt,asl,Alluvium
+S99_07121,RIP7121,Alluvial silt and clay,asc,Alluvium
+S99_07122,RIP7122,Alluvial Silt,asl,Alluvium
+S99_07123,RIP7123,Alluvial Silt,asl,Alluvium
+S99_07124,RIP7124,Alluvial Silt,asl,Alluvium
+S99_07125,RIP7125,Alluvial Silt,asl,Alluvium
+S99_07126,RIP7126,Alluvial Silt,asl,Alluvium
+S99_07127,RIP7127,Alluvial Silt,asl,Alluvium
+S99_07128,RIP7128,Alluvial Silt,asl,Alluvium
+S99_07129,RIP7129,Alluvial Silt,asl,Alluvium
+S99_07130,RIP7130,Alluvial Silt,asl,Alluvium
+S99_07131,RIP7131,Alluvial Silt,asl,Alluvium
+S99_07132,RIP7132,Alluvial Silt,asl,Alluvium
+S99_07133,RIP7133,Alluvial Silt,asl,Alluvium
+S99_07134,RIP7134,Madhupur Clay Residuum,rm,Old Alluvium
+S99_07135,RIP7135,Madhupur Clay Residuum,rm,Old Alluvium
+S99_07136,RIP7136,Alluvial Silt,asl,Alluvium
+S99_07137,RIP7137,Alluvial Silt,asl,Alluvium
+S99_07138,RIP7138,Alluvial Silt,asl,Alluvium
+S99_07139,RIP7139,Marsh clay and peat,ppc,Alluvium
+S99_07140,RIP7140,Alluvial Silt,asl,Alluvium
+S99_07141,RIP7141,Alluvial Silt,asl,Alluvium
+S99_07142,RIP7142,Alluvial Silt,asl,Alluvium
+S99_07143,RIP7143,Alluvial Sand,asd,Alluvium
+S99_07144,RIP7144,Alluvial Sand,asd,Alluvium
+S99_07145,RIP7145,Alluvial Silt,asl,Alluvium
+S99_07146,RIP7146,Alluvial Silt,asl,Alluvium
+S99_07147,RIP7147,Alluvial Silt,asl,Alluvium
+S99_07148,RIP7148,Alluvial Silt,asl,Alluvium
+S99_07149,RIP7149,Alluvial Silt,asl,Alluvium
+S99_07150,RIP7150,Madhupur Clay Residuum,rm,Old Alluvium
+S99_07151,RIP7151,Alluvial Silt,asl,Alluvium
+S99_07152,RIP7152,Alluvial Silt,asl,Alluvium
+S99_07153,RIP7153,Alluvial Silt,asl,Alluvium
+S99_07154,RIP7154,Marsh clay and peat,ppc,Alluvium
+S99_07155,RIP7155,Alluvial silt and clay,asc,Alluvium
+S99_07156,RIP7156,Alluvial silt and clay,asc,Alluvium
+S99_07157,RIP7157,Alluvial silt and clay,asc,Alluvium
+S99_07158,RIP7158,Alluvial silt and clay,asc,Alluvium
+S99_07159,RIP7159,Alluvial silt and clay,asc,Alluvium
+S99_07160,RIP7160,Barind Clay Residuum,rb,Old Alluvium
+S99_07161,RIP7161,Barind Clay Residuum,rb,Old Alluvium
+S99_07162,RIP7162,Alluvial Silt,asl,Alluvium
+S99_07163,RIP7163,Alluvial Silt,asl,Alluvium
+S99_07164,RIP7164,Alluvial Silt,asl,Alluvium
+S99_07165,RIP7165,Alluvial Silt,asl,Alluvium
+S99_07166,RIP7166,Alluvial Silt,asl,Alluvium
+S99_07167,RIP7167,Alluvial Silt,asl,Alluvium
+S99_07168,RIP7168,Alluvial Silt,asl,Alluvium
+S99_07169,RIP7169,Alluvial Silt,asl,Alluvium
+S99_07170,RIP7170,Alluvial Silt,asl,Alluvium
+S99_07171,RIP7171,Alluvial Silt,asl,Alluvium
+S99_07172,RIP7172,Alluvial Silt,asl,Alluvium
+S99_07173,RIP7173,Madhupur Clay Residuum,rm,Old Alluvium
+S99_07174,RIP7174,Alluvial Silt,asl,Alluvium
+S99_07175,RIP7175,Alluvial Silt,asl,Alluvium
+S99_07176,RIP7176,Barind Clay Residuum,rb,Old Alluvium
+S99_07177,RIP7177,Alluvial Silt,asl,Alluvium
+S99_07178,RIP7178,Alluvial Silt,asl,Alluvium
+S99_07179,RIP7179,Alluvial Silt,asl,Alluvium
+S99_07180,RIP7180,Alluvial Silt,asl,Alluvium
+S99_07181,RIP7181,Alluvial silt and clay,asc,Alluvium
+S99_07182,RIP7182,Alluvial silt and clay,asc,Alluvium
+S99_07183,RIP7183,Alluvial Silt,asl,Alluvium
+S99_07184,RIP7184,Alluvial Silt,asl,Alluvium
+S99_07185,RIP7185,Alluvial Silt,asl,Alluvium
+S99_07186,RIP7186,Alluvial Silt,asl,Alluvium
+S99_07187,RIP7187,Alluvial Silt,asl,Alluvium
+S99_07188,RIP7188,Alluvial Silt,asl,Alluvium
+S99_07189,RIP7189,Alluvial Silt,asl,Alluvium
+S99_07190,RIP7190,Alluvial Silt,asl,Alluvium
+S99_07191,RIP7191,Alluvial Silt,asl,Alluvium
+S99_07192,RIP7192,Alluvial Silt,asl,Alluvium
+S99_07193,RIP7193,Alluvial Silt,asl,Alluvium
+S99_07194,RIP7194,Alluvial Silt,asl,Alluvium
+S99_07195,RIP7195,Alluvial silt and clay,asc,Alluvium
+S99_07196,RIP7196,Alluvial Sand,asd,Alluvium
+S99_07197,RIP7197,Alluvial Sand,asd,Alluvium
+S99_07198,RIP7198,Alluvial Sand,asd,Alluvium
+S99_07199,RIP7199,Alluvial Sand,asd,Alluvium
+S99_07200,RIP7200,Alluvial Silt,asl,Alluvium
+S99_07201,RIP7201,Alluvial Silt,asl,Alluvium
+S99_07202,RIP7202,Alluvial Sand,asd,Alluvium
+S99_07203,RIP7203,Alluvial Sand,asd,Alluvium
+S99_07204,RIP7204,Alluvial Sand,asd,Alluvium
+S99_07205,RIP7205,Alluvial Silt,asl,Alluvium
+S99_07206,RIP7206,Alluvial Silt,asl,Alluvium
+S99_07207,RIP7207,Alluvial Sand,asd,Alluvium
+S99_07208,RIP7208,Young gravelly sand,afy,Alluvium
+S99_07209,RIP7209,Young gravelly sand,afy,Alluvium
+S99_07210,RIP7210,Young gravelly sand,afy,Alluvium
+S99_07211,RIP7211,Young gravelly sand,afy,Alluvium
+S99_07212,RIP7212,Young gravelly sand,afy,Alluvium
+S99_07213,RIP7213,Young gravelly sand,afy,Alluvium
+S99_07214,RIP7214,Alluvial Silt,asl,Alluvium
+S99_07215,RIP7215,Young gravelly sand,afy,Alluvium
+S99_07216,RIP7216,Young gravelly sand,afy,Alluvium
+S99_07217,RIP7217,Alluvial Silt,asl,Alluvium
+S99_07218,RIP7218,Alluvial Silt,asl,Alluvium
+S99_07219,RIP7219,Young gravelly sand,afy,Alluvium
+S99_07220,RIP7220,Young gravelly sand,afy,Alluvium
+S99_07221,RIP7221,Young gravelly sand,afy,Alluvium
+S99_07222,RIP7222,Young gravelly sand,afy,Alluvium
+S99_07223,RIP7223,Young gravelly sand,afy,Alluvium
+S99_07224,RIP7224,Young gravelly sand,afy,Alluvium
+S99_07225,RIP7225,Young gravelly sand,afy,Alluvium
+S99_07226,RIP7226,Alluvial silt and clay,asc,Alluvium
+S99_07227,RIP7227,Alluvial Silt,asl,Alluvium
+S99_07228,RIP7228,Alluvial Silt,asl,Alluvium
+S99_07229,RIP7229,Alluvial silt and clay,asc,Alluvium
+S99_07230,RIP7230,Young gravelly sand,afy,Alluvium
+S99_07231,RIP7231,Alluvial Sand,asd,Alluvium
+S99_07232,RIP7232,Alluvial Sand,asd,Alluvium
+S99_07233,RIP7233,Alluvial Sand,asd,Alluvium
+S99_07234,RIP7234,Alluvial Silt,asl,Alluvium
+S99_07235,RIP7235,Alluvial Silt,asl,Alluvium
+S99_07236,RIP7236,Alluvial Silt,asl,Alluvium
+S99_07237,RIP7237,Alluvial Silt,asl,Alluvium
+S99_07238,RIP7238,Young gravelly sand,afy,Alluvium
+S99_07239,RIP7239,Young gravelly sand,afy,Alluvium
+S99_07240,RIP7240,Young gravelly sand,afy,Alluvium
+S99_07241,RIP7241,Young gravelly sand,afy,Alluvium
+S99_07242,RIP7242,Young gravelly sand,afy,Alluvium
+S99_07243,RIP7243,Young gravelly sand,afy,Alluvium
+S99_07244,RIP7244,Young gravelly sand,afy,Alluvium
+S99_07245,RIP7245,Young gravelly sand,afy,Alluvium
+S99_07246,RIP7246,Young gravelly sand,afy,Alluvium
+S99_07247,RIP7247,Young gravelly sand,afy,Alluvium
+S99_07248,RIP7248,Young gravelly sand,afy,Alluvium
+S99_07249,RIP7249,Alluvial Sand,asd,Alluvium
+S99_07250,RIP7250,Alluvial Sand,asd,Alluvium
+S99_07251,RIP7251,Alluvial Sand,asd,Alluvium
+S99_07252,RIP7252,Young gravelly sand,afy,Alluvium
+S99_07253,RIP7253,Young gravelly sand,afy,Alluvium
+S99_07254,RIP7254,Alluvial Sand,asd,Alluvium
+S99_07255,RIP7255,Young gravelly sand,afy,Alluvium
+S99_07256,RIP7256,Young gravelly sand,afy,Alluvium
+S99_07257,RIP7257,Alluvial Sand,asd,Alluvium
+S99_07258,RIP7258,Young gravelly sand,afy,Alluvium
+S99_07259,RIP7259,Young gravelly sand,afy,Alluvium
+S99_07260,RIP7260,Young gravelly sand,afy,Alluvium
+S99_07261,RIP7261,Alluvial Sand,asd,Alluvium
+S99_07262,RIP7262,Young gravelly sand,afy,Alluvium
+S99_07263,RIP7263,Alluvial Sand,asd,Alluvium
+S99_07264,RIP7264,Young gravelly sand,afy,Alluvium
+S99_07265,RIP7265,Young gravelly sand,afy,Alluvium
+S99_07266,RIP7266,Young gravelly sand,afy,Alluvium
+S99_07267,RIP7267,Young gravelly sand,afy,Alluvium
+S99_07268,RIP7268,Young gravelly sand,afy,Alluvium
+S99_07269,RIP7269,Young gravelly sand,afy,Alluvium
+S99_07270,RIP7270,Barind Clay Residuum,rb,Old Alluvium
+S99_07271,RIP7271,Barind Clay Residuum,rb,Old Alluvium
+S99_07272,RIP7272,Young gravelly sand,afy,Alluvium
+S99_07273,RIP7273,Young gravelly sand,afy,Alluvium
+S99_07274,RIP7274,Young gravelly sand,afy,Alluvium
+S99_07275,RIP7275,Barind Clay Residuum,rb,Old Alluvium
+S99_07276,RIP7276,Barind Clay Residuum,rb,Old Alluvium
+S99_07277,RIP7277,Barind Clay Residuum,rb,Old Alluvium
+S99_07278,RIP7278,Barind Clay Residuum,rb,Old Alluvium
+S99_07279,RIP7279,Young gravelly sand,afy,Alluvium
+S99_07280,RIP7280,Young gravelly sand,afy,Alluvium
+S99_07281,RIP7281,Young gravelly sand,afy,Alluvium
+S99_07282,RIP7282,Young gravelly sand,afy,Alluvium
+S99_07283,RIP7283,Young gravelly sand,afy,Alluvium
+S99_07284,RIP7284,Young gravelly sand,afy,Alluvium
+S99_07285,RIP7285,Young gravelly sand,afy,Alluvium
+S99_07286,RIP7286,Young gravelly sand,afy,Alluvium
+S99_07287,RIP7287,Young gravelly sand,afy,Alluvium
+S99_07288,RIP7288,Young gravelly sand,afy,Alluvium
+S99_07289,RIP7289,Young gravelly sand,afy,Alluvium
+S99_07290,RIP7290,Young gravelly sand,afy,Alluvium
+S99_07291,RIP7291,Young gravelly sand,afy,Alluvium
+S99_07292,RIP7292,Old gravelly sand,afo,Alluvium
+S99_07293,RIP7293,Old gravelly sand,afo,Alluvium
+S99_07294,RIP7294,Old gravelly sand,afo,Alluvium
+S99_07295,RIP7295,Old gravelly sand,afo,Alluvium
+S99_07296,RIP7296,Old gravelly sand,afo,Alluvium
+S99_07297,RIP7297,Old gravelly sand,afo,Alluvium
+S99_07298,RIP7298,Old gravelly sand,afo,Alluvium
+S99_07299,RIP7299,Old gravelly sand,afo,Alluvium
+S99_07300,RIP7300,Old gravelly sand,afo,Alluvium
+S99_07301,RIP7301,Old gravelly sand,afo,Alluvium
+S99_07302,RIP7302,Old gravelly sand,afo,Alluvium
+S99_07303,RIP7303,Old gravelly sand,afo,Alluvium
+S99_07304,RIP7304,Old gravelly sand,afo,Alluvium
+S99_07305,RIP7305,Old gravelly sand,afo,Alluvium
+S99_07306,RIP7306,Old gravelly sand,afo,Alluvium
+S99_07307,RIP7307,Barind Clay Residuum,rb,Old Alluvium
+S99_07308,RIP7308,Old gravelly sand,afo,Alluvium
+S99_07309,RIP7309,Old gravelly sand,afo,Alluvium
+S99_07310,RIP7310,Old gravelly sand,afo,Alluvium
+S99_07311,RIP7311,Old gravelly sand,afo,Alluvium
+S99_07312,RIP7312,Young gravelly sand,afy,Alluvium
+S99_07313,RIP7313,Old gravelly sand,afo,Alluvium
+S99_07314,RIP7314,Old gravelly sand,afo,Alluvium
+S99_07315,RIP7315,Barind Clay Residuum,rb,Old Alluvium
+S99_07316,RIP7316,Barind Clay Residuum,rb,Old Alluvium
+S99_07317,RIP7317,Barind Clay Residuum,rb,Old Alluvium
+S99_07318,RIP7318,Barind Clay Residuum,rb,Old Alluvium
+S99_07319,RIP7319,Barind Clay Residuum,rb,Old Alluvium
+S99_07320,RIP7320,Barind Clay Residuum,rb,Old Alluvium
+S99_07321,RIP7321,Barind Clay Residuum,rb,Old Alluvium
+S99_07322,RIP7322,Young gravelly sand,afy,Alluvium
+S99_07323,RIP7323,Barind Clay Residuum,rb,Old Alluvium
+S99_07324,RIP7324,Barind Clay Residuum,rb,Old Alluvium
+S99_07325,RIP7325,Barind Clay Residuum,rb,Old Alluvium
+S99_07326,RIP7326,Barind Clay Residuum,rb,Old Alluvium
+S99_07327,RIP7327,Barind Clay Residuum,rb,Old Alluvium
+S99_07328,RIP7328,Barind Clay Residuum,rb,Old Alluvium
+S99_07329,RIP7329,Barind Clay Residuum,rb,Old Alluvium
+S99_07330,RIP7330,Barind Clay Residuum,rb,Old Alluvium
+S99_07331,RIP7331,Barind Clay Residuum,rb,Old Alluvium
+S99_07332,RIP7332,Barind Clay Residuum,rb,Old Alluvium
+S99_07333,RIP7333,Young gravelly sand,afy,Alluvium
+S99_07334,RIP7334,Barind Clay Residuum,rb,Old Alluvium
+S99_07335,RIP7335,Young gravelly sand,afy,Alluvium
+S99_07336,RIP7336,Barind Clay Residuum,rb,Old Alluvium
+S99_07337,RIP7337,Barind Clay Residuum,rb,Old Alluvium
+S99_07338,RIP7338,Barind Clay Residuum,rb,Old Alluvium
+S99_07339,RIP7339,Barind Clay Residuum,rb,Old Alluvium
+S99_07340,RIP7340,Barind Clay Residuum,rb,Old Alluvium
+S99_07341,RIP7341,Barind Clay Residuum,rb,Old Alluvium
+S99_07342,RIP7342,Barind Clay Residuum,rb,Old Alluvium
+S99_07343,RIP7343,Alluvial Silt,asl,Alluvium
+S99_07344,RIP7344,Barind Clay Residuum,rb,Old Alluvium
+S99_07345,RIP7345,Barind Clay Residuum,rb,Old Alluvium
+S99_07346,RIP7346,Barind Clay Residuum,rb,Old Alluvium
+S99_07347,RIP7347,Barind Clay Residuum,rb,Old Alluvium
+S99_07348,RIP7348,Barind Clay Residuum,rb,Old Alluvium
+S99_07349,RIP7349,Barind Clay Residuum,rb,Old Alluvium
+S99_07350,RIP7350,Alluvial Silt,asl,Alluvium
+S99_07351,RIP7351,Alluvial Silt,asl,Alluvium
+S99_07352,RIP7352,Barind Clay Residuum,rb,Old Alluvium
+S99_07353,RIP7353,Barind Clay Residuum,rb,Old Alluvium
+S99_07354,RIP7354,Alluvial Silt,asl,Alluvium
+S99_07355,RIP7355,Alluvial Silt,asl,Alluvium
+S99_07356,RIP7356,Barind Clay Residuum,rb,Old Alluvium
+S99_07357,RIP7357,Barind Clay Residuum,rb,Old Alluvium
+S99_07358,RIP7358,Barind Clay Residuum,rb,Old Alluvium
+S99_07359,RIP7359,Barind Clay Residuum,rb,Old Alluvium
+S99_07360,RIP7360,Barind Clay Residuum,rb,Old Alluvium
+S99_07361,RIP7361,Barind Clay Residuum,rb,Old Alluvium
+S99_07362,RIP7362,Barind Clay Residuum,rb,Old Alluvium
+S99_07363,RIP7363,Barind Clay Residuum,rb,Old Alluvium
+S99_07364,RIP7364,Alluvial Silt,asl,Alluvium
+S99_07365,RIP7365,Alluvial Silt,asl,Alluvium
+S99_07366,RIP7366,Marsh clay and peat,ppc,Alluvium
+S99_07367,RIP7367,Alluvial Silt,asl,Alluvium
+S99_07368,RIP7368,Barind Clay Residuum,rb,Old Alluvium
+S99_07369,RIP7369,Barind Clay Residuum,rb,Old Alluvium
+S99_07370,RIP7370,Barind Clay Residuum,rb,Old Alluvium
+S99_07371,RIP7371,Alluvial Silt,asl,Alluvium
+S99_07372,RIP7372,Alluvial silt and clay,asc,Alluvium
+S99_07373,RIP7373,Marsh clay and peat,ppc,Alluvium
+S99_07374,RIP7374,Marsh clay and peat,ppc,Alluvium
+S99_07375,RIP7375,Alluvial silt and clay,asc,Alluvium
+S99_07376,RIP7376,Alluvial silt and clay,asc,Alluvium
+S99_07377,RIP7377,Alluvial silt and clay,asc,Alluvium
+S99_07378,RIP7378,Alluvial silt and clay,asc,Alluvium
+S99_07379,RIP7379,Alluvial silt and clay,asc,Alluvium
+S99_07380,RIP7380,Alluvial silt and clay,asc,Alluvium
+S99_07381,RIP7381,Barind Clay Residuum,rb,Old Alluvium
+S99_07382,RIP7382,Barind Clay Residuum,rb,Old Alluvium
+S99_07383,RIP7383,Barind Clay Residuum,rb,Old Alluvium

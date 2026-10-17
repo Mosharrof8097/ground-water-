@@ -1,0 +1,104 @@
+{
+  "design": {
+    "development": "special study areas, n=271, 4 districts",
+    "external": "national survey North Bengal excluding Nawabganj, n=1027",
+    "min_separation_km": 1.635,
+    "excluded_predictor": "Al (ug/L vs mg/L between files)",
+    "caveat": "The external file has no pH, Eh, SEC, T, Cl, HCO3 or NO3-N, so this validates a reduced model. internal_cv_r2 is the same reduced predictor set scored in development, which separates the cost of losing predictors from the cost of transfer.",
+    "conformal": "q_hat calibrated on held-out development wells, coverage measured on external wells; exchangeability does not hold across the two sets, so this measures how far the guarantee travels."
+  },
+  "results": {
+    "AsTot": {
+      "T_cheap": {
+        "n_dev": 271,
+        "n_ext": 1027,
+        "features": [
+          "Fe",
+          "Mn",
+          "WELL_DEPTH"
+        ],
+        "internal_cv_r2": -0.001,
+        "internal_cv_r2_sd": 0.1109,
+        "external_r2": -5.5801,
+        "external_spearman": 0.5877,
+        "external_auc_who": 0.8282,
+        "n_exceeding_who_external": 194,
+        "conformal_transfer_coverage": 0.9451,
+        "conformal_transfer_coverage_sd": 0.0532,
+        "conformal_interval_width": 428.4664,
+        "nominal_coverage": 0.9
+      },
+      "T_full": {
+        "n_dev": 271,
+        "n_ext": 1027,
+        "features": [
+          "Fe",
+          "Mn",
+          "WELL_DEPTH",
+          "Ca",
+          "Mg",
+          "Na",
+          "SO4",
+          "Si",
+          "Sr"
+        ],
+        "internal_cv_r2": 0.1109,
+        "internal_cv_r2_sd": 0.1619,
+        "external_r2": 0.0355,
+        "external_spearman": 0.5023,
+        "external_auc_who": 0.8382,
+        "n_exceeding_who_external": 194,
+        "conformal_transfer_coverage": 0.9883,
+        "conformal_transfer_coverage_sd": 0.0029,
+        "conformal_interval_width": 343.5789,
+        "nominal_coverage": 0.9
+      }
+    },
+    "Ba": {
+      "T_cheap": {
+        "n_dev": 271,
+        "n_ext": 1026,
+        "features": [
+          "Fe",
+          "Mn",
+          "WELL_DEPTH"
+        ],
+        "internal_cv_r2": 0.4917,
+        "internal_cv_r2_sd": 0.0895,
+        "external_r2": -2.3851,
+        "external_spearman": 0.5611,
+        "external_auc_who": null,
+        "n_exceeding_who_external": 0,
+        "conformal_transfer_coverage": 0.6886,
+        "conformal_transfer_coverage_sd": 0.1111,
+        "conformal_interval_width": 0.1964,
+        "nominal_coverage": 0.9
+      },
+      "T_full": {
+        "n_dev": 271,
+        "n_ext": 1026,
+        "features": [
+          "Fe",
+          "Mn",
+          "WELL_DEPTH",
+          "Ca",
+          "Mg",
+          "Na",
+          "SO4",
+          "Si",
+          "Sr"
+        ],
+        "internal_cv_r2": 0.6501,
+        "internal_cv_r2_sd": 0.1227,
+        "external_r2": 0.0743,
+        "external_spearman": 0.774,
+        "external_auc_who": null,
+        "n_exceeding_who_external": 0,
+        "conformal_transfer_coverage": 0.8934,
+        "conformal_transfer_coverage_sd": 0.0314,
+        "conformal_interval_width": 0.142,
+        "nominal_coverage": 0.9
+      }
+    }
+  }
+}

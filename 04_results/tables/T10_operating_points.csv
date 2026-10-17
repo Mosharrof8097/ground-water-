@@ -1,0 +1,13 @@
+standard,tier,operating_point,auc,threshold_ugL,sensitivity,specificity,ppv,npv,pct_referred_to_lab,contaminated_missed,n_contaminated,tp,fp,fn,tn
+WHO_10,T_cheap,high_sensitivity_95,0.8282,10.562,0.9639,0.5462,0.331,0.9848,55.0,7,194,187,378,7,455
+WHO_10,T_cheap,balanced_youden,0.8282,22.78,0.8866,0.7083,0.4145,0.9641,40.4,22,194,172,243,22,590
+WHO_10,T_cheap,high_specificity_90,0.8282,184.868,0.2268,0.9292,0.4272,0.8377,10.0,150,194,44,59,150,774
+WHO_10,T_full,high_sensitivity_95,0.8382,11.026,0.9536,0.4214,0.2774,0.975,64.9,9,194,185,482,9,351
+WHO_10,T_full,balanced_youden,0.8382,17.543,0.8196,0.7299,0.4141,0.9456,37.4,35,194,159,225,35,608
+WHO_10,T_full,high_specificity_90,0.8382,38.067,0.4433,0.9184,0.5584,0.8763,15.0,108,194,86,68,108,765
+Bangladesh_50,T_cheap,high_sensitivity_95,0.8008,10.562,0.9844,0.4787,0.1115,0.9978,55.0,1,64,63,502,1,461
+Bangladesh_50,T_cheap,balanced_youden,0.8008,23.532,0.9219,0.6314,0.1425,0.9918,40.3,5,64,59,355,5,608
+Bangladesh_50,T_cheap,high_specificity_90,0.8008,184.868,0.2969,0.9128,0.1845,0.9513,10.0,45,64,19,84,45,879
+Bangladesh_50,T_full,high_sensitivity_95,0.8299,13.282,0.9531,0.4766,0.108,0.9935,55.0,3,64,61,504,3,459
+Bangladesh_50,T_full,balanced_youden,0.8299,17.767,0.8906,0.6677,0.1512,0.9892,36.7,7,64,57,320,7,643
+Bangladesh_50,T_full,high_specificity_90,0.8299,44.993,0.3125,0.9138,0.1942,0.9524,10.0,44,64,20,83,44,880

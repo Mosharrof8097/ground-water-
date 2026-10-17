@@ -1,0 +1,143 @@
+{
+  "depth_summary": {
+    "n": 261,
+    "median_m": 28.0,
+    "min_m": 3.6,
+    "max_m": 375.0
+  },
+  "metal_vs_depth": [
+    {
+      "metal": "AsTot",
+      "n": 261,
+      "spearman_rho": -0.3053,
+      "p_raw": 4.9079859237419e-07,
+      "fdr_significant": true
+    },
+    {
+      "metal": "Ni",
+      "n": 261,
+      "spearman_rho": -0.0034,
+      "p_raw": 0.9567674701125153,
+      "fdr_significant": false
+    },
+    {
+      "metal": "Pb",
+      "n": 261,
+      "spearman_rho": -0.0894,
+      "p_raw": 0.14987649682275928,
+      "fdr_significant": false
+    },
+    {
+      "metal": "Zn",
+      "n": 250,
+      "spearman_rho": -0.2314,
+      "p_raw": 0.00022355808342545394,
+      "fdr_significant": true
+    },
+    {
+      "metal": "U",
+      "n": 261,
+      "spearman_rho": -0.3395,
+      "p_raw": 1.8417960710083473e-08,
+      "fdr_significant": true
+    },
+    {
+      "metal": "Mo",
+      "n": 261,
+      "spearman_rho": -0.4186,
+      "p_raw": 1.7010739035525016e-12,
+      "fdr_significant": true
+    },
+    {
+      "metal": "Ba",
+      "n": 261,
+      "spearman_rho": 0.3984,
+      "p_raw": 2.3171161612386068e-11,
+      "fdr_significant": true
+    }
+  ],
+  "arsenic_by_stratum": [
+    {
+      "stratum": "shallow <20 m",
+      "n_wells": 87,
+      "median_As_ugL": 65.0,
+      "mean_As_ugL": 118.01,
+      "n_above_WHO": 66,
+      "pct_above_WHO": 75.9,
+      "median_Fe_mgL": 1.01
+    },
+    {
+      "stratum": "intermediate 20-30 m",
+      "n_wells": 60,
+      "median_As_ugL": 15.0,
+      "mean_As_ugL": 259.86,
+      "n_above_WHO": 33,
+      "pct_above_WHO": 55.0,
+      "median_Fe_mgL": 0.748
+    },
+    {
+      "stratum": "deep 30-50 m",
+      "n_wells": 75,
+      "median_As_ugL": 8.9,
+      "mean_As_ugL": 72.41,
+      "n_above_WHO": 35,
+      "pct_above_WHO": 46.7,
+      "median_Fe_mgL": 1.02
+    },
+    {
+      "stratum": "very deep >=50 m",
+      "n_wells": 39,
+      "median_As_ugL": 6.0,
+      "mean_As_ugL": 35.61,
+      "n_above_WHO": 12,
+      "pct_above_WHO": 30.8,
+      "median_Fe_mgL": 4.53
+    }
+  ],
+  "kruskal_p_across_strata": 5.64457287250764e-05,
+  "shallow_vs_deep": {
+    "cut_m": 30,
+    "n_shallow": 147,
+    "median_shallow": 45.0,
+    "n_deep": 114,
+    "median_deep": 6.0,
+    "mannwhitney_p_shallow_greater": 1.6739941079993657e-05
+  },
+  "depth_vs_redox": {
+    "by_zone": [
+      {
+        "redox_zone": "Fe(III)-reducing",
+        "n": 89,
+        "median_depth_m": 25.9
+      },
+      {
+        "redox_zone": "sulfate-reducing / methanogenic",
+        "n": 68,
+        "median_depth_m": 31.2
+      },
+      {
+        "redox_zone": "nitrate-reducing",
+        "n": 62,
+        "median_depth_m": 27.7
+      },
+      {
+        "redox_zone": "oxic",
+        "n": 33,
+        "median_depth_m": 27.4
+      },
+      {
+        "redox_zone": "Mn(IV)-reducing",
+        "n": 7,
+        "median_depth_m": 33.5
+      },
+      {
+        "redox_zone": "suboxic",
+        "n": 2,
+        "median_depth_m": 40.4
+      }
+    ],
+    "chi2_p": 0.0014837863987896918
+  },
+  "verdict": "deeper wells are significantly cleaner in this dataset",
+  "note": "Reported in both directions. Mitigation advice to deepen wells rests on depth predicting redox condition; where it does not, the advice does not follow from these data."
+}

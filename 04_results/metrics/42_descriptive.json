@@ -1,0 +1,22 @@
+{
+  "n_wells": 271,
+  "standards_source": "WHO Guidelines for Drinking-water Quality; Bangladesh ECR 1997 Schedule 3 where it differs",
+  "n_variables_described": 36,
+  "metals_exceeding_who": [
+    "AsTot",
+    "Pb",
+    "U"
+  ],
+  "metals_never_exceeding_who": [
+    "Cd",
+    "Cr",
+    "Cu",
+    "Ni",
+    "Zn",
+    "Mo",
+    "Sb",
+    "Se",
+    "Ba"
+  ],
+  "note": "Censored observations are summarised at their detection limit, not at a substituted value, so percentiles in heavily censored columns reflect that limit."
+}
