@@ -346,14 +346,14 @@ cross validation, that conformal coverage derives from disjoint partitions, and
 that the external set is geographically separated from the development set.
 
 The complete pipeline, including the raw data as released, is available at
-`[NEW: repository link]`.
+https://github.com/Mosharrof8097/ground-water-.
 
 ---
 
 ## Notes for revision
 
-- Benjamini and Hochberg (1995) and a repository link are the only new
-  citations required.
+- Benjamini and Hochberg (1995) is the only new citation required. The
+  repository link is in place; confirm it is public before submission.
 - Section 2.5.3 should be read carefully by a co-author. It concedes that
   external validation applies to a reduced model, which is the honest position,
   and the concession is load bearing: without it a reviewer could reasonably
