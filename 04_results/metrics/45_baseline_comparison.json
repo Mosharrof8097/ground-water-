@@ -1,0 +1,585 @@
+{
+  "question": "Whether a fitted model earns its place over the single cheapest predictor it contains.",
+  "protocol": "Thresholds are chosen on the development wells and frozen before the external wells are scored, for the iron rule exactly as for the model. AUCs are compared on identical wells with a paired DeLong test and a bootstrap interval for the difference.",
+  "kit_realism": "Iron here is an ICP determination. It is re-scored under multiplicative imprecision of CV=0.25 and after reading onto the strip ladder [np.float64(0.0), np.float64(0.1), np.float64(0.25), np.float64(0.5), np.float64(1.0), np.float64(2.0), np.float64(3.0), np.float64(5.0), np.float64(10.0)] mg/L.",
+  "pre_holocene_units": [
+    "Barind Clay Residuum",
+    "Madhupur Clay Residuum",
+    "Old gravelly sand",
+    "Dihing & Dupi Tila undivi"
+  ],
+  "results": {
+    "WHO_10": {
+      "n_external": 1026,
+      "n_contaminated": 194,
+      "development": {
+        "auc_model_oof": 0.867,
+        "auc_iron": 0.7418,
+        "model_advantage": 0.1252
+      },
+      "external": {
+        "auc_model": 0.8284,
+        "auc_iron": 0.8915,
+        "iron_advantage": 0.0631,
+        "delong_se": 0.0112,
+        "delong_p": 1.7515185446988926e-08,
+        "bootstrap_ci95": [
+          0.0416,
+          0.0941
+        ]
+      },
+      "external_holocene_only": {
+        "auc_iron": 0.8764,
+        "auc_model": 0.8088,
+        "difference": 0.0676,
+        "se": 0.0132,
+        "p_value": 3.084684443792726e-07,
+        "bootstrap_ci95": [
+          0.0416,
+          0.0941
+        ],
+        "verdict": "advantage holds within the Holocene"
+      },
+      "frozen_thresholds": {
+        "iron_mgL": 0.165,
+        "model_ugL": 9.69511841376912
+      },
+      "operating_points": {
+        "iron": {
+          "threshold": 0.165,
+          "sensitivity": 0.9845,
+          "specificity": 0.4567,
+          "pct_referred_to_lab": 62.7,
+          "contaminated_missed": 3,
+          "n_contaminated": 194
+        },
+        "model": {
+          "threshold": 9.6951,
+          "sensitivity": 0.9742,
+          "specificity": 0.5132,
+          "pct_referred_to_lab": 57.9,
+          "contaminated_missed": 5,
+          "n_contaminated": 194
+        }
+      },
+      "by_geology": {
+        "iron": {
+          "Holocene alluvium": {
+            "n": 726,
+            "n_contaminated": 190,
+            "auc": 0.8764,
+            "pct_referred_to_lab": 65.6,
+            "n_false_referrals": 289,
+            "false_positive_rate": 0.5392
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 4,
+            "auc": "n.d.",
+            "note": "only 4 exceedances; ranking not meaningful",
+            "pct_referred_to_lab": 55.7,
+            "n_false_referrals": 163,
+            "false_positive_rate": 0.5507
+          }
+        },
+        "model": {
+          "Holocene alluvium": {
+            "n": 726,
+            "n_contaminated": 190,
+            "auc": 0.8088,
+            "pct_referred_to_lab": 62.1,
+            "n_false_referrals": 266,
+            "false_positive_rate": 0.4963
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 4,
+            "auc": "n.d.",
+            "note": "only 4 exceedances; ranking not meaningful",
+            "pct_referred_to_lab": 47.7,
+            "n_false_referrals": 139,
+            "false_positive_rate": 0.4696
+          }
+        }
+      },
+      "iron_as_a_field_kit": {
+        "kit_precision_cv25": {
+          "auc": 0.8914,
+          "operating_point": {
+            "threshold": 0.165,
+            "sensitivity": 0.9845,
+            "specificity": 0.47,
+            "pct_referred_to_lab": 61.6,
+            "contaminated_missed": 3,
+            "n_contaminated": 194
+          }
+        },
+        "strip_ladder": {
+          "auc": 0.8833,
+          "operating_point": {
+            "threshold": 0.165,
+            "sensitivity": 0.9794,
+            "specificity": 0.47,
+            "pct_referred_to_lab": 61.5,
+            "contaminated_missed": 4,
+            "n_contaminated": 194
+          }
+        }
+      },
+      "equal_burden_comparison": [
+        {
+          "pct_referred_to_lab": 40.0,
+          "iron": {
+            "threshold": 0.825,
+            "actual_pct_referred": 40.1,
+            "sensitivity": 0.9072,
+            "contaminated_missed": 18
+          },
+          "model": {
+            "threshold": 23.8002,
+            "actual_pct_referred": 40.1,
+            "sensitivity": 0.8711,
+            "contaminated_missed": 25
+          },
+          "missed_difference_iron_minus_model": -7
+        },
+        {
+          "pct_referred_to_lab": 50.0,
+          "iron": {
+            "threshold": 0.3745,
+            "actual_pct_referred": 50.0,
+            "sensitivity": 0.9536,
+            "contaminated_missed": 9
+          },
+          "model": {
+            "threshold": 13.0378,
+            "actual_pct_referred": 50.0,
+            "sensitivity": 0.9381,
+            "contaminated_missed": 12
+          },
+          "missed_difference_iron_minus_model": -3
+        },
+        {
+          "pct_referred_to_lab": 57.9,
+          "iron": {
+            "threshold": 0.211,
+            "actual_pct_referred": 58.0,
+            "sensitivity": 0.9794,
+            "contaminated_missed": 4
+          },
+          "model": {
+            "threshold": 9.6739,
+            "actual_pct_referred": 57.9,
+            "sensitivity": 0.9742,
+            "contaminated_missed": 5
+          },
+          "missed_difference_iron_minus_model": -1
+        },
+        {
+          "pct_referred_to_lab": 60.0,
+          "iron": {
+            "threshold": 0.187,
+            "actual_pct_referred": 60.0,
+            "sensitivity": 0.9794,
+            "contaminated_missed": 4
+          },
+          "model": {
+            "threshold": 9.0546,
+            "actual_pct_referred": 60.0,
+            "sensitivity": 0.9742,
+            "contaminated_missed": 5
+          },
+          "missed_difference_iron_minus_model": -1
+        },
+        {
+          "pct_referred_to_lab": 62.7,
+          "iron": {
+            "threshold": 0.1646,
+            "actual_pct_referred": 62.7,
+            "sensitivity": 0.9845,
+            "contaminated_missed": 3
+          },
+          "model": {
+            "threshold": 8.4367,
+            "actual_pct_referred": 62.7,
+            "sensitivity": 0.9794,
+            "contaminated_missed": 4
+          },
+          "missed_difference_iron_minus_model": -1
+        }
+      ],
+      "iron_auc_by_district": {
+        "per_district": {
+          "Bogra": {
+            "n": 94,
+            "n_contaminated": 22,
+            "auc": 0.9372
+          },
+          "Dinajpur": {
+            "n": 94,
+            "n_contaminated": 5,
+            "auc": "n.d."
+          },
+          "Gaibandha": {
+            "n": 71,
+            "n_contaminated": 24,
+            "auc": 0.7314
+          },
+          "Jaipurhat": {
+            "n": 40,
+            "n_contaminated": 1,
+            "auc": "n.d."
+          },
+          "Kurigram": {
+            "n": 77,
+            "n_contaminated": 29,
+            "auc": 0.7802
+          },
+          "Lalmonirhat": {
+            "n": 39,
+            "n_contaminated": 1,
+            "auc": "n.d."
+          },
+          "Naogaon": {
+            "n": 92,
+            "n_contaminated": 5,
+            "auc": "n.d."
+          },
+          "Natore": {
+            "n": 51,
+            "n_contaminated": 2,
+            "auc": "n.d."
+          },
+          "Nilphamari": {
+            "n": 53,
+            "n_contaminated": 3,
+            "auc": "n.d."
+          },
+          "Pabna": {
+            "n": 78,
+            "n_contaminated": 20,
+            "auc": 0.9931
+          },
+          "Panchagarh": {
+            "n": 39,
+            "n_contaminated": 2,
+            "auc": "n.d."
+          },
+          "Rajshahi": {
+            "n": 78,
+            "n_contaminated": 14,
+            "auc": 0.9196
+          },
+          "Rangpur": {
+            "n": 85,
+            "n_contaminated": 14,
+            "auc": 0.9105
+          },
+          "Sirajganj": {
+            "n": 89,
+            "n_contaminated": 52,
+            "auc": 0.8584
+          },
+          "Thakurgaon": {
+            "n": 46,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          }
+        },
+        "summary": {
+          "n_districts_scored": 7,
+          "min": 0.7314,
+          "max": 0.9931,
+          "median": 0.9105,
+          "range": 0.2617
+        }
+      }
+    },
+    "Bangladesh_50": {
+      "n_external": 1026,
+      "n_contaminated": 64,
+      "development": {
+        "auc_model_oof": 0.8489,
+        "auc_iron": 0.7344,
+        "model_advantage": 0.1145
+      },
+      "external": {
+        "auc_model": 0.8009,
+        "auc_iron": 0.8572,
+        "iron_advantage": 0.0562,
+        "delong_se": 0.0213,
+        "delong_p": 0.00833240658951248,
+        "bootstrap_ci95": [
+          -0.0009,
+          0.1018
+        ]
+      },
+      "external_holocene_only": {
+        "auc_iron": 0.8176,
+        "auc_model": 0.7674,
+        "difference": 0.0503,
+        "se": 0.0253,
+        "p_value": 0.04685483706724544,
+        "bootstrap_ci95": [
+          -0.0009,
+          0.1018
+        ],
+        "verdict": "borderline, inconclusive: the bootstrap interval includes zero"
+      },
+      "frozen_thresholds": {
+        "iron_mgL": 0.185,
+        "model_ugL": 15.6411995278574
+      },
+      "operating_points": {
+        "iron": {
+          "threshold": 0.185,
+          "sensitivity": 1.0,
+          "specificity": 0.4231,
+          "pct_referred_to_lab": 60.3,
+          "contaminated_missed": 0,
+          "n_contaminated": 64
+        },
+        "model": {
+          "threshold": 15.6412,
+          "sensitivity": 0.9219,
+          "specificity": 0.5686,
+          "pct_referred_to_lab": 46.2,
+          "contaminated_missed": 5,
+          "n_contaminated": 64
+        }
+      },
+      "by_geology": {
+        "iron": {
+          "Holocene alluvium": {
+            "n": 726,
+            "n_contaminated": 62,
+            "auc": 0.8176,
+            "pct_referred_to_lab": 62.9,
+            "n_false_referrals": 395,
+            "false_positive_rate": 0.5949
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 2,
+            "auc": "n.d.",
+            "note": "only 2 exceedances; ranking not meaningful",
+            "pct_referred_to_lab": 54.0,
+            "n_false_referrals": 160,
+            "false_positive_rate": 0.5369
+          }
+        },
+        "model": {
+          "Holocene alluvium": {
+            "n": 726,
+            "n_contaminated": 62,
+            "auc": 0.7674,
+            "pct_referred_to_lab": 51.7,
+            "n_false_referrals": 318,
+            "false_positive_rate": 0.4789
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 2,
+            "auc": "n.d.",
+            "note": "only 2 exceedances; ranking not meaningful",
+            "pct_referred_to_lab": 33.0,
+            "n_false_referrals": 97,
+            "false_positive_rate": 0.3255
+          }
+        }
+      },
+      "iron_as_a_field_kit": {
+        "kit_precision_cv25": {
+          "auc": 0.8553,
+          "operating_point": {
+            "threshold": 0.185,
+            "sensitivity": 1.0,
+            "specificity": 0.4293,
+            "pct_referred_to_lab": 59.7,
+            "contaminated_missed": 0,
+            "n_contaminated": 64
+          }
+        },
+        "strip_ladder": {
+          "auc": 0.8504,
+          "operating_point": {
+            "threshold": 0.185,
+            "sensitivity": 1.0,
+            "specificity": 0.4106,
+            "pct_referred_to_lab": 61.5,
+            "contaminated_missed": 0,
+            "n_contaminated": 64
+          }
+        }
+      },
+      "equal_burden_comparison": [
+        {
+          "pct_referred_to_lab": 40.0,
+          "iron": {
+            "threshold": 0.825,
+            "actual_pct_referred": 40.1,
+            "sensitivity": 0.9531,
+            "contaminated_missed": 3
+          },
+          "model": {
+            "threshold": 23.8002,
+            "actual_pct_referred": 40.1,
+            "sensitivity": 0.8906,
+            "contaminated_missed": 7
+          },
+          "missed_difference_iron_minus_model": -4
+        },
+        {
+          "pct_referred_to_lab": 46.2,
+          "iron": {
+            "threshold": 0.5155,
+            "actual_pct_referred": 46.2,
+            "sensitivity": 0.9688,
+            "contaminated_missed": 2
+          },
+          "model": {
+            "threshold": 15.6953,
+            "actual_pct_referred": 46.2,
+            "sensitivity": 0.9219,
+            "contaminated_missed": 5
+          },
+          "missed_difference_iron_minus_model": -3
+        },
+        {
+          "pct_referred_to_lab": 50.0,
+          "iron": {
+            "threshold": 0.3745,
+            "actual_pct_referred": 50.0,
+            "sensitivity": 0.9844,
+            "contaminated_missed": 1
+          },
+          "model": {
+            "threshold": 13.0378,
+            "actual_pct_referred": 50.0,
+            "sensitivity": 0.9375,
+            "contaminated_missed": 4
+          },
+          "missed_difference_iron_minus_model": -3
+        },
+        {
+          "pct_referred_to_lab": 60.0,
+          "iron": {
+            "threshold": 0.187,
+            "actual_pct_referred": 60.0,
+            "sensitivity": 1.0,
+            "contaminated_missed": 0
+          },
+          "model": {
+            "threshold": 9.0546,
+            "actual_pct_referred": 60.0,
+            "sensitivity": 1.0,
+            "contaminated_missed": 0
+          },
+          "missed_difference_iron_minus_model": 0
+        },
+        {
+          "pct_referred_to_lab": 60.3,
+          "iron": {
+            "threshold": 0.1849,
+            "actual_pct_referred": 60.3,
+            "sensitivity": 1.0,
+            "contaminated_missed": 0
+          },
+          "model": {
+            "threshold": 8.9955,
+            "actual_pct_referred": 60.3,
+            "sensitivity": 1.0,
+            "contaminated_missed": 0
+          },
+          "missed_difference_iron_minus_model": 0
+        }
+      ],
+      "iron_auc_by_district": {
+        "per_district": {
+          "Bogra": {
+            "n": 94,
+            "n_contaminated": 8,
+            "auc": "n.d."
+          },
+          "Dinajpur": {
+            "n": 94,
+            "n_contaminated": 2,
+            "auc": "n.d."
+          },
+          "Gaibandha": {
+            "n": 71,
+            "n_contaminated": 5,
+            "auc": "n.d."
+          },
+          "Jaipurhat": {
+            "n": 40,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          },
+          "Kurigram": {
+            "n": 77,
+            "n_contaminated": 7,
+            "auc": "n.d."
+          },
+          "Lalmonirhat": {
+            "n": 39,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          },
+          "Naogaon": {
+            "n": 92,
+            "n_contaminated": 2,
+            "auc": "n.d."
+          },
+          "Natore": {
+            "n": 51,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          },
+          "Nilphamari": {
+            "n": 53,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          },
+          "Pabna": {
+            "n": 78,
+            "n_contaminated": 13,
+            "auc": 0.9296
+          },
+          "Panchagarh": {
+            "n": 39,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          },
+          "Rajshahi": {
+            "n": 78,
+            "n_contaminated": 5,
+            "auc": "n.d."
+          },
+          "Rangpur": {
+            "n": 85,
+            "n_contaminated": 1,
+            "auc": "n.d."
+          },
+          "Sirajganj": {
+            "n": 89,
+            "n_contaminated": 21,
+            "auc": 0.6933
+          },
+          "Thakurgaon": {
+            "n": 46,
+            "n_contaminated": 0,
+            "auc": "n.d."
+          }
+        },
+        "summary": {
+          "n_districts_scored": 2,
+          "min": 0.6933,
+          "max": 0.9296,
+          "median": 0.8115,
+          "range": 0.2363
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 {
+  "threshold_protocol": "Thresholds are selected on out-of-fold predictions over the development wells and then frozen. The external wells are used only to score them, so sensitivity and referral rate are out-of-sample in both the model and the cut-off. Bootstrap 95% intervals accompany each point.",
   "note": "Operating points are evaluated on external wells, so they describe what a programme could expect in a district the model was not fitted to. 'pct_referred_to_lab' is the laboratory burden the rule creates; 'contaminated_missed' is its cost in missed exposure. The two are reported side by side rather than combined, since their relative weight is a policy choice.",
   "standards_ugL": {
     "WHO": 10.0,
@@ -12,47 +13,77 @@
         "prevalence_pct": 18.9,
         "auc": 0.8282,
         "operating_points": {
-          "high_sensitivity_95": {
-            "threshold_ugL": 10.562,
-            "sensitivity": 0.9639,
-            "specificity": 0.5462,
-            "ppv": 0.331,
-            "npv": 0.9848,
-            "pct_referred_to_lab": 55.0,
-            "contaminated_missed": 7,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 8.144,
+            "sensitivity": 0.9794,
+            "specificity": 0.4454,
+            "ppv": 0.2914,
+            "npv": 0.9893,
+            "pct_referred_to_lab": 63.5,
+            "contaminated_missed": 4,
             "n_contaminated": 194,
-            "tp": 187,
-            "fp": 378,
-            "fn": 7,
-            "tn": 455
+            "tp": 190,
+            "fp": 462,
+            "fn": 4,
+            "tn": 371,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.9551,
+            "sensitivity_ci95": [
+              0.957,
+              0.9952
+            ],
+            "auc_ci95": [
+              0.8004,
+              0.8548
+            ]
           },
           "balanced_youden": {
-            "threshold_ugL": 22.78,
-            "sensitivity": 0.8866,
-            "specificity": 0.7083,
-            "ppv": 0.4145,
-            "npv": 0.9641,
-            "pct_referred_to_lab": 40.4,
-            "contaminated_missed": 22,
+            "threshold_ugL": 19.347,
+            "sensitivity": 0.8969,
+            "specificity": 0.6831,
+            "ppv": 0.3973,
+            "npv": 0.966,
+            "pct_referred_to_lab": 42.6,
+            "contaminated_missed": 20,
             "n_contaminated": 194,
-            "tp": 172,
-            "fp": 243,
-            "fn": 22,
-            "tn": 590
+            "tp": 174,
+            "fp": 264,
+            "fn": 20,
+            "tn": 569,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.7756,
+            "sensitivity_ci95": [
+              0.8533,
+              0.9382
+            ],
+            "auc_ci95": [
+              0.8004,
+              0.8548
+            ]
           },
-          "high_specificity_90": {
-            "threshold_ugL": 184.868,
-            "sensitivity": 0.2268,
-            "specificity": 0.9292,
-            "ppv": 0.4272,
-            "npv": 0.8377,
-            "pct_referred_to_lab": 10.0,
-            "contaminated_missed": 150,
+          "dev_target_specificity_90": {
+            "threshold_ugL": 32.677,
+            "sensitivity": 0.8041,
+            "specificity": 0.7455,
+            "ppv": 0.4239,
+            "npv": 0.9423,
+            "pct_referred_to_lab": 35.8,
+            "contaminated_missed": 38,
             "n_contaminated": 194,
-            "tp": 44,
-            "fp": 59,
-            "fn": 150,
-            "tn": 774
+            "tp": 156,
+            "fp": 212,
+            "fn": 38,
+            "tn": 621,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.6603,
+            "sensitivity_ci95": [
+              0.7448,
+              0.8603
+            ],
+            "auc_ci95": [
+              0.8004,
+              0.8548
+            ]
           }
         },
         "threshold_sweep": [
@@ -330,47 +361,77 @@
         "prevalence_pct": 18.9,
         "auc": 0.8382,
         "operating_points": {
-          "high_sensitivity_95": {
-            "threshold_ugL": 11.026,
-            "sensitivity": 0.9536,
-            "specificity": 0.4214,
-            "ppv": 0.2774,
-            "npv": 0.975,
-            "pct_referred_to_lab": 64.9,
-            "contaminated_missed": 9,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 8.005,
+            "sensitivity": 0.9948,
+            "specificity": 0.1825,
+            "ppv": 0.2208,
+            "npv": 0.9935,
+            "pct_referred_to_lab": 85.1,
+            "contaminated_missed": 1,
             "n_contaminated": 194,
-            "tp": 185,
-            "fp": 482,
-            "fn": 9,
-            "tn": 351
+            "tp": 193,
+            "fp": 681,
+            "fn": 1,
+            "tn": 152,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.9679,
+            "sensitivity_ci95": [
+              0.9835,
+              1.0
+            ],
+            "auc_ci95": [
+              0.8097,
+              0.8668
+            ]
           },
           "balanced_youden": {
-            "threshold_ugL": 17.543,
-            "sensitivity": 0.8196,
-            "specificity": 0.7299,
-            "ppv": 0.4141,
-            "npv": 0.9456,
-            "pct_referred_to_lab": 37.4,
-            "contaminated_missed": 35,
+            "threshold_ugL": 15.904,
+            "sensitivity": 0.8608,
+            "specificity": 0.6819,
+            "ppv": 0.3866,
+            "npv": 0.9546,
+            "pct_referred_to_lab": 42.1,
+            "contaminated_missed": 27,
             "n_contaminated": 194,
-            "tp": 159,
-            "fp": 225,
-            "fn": 35,
-            "tn": 608
+            "tp": 167,
+            "fp": 265,
+            "fn": 27,
+            "tn": 568,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.8718,
+            "sensitivity_ci95": [
+              0.8118,
+              0.9055
+            ],
+            "auc_ci95": [
+              0.8097,
+              0.8668
+            ]
           },
-          "high_specificity_90": {
-            "threshold_ugL": 38.067,
-            "sensitivity": 0.4433,
-            "specificity": 0.9184,
-            "ppv": 0.5584,
-            "npv": 0.8763,
-            "pct_referred_to_lab": 15.0,
-            "contaminated_missed": 108,
+          "dev_target_specificity_90": {
+            "threshold_ugL": 33.783,
+            "sensitivity": 0.5103,
+            "specificity": 0.8968,
+            "ppv": 0.5351,
+            "npv": 0.8872,
+            "pct_referred_to_lab": 18.0,
+            "contaminated_missed": 95,
             "n_contaminated": 194,
-            "tp": 86,
-            "fp": 68,
-            "fn": 108,
-            "tn": 765
+            "tp": 99,
+            "fp": 86,
+            "fn": 95,
+            "tn": 747,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.6346,
+            "sensitivity_ci95": [
+              0.4364,
+              0.5846
+            ],
+            "auc_ci95": [
+              0.8097,
+              0.8668
+            ]
           }
         },
         "threshold_sweep": [
@@ -643,6 +704,222 @@
         ]
       }
     },
+    "single_predictor_baselines": {
+      "WHO_10": {
+        "WELL_DEPTH": {
+          "feature": "WELL_DEPTH",
+          "n_external": 1027,
+          "direction": "lower is worse",
+          "auc": 0.4964,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": -54.3,
+            "sensitivity": 0.9485,
+            "specificity": 0.0216,
+            "ppv": 0.1842,
+            "npv": 0.6429,
+            "pct_referred_to_lab": 97.3,
+            "contaminated_missed": 10,
+            "n_contaminated": 194,
+            "tp": 184,
+            "fp": 815,
+            "fn": 10,
+            "tn": 18
+          }
+        },
+        "Fe": {
+          "feature": "Fe",
+          "n_external": 1026,
+          "direction": "higher is worse",
+          "auc": 0.8915,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 0.165,
+            "sensitivity": 0.9845,
+            "specificity": 0.4567,
+            "ppv": 0.297,
+            "npv": 0.9922,
+            "pct_referred_to_lab": 62.7,
+            "contaminated_missed": 3,
+            "n_contaminated": 194,
+            "tp": 191,
+            "fp": 452,
+            "fn": 3,
+            "tn": 380
+          }
+        },
+        "Mn": {
+          "feature": "Mn",
+          "n_external": 1026,
+          "direction": "higher is worse",
+          "auc": 0.7603,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 0.093,
+            "sensitivity": 0.9897,
+            "specificity": 0.1923,
+            "ppv": 0.2222,
+            "npv": 0.9877,
+            "pct_referred_to_lab": 84.2,
+            "contaminated_missed": 2,
+            "n_contaminated": 194,
+            "tp": 192,
+            "fp": 672,
+            "fn": 2,
+            "tn": 160
+          }
+        }
+      },
+      "Bangladesh_50": {
+        "WELL_DEPTH": {
+          "feature": "WELL_DEPTH",
+          "n_external": 1027,
+          "direction": "lower is worse",
+          "auc": 0.5141,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": -54.3,
+            "sensitivity": 0.9688,
+            "specificity": 0.027,
+            "ppv": 0.0621,
+            "npv": 0.9286,
+            "pct_referred_to_lab": 97.3,
+            "contaminated_missed": 2,
+            "n_contaminated": 64,
+            "tp": 62,
+            "fp": 937,
+            "fn": 2,
+            "tn": 26
+          }
+        },
+        "Fe": {
+          "feature": "Fe",
+          "n_external": 1026,
+          "direction": "higher is worse",
+          "auc": 0.8572,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 0.184,
+            "sensitivity": 1.0,
+            "specificity": 0.4231,
+            "ppv": 0.1034,
+            "npv": 1.0,
+            "pct_referred_to_lab": 60.3,
+            "contaminated_missed": 0,
+            "n_contaminated": 64,
+            "tp": 64,
+            "fp": 555,
+            "fn": 0,
+            "tn": 407
+          }
+        },
+        "Mn": {
+          "feature": "Mn",
+          "n_external": 1026,
+          "direction": "higher is worse",
+          "auc": 0.7826,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 0.088,
+            "sensitivity": 0.9844,
+            "specificity": 0.1653,
+            "ppv": 0.0727,
+            "npv": 0.9938,
+            "pct_referred_to_lab": 84.4,
+            "contaminated_missed": 1,
+            "n_contaminated": 64,
+            "tp": 63,
+            "fp": 803,
+            "fn": 1,
+            "tn": 159
+          }
+        }
+      }
+    },
+    "performance_by_geology": {
+      "WHO_10": {
+        "T_cheap": {
+          "Holocene alluvium": {
+            "n": 727,
+            "n_contaminated": 190,
+            "auc": 0.8085,
+            "threshold_ugL": 8.144,
+            "pct_referred_to_lab": 67.0,
+            "false_positive_rate": 0.5605,
+            "n_false_referrals": 301
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 4,
+            "auc": "n.d.",
+            "note": "only 4 exceedances; ranking is not meaningful, so the cost of false referral is reported instead",
+            "threshold_ugL": 8.144,
+            "pct_referred_to_lab": 55.0,
+            "false_positive_rate": 0.5439,
+            "n_false_referrals": 161
+          }
+        },
+        "T_full": {
+          "Holocene alluvium": {
+            "n": 727,
+            "n_contaminated": 190,
+            "auc": 0.7967,
+            "threshold_ugL": 8.005,
+            "pct_referred_to_lab": 86.9,
+            "false_positive_rate": 0.825,
+            "n_false_referrals": 443
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 4,
+            "auc": "n.d.",
+            "note": "only 4 exceedances; ranking is not meaningful, so the cost of false referral is reported instead",
+            "threshold_ugL": 8.005,
+            "pct_referred_to_lab": 80.7,
+            "false_positive_rate": 0.8041,
+            "n_false_referrals": 238
+          }
+        }
+      },
+      "Bangladesh_50": {
+        "T_cheap": {
+          "Holocene alluvium": {
+            "n": 727,
+            "n_contaminated": 62,
+            "auc": 0.7672,
+            "threshold_ugL": 9.484,
+            "pct_referred_to_lab": 62.7,
+            "false_positive_rate": 0.5925,
+            "n_false_referrals": 394
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 2,
+            "auc": "n.d.",
+            "note": "only 2 exceedances; ranking is not meaningful, so the cost of false referral is reported instead",
+            "threshold_ugL": 9.484,
+            "pct_referred_to_lab": 47.7,
+            "false_positive_rate": 0.4732,
+            "n_false_referrals": 141
+          }
+        },
+        "T_full": {
+          "Holocene alluvium": {
+            "n": 727,
+            "n_contaminated": 62,
+            "auc": 0.7738,
+            "threshold_ugL": 13.063,
+            "pct_referred_to_lab": 65.1,
+            "false_positive_rate": 0.6226,
+            "n_false_referrals": 414
+          },
+          "pre-Holocene": {
+            "n": 300,
+            "n_contaminated": 2,
+            "auc": "n.d.",
+            "note": "only 2 exceedances; ranking is not meaningful, so the cost of false referral is reported instead",
+            "threshold_ugL": 13.063,
+            "pct_referred_to_lab": 32.7,
+            "false_positive_rate": 0.3221,
+            "n_false_referrals": 96
+          }
+        }
+      }
+    },
     "Bangladesh_50": {
       "T_cheap": {
         "n_external": 1027,
@@ -650,47 +927,77 @@
         "prevalence_pct": 6.2,
         "auc": 0.8008,
         "operating_points": {
-          "high_sensitivity_95": {
-            "threshold_ugL": 10.562,
-            "sensitivity": 0.9844,
-            "specificity": 0.4787,
-            "ppv": 0.1115,
-            "npv": 0.9978,
-            "pct_referred_to_lab": 55.0,
-            "contaminated_missed": 1,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 9.484,
+            "sensitivity": 1.0,
+            "specificity": 0.4444,
+            "ppv": 0.1068,
+            "npv": 1.0,
+            "pct_referred_to_lab": 58.3,
+            "contaminated_missed": 0,
             "n_contaminated": 64,
-            "tp": 63,
-            "fp": 502,
-            "fn": 1,
-            "tn": 461
+            "tp": 64,
+            "fp": 535,
+            "fn": 0,
+            "tn": 428,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.9537,
+            "sensitivity_ci95": [
+              1.0,
+              1.0
+            ],
+            "auc_ci95": [
+              0.7575,
+              0.8387
+            ]
           },
           "balanced_youden": {
-            "threshold_ugL": 23.532,
+            "threshold_ugL": 19.725,
             "sensitivity": 0.9219,
-            "specificity": 0.6314,
-            "ppv": 0.1425,
-            "npv": 0.9918,
-            "pct_referred_to_lab": 40.3,
+            "specificity": 0.6085,
+            "ppv": 0.1353,
+            "npv": 0.9915,
+            "pct_referred_to_lab": 42.5,
             "contaminated_missed": 5,
             "n_contaminated": 64,
             "tp": 59,
-            "fp": 355,
+            "fp": 377,
             "fn": 5,
-            "tn": 608
+            "tn": 586,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.8704,
+            "sensitivity_ci95": [
+              0.8485,
+              0.9831
+            ],
+            "auc_ci95": [
+              0.7575,
+              0.8387
+            ]
           },
-          "high_specificity_90": {
-            "threshold_ugL": 184.868,
-            "sensitivity": 0.2969,
-            "specificity": 0.9128,
-            "ppv": 0.1845,
-            "npv": 0.9513,
-            "pct_referred_to_lab": 10.0,
-            "contaminated_missed": 45,
+          "dev_target_specificity_90": {
+            "threshold_ugL": 73.204,
+            "sensitivity": 0.5938,
+            "specificity": 0.758,
+            "ppv": 0.1402,
+            "npv": 0.9656,
+            "pct_referred_to_lab": 26.4,
+            "contaminated_missed": 26,
             "n_contaminated": 64,
-            "tp": 19,
-            "fp": 84,
-            "fn": 45,
-            "tn": 879
+            "tp": 38,
+            "fp": 233,
+            "fn": 26,
+            "tn": 730,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.4259,
+            "sensitivity_ci95": [
+              0.4697,
+              0.7121
+            ],
+            "auc_ci95": [
+              0.7575,
+              0.8387
+            ]
           }
         },
         "threshold_sweep": [
@@ -968,47 +1275,77 @@
         "prevalence_pct": 6.2,
         "auc": 0.8299,
         "operating_points": {
-          "high_sensitivity_95": {
-            "threshold_ugL": 13.282,
+          "dev_target_sensitivity_95": {
+            "threshold_ugL": 13.063,
             "sensitivity": 0.9531,
-            "specificity": 0.4766,
-            "ppv": 0.108,
-            "npv": 0.9935,
-            "pct_referred_to_lab": 55.0,
+            "specificity": 0.4704,
+            "ppv": 0.1068,
+            "npv": 0.9934,
+            "pct_referred_to_lab": 55.6,
             "contaminated_missed": 3,
             "n_contaminated": 64,
             "tp": 61,
-            "fp": 504,
+            "fp": 510,
             "fn": 3,
-            "tn": 459
+            "tn": 453,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.9537,
+            "sensitivity_ci95": [
+              0.8909,
+              1.0
+            ],
+            "auc_ci95": [
+              0.7876,
+              0.8667
+            ]
           },
           "balanced_youden": {
-            "threshold_ugL": 17.767,
-            "sensitivity": 0.8906,
-            "specificity": 0.6677,
-            "ppv": 0.1512,
-            "npv": 0.9892,
-            "pct_referred_to_lab": 36.7,
-            "contaminated_missed": 7,
+            "threshold_ugL": 38.435,
+            "sensitivity": 0.4844,
+            "specificity": 0.8733,
+            "ppv": 0.2026,
+            "npv": 0.9622,
+            "pct_referred_to_lab": 14.9,
+            "contaminated_missed": 33,
             "n_contaminated": 64,
-            "tp": 57,
-            "fp": 320,
-            "fn": 7,
-            "tn": 643
+            "tp": 31,
+            "fp": 122,
+            "fn": 33,
+            "tn": 841,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.75,
+            "sensitivity_ci95": [
+              0.3582,
+              0.6032
+            ],
+            "auc_ci95": [
+              0.7876,
+              0.8667
+            ]
           },
-          "high_specificity_90": {
-            "threshold_ugL": 44.993,
-            "sensitivity": 0.3125,
-            "specificity": 0.9138,
-            "ppv": 0.1942,
-            "npv": 0.9524,
-            "pct_referred_to_lab": 10.0,
-            "contaminated_missed": 44,
+          "dev_target_specificity_90": {
+            "threshold_ugL": 59.149,
+            "sensitivity": 0.2031,
+            "specificity": 0.9626,
+            "ppv": 0.2653,
+            "npv": 0.9479,
+            "pct_referred_to_lab": 4.8,
+            "contaminated_missed": 51,
             "n_contaminated": 64,
-            "tp": 20,
-            "fp": 83,
-            "fn": 44,
-            "tn": 880
+            "tp": 13,
+            "fp": 36,
+            "fn": 51,
+            "tn": 927,
+            "threshold_chosen_on": "development out-of-fold",
+            "dev_sensitivity": 0.5648,
+            "sensitivity_ci95": [
+              0.1071,
+              0.3077
+            ],
+            "auc_ci95": [
+              0.7876,
+              0.8667
+            ]
           }
         },
         "threshold_sweep": [

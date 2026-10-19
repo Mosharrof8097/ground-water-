@@ -44,35 +44,43 @@ OUT_METRICS = ROOT / "04_results" / "metrics" / "42_descriptive.json"
 # Drinking water standards, ug/L unless noted. WHO guideline values; the
 # Bangladesh national standard is given where it differs.
 STANDARDS = {
-    "AsTot": {"who": 10.0, "bd": 50.0, "unit": "ug/L"},
+    "AsTot": {"who": 10.0, "bd": 50.0, "unit": "ug/L", "kind": "guideline"},
     "AsIII": {"who": None, "bd": None, "unit": "ug/L"},
-    "Cd": {"who": 3.0, "bd": 5.0, "unit": "ug/L"},
-    "Cr": {"who": 50.0, "bd": 50.0, "unit": "ug/L"},
-    "Cu": {"who": 2000.0, "bd": 1000.0, "unit": "ug/L"},
-    "Ni": {"who": 70.0, "bd": 100.0, "unit": "ug/L"},
-    "Pb": {"who": 10.0, "bd": 50.0, "unit": "ug/L"},
-    "Zn": {"who": 3000.0, "bd": 5000.0, "unit": "ug/L"},
-    "U": {"who": 30.0, "bd": None, "unit": "ug/L"},
-    "Mo": {"who": 70.0, "bd": None, "unit": "ug/L"},
-    "Sb": {"who": 20.0, "bd": None, "unit": "ug/L"},
-    "Se": {"who": 40.0, "bd": 10.0, "unit": "ug/L"},
-    "Ba": {"who": 1300.0, "bd": None, "unit": "ug/L"},
+    "Cd": {"who": 3.0, "bd": 5.0, "unit": "ug/L", "kind": "guideline"},
+    "Cr": {"who": 50.0, "bd": 50.0, "unit": "ug/L", "kind": "guideline"},
+    "Cu": {"who": 2000.0, "bd": 1000.0, "unit": "ug/L", "kind": "guideline"},
+    "Ni": {"who": 70.0, "bd": 100.0, "unit": "ug/L", "kind": "guideline"},
+    "Pb": {"who": 10.0, "bd": 50.0, "unit": "ug/L", "kind": "guideline"},
+    "Zn": {"who": 3000.0, "bd": 5000.0, "unit": "ug/L", "kind": "acceptability threshold"},
+    "U": {"who": 30.0, "bd": None, "unit": "ug/L", "kind": "guideline"},
+    "Mo": {"who": 70.0, "bd": None, "unit": "ug/L", "kind": "health-based value"},
+    "Sb": {"who": 20.0, "bd": None, "unit": "ug/L", "kind": "guideline"},
+    "Se": {"who": 40.0, "bd": 10.0, "unit": "ug/L", "kind": "guideline"},
+    "Ba": {"who": 1300.0, "bd": None, "unit": "ug/L", "kind": "guideline"},
+    # predictor, not a screened target, but a hazard in its own right
+    "Mn": {"who": 80.0, "bd": 100.0, "unit": "ug/L",
+           "kind": "health-based value (WHO 2021, provisional)"},
+    "Fe": {"who": None, "bd": 1000.0, "unit": "ug/L",
+           "kind": "acceptability threshold"},
 }
 
 ROLE_ORDER = {"predictor": 0, "target": 1, "geochemistry": 2}
 
 
-def describe(series, censored, unit, role, dls):
+def describe(series, censored, unit, role, dls, name=""):
     v = series.dropna()
     n = len(v)
     if n == 0:
         return None
+    unit = "" if str(unit).strip().lower() in ("nan", "none") else str(unit).strip()
+    if not unit:
+        unit = "pH units" if name == "pH" else "-"
     return {
         "role": role,
         "unit": unit,
         "n_valid": int(n),
         "n_censored": int(censored.sum()),
-        "pct_censored": round(100.0 * censored.sum() / len(series), 1),
+        "pct_censored": round(100.0 * censored.sum() / max(int(n), 1), 1),
         "detection_limits": "; ".join(f"{d:g}" for d in dls) if dls else "",
         "min": round(float(v.min()), 4),
         "p25": round(float(v.quantile(0.25)), 4),
@@ -104,7 +112,8 @@ def main():
         cens = d.get(f"{col}_censored", pd.Series(False, index=d.index)).fillna(False)
         rec = describe(d[col], cens, meta.get("unit", ""), meta["role"],
                        dl_map.get(col, {}).get("limits") if isinstance(
-                           dl_map.get(col), dict) else dl_map.get(col))
+                           dl_map.get(col), dict) else dl_map.get(col),
+                       name=col)
         if rec:
             rows.append({"variable": col, **rec})
 
@@ -132,6 +141,8 @@ def main():
     # so each guideline is converted into the unit of the column it is compared
     # against rather than the values being rescaled, which keeps the table in
     # the units the laboratory reported.
+    screened = set(design["targets_modellable"]) | {
+        e["target"] for e in design["targets_excluded"]}
     exc_rows = []
     for metal, std in STANDARDS.items():
         if metal not in d.columns:
@@ -151,12 +162,14 @@ def main():
             "median": round(float(v.median()), 4),
             "max": round(float(v.max()), 4),
             "who_guideline": who,
+            "who_value_type": std.get("kind", "guideline"),
             "n_above_who": int((v > who).sum()) if who else None,
             "pct_above_who": round(100.0 * (v > who).mean(), 1) if who else None,
             "bangladesh_standard": bd,
             "n_above_bd": int((v > bd).sum()) if bd else None,
             "max_as_pct_of_who": round(100.0 * float(v.max()) / who, 1) if who else None,
             "modelled": metal in design["targets_modellable"],
+            "role": "target" if metal in screened else "predictor",
         }
         exc_rows.append(rec)
 

@@ -43,6 +43,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy import stats
 from scipy.stats import mannwhitneyu
 
 warnings.filterwarnings("ignore")
@@ -84,29 +85,104 @@ def davies_gamma(z, ionic_strength):
     return 10 ** log_gamma
 
 
+def at_least(value, censored, threshold):
+    """
+    Three-valued test of `value >= threshold` on a possibly censored reading.
+
+    A censored row stores its own detection limit, so the true value lies
+    strictly below it. If that limit is at or below the threshold the answer is
+    a definite False; if it sits above, censoring leaves the question open and
+    the answer is None.
+
+    Reading the stored limit as a measurement is what put 40 of 65 wells in the
+    nitrate-reducing class in an earlier version: NO3-N censored at "< 0.5"
+    carried 0.5 into a `>= 0.5` test and passed it.
+    """
+    if pd.isna(value):
+        return None
+    if censored:
+        return False if value <= threshold else None
+    return bool(value >= threshold)
+
+
+def jonckheere_terpstra(groups):
+    """
+    Trend across ordered groups (Jonckheere 1954, Terpstra 1952).
+
+    The claim being tested is about an ordering, that arsenic rises along the
+    reducing sequence, so an ordered-alternative test states it directly. It
+    also keeps every well: a reducing-against-the-rest contrast throws away the
+    mixed waters and leaves a comparison group of nine.
+
+    `groups` is a list of arrays in the hypothesised increasing order. Returns
+    (J, expected J, z, two-sided p).
+    """
+    groups = [np.asarray(g, dtype=float) for g in groups]
+    groups = [g[np.isfinite(g)] for g in groups]
+    groups = [g for g in groups if len(g)]
+    if len(groups) < 3:
+        return None
+
+    j_stat = 0.0
+    for i in range(len(groups) - 1):
+        for k in range(i + 1, len(groups)):
+            a, b = groups[i][:, None], groups[k][None, :]
+            j_stat += float((a < b).sum() + 0.5 * (a == b).sum())
+
+    sizes = np.array([len(g) for g in groups], dtype=float)
+    n = sizes.sum()
+    expected = (n ** 2 - (sizes ** 2).sum()) / 4.0
+    variance = (n ** 2 * (2 * n + 3)
+                - (sizes ** 2 * (2 * sizes + 3)).sum()) / 72.0
+    if variance <= 0:
+        return None
+    z = (j_stat - expected) / np.sqrt(variance)
+    return j_stat, expected, float(z), float(2 * stats.norm.sf(abs(z)))
+
+
 def classify_redox(row):
     """
-    Terminal electron-accepting process, following the cascade in
-    McMahon & Chapelle (2008). Order matters: each step assumes the previous
-    acceptor is exhausted.
+    Terminal electron-accepting process after McMahon & Chapelle (2008).
+
+    Unlike a bare cascade this requires the full criteria for each class, so a
+    water carrying both nitrate and dissolved iron is called mixed rather than
+    being assigned to whichever test came first. Where censoring leaves a
+    decisive comparison open the well is indeterminate rather than guessed.
     """
-    o2, no3, mn, fe, so4 = (row["diss O2"], row["NO3-N"], row["Mn"],
-                            row["Fe"], row["SO4"])
-    if pd.isna(o2) and pd.isna(fe) and pd.isna(mn):
+    tests = {
+        "o2":  at_least(row["diss O2"], row.get("diss O2_censored", False), TH_O2),
+        "no3": at_least(row["NO3-N"], row.get("NO3-N_censored", False), TH_NO3_N),
+        "mn":  at_least(row["Mn"], row.get("Mn_censored", False), TH_MN),
+        "fe":  at_least(row["Fe"], row.get("Fe_censored", False), TH_FE),
+        "so4": at_least(row["SO4"], row.get("SO4_censored", False), TH_SO4),
+    }
+    o2, no3, mn, fe, so4 = (tests["o2"], tests["no3"], tests["mn"],
+                            tests["fe"], tests["so4"])
+
+    # Oxic is decided on dissolved oxygen alone, but only against a water that
+    # is demonstrably free of the reduced species.
+    if o2 is True:
+        return "oxic" if (fe is False and mn is False) else "mixed (oxic)"
+    if o2 is None and fe is None and mn is None:
         return "indeterminate"
-    if pd.notna(o2) and o2 >= TH_O2:
-        return "oxic"
-    if pd.notna(no3) and no3 >= TH_NO3_N:
-        return "nitrate-reducing"
-    if pd.notna(mn) and mn >= TH_MN and (pd.isna(fe) or fe < TH_FE):
+
+    anoxic_unknown = any(t is None for t in (no3, mn, fe))
+
+    if no3 is True:
+        if mn is False and fe is False:
+            return "nitrate-reducing"
+        return "mixed (anoxic)"
+    if mn is True and fe is False and no3 is False:
         return "Mn(IV)-reducing"
-    if pd.notna(fe) and fe >= TH_FE:
-        if pd.notna(so4) and so4 < TH_SO4:
-            return "sulfate-reducing / methanogenic"
-        return "Fe(III)-reducing"
-    if pd.notna(so4) and so4 < TH_SO4:
-        return "sulfate-reducing / methanogenic"
-    return "suboxic"
+    if fe is True and no3 is False:
+        if so4 is False:
+            return "methanogenic"
+        if so4 is True:
+            return "Fe(III)- / sulfate-reducing"
+        return "indeterminate"
+    if no3 is False and mn is False and fe is False:
+        return "suboxic"
+    return "indeterminate" if anoxic_unknown else "mixed (anoxic)"
 
 
 def water_type(row):
@@ -240,19 +316,37 @@ def main():
 
     # ── 5. The link back to the ML result ────────────────────────────────────
     print("\n  [5] WHY Fe AND Mn CARRY THE ARSENIC SIGNAL")
-    reducing = g["redox_zone"].isin(["Fe(III)-reducing", "Mn(IV)-reducing",
-                                     "sulfate-reducing / methanogenic"])
+    REDUCING = ["Fe(III)- / sulfate-reducing", "Mn(IV)-reducing", "methanogenic"]
+    NON_REDUCING = ["oxic", "nitrate-reducing", "suboxic"]
+    reducing = g["redox_zone"].isin(REDUCING)
+    classified = g["redox_zone"].isin(REDUCING + NON_REDUCING)
+    # mixed and indeterminate waters are evidence for neither side
     as_red = d.loc[reducing, "AsTot"]
-    as_ox = d.loc[~reducing, "AsTot"]
+    as_ox = d.loc[classified & ~reducing, "AsTot"]
     try:
         p = mannwhitneyu(as_red.dropna(), as_ox.dropna(), alternative="greater").pvalue
     except ValueError:
         p = np.nan
     print(f"      reducing zones   n={int(reducing.sum()):3d}  "
           f"As median={as_red.median():7.2f}  >WHO {int((as_red>10).sum())}")
-    print(f"      non-reducing     n={int((~reducing).sum()):3d}  "
+    print(f"      non-reducing     n={int((classified & ~reducing).sum()):3d}  "
           f"As median={as_ox.median():7.2f}  >WHO {int((as_ox>10).sum())}")
-    print(f"      Mann-Whitney (reducing > rest): p={p:.2e}")
+    print(f"      Mann-Whitney (reducing > rest): p={p:.2e}  "
+          f"[comparison group n={int((classified & ~reducing).sum())}]")
+
+    # The ordered alternative, which is what the claim actually says and which
+    # uses every well rather than discarding the mixed waters.
+    CASCADE = ["oxic", "mixed (oxic)", "mixed (anoxic)",
+               "Fe(III)- / sulfate-reducing", "methanogenic"]
+    ordered = [d.loc[g["redox_zone"] == z, "AsTot"].dropna().values
+               for z in CASCADE]
+    jt = jonckheere_terpstra(ordered)
+    if jt:
+        j_stat, expected, z_jt, p_jt = jt
+        n_used = int(sum(len(o) for o in ordered))
+        print(f"      Jonckheere-Terpstra along {' < '.join(CASCADE)}")
+        print(f"        n={n_used}  J={j_stat:.0f} (expected {expected:.0f})  "
+              f"z={z_jt:+.2f}  p={p_jt:.2e}")
 
     # ── 6. Arsenic speciation: a check that does NOT confirm the zonation ───
     # As(III) is expected to dominate under reducing conditions. It does not
@@ -269,8 +363,8 @@ def main():
 
     print("\n  [6] ARSENIC SPECIATION  (uncensored pairs only)")
     spec_rows = []
-    for zone in ["oxic", "Mn(IV)-reducing", "nitrate-reducing",
-                 "Fe(III)-reducing", "sulfate-reducing / methanogenic"]:
+    for zone in ["oxic", "nitrate-reducing", "Mn(IV)-reducing",
+                 "Fe(III)- / sulfate-reducing", "methanogenic", "suboxic"]:
         sel = (g["redox_zone"] == zone) & g["AsIII_fraction"].notna()
         if sel.sum() == 0:
             continue
@@ -313,6 +407,12 @@ def main():
             "thresholds_mgL": {"O2": TH_O2, "NO3-N": TH_NO3_N, "Mn": TH_MN,
                                "Fe": TH_FE, "SO4": TH_SO4},
             "zones": zone_rows,
+            "trend_test": ({"test": "Jonckheere-Terpstra, ordered alternative",
+                            "cascade": CASCADE,
+                            "n_wells": int(sum(len(o) for o in ordered)),
+                            "J": jt[0], "expected_J": jt[1],
+                            "z": round(jt[2], 4), "p_value": jt[3]}
+                           if jt else None),
         },
         "saturation_indices": {
             m: {"median": round(float(g[m].replace([np.inf, -np.inf], np.nan).median()), 3),

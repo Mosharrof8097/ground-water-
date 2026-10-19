@@ -1,0 +1,145 @@
+{
+  "question": "Whether the positive log-scale R2 for arsenic reflects chemistry or merely the structure of which wells were reported as a detection limit.",
+  "design": "Identical spatially blocked folds scored twice, on all test wells and on measured test wells only. Random folds scored the same way give the optimism gap on the log scale. Feasibility itself is unchanged and remains the pre-specified original-scale criterion.",
+  "n_wells": 271,
+  "n_censored": 92,
+  "tiers_holding_at_8_blocks": 1,
+  "verdict": "log-scale skill does not hold on measured wells alone; it cannot be separated from the censoring structure and should not be claimed",
+  "results": {
+    "E1_meter": {
+      "tier": "E1_meter",
+      "n_features": 4,
+      "random": {
+        "r2": -0.0702,
+        "r2_log": 0.1867,
+        "r2_log_measured_only": -0.1621
+      },
+      "spatial_8": {
+        "r2": -0.0332,
+        "r2_log": -0.1748,
+        "r2_log_measured_only": -0.3817,
+        "r2_log_measured_only_sd": 0.5192,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.9984037910361073,
+        "log_optimism_gap": 0.3614
+      },
+      "spatial_16": {
+        "r2": 0.078,
+        "r2_log": 0.0303,
+        "r2_log_measured_only": -0.2373,
+        "r2_log_measured_only_sd": 0.5239,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.9586804370975855,
+        "log_optimism_gap": 0.1564
+      }
+    },
+    "E2_meter_kit": {
+      "tier": "E2_meter_kit",
+      "n_features": 6,
+      "random": {
+        "r2": 0.035,
+        "r2_log": 0.3928,
+        "r2_log_measured_only": 0.1444
+      },
+      "spatial_8": {
+        "r2": -0.2296,
+        "r2_log": 0.1178,
+        "r2_log_measured_only": -0.0608,
+        "r2_log_measured_only_sd": 0.4172,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.8018423944887627,
+        "log_optimism_gap": 0.275
+      },
+      "spatial_16": {
+        "r2": -0.1608,
+        "r2_log": 0.1929,
+        "r2_log_measured_only": -0.0188,
+        "r2_log_measured_only_sd": 0.5035,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.5904563754933594,
+        "log_optimism_gap": 0.1999
+      }
+    },
+    "E3_meter_kit_titration": {
+      "tier": "E3_meter_kit_titration",
+      "n_features": 8,
+      "random": {
+        "r2": 0.0576,
+        "r2_log": 0.4308,
+        "r2_log_measured_only": 0.1953
+      },
+      "spatial_8": {
+        "r2": -0.1057,
+        "r2_log": 0.1371,
+        "r2_log_measured_only": -0.0408,
+        "r2_log_measured_only_sd": 0.3489,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.7865085662291683,
+        "log_optimism_gap": 0.2937
+      },
+      "spatial_16": {
+        "r2": 0.0384,
+        "r2_log": 0.2513,
+        "r2_log_measured_only": 0.0766,
+        "r2_log_measured_only_sd": 0.4655,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.2724456947185918,
+        "log_optimism_gap": 0.1796
+      }
+    },
+    "E4_plus_well_record": {
+      "tier": "E4_plus_well_record",
+      "n_features": 9,
+      "random": {
+        "r2": 0.104,
+        "r2_log": 0.476,
+        "r2_log_measured_only": 0.2164
+      },
+      "spatial_8": {
+        "r2": -0.0652,
+        "r2_log": 0.1617,
+        "r2_log_measured_only": -0.0269,
+        "r2_log_measured_only_sd": 0.4784,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.37840680237226676,
+        "log_optimism_gap": 0.3143
+      },
+      "spatial_16": {
+        "r2": 0.0783,
+        "r2_log": 0.2693,
+        "r2_log_measured_only": 0.0968,
+        "r2_log_measured_only_sd": 0.4738,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.19832869511433515,
+        "log_optimism_gap": 0.2067
+      }
+    },
+    "REF_full_cheap": {
+      "tier": "REF_full_cheap",
+      "n_features": 14,
+      "random": {
+        "r2": 0.063,
+        "r2_log": 0.556,
+        "r2_log_measured_only": 0.3611
+      },
+      "spatial_8": {
+        "r2": -0.038,
+        "r2_log": 0.2265,
+        "r2_log_measured_only": 0.0225,
+        "r2_log_measured_only_sd": 0.4033,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.41997507262585876,
+        "log_optimism_gap": 0.3295
+      },
+      "spatial_16": {
+        "r2": 0.0056,
+        "r2_log": 0.3426,
+        "r2_log_measured_only": 0.0552,
+        "r2_log_measured_only_sd": 0.4482,
+        "n_folds_scored": 25,
+        "wilcoxon_p_log_measured_gt_0": 0.14392020316994358,
+        "log_optimism_gap": 0.2133
+      }
+    }
+  }
+}

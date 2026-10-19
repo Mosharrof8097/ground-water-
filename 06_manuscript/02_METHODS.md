@@ -45,7 +45,21 @@ publisher describes as approximate and not intended for precise mapping. A
 companion file classifies every national survey site by surface geology after
 Alam et al. (1990), and is used in Section 2.8.
 
-Figure 1 summarises the flow of data through the analysis, and Figure 3 shows
+Samples were filtered and acidified in the field and the trace metals
+determined by inductively coupled plasma mass spectrometry, with the major
+ions by ion chromatography and titration, under the quality control described
+in the survey report. Every metal used here is therefore a laboratory
+determination, which matters for the cost tiers and is taken up in Section 2.4.
+
+The data were collected in 1998 and 1999. This is the only component of the
+survey that carries field pH, redox potential, dissolved oxygen and dissolved
+organic carbon alongside a full trace metal suite, which is why it is used
+despite its age. The question asked here is whether one class of measurement
+can substitute for another, and that relation is a property of the analytical
+chemistry rather than of the year. Concentrations at individual wells will have
+changed; the feasibility question has not.
+
+Figure 1 summarises the flow of data through the analysis, and Figure 2 shows
 the two sets of wells against those boundaries.
 
 {{FIGURE:Fig1}}
@@ -100,6 +114,14 @@ limit, and As(III) places 43 % of records on 6.0 µg/L. Neither carries
 sufficient variation for any estimator to exploit, irrespective of the
 underlying geochemistry.
 
+A qualification applies to the tiers throughout. Iron and manganese in this
+survey are inductively coupled plasma determinations on filtered and acidified
+samples, not colorimetric field kit readings, and pH and redox potential were
+measured with laboratory grade meters rather than under field conditions. The
+tiers therefore describe the information content of a set of determinands, not
+the performance of any particular instrument, and every result below is an
+upper bound on what a field team would achieve with kits of coarser resolution.
+
 Seven metals satisfy all four criteria and are carried forward: total arsenic,
 nickel, lead, zinc, uranium, molybdenum and barium. Six are excluded: As(III),
 cadmium, chromium, copper, antimony and selenium. The outcome of this screening
@@ -123,7 +145,10 @@ field deployable and serves as a ceiling against which the deployable tiers are
 compared.
 
 Complete cases number 254 for E1 and E2, 253 for E3, 243 for E4 and 229 for
-REF. Figure 2 sets out the tiers alongside the validation schemes.
+REF. Wells are not dropped on that account: median imputation is fitted inside
+each training fold, so every tier is scored on the full set of wells carrying a
+target value, which is why the feasibility matrix in Section 3.4 reports n = 271 throughout. Figure 3 sets
+out the tiers alongside the validation schemes.
 
 {{FIGURE:Fig2}}
 
@@ -254,7 +279,7 @@ influence on the present conclusions is measured directly.
 
 Four treatments are compared on identical folds: substitution of half the
 detection limit, substitution of the limit itself, substitution of zero, and
-regression on order statistics [57]. Under the last, a lognormal distribution
+a conditional draw from a fitted distribution [57]. Under the last, a lognormal distribution
 is fitted to the uncensored observations of each target and censored values are
 drawn from that distribution truncated above at the detection limit applying to
 each individual sample, which both preserves the shape of the lower tail and
@@ -283,10 +308,25 @@ against chloride, bicarbonate, sulfate, nitrate and fluoride, all converted to
 milliequivalents per litre. Samples outside ±10 % are flagged rather than
 removed, and the rate is reported.
 
-Redox condition is assigned by the cascade of McMahon and Chapelle [15, 16],
-which proceeds through dissolved oxygen, nitrate, manganese, iron and sulfate
-using threshold concentrations of 0.5, 0.5, 0.05, 0.1 and 0.5 mg/L
-respectively, assigning each well a terminal electron accepting process.
+Redox condition is assigned by the framework of McMahon and Chapelle [15, 16],
+which uses dissolved oxygen, nitrate, manganese, iron and sulfate at threshold
+concentrations of 0.5, 0.5, 0.05, 0.1 and 0.5 mg/L respectively to identify a
+terminal electron accepting process.
+
+Two departures from a bare cascade are necessary here, and both follow from the
+censoring that is the subject of this paper. First, each class is assigned only
+when its full criteria are met, so that a water carrying both nitrate above the
+threshold and dissolved iron above its own is called mixed rather than being
+awarded to whichever comparison was evaluated first. Second, every comparison
+is three valued. A censored reading stores its own detection limit, so the true
+value lies strictly below it: when that limit is at or below the threshold the
+comparison returns a definite negative, and when it lies above, the question is
+left open and the well is recorded as indeterminate. Reading a stored limit as
+though it were a measurement is not a hypothetical risk. Nitrate here is
+censored in 80 % of wells at limits of 0.3 and 0.5 mg/L, and an earlier version
+of this analysis, which omitted both departures, placed 65 wells in the nitrate
+reducing class of which only two met the full criteria and 40 qualified solely
+because a reported "< 0.5" was compared against a threshold of 0.5.
 
 Saturation indices for calcite and siderite are computed from pH, temperature
 and the major ions, with activity coefficients from the Davies equation and
@@ -315,16 +355,20 @@ forced to unity.
 
 An area under the receiver operating characteristic curve describes ranking but
 does not tell a monitoring programme what to do. For total arsenic, therefore,
-predicted concentrations on the external wells are swept across thresholds and
-sensitivity, specificity, positive and negative predictive value, the
-proportion of wells referred for laboratory confirmation, and the number of
-contaminated wells missed are reported at each.
-
-Three operating points are named: the threshold attaining at least 95 %
+three operating points are named: the threshold attaining at least 95 %
 sensitivity at the lowest laboratory burden, the threshold maximising Youden's
 index, and the threshold attaining at least 90 % specificity. Both the World
 Health Organization guideline of 10 µg/L and the Bangladesh national standard
 of 50 µg/L are evaluated.
+
+Each threshold is chosen on out of fold predictions over the development wells
+and then frozen. Only after that are the external wells scored, so the reported
+sensitivity, specificity and laboratory burden are out of sample in the cut off
+as well as in the model. Choosing the threshold on the wells it is then
+measured against would make the reported sensitivity an in sample quantity, and
+an earlier version of this analysis did exactly that. Bootstrap percentile
+intervals over 2,000 resamples accompany each operating point, since with 64
+positives a sensitivity near unity carries a wide interval.
 
 Laboratory burden and wells missed are reported side by side rather than
 combined into a single score, because their relative weight is a policy
@@ -347,6 +391,28 @@ that the external set is geographically separated from the development set.
 
 The complete pipeline, including the raw data as released, is available at
 https://github.com/Mosharrof8097/ground-water-.
+
+---
+
+## 2.11 Statements
+
+**Data availability.** All data are from the public release of the National
+Hydrochemical Survey of Bangladesh and are redistributed unchanged with the
+analysis code at https://github.com/Mosharrof8097/ground-water-, together with
+checksums and download provenance. Reuse is free, but any publication using
+them must cite the survey report and acknowledge the funder and partners: the
+survey was funded by DFID and carried out by the British Geological Survey with
+the Department of Public Health Engineering, Government of Bangladesh.
+
+**Funding.** [NEW: funding statement, or "This research received no specific
+grant from any funding agency in the public, commercial or not for profit
+sectors."]
+
+**CRediT author statement.** [NEW: per author, from the CRediT taxonomy.]
+
+**Declaration of competing interest.** The authors declare no competing
+financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
 
 ---
 

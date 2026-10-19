@@ -101,11 +101,48 @@ def main():
               all(r["mean_interval_width"] > 0 for _, _, r in crows))
         check("every conformal combination was found feasible in 3.1",
               all(res[t][tier]["feasible"] for t, tier, _ in crows))
+        # Split conformal certifies coverage of at least 1 - alpha in finite
+        # samples. Systematic undercoverage means the plain empirical quantile
+        # was used instead of the ceil((n+1)(1-alpha)) order statistic, which
+        # is exactly what an earlier version of this stage did.
+        under = [(t, tier, r["mean_coverage"]) for t, tier, r in crows
+                 if r["mean_coverage"] < r["nominal_coverage"] - 0.005]
+        check("coverage is not systematically below nominal",
+              len(under) <= max(1, len(crows) // 10),
+              f"{len(under)} of {len(crows)} combinations undercover: "
+              f"{under[:3]}")
+
+    # ── 3.5 redox classification ─────────────────────────────────────────────
+    geo = load(METRICS / "35_geochem.json")
+    if geo and geo.get("redox_zonation", {}).get("zones"):
+        print("\n  [3.5 redox classification]")
+        zones = {z["redox_zone"]: z for z in geo["redox_zonation"]["zones"]}
+        nr = zones.get("nitrate-reducing")
+        if nr:
+            # A nitrate-reducing water cannot carry milligrams of dissolved
+            # iron. When it appears to, censored nitrate has been read as a
+            # measurement and compared against its own detection limit.
+            check("nitrate-reducing wells are low in iron",
+                  nr["median_Fe_mgL"] < 0.1,
+                  f"median Fe {nr['median_Fe_mgL']} mg/L in "
+                  f"{nr['n_wells']} nitrate-reducing wells")
+            check("nitrate-reducing wells are low in manganese",
+                  nr["median_Mn_mgL"] < 0.05,
+                  f"median Mn {nr['median_Mn_mgL']} mg/L")
+        ox = zones.get("oxic")
+        if ox:
+            check("oxic wells are low in iron",
+                  ox["median_Fe_mgL"] < 0.1,
+                  f"median Fe {ox['median_Fe_mgL']} mg/L in "
+                  f"{ox['n_wells']} oxic wells")
+        check("waters that satisfy no single class are reported, not forced",
+              any(z.startswith("mixed") or z == "indeterminate" for z in zones))
 
     # ── 3.3 censoring ────────────────────────────────────────────────────────
     if cens:
         print("\n  [3.3 censoring comparison]")
-        rules = {"substitute_half", "substitute_dl", "substitute_zero", "ros"}
+        rules = {"substitute_half", "substitute_dl", "substitute_zero",
+                 "stochastic_imputation"}
         check("all four censoring rules evaluated for every target",
               all(rules <= set(r["r2_by_rule"]) for r in cens["results"].values()))
         check("spread equals max minus min across rules",
@@ -113,6 +150,14 @@ def main():
                                         - min(r["r2_by_rule"].values()))) < 1e-3
                   for r in cens["results"].values()))
         zero_cens = [t for t, r in cens["results"].items() if r["pct_censored"] == 0]
+        check("the draw-based rule is not mislabelled as ROS",
+              all("ros" not in r["r2_by_rule"] for r in cens["results"].values()),
+              "regression on order statistics is a different estimator")
+        check("every rule is scored against the same measured wells",
+              all(r.get("n_scored_against") for r in cens["results"].values()))
+        check("censored-consistency is reported where there is censoring",
+              all(r.get("censored_consistency_pct")
+                  for r in cens["results"].values() if r.get("n_censored")))
         check("targets with no censoring show zero spread",
               all(cens["results"][t]["r2_spread"] < 1e-6 for t in zero_cens),
               f"checked {zero_cens}")

@@ -74,12 +74,18 @@ PARAM_GRID = [
 ]
 
 
-def ros_impute(values, censored, seed=SEED):
+def stochastic_conditional_impute(values, censored, seed=SEED):
     """
-    Regression on order statistics.
+    Stochastic conditional imputation.
 
     Fit a lognormal to the uncensored observations, then draw each censored
     value from that distribution truncated above at its own detection limit.
+
+    This is deliberately not called regression on order statistics. ROS in the
+    sense of Helsel plots the detected values against their normal scores, fits
+    a line and reads the censored values off that line, which is deterministic.
+    Drawing from a fitted distribution is a different estimator, and a single
+    draw at that; proper treatment would use multiple imputation.
     Unlike substitution this keeps the shape of the lower tail instead of
     collapsing it onto a single point, and it respects a column that carries
     more than one detection limit.
@@ -107,18 +113,35 @@ def ros_impute(values, censored, seed=SEED):
     return out
 
 
-def cv_r2(X, y, grid):
+def cv_r2(X, y, grid, y_ref=None, score_mask=None):
     """
-    5x5 repeated CV R2 on log1p(y), scored on the original scale.
+    5x5 repeated CV, trained on log1p(y), scored on one common reference.
 
     The model is searched inside each training fold, exactly as in stage 3.1.
     An earlier version fixed Ridge for every target, which confounded the
     comparison: targets that need a non-linear model scored badly regardless of
     the censoring rule, and the spread between rules then reflected an
     ill-fitting model rather than the substitution choice.
+
+    A second confound mattered more. Each rule rebuilds the whole target
+    vector, so scoring every arm against its own vector judged four models
+    against four different truths and the spread between them measured target
+    variance as much as model distortion. The rule now governs the training
+    target only: `y_ref` supplies the values every arm is scored against, and
+    `score_mask` restricts scoring to test wells whose value is a genuine
+    measurement rather than a reconstructed one.
+
+    Scores are reported on the original scale and on the log scale. The
+    original scale is dominated by a few high wells, the log scale is the one
+    the model was fitted on, and the two answer different questions.
     """
+    if y_ref is None:
+        y_ref = y
+    if score_mask is None:
+        score_mask = np.ones(len(y), dtype=bool)
+
     cv = RepeatedKFold(n_splits=N_SPLITS, n_repeats=N_REPEATS, random_state=SEED)
-    scores, preds = [], np.zeros(len(y))
+    scores, scores_log, maes, preds = [], [], [], np.zeros(len(y))
     for tr, te in cv.split(X):
         base = Pipeline([("i", SimpleImputer(strategy="median")),
                          ("s", StandardScaler()),
@@ -127,9 +150,16 @@ def cv_r2(X, y, grid):
                               scoring="neg_mean_squared_error", n_jobs=N_JOBS)
         search.fit(X[tr], np.log1p(y[tr]))
         p = np.maximum(np.expm1(search.best_estimator_.predict(X[te])), 0.0)
-        scores.append(r2_score(y[te], p))
         preds[te] = p
-    return np.array(scores), preds
+
+        keep = score_mask[te]
+        if keep.sum() < 3:
+            continue
+        truth, pred = y_ref[te][keep], p[keep]
+        scores.append(r2_score(truth, pred))
+        scores_log.append(r2_score(np.log1p(truth), np.log1p(pred)))
+        maes.append(float(np.mean(np.abs(np.log1p(truth) - np.log1p(pred)))))
+    return (np.array(scores), preds, np.array(scores_log), np.array(maes))
 
 
 def main():
@@ -162,42 +192,109 @@ def main():
             "substitute_half": np.where(cens, y_dl / 2.0, y_dl),
             "substitute_dl": y_dl.copy(),
             "substitute_zero": np.where(cens, 0.0, y_dl),
-            "ros": ros_impute(y_dl, cens),
+            "stochastic_imputation": stochastic_conditional_impute(y_dl, cens),
         }
 
-        scores, preds = {}, {}
+        # Every arm is scored against the same truth, on the test wells whose
+        # value was actually measured. The rule then governs only what the
+        # model was trained on, which is the thing being compared.
+        uncensored = ~cens
+        med = float(np.median(y_dl))
+        n_ref = int(uncensored.sum())
+        if n_ref < 30:
+            print(f"  {target:8s} skipped: only {n_ref} uncensored wells to "
+                  f"score against")
+            continue
+
+        scores, preds, logs, maes = {}, {}, {}, {}
         for name, y in variants.items():
-            s, p = cv_r2(X, y, PARAM_GRID)
-            scores[name] = s
-            preds[name] = p
+            sc, pr, lg, ma = cv_r2(X, y, PARAM_GRID,
+                                   y_ref=y_dl, score_mask=uncensored)
+            scores[name], preds[name], logs[name], maes[name] = sc, pr, lg, ma
+
+        # Scoring only on measured wells leaves out the lower tail, which is
+        # exactly where a substitution rule bites, so the spread above can
+        # understate the rule's effect. This second column looks at the
+        # censored wells without needing a truth for them: a prediction that
+        # respects "< DL" should itself fall below that DL. Read the two
+        # together; a shrinking spread with a falling consistency means the
+        # effect moved out of view rather than away.
+        consistency = {}
+        for name, pr in preds.items():
+            if cens.sum() == 0:
+                consistency[name] = None
+                continue
+            below = pr[cens] < y_dl[cens]
+            consistency[name] = round(100.0 * float(below.mean()), 1)
 
         r2s = {k: float(v.mean()) for k, v in scores.items()}
+        r2log = {k: float(v.mean()) for k, v in logs.items()}
+        mae = {k: float(v.mean()) for k, v in maes.items()}
         spread = max(r2s.values()) - min(r2s.values())
+        spread_log = max(r2log.values()) - min(r2log.values())
 
-        # How far predictions move between the common default and ROS
-        shift = float(np.median(np.abs(preds["substitute_half"] - preds["ros"])))
-        med = float(np.median(y_dl))
+        # How far predictions move between the common default and the draw
+        shift = float(np.median(np.abs(preds["substitute_half"]
+                                       - preds["stochastic_imputation"])))
         shift_rel = 100.0 * shift / med if med > 0 else np.nan
+
+        # How much of the distribution the detection limit actually covers.
+        # The censoring rate alone says how many values were reported as a
+        # limit; this adds the measured values that fall at or below the same
+        # limit, which is the mass a substitution rule can move. Lead shows why
+        # both are needed: its limit sits at half the median, higher than
+        # arsenic's, yet so little mass lies beneath it that no rule has
+        # anything to move.
+        max_dl = float(np.nanmax(y_dl[cens])) if cens.any() else float("nan")
+        mass_at_or_below_dl = (float(np.mean(y_dl <= max_dl)) * 100.0
+                               if np.isfinite(max_dl) else 0.0)
 
         detail[target] = {
             "pct_censored": round(pct, 1),
+            "largest_detection_limit": None if not np.isfinite(max_dl) else round(max_dl, 6),
+            "dl_as_fraction_of_median": (None if not np.isfinite(max_dl) or med <= 0
+                                         else round(max_dl / med, 4)),
+            "pct_mass_at_or_below_dl": round(mass_at_or_below_dl, 1),
+            "n_scored_against": n_ref,
+            "n_censored": int(cens.sum()),
+            "censored_consistency_pct": consistency,
             "r2_by_rule": {k: round(v, 4) for k, v in r2s.items()},
+            "r2_log_by_rule": {k: round(v, 4) for k, v in r2log.items()},
+            "mae_log_by_rule": {k: round(v, 4) for k, v in mae.items()},
             "r2_spread": round(spread, 4),
-            "median_abs_prediction_shift_half_vs_ros": round(shift, 4),
+            "r2_log_spread": round(spread_log, 4),
+            "median_abs_prediction_shift_half_vs_imputation": round(shift, 4),
             "shift_as_pct_of_median": None if np.isnan(shift_rel) else round(shift_rel, 1),
         }
         rows.append({
             "target": target,
             "pct_censored": round(pct, 1),
+            "largest_detection_limit": None if not np.isfinite(max_dl) else round(max_dl, 6),
+            "dl_as_fraction_of_median": (None if not np.isfinite(max_dl) or med <= 0
+                                         else round(max_dl / med, 4)),
+            "pct_mass_at_or_below_dl": round(mass_at_or_below_dl, 1),
+            "n_scored_against": n_ref,
+            "n_censored": int(cens.sum()),
+            **{f"consistency_{k}": consistency[k] for k in consistency},
             **{f"r2_{k}": round(v, 4) for k, v in r2s.items()},
             "r2_spread": round(spread, 4),
+            **{f"r2log_{k}": round(v, 4) for k, v in r2log.items()},
+            "r2_log_spread": round(spread_log, 4),
             "pred_shift_pct_of_median": None if np.isnan(shift_rel) else round(shift_rel, 1),
         })
 
-        print(f"  {target:8s} censored {pct:4.0f}%  "
-              f"DL/2={r2s['substitute_half']:+.3f}  DL={r2s['substitute_dl']:+.3f}  "
-              f"0={r2s['substitute_zero']:+.3f}  ROS={r2s['ros']:+.3f}  "
-              f"spread={spread:.3f}")
+        print(f"           detection limit {max_dl:g} = {max_dl/med:.2f} of the "
+              f"median, with {mass_at_or_below_dl:.0f}% of wells at or below it")
+        print(f"  {target:8s} censored {pct:4.0f}%  scored on {n_ref:3d} "
+              f"measured wells  DL/2={r2s['substitute_half']:+.3f}  "
+              f"DL={r2s['substitute_dl']:+.3f}  0={r2s['substitute_zero']:+.3f}  "
+              f"draw={r2s['stochastic_imputation']:+.3f}  spread={spread:.3f}  "
+              f"(log spread={spread_log:.3f})")
+        if cens.sum():
+            print(f"           censored-consistency (% of {int(cens.sum())} "
+                  f"censored wells predicted below their own DL): "
+                  + "  ".join(f"{k.replace('substitute_', '')}="
+                              f"{consistency[k]:.0f}%" for k in consistency))
 
     pd.DataFrame(rows).to_csv(OUT_TABLE, index=False)
     json.dump({
@@ -210,9 +307,20 @@ def main():
             "substitute_half": "y = DL/2 (the common default)",
             "substitute_dl": "y = DL (upper bound)",
             "substitute_zero": "y = 0 (lower bound)",
-            "ros": "regression on order statistics; lognormal fit to observed "
-                   "values, censored values drawn truncated at their own DL",
+            "stochastic_imputation": "lognormal fit to the observed values, "
+                   "each censored value drawn from it truncated at its own "
+                   "detection limit; a single draw, not multiple imputation, "
+                   "and not regression on order statistics in Helsel's sense",
         },
+        "censored_consistency": ("Percentage of censored test wells whose "
+                    "out-of-fold prediction falls below that well's own "
+                    "detection limit. It needs no truth for those wells and "
+                    "covers the lower tail that the common reference excludes."),
+        "scoring": ("Every rule is scored against the same reference, the "
+                    "reported values at test wells that were actually "
+                    "measured, so the comparison isolates distortion of the "
+                    "model from variance in the reconstructed target. Scores "
+                    "are given on the original and the log scale."),
         "results": detail,
     }, open(OUT_METRICS, "w"), indent=2)
 

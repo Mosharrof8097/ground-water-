@@ -94,6 +94,14 @@ PARAM_GRID = [
 ]
 
 
+def conformal_quantile(scores, alpha):
+    """Finite-sample split-conformal quantile; see stage 3.2 for the reasoning."""
+    scores = np.sort(np.asarray(scores, dtype=float))
+    n = len(scores)
+    k = int(np.ceil((n + 1) * (1.0 - alpha)))
+    return float(scores[-1] if k > n else scores[k - 1])
+
+
 def load_bgs(path):
     """Read a BGS file, returning the data frame and its units row."""
     raw = pd.read_csv(path, skiprows=SKIP_BANNER, low_memory=False)
@@ -137,12 +145,14 @@ def fit_searched(X, y_log):
 def internal_cv(X, y):
     """In-development CV for the same reduced predictor set, for comparison."""
     cv = RepeatedKFold(n_splits=N_SPLITS, n_repeats=N_REPEATS, random_state=SEED)
-    scores = []
+    scores, scores_log = [], []
     for tr, te in cv.split(X):
         model = fit_searched(X[tr], np.log1p(y[tr]))
         pred = np.maximum(np.expm1(model.predict(X[te])), 0.0)
         scores.append(r2_score(y[te], pred))
-    return float(np.mean(scores)), float(np.std(scores))
+        scores_log.append(r2_score(np.log1p(y[te]), np.log1p(pred)))
+    return (float(np.mean(scores)), float(np.std(scores)),
+            float(np.mean(scores_log)))
 
 
 def conformal_transfer(X_dev, y_dev, X_ext, y_ext, rng):
@@ -161,7 +171,7 @@ def conformal_transfer(X_dev, y_dev, X_ext, y_ext, rng):
 
         model = fit_searched(X_dev[tr], np.log1p(y_dev[tr]))
         cal_pred = np.maximum(np.expm1(model.predict(X_dev[cal])), 0.0)
-        q_hat = float(np.quantile(np.abs(y_dev[cal] - cal_pred), 1 - ALPHA))
+        q_hat = conformal_quantile(np.abs(y_dev[cal] - cal_pred), ALPHA)
 
         ext_pred = np.maximum(np.expm1(model.predict(X_ext)), 0.0)
         lo = np.maximum(ext_pred - q_hat, 0.0)
@@ -240,11 +250,15 @@ def main():
             X_ext = e[feats].to_numpy(float)
             y_ext = e[ext_target].to_numpy(float)
 
-            int_r2, int_sd = internal_cv(X_dev, y_dev)
+            int_r2, int_sd, int_r2_log = internal_cv(X_dev, y_dev)
 
             model = fit_searched(X_dev, np.log1p(y_dev))
             pred = np.maximum(np.expm1(model.predict(X_ext)), 0.0)
             ext_r2 = r2_score(y_ext, pred)
+            # The original scale is dominated by a handful of very high wells,
+            # and the model was fitted on the log scale, so both are reported.
+            ext_r2_log = r2_score(np.log1p(y_ext), np.log1p(pred))
+            ext_mae_log = float(np.mean(np.abs(np.log1p(y_ext) - np.log1p(pred))))
             ext_rho = float(spearmanr(y_ext, pred).statistic)
 
             limit = WHO_LIMIT[dev_target]
@@ -259,7 +273,10 @@ def main():
                 "features": feats,
                 "internal_cv_r2": round(int_r2, 4),
                 "internal_cv_r2_sd": round(int_sd, 4),
+                "internal_cv_r2_log": round(int_r2_log, 4),
                 "external_r2": round(float(ext_r2), 4),
+                "external_r2_log": round(float(ext_r2_log), 4),
+                "external_mae_log": round(ext_mae_log, 4),
                 "external_spearman": round(ext_rho, 4),
                 "external_auc_who": None if auc is None else round(auc, 4),
                 "n_exceeding_who_external": int(labels.sum()),

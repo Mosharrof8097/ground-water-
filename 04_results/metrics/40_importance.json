@@ -324,52 +324,52 @@
     "Ba": {
       "tier": "E4_plus_well_record",
       "spatially_robust": true,
-      "redox_proxy_share": 0.2253,
+      "redox_proxy_share": 0.1078,
       "importance": {
         "WELL_DEPTH": {
-          "mean_r2_drop": 0.49891,
-          "sd": 0.12301,
-          "share": 0.5
-        },
-        "Fe": {
-          "mean_r2_drop": 0.1814,
-          "sd": 0.05167,
-          "share": 0.1818
+          "mean_r2_drop": 0.81183,
+          "sd": 0.12903,
+          "share": 0.6762
         },
         "SEC": {
-          "mean_r2_drop": 0.1793,
-          "sd": 0.06202,
-          "share": 0.1797
+          "mean_r2_drop": 0.171,
+          "sd": 0.05314,
+          "share": 0.1424
         },
-        "HCO3": {
-          "mean_r2_drop": 0.06388,
-          "sd": 0.02134,
-          "share": 0.064
-        },
-        "Mn": {
-          "mean_r2_drop": 0.03599,
-          "sd": 0.01942,
-          "share": 0.0361
+        "Fe": {
+          "mean_r2_drop": 0.09428,
+          "sd": 0.0275,
+          "share": 0.0785
         },
         "pH": {
-          "mean_r2_drop": 0.01727,
-          "sd": 0.01099,
-          "share": 0.0173
+          "mean_r2_drop": 0.05036,
+          "sd": 0.01995,
+          "share": 0.0419
         },
-        "Cl": {
-          "mean_r2_drop": 0.01108,
-          "sd": 0.01202,
-          "share": 0.0111
+        "HCO3": {
+          "mean_r2_drop": 0.03197,
+          "sd": 0.02474,
+          "share": 0.0266
+        },
+        "Mn": {
+          "mean_r2_drop": 0.02697,
+          "sd": 0.01349,
+          "share": 0.0225
         },
         "Eh": {
-          "mean_r2_drop": 0.00742,
-          "sd": 0.00676,
-          "share": 0.0074
+          "mean_r2_drop": 0.00815,
+          "sd": 0.00683,
+          "share": 0.0068
         },
         "T": {
-          "mean_r2_drop": 0.00261,
-          "sd": 0.00472,
-          "share": 0.0026
+          "mean_r2_drop": 0.00381,
+          "sd": 0.00599,
+          "share": 0.0032
+        },
+        "Cl": {
+          "mean_r2_drop": 0.00226,
+          "sd": 0.00418,
+          "share": 0.0019
         }
       }
     }

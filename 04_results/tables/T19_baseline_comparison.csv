@@ -1,0 +1,3 @@
+standard,n_external,n_contaminated,dev_auc_model_oof,dev_auc_iron,ext_auc_model,ext_auc_iron,iron_advantage,delong_p,ext_auc_iron_holocene,ext_auc_model_holocene,iron_auc_district_median,iron_auc_district_range,iron_auc_kit_cv25,iron_auc_strip
+WHO_10,1026,194,0.867,0.7418,0.8284,0.8915,0.0631,1.7515185446988926e-08,0.8764,0.8088,0.9105,0.2617,0.8914,0.8833
+Bangladesh_50,1026,64,0.8489,0.7344,0.8009,0.8572,0.0562,0.00833240658951248,0.8176,0.7674,0.8115,0.2363,0.8553,0.8504

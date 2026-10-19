@@ -18,7 +18,7 @@
     },
     "zones": [
       {
-        "redox_zone": "Fe(III)-reducing",
+        "redox_zone": "Fe(III)- / sulfate-reducing",
         "n_wells": 95,
         "pct_wells": 35.1,
         "median_As_ugL": 22.0,
@@ -29,37 +29,37 @@
         "median_Eh_mV": 85.0
       },
       {
-        "redox_zone": "sulfate-reducing / methanogenic",
-        "n_wells": 68,
-        "pct_wells": 25.1,
-        "median_As_ugL": 85.5,
+        "redox_zone": "methanogenic",
+        "n_wells": 67,
+        "pct_wells": 24.7,
+        "median_As_ugL": 86.0,
         "n_As_above_WHO": 47,
-        "pct_As_above_WHO": 69.1,
-        "median_Fe_mgL": 4.385,
-        "median_Mn_mgL": 0.377,
-        "median_Eh_mV": 71.5
+        "pct_As_above_WHO": 70.1,
+        "median_Fe_mgL": 4.53,
+        "median_Mn_mgL": 0.383,
+        "median_Eh_mV": 71.0
       },
       {
-        "redox_zone": "nitrate-reducing",
-        "n_wells": 65,
-        "pct_wells": 24.0,
-        "median_As_ugL": 34.5,
+        "redox_zone": "mixed (anoxic)",
+        "n_wells": 63,
+        "pct_wells": 23.2,
+        "median_As_ugL": 36.0,
         "n_As_above_WHO": 38,
-        "pct_As_above_WHO": 58.5,
-        "median_Fe_mgL": 1.08,
-        "median_Mn_mgL": 0.707,
-        "median_Eh_mV": 76.0
+        "pct_As_above_WHO": 60.3,
+        "median_Fe_mgL": 1.4,
+        "median_Mn_mgL": 0.759,
+        "median_Eh_mV": 74.5
       },
       {
-        "redox_zone": "oxic",
-        "n_wells": 34,
-        "pct_wells": 12.5,
-        "median_As_ugL": 6.0,
+        "redox_zone": "mixed (oxic)",
+        "n_wells": 30,
+        "pct_wells": 11.1,
+        "median_As_ugL": 7.0,
         "n_As_above_WHO": 13,
-        "pct_As_above_WHO": 38.2,
-        "median_Fe_mgL": 0.22,
-        "median_Mn_mgL": 0.451,
-        "median_Eh_mV": 129.0
+        "pct_As_above_WHO": 43.3,
+        "median_Fe_mgL": 0.282,
+        "median_Mn_mgL": 0.629,
+        "median_Eh_mV": 122.0
       },
       {
         "redox_zone": "Mn(IV)-reducing",
@@ -73,17 +73,54 @@
         "median_Eh_mV": 52.0
       },
       {
+        "redox_zone": "oxic",
+        "n_wells": 4,
+        "pct_wells": 1.5,
+        "median_As_ugL": 3.25,
+        "n_As_above_WHO": 0,
+        "pct_As_above_WHO": 0.0,
+        "median_Fe_mgL": 0.049,
+        "median_Mn_mgL": 0.005,
+        "median_Eh_mV": 264.0
+      },
+      {
         "redox_zone": "suboxic",
-        "n_wells": 2,
-        "pct_wells": 0.7,
+        "n_wells": 3,
+        "pct_wells": 1.1,
         "median_As_ugL": 6.0,
         "n_As_above_WHO": 0,
         "pct_As_above_WHO": 0.0,
-        "median_Fe_mgL": 0.034,
-        "median_Mn_mgL": 0.036,
-        "median_Eh_mV": 100.0
+        "median_Fe_mgL": 0.022,
+        "median_Mn_mgL": 0.035,
+        "median_Eh_mV": 106.0
+      },
+      {
+        "redox_zone": "nitrate-reducing",
+        "n_wells": 2,
+        "pct_wells": 0.7,
+        "median_As_ugL": 3.65,
+        "n_As_above_WHO": 0,
+        "pct_As_above_WHO": 0.0,
+        "median_Fe_mgL": 0.044,
+        "median_Mn_mgL": 0.015,
+        "median_Eh_mV": 191.0
       }
-    ]
+    ],
+    "trend_test": {
+      "test": "Jonckheere-Terpstra, ordered alternative",
+      "cascade": [
+        "oxic",
+        "mixed (oxic)",
+        "mixed (anoxic)",
+        "Fe(III)- / sulfate-reducing",
+        "methanogenic"
+      ],
+      "n_wells": 259,
+      "J": 14761.0,
+      "expected_J": 12170.5,
+      "z": 3.8843,
+      "p_value": 0.00010261515282271442
+    }
   },
   "saturation_indices": {
     "SI_calcite": {
@@ -147,22 +184,12 @@
     "n_excluded_violation": 7,
     "by_zone": [
       {
-        "redox_zone": "oxic",
-        "n": 9,
-        "median_AsIII_fraction": 0.649
-      },
-      {
-        "redox_zone": "nitrate-reducing",
-        "n": 40,
-        "median_AsIII_fraction": 0.728
-      },
-      {
-        "redox_zone": "Fe(III)-reducing",
+        "redox_zone": "Fe(III)- / sulfate-reducing",
         "n": 39,
         "median_AsIII_fraction": 0.533
       },
       {
-        "redox_zone": "sulfate-reducing / methanogenic",
+        "redox_zone": "methanogenic",
         "n": 34,
         "median_AsIII_fraction": 0.473
       }
@@ -173,10 +200,10 @@
     "note": "The As(III) fraction does not rise along the reducing cascade. Computed over all wells it appeared to fall, but that was a censoring artefact: where arsenic is low, AsIII and AsTot both sit at a 6.0 ug/L detection limit and the ratio is forced to 1.0. Restricted to uncensored pairs the gradient is absent. This is consistent with slow arsenic redox kinetics and with speciation instability between sampling and analysis; it is reported as a non-confirmation rather than as support for the zonation."
   },
   "arsenic_redox_link": {
-    "n_reducing": 170,
-    "median_As_reducing": 36.0,
-    "median_As_non_reducing": 10.7,
-    "mannwhitney_p_reducing_greater": 0.0028933725941289803,
+    "n_reducing": 169,
+    "median_As_reducing": 37.0,
+    "median_As_non_reducing": 6.0,
+    "mannwhitney_p_reducing_greater": 6.615689585910497e-05,
     "interpretation": "Arsenic is elevated in Fe(III)- and Mn(IV)-reducing zones, consistent with release by reductive dissolution of Fe oxyhydroxides. Fe and Mn are therefore direct indicators of the mobilising process, which is why adding a field iron kit (tier E1 -> E2) is what makes the arsenic model work."
   }
 }

@@ -120,7 +120,7 @@ def spatial_cv(X, y, group_sets):
     Nested CV with spatially blocked outer folds, repeated over several
     independent block layouts so the fold count matches stage 3.1.
     """
-    r2s, base_r2s = [], []
+    r2s, base_r2s, r2s_log = [], [], []
     for groups in group_sets:
         outer = GroupKFold(n_splits=N_FOLDS)
         for tr, te in outer.split(X, y, groups=groups):
@@ -129,9 +129,10 @@ def spatial_cv(X, y, group_sets):
             search.fit(X[tr], np.log1p(y[tr]))
             pred = np.maximum(np.expm1(search.best_estimator_.predict(X[te])), 0.0)
             r2s.append(r2_score(y[te], pred))
+            r2s_log.append(r2_score(np.log1p(y[te]), np.log1p(pred)))
             base = DummyRegressor(strategy="mean").fit(X[tr], y[tr])
             base_r2s.append(r2_score(y[te], base.predict(X[te])))
-    return np.array(r2s), np.array(base_r2s)
+    return np.array(r2s), np.array(base_r2s), np.array(r2s_log)
 
 
 def make_block_sets(xy, D, n_blocks):
@@ -209,7 +210,7 @@ def main():
             line = f"    {tier_name:24s} random={rnd['r2_mean']:+.3f}"
             for nb in BLOCK_COUNTS:
                 grp_sets = [lab[keep] for lab in layouts[nb]]
-                r2, base = spatial_cv(X, y, grp_sets)
+                r2, base, r2_log = spatial_cv(X, y, grp_sets)
                 try:
                     _, pv = wilcoxon(r2, base, alternative="greater")
                 except ValueError:
@@ -219,6 +220,7 @@ def main():
                     "n_folds": int(len(r2)),
                     "spatial_r2_mean": float(r2.mean()),
                     "spatial_r2_std": float(r2.std()),
+                    "spatial_r2_log_mean": float(r2_log.mean()),
                     "spatial_baseline_r2_mean": float(base.mean()),
                     "wilcoxon_p": float(pv),
                     "optimism_gap": float(gap),
@@ -228,6 +230,7 @@ def main():
                              "random_r2": round(rnd["r2_mean"], 4),
                              "spatial_r2": round(float(r2.mean()), 4),
                              "spatial_r2_std": round(float(r2.std()), 4),
+                             "spatial_r2_log": round(float(r2_log.mean()), 4),
                              "optimism_gap": round(gap, 4),
                              "wilcoxon_p": round(float(pv), 5),
                              "n_folds": int(len(r2)),

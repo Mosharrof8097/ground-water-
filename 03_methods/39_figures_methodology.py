@@ -132,7 +132,7 @@ def figure1(design, clean, feas, ext):
         "5 cost tiers x 7 metals\n"
         f"{feas['protocol']['cv']}\n"
         "model family chosen inside the inner loop\n"
-        "mean predictor as baseline",
+        "baselines: mean, and each predictor alone",
         FILL_MODEL, 8.0)
     arrow(ax, (0.15, 0.438), (0.20, 0.398))
     arrow(ax, (0.37, 0.438), (0.32, 0.398))
@@ -149,22 +149,22 @@ def figure1(design, clean, feas, ext):
 
     box(ax, 0.05, 0.168, 0.90, 0.104,
         "Stage 3 continued\n"
-        f"conformal intervals on disjoint calibration and test splits   |   "
-        f"{feas['protocol']['correction']}\n"
-        "censoring rules compared on identical folds: DL/2, DL, zero, "
-        "regression on order statistics\n"
-        "hydrogeochemistry: charge balance, redox zonation, saturation "
-        "indices, facies",
+        "conformal intervals, disjoint splits, finite-sample quantile\n"
+        "censoring rules on one common reference: DL/2, DL, zero, "
+        "conditional draw\n"
+        "thresholds frozen on development out-of-fold predictions",
         FILL_PROC, 8.0)
     arrow(ax, (0.26, 0.296), (0.26, 0.272))
     arrow(ax, (0.74, 0.296), (0.74, 0.272))
 
     box(ax, 0.05, 0.048, 0.90, 0.102,
         "Reported outputs\n"
-        "T1 screening   T2 feasibility   T3 conformal coverage   T4 censoring\n"
-        "T5 external validation   T6 charge balance   T7 redox zonation   "
-        "T8 water types\n"
-        "T9 spatial versus random   T10 operating points   T11 depth strata",
+        "screening   feasibility   conformal coverage   censoring   "
+        "external validation\n"
+        "charge balance   redox zonation   water types   "
+        "spatial versus random   depth strata\n"
+        "operating points   raw iron against the fitted model   "
+        "log-scale skill audit",
         FILL_OUT, 8.0)
     arrow(ax, (0.50, 0.168), (0.50, 0.150))
 
@@ -243,29 +243,34 @@ def figure2(design, feas, spatial, ext):
     # ---- Quantities reported --------------------------------------------
     ax.text(0.04, 0.332, "Quantities reported", fontsize=9.6, fontweight="bold", color=INK)
     panels = [
-        ("Skill", "R2 against a mean\nbaseline on identical\nfolds\n\nSpearman rho\n"
-                  "Benjamini-Hochberg"),
-        ("Uncertainty", "conformal intervals\n\ncoverage on splits\ndisjoint from\n"
-                        "calibration\n\nand under transfer"),
-        ("Decision value", "sensitivity and\nspecificity\n\nlaboratory burden\n"
-                           "and wells missed\n\nat two limits"),
+        ("Skill", "R2 on identical folds,\noriginal and log scale\n\n"
+                  "Spearman rho\nBenjamini-Hochberg"),
+        ("Uncertainty", "conformal intervals\nfinite-sample quantile\n\n"
+                        "coverage on disjoint\nsplits, and under\ntransfer"),
+        ("Decision value", "thresholds frozen on\ndevelopment folds\n\n"
+                           "burden and wells missed\nagainst each single\n"
+                           "predictor alone"),
     ]
     x = 0.04
     for title, detail in panels:
-        box(ax, x, 0.140, 0.29, 0.162, f"{title}\n\n{detail}", FILL_OUT, 7.4)
+        box(ax, x, 0.135, 0.29, 0.170, f"{title}\n\n{detail}", FILL_OUT, 7.4)
         x += 0.315
 
     for x0 in (0.185, 0.50, 0.815):
         arrow(ax, (x0, 0.375), (x0, 0.302))
 
     # ---- Design rules ----------------------------------------------------
-    box(ax, 0.04, -0.045, 0.93, 0.132,
+    box(ax, 0.04, -0.075, 0.93, 0.168,
         "Design rules applied throughout\n\n"
         "Imputation, scaling and model selection occur inside the training fold only.\n"
         "Censored values keep their detection limit and a flag; nothing is substituted "
         "at read time.\n"
         "Conformal coverage is never computed on the residuals used to calibrate the "
         "interval.\n"
+        "A censored reading is compared three-valued: below, above, or left open "
+        "where its limit decides nothing.\n"
+        "Thresholds are chosen on development folds and frozen before the external "
+        "wells are scored.\n"
         "Reported values are read from stored metrics, never written into table or "
         "figure code.\n"
         "Metals failing Stage 2 are excluded before modelling, not after inspecting "

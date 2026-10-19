@@ -1,0 +1,3 @@
+case,test,censoring_in_that_column,reading_the_limit_as_a_measurement,respecting_the_censoring_flag,where_the_rest_went,evidence
+Redox class: nitrate-reducing,NO3-N at or above 0.5 mg/L,"80 % of wells, limits 0.3 and 0.5 mg/L",65 wells,2 wells,63 wells to mixed (anoxic),median Fe 1.4 mg/L in the wells the naive test admits
+"Arsenic log-scale skill, 8 spatial blocks, REF tier",held-out log-scale R² above zero,"34 % of wells, limits 0.5 and 6.0 µg/L",R² = +0.227,R² = +0.022 on measured wells only,not applicable,Wilcoxon p = 0.42 against zero

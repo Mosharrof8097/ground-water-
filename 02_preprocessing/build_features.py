@@ -82,7 +82,10 @@ MIN_DISTINCT = 10         # fewer distinct values than this is near-constant
 # any single value may hold.
 MAX_MODAL_PCT = 40.0
 
-WHO_LIMITS = {"AsTot": 10.0, "Cd": 3.0, "Ni": 20.0, "Pb": 10.0, "Cr": 50.0,
+# WHO (2017, 4th ed. + addendum), ug/L. Zinc has no health-based value; the
+# 3,000 figure is an acceptability threshold. Molybdenum and barium carry
+# health-based values rather than formal guideline values.
+WHO_LIMITS = {"AsTot": 10.0, "Cd": 3.0, "Ni": 70.0, "Pb": 10.0, "Cr": 50.0,
               "Cu": 2000.0, "Zn": 3000.0, "U": 30.0, "Sb": 20.0, "Se": 40.0,
               "Mo": 70.0, "Ba": 1300.0}
 
@@ -90,12 +93,15 @@ WHO_LIMITS = {"AsTot": 10.0, "Cd": 3.0, "Ni": 20.0, "Pb": 10.0, "Cr": 50.0,
 def screen_target(df, name):
     """Decide whether `name` can be modelled, and say why not when it cannot."""
     v = df[name]
-    cens_pct = 100.0 * df[f"{name}_censored"].sum() / len(df)
     n_valid = int(v.notna().sum())
     n_distinct = int(v.dropna().nunique())
+    # Both shares are taken over what was actually measured. Over the whole
+    # file instead, a determinand attempted in 19 wells and censored in all 19
+    # reads as 7 % censored, which is the opposite of the truth.
+    cens_pct = 100.0 * df[f"{name}_censored"].sum() / max(n_valid, 1)
 
     vd = v.dropna()
-    modal_pct = 0.0 if vd.empty else 100.0 * (vd == vd.mode().iloc[0]).sum() / len(df)
+    modal_pct = 0.0 if vd.empty else 100.0 * (vd == vd.mode().iloc[0]).sum() / len(vd)
     modal_value = None if vd.empty else round(float(vd.mode().iloc[0]), 6)
 
     reasons = []

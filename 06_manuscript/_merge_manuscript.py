@@ -47,10 +47,10 @@ FIGURES = {
              "Figure 1. Data and analysis workflow from the published survey "
              "through cleaning and preprocessing to the reported tables."),
     "Fig2": ("Fig2_analysis_architecture.png",
-             "Figure 2. Analysis architecture, showing the predictor tiers, "
+             "Figure 3. Analysis architecture, showing the predictor tiers, "
              "the three validation schemes and the quantities reported."),
     "Fig3": ("Fig3_study_area.png",
-             "Figure 3. Study area showing development wells in four special "
+             "Figure 2. Study area showing development wells in four special "
              "study areas and external wells across North Bengal."),
     "Fig4": ("Fig4_feasibility_matrix.png",
              "Figure 4. Predictive skill by metal and cost tier, mean R² over "
@@ -62,73 +62,76 @@ FIGURES = {
              "Figure 6. Conformal interval coverage within the study area and "
              "under transfer to external wells."),
     "Fig7": ("Fig7_roc_operating_points.png",
-             "Figure 7. Arsenic screening performance on external wells and "
+             "Figure 11. Arsenic screening performance on external wells and "
              "operating points against the Bangladesh standard."),
     "Fig8": ("Fig8_redox_arsenic.png",
              "Figure 8. Arsenic concentration and guideline exceedance follow "
              "redox condition across the zonation."),
     "Fig9": ("Fig9_feature_importance.png",
-             "Figure 9. Permutation importance showing what each model "
+             "Figure 7. Permutation importance showing what each model "
              "actually uses, with redox indicators marked."),
-    "Fig10": ("Fig10_censoring_sensitivity.png",
-              "Figure 10. What makes the censoring rule matter: censoring rate "
-              "against detection limit relative to the distribution."),
     "Fig11": ("Fig11_learning_curves.png",
-              "Figure 11. Learning curves for the four spatially robust "
+              "Figure 10. Learning curves for the four spatially robust "
               "metals, held-out R² against training set size."),
+    "Fig13": ("Fig13_district_iron_auc.png",
+              "Figure 12. Iron ranks arsenic differently in each external "
+              "district, against its value in the development set."),
     "Fig12": ("Fig12_geology_arsenic.png",
-              "Figure 12. Arsenic by surface geology in the national survey, "
-              "units represented by at least thirty wells."),
+              "Figure 9. Arsenic by surface geology in the national survey, "
+              "which includes the external test wells."),
 }
 
 TABLES = {
     "T0": ("T0_descriptive_statistics.csv",
-           "Table T0. Descriptive statistics for all predictors, targets and "
+           "Table 4. Descriptive statistics for all predictors, targets and "
            "geochemistry, with censoring and detection limits."),
     "T0b": ("T0b_exceedance_summary.csv",
-            "Table T0b. Guideline exceedance summary for the thirteen trace "
+            "Table 6. Guideline exceedance summary for the thirteen trace "
             "metals against WHO and Bangladesh standards."),
     "T1": ("T1_target_screening.csv",
-           "Table T1. Screening of the thirteen candidate targets, with the "
+           "Table 7. Screening of the thirteen candidate targets, with the "
            "reason each excluded metal was dropped."),
     "T2": ("T2_feasibility_matrix.csv",
-           "Table T2. Feasibility matrix of every target and tier under random "
+           "Table 8. Feasibility matrix of every target and tier under random "
            "cross validation, with the dominant model family."),
     "T3": ("T3_conformal_coverage.csv",
-           "Table T3. Held-out split conformal coverage and interval width for "
+           "Table 11. Held-out split conformal coverage and interval width for "
            "each feasible target and tier."),
     "T4": ("T4_censoring_comparison.csv",
-           "Table T4. Comparison of four censoring treatments on identical "
+           "Table 12. Comparison of four censoring treatments on identical "
            "folds, with the resulting spread in R²."),
     "T5": ("T5_external_validation.csv",
-           "Table T5. External validation on unseen North Bengal districts, "
+           "Table 10. External validation on unseen North Bengal districts, "
            "with conformal coverage under transfer."),
     "T6": ("T6_charge_balance.csv",
-           "Table T6. Charge balance error statistics for the analytical "
+           "Table 3. Charge balance error statistics for the analytical "
            "quality check."),
     "T7": ("T7_redox_zonation.csv",
-           "Table T7. Redox zonation after McMahon and Chapelle, with arsenic, "
+           "Table 14. Redox zonation after McMahon and Chapelle, with arsenic, "
            "iron and manganese by zone."),
     "T8": ("T8_water_types.csv",
-           "Table T8. Hydrochemical water types by Piper classification, with "
+           "Table 5. Hydrochemical water types by Piper classification, with "
            "well counts and median arsenic."),
     "T9": ("T9_spatial_vs_random_cv.csv",
-           "Table T9. Random against spatially blocked cross validation for "
+           "Table 9. Random against spatially blocked cross validation for "
            "every target, tier and block count."),
+    "T19": ("T19_baseline_comparison.csv",
+            "Table 19. Raw iron against the fitted model on the external "
+            "wells, with the development comparison and kit degradation."),
     "T10": ("T10_operating_points.csv",
-            "Table T10. Operating points for arsenic screening on external "
+            "Table 18. Operating points for arsenic screening on external "
             "wells under both regulatory standards."),
     "T11": ("T11_depth_strata.csv",
-            "Table T11. Arsenic and iron by depth stratum, showing where the "
+            "Table 16. Arsenic and iron by depth stratum, showing where the "
             "two decouple."),
     "T12": ("T12_feature_importance.csv",
-            "Table T12. Permutation feature importance for every modelled "
+            "Table 13. Permutation feature importance for every modelled "
             "metal, with redox indicators flagged."),
     "T13": ("T13_learning_curve.csv",
-            "Table T13. Learning curve results, held-out R² against training "
+            "Table 17. Learning curve results, held-out R² against training "
             "set size for four metals."),
     "T14": ("T14_geology_arsenic.csv",
-            "Table T14. Arsenic by surface geology unit in the national "
+            "Table 15. Arsenic by surface geology unit in the national "
             "survey, with exceedance percentages."),
 }
 
@@ -145,12 +148,15 @@ HEADLINE_OLD = ("The principal finding is that surrogate screening is feasible "
                 "within the study area lose their validity in an unpredictable "
                 "manner upon transfer.")
 HEADLINE_NEW = ("The principal finding is that surrogate screening is feasible "
-                "for a minority of trace metals, that feasibility is set by the "
-                "detection limit rather than by geochemistry, and that what "
-                "transfers to unseen districts is the ranking of wells by risk "
-                "rather than their concentrations, while conformal intervals "
-                "that are well calibrated within the study area lose their "
-                "validity in an unpredictable manner upon transfer.")
+                "for a minority of trace metals; that the detection limit sets "
+                "a ceiling on which metals can be modelled at all, while below "
+                "that ceiling feasibility is decided by whether the field "
+                "measurable predictors carry information about the metal; and "
+                "that what transfers to unseen districts is the ranking of "
+                "wells by risk rather than their concentrations, while "
+                "conformal intervals that are well calibrated within the study "
+                "area lose their validity in an unpredictable manner upon "
+                "transfer.")
 
 # The Introduction captions Table 1 but leaves its summary table unlabelled.
 TABLE2_CAPTION = ("Table 2. Summary of practices across the thirteen reviewed "
@@ -162,6 +168,41 @@ EXTRA_REFS = {
          "a practical and powerful approach to multiple testing. Journal of the "
          "Royal Statistical Society Series B 57(1):289-300. "
          "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"),
+    # Prior art for the iron result. Added after stage 3.15; the heuristic is
+    # established and the paper must not claim it.
+    65: ("Annaduzzaman M, Bhattacharya P, Biswas A, Hossain M, Ahmed KM, "
+         "van Halem D (2018) Arsenic and manganese in shallow tubewells: "
+         "validation of platform color as a screening tool in Bangladesh. "
+         "Groundwater for Sustainable Development 6:181-188. "
+         "https://doi.org/10.1016/j.gsd.2017.11.008"),
+    66: ("Chatterjee R, Mal U, et al. Tube well platform colour as a proxy for "
+         "identification of arsenic contaminated wells: case study from "
+         "alluvial aquifers of eastern India. International Journal of "
+         "Environmental Analytical Chemistry. "
+         "[NEW: year, volume, pages and DOI from the journal page]"),
+    67: ("University of Portsmouth (2025) iArsenic: mobile and web tool for "
+         "arsenic risk assessment in tubewell water (bilingual: Bengali and "
+         "English), v1 [web application]. University of Portsmouth, "
+         "Portsmouth. https://researchportal.port.ac.uk/en/publications/"
+         "iarsenic-mobile-and-web-tool-for-arsenic-risk-assessment-in-tubew/"),
+    68: ("Hoque MA, Butler AP (2016) Can water quality of tubewells be "
+         "assessed without chemical testing? Geophysical Research Abstracts "
+         "18:EGU2016-15455."),
+    69: ("Horneman A, van Geen A, Kent DV, Mathe PE, Zheng Y, Dhar RK, "
+         "O'Connell S, Hoque MA, Aziz Z, Shamsudduha M, Seddique AA, "
+         "Ahmed KM (2004) Decoupling of As and Fe release to Bangladesh "
+         "groundwater under reducing conditions. Part I: evidence from "
+         "sediment profiles. Geochimica et Cosmochimica Acta 68(17):3459-3473. "
+         "https://doi.org/10.1016/j.gca.2004.01.026"),
+    70: ("Ohno K, Furukawa A, Hayashi K, Kamei T, Magara Y (2005) Arsenic "
+         "contamination of groundwater in Nawabganj, Bangladesh, focusing on "
+         "the relationship with other metals and ions. Water Science and "
+         "Technology 52(8):87-94. [NEW: DOI from the IWA Publishing page]"),
+    71: ("Hossain M, et al. (2014) Sediment colour tool for targeting arsenic "
+         "safe aquifers for the installation of shallow drinking water "
+         "tubewells. Science of the Total Environment. "
+         "[NEW: full author list, year, volume, pages and DOI from PubMed "
+         "24984232]"),
 }
 
 
@@ -225,7 +266,7 @@ def read_markdown(path):
             blocks.append(("title", 0, m.group(1).strip()))
             i += 1
             continue
-        m = re.match(r"^\{\{(FIGURE|TABLE):([A-Za-z0-9]+)\}\}$", line.strip())
+        m = re.match(r"^\{\{(FIGURE|TABLE):([A-Za-z0-9_]+)\}\}$", line.strip())
         if m:
             blocks.append(("figure" if m.group(1) == "FIGURE" else "csv",
                            0, m.group(2)))

@@ -47,7 +47,8 @@ for p in (FIG, MET, TAB):
     p.mkdir(parents=True, exist_ok=True)
 
 INK, GREY = "#1a1a1a", "#6b7280"
-BLUE, RED = "#2563eb", "#dc2626"
+# Okabe and Ito, so the map survives the common forms of colour blindness.
+BLUE, RED, GREEN = "#0072B2", "#D55E00", "#009E73"
 SEA, RIVER, DISTRICT, BORDER = "#dbeafe", "#60a5fa", "#d1d5db", "#4b5563"
 
 NORTH_BENGAL = ["Bogra", "Dinajpur", "Gaibandha", "Jaipurhat", "Kurigram",
@@ -183,19 +184,38 @@ def figure3(features):
     ax.set_title("(a) Well locations", loc="left", fontweight="bold", fontsize=10)
     ax.legend(frameon=True, framealpha=0.95, loc="lower left")
 
+    # The pre-Holocene terraces are where arsenic is almost uniformly at the
+    # limit. Marking them shows what the stratified area under the curve in
+    # Section 3.13 is separating, rather than leaving it to the reader.
+    PRE_HOLOCENE = ("Barind Clay Residuum", "Madhupur Clay Residuum",
+                    "Old gravelly sand", "Dihing & Dupi Tila undivi")
+    try:
+        geo_units = pd.read_csv(RAW / "bangladesh_surface_geology.csv")
+        ext = ext.merge(geo_units[["SAMPLE_ID", "GEOL_UNIT"]],
+                        on="SAMPLE_ID", how="left")
+        pre = ext["GEOL_UNIT"].isin(PRE_HOLOCENE).to_numpy()
+    except Exception as exc_err:
+        print(f"  surface geology not joined: {exc_err}")
+        pre = np.zeros(len(ext), dtype=bool)
+
     ax = axes[1]
     draw_basemap(ax, features, extent=(87.8, 90.5, 23.4, 26.8))
-    exc = ext["as"] > 10
-    ax.scatter(ext.lon[~exc], ext.lat[~exc], s=9, c="#16a34a", alpha=0.65,
+    exc = (ext["as"] > 10).to_numpy()
+
+    if pre.any():
+        ax.scatter(ext.lon[pre], ext.lat[pre], s=42, facecolor="#e5e7eb",
+                   edgecolor="#9ca3af", linewidth=0.5, zorder=3,
+                   label=f"pre-Holocene setting  (n = {int(pre.sum())})")
+    ax.scatter(ext.lon[~exc], ext.lat[~exc], s=9, c=GREEN, alpha=0.65,
                edgecolor="none", label=f"As ≤ 10 µg/L  (n = {int((~exc).sum())})",
                zorder=4)
     ax.scatter(ext.lon[exc], ext.lat[exc], s=16, c=RED, alpha=0.85,
                edgecolor="none", label=f"As > 10 µg/L  (n = {int(exc.sum())})",
                zorder=5)
     ax.set_xlabel("Longitude (°E)"), ax.set_ylabel("Latitude (°N)")
-    ax.set_title("(b) Arsenic in the external set, North Bengal", loc="left",
+    ax.set_title("(b) Arsenic and geological setting, North Bengal", loc="left",
                  fontweight="bold", fontsize=10)
-    ax.legend(frameon=True, framealpha=0.95, loc="lower left")
+    ax.legend(frameon=True, framealpha=0.95, loc="lower left", fontsize=7.4)
 
     fig.text(0.5, 0.015,
              "Boundaries, rivers and coastline from the BGS Bangladesh "

@@ -77,7 +77,7 @@ def curve(X, y, rng):
     n = len(y)
     out = []
     for frac in FRACTIONS:
-        scores = []
+        scores, scores_log = [], []
         for _ in range(N_REPEATS):
             idx = rng.permutation(n)
             n_test = int(round(TEST_FRACTION * n))
@@ -90,6 +90,7 @@ def curve(X, y, rng):
             search.fit(X[tr], np.log1p(y[tr]))
             pred = np.maximum(np.expm1(search.best_estimator_.predict(X[te])), 0.0)
             scores.append(r2_score(y[te], pred))
+            scores_log.append(r2_score(np.log1p(y[te]), np.log1p(pred)))
         out.append({
             "fraction_of_pool": frac,
             "n_train": int(n_train),
@@ -97,6 +98,10 @@ def curve(X, y, rng):
             "r2_mean": float(np.mean(scores)),
             "r2_sd": float(np.std(scores)),
             "r2_median": float(np.median(scores)),
+            "r2_q1": float(np.percentile(scores, 25)),
+            "r2_q3": float(np.percentile(scores, 75)),
+            "r2_log_mean": float(np.mean(scores_log)),
+            "r2_log_median": float(np.median(scores_log)),
         })
     return out
 

@@ -1,5 +1,5 @@
 target,tier,n_dev,n_ext,internal_cv_r2,external_r2,external_spearman,external_auc_who,conformal_transfer_coverage,conformal_transfer_coverage_sd
-AsTot,T_cheap,271,1027,-0.001,-5.5801,0.5877,0.8282,0.9451,0.0532
-AsTot,T_full,271,1027,0.1109,0.0355,0.5023,0.8382,0.9883,0.0029
-Ba,T_cheap,271,1026,0.4917,-2.3851,0.5611,,0.6886,0.1111
-Ba,T_full,271,1026,0.6501,0.0743,0.774,,0.8934,0.0314
+AsTot,T_cheap,271,1027,-0.001,-5.5801,0.5877,0.8282,0.9556,0.0489
+AsTot,T_full,271,1027,0.1109,0.0355,0.5023,0.8382,0.9896,0.0023
+Ba,T_cheap,271,1026,0.4917,-2.3851,0.5611,,0.7265,0.1045
+Ba,T_full,271,1026,0.6501,0.0743,0.774,,0.9069,0.0326

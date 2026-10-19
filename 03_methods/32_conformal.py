@@ -81,6 +81,24 @@ def build_pipeline():
     ])
 
 
+def conformal_quantile(scores, alpha):
+    """
+    The finite-sample split-conformal quantile.
+
+    Split conformal guarantees marginal coverage of at least 1 - alpha only if
+    the threshold is the ceil((n+1)(1-alpha))-th smallest score, not the plain
+    empirical (1-alpha) quantile. With n around 67 the difference is 0.925
+    against 0.900, which is the whole reason an earlier version of this table
+    reported coverage below nominal everywhere.
+    """
+    scores = np.sort(np.asarray(scores, dtype=float))
+    n = len(scores)
+    k = int(np.ceil((n + 1) * (1.0 - alpha)))
+    if k > n:                      # too few calibration points to certify
+        return float(scores[-1])
+    return float(scores[k - 1])
+
+
 def split_conformal(X, y, alpha=ALPHA, n_repeats=N_REPEATS, seed=SEED):
     """Held-out split-conformal coverage over repeated random partitions."""
     rng = np.random.default_rng(seed)
@@ -101,7 +119,7 @@ def split_conformal(X, y, alpha=ALPHA, n_repeats=N_REPEATS, seed=SEED):
         model = search.best_estimator_
 
         cal_pred = np.maximum(np.expm1(model.predict(X[cal])), 0.0)
-        q_hat = float(np.quantile(np.abs(y[cal] - cal_pred), 1 - alpha))
+        q_hat = conformal_quantile(np.abs(y[cal] - cal_pred), alpha)
 
         te_pred = np.maximum(np.expm1(model.predict(X[te])), 0.0)
         lo = np.maximum(te_pred - q_hat, 0.0)

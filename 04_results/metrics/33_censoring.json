@@ -6,91 +6,261 @@
     "substitute_half": "y = DL/2 (the common default)",
     "substitute_dl": "y = DL (upper bound)",
     "substitute_zero": "y = 0 (lower bound)",
-    "ros": "regression on order statistics; lognormal fit to observed values, censored values drawn truncated at their own DL"
+    "stochastic_imputation": "lognormal fit to the observed values, each censored value drawn from it truncated at its own detection limit; a single draw, not multiple imputation, and not regression on order statistics in Helsel's sense"
   },
+  "censored_consistency": "Percentage of censored test wells whose out-of-fold prediction falls below that well's own detection limit. It needs no truth for those wells and covers the lower tail that the common reference excludes.",
+  "scoring": "Every rule is scored against the same reference, the reported values at test wells that were actually measured, so the comparison isolates distortion of the model from variance in the reconstructed target. Scores are given on the original and the log scale.",
   "results": {
     "AsTot": {
       "pct_censored": 33.9,
-      "r2_by_rule": {
-        "substitute_half": 0.084,
-        "substitute_dl": 0.104,
-        "substitute_zero": -0.0318,
-        "ros": 0.0681
+      "largest_detection_limit": 6.0,
+      "dl_as_fraction_of_median": 0.2727,
+      "pct_mass_at_or_below_dl": 37.3,
+      "n_scored_against": 179,
+      "n_censored": 92,
+      "censored_consistency_pct": {
+        "substitute_half": 46.7,
+        "substitute_dl": 27.2,
+        "substitute_zero": 59.8,
+        "stochastic_imputation": 42.4
       },
-      "r2_spread": 0.1358,
-      "median_abs_prediction_shift_half_vs_ros": 1.8406,
+      "r2_by_rule": {
+        "substitute_half": -0.0308,
+        "substitute_dl": 0.0001,
+        "substitute_zero": -0.1246,
+        "stochastic_imputation": -0.0468
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.1501,
+        "substitute_dl": 0.2164,
+        "substitute_zero": -0.0719,
+        "stochastic_imputation": 0.1521
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 1.0074,
+        "substitute_dl": 0.9659,
+        "substitute_zero": 1.1322,
+        "stochastic_imputation": 0.999
+      },
+      "r2_spread": 0.1247,
+      "r2_log_spread": 0.2883,
+      "median_abs_prediction_shift_half_vs_imputation": 1.8406,
       "shift_as_pct_of_median": 8.4
     },
     "Ni": {
       "pct_censored": 1.1,
-      "r2_by_rule": {
-        "substitute_half": 0.194,
-        "substitute_dl": 0.1916,
-        "substitute_zero": 0.1806,
-        "ros": 0.1911
+      "largest_detection_limit": 0.4,
+      "dl_as_fraction_of_median": 0.1667,
+      "pct_mass_at_or_below_dl": 1.1,
+      "n_scored_against": 268,
+      "n_censored": 3,
+      "censored_consistency_pct": {
+        "substitute_half": 0.0,
+        "substitute_dl": 0.0,
+        "substitute_zero": 0.0,
+        "stochastic_imputation": 0.0
       },
-      "r2_spread": 0.0134,
-      "median_abs_prediction_shift_half_vs_ros": 0.0062,
+      "r2_by_rule": {
+        "substitute_half": 0.1832,
+        "substitute_dl": 0.1814,
+        "substitute_zero": 0.1695,
+        "stochastic_imputation": 0.1809
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.272,
+        "substitute_dl": 0.2696,
+        "substitute_zero": 0.2537,
+        "stochastic_imputation": 0.2692
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.2381,
+        "substitute_dl": 0.2392,
+        "substitute_zero": 0.2427,
+        "stochastic_imputation": 0.2393
+      },
+      "r2_spread": 0.0137,
+      "r2_log_spread": 0.0183,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0062,
       "shift_as_pct_of_median": 0.3
     },
     "Pb": {
       "pct_censored": 12.5,
-      "r2_by_rule": {
-        "substitute_half": -0.0905,
-        "substitute_dl": -0.0988,
-        "substitute_zero": -0.0868,
-        "ros": -0.0957
+      "largest_detection_limit": 0.05,
+      "dl_as_fraction_of_median": 0.5,
+      "pct_mass_at_or_below_dl": 24.7,
+      "n_scored_against": 237,
+      "n_censored": 34,
+      "censored_consistency_pct": {
+        "substitute_half": 0.0,
+        "substitute_dl": 0.0,
+        "substitute_zero": 2.9,
+        "stochastic_imputation": 0.0
       },
-      "r2_spread": 0.012,
-      "median_abs_prediction_shift_half_vs_ros": 0.0014,
+      "r2_by_rule": {
+        "substitute_half": -0.0893,
+        "substitute_dl": -0.0943,
+        "substitute_zero": -0.09,
+        "stochastic_imputation": -0.0927
+      },
+      "r2_log_by_rule": {
+        "substitute_half": -0.0956,
+        "substitute_dl": -0.1015,
+        "substitute_zero": -0.0948,
+        "stochastic_imputation": -0.1012
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.1413,
+        "substitute_dl": 0.1421,
+        "substitute_zero": 0.1408,
+        "stochastic_imputation": 0.1419
+      },
+      "r2_spread": 0.0049,
+      "r2_log_spread": 0.0067,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0014,
       "shift_as_pct_of_median": 1.4
     },
     "Zn": {
       "pct_censored": 0.4,
-      "r2_by_rule": {
-        "substitute_half": -0.0179,
-        "substitute_dl": -0.0146,
-        "substitute_zero": -0.0179,
-        "ros": -0.0146
+      "largest_detection_limit": 1.0,
+      "dl_as_fraction_of_median": 0.125,
+      "pct_mass_at_or_below_dl": 1.5,
+      "n_scored_against": 259,
+      "n_censored": 1,
+      "censored_consistency_pct": {
+        "substitute_half": 0.0,
+        "substitute_dl": 0.0,
+        "substitute_zero": 0.0,
+        "stochastic_imputation": 0.0
       },
-      "r2_spread": 0.0033,
-      "median_abs_prediction_shift_half_vs_ros": 0.0071,
+      "r2_by_rule": {
+        "substitute_half": -0.0197,
+        "substitute_dl": -0.0164,
+        "substitute_zero": -0.0198,
+        "stochastic_imputation": -0.0164
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.0571,
+        "substitute_dl": 0.0586,
+        "substitute_zero": 0.0572,
+        "stochastic_imputation": 0.0586
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.6936,
+        "substitute_dl": 0.6929,
+        "substitute_zero": 0.6935,
+        "stochastic_imputation": 0.6929
+      },
+      "r2_spread": 0.0034,
+      "r2_log_spread": 0.0015,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0071,
       "shift_as_pct_of_median": 0.1
     },
     "U": {
       "pct_censored": 22.9,
-      "r2_by_rule": {
-        "substitute_half": 0.3173,
-        "substitute_dl": 0.3233,
-        "substitute_zero": 0.3177,
-        "ros": 0.3173
+      "largest_detection_limit": 0.01,
+      "dl_as_fraction_of_median": 0.0238,
+      "pct_mass_at_or_below_dl": 26.9,
+      "n_scored_against": 209,
+      "n_censored": 62,
+      "censored_consistency_pct": {
+        "substitute_half": 6.5,
+        "substitute_dl": 6.5,
+        "substitute_zero": 9.7,
+        "stochastic_imputation": 6.5
       },
-      "r2_spread": 0.0061,
-      "median_abs_prediction_shift_half_vs_ros": 0.0008,
+      "r2_by_rule": {
+        "substitute_half": 0.2684,
+        "substitute_dl": 0.275,
+        "substitute_zero": 0.2686,
+        "stochastic_imputation": 0.2684
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.4808,
+        "substitute_dl": 0.4839,
+        "substitute_zero": 0.4809,
+        "stochastic_imputation": 0.4806
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.4601,
+        "substitute_dl": 0.4587,
+        "substitute_zero": 0.4596,
+        "stochastic_imputation": 0.4602
+      },
+      "r2_spread": 0.0067,
+      "r2_log_spread": 0.0033,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0008,
       "shift_as_pct_of_median": 0.2
     },
     "Mo": {
       "pct_censored": 7.4,
-      "r2_by_rule": {
-        "substitute_half": 0.284,
-        "substitute_dl": 0.274,
-        "substitute_zero": 0.2775,
-        "ros": 0.2819
+      "largest_detection_limit": 0.1,
+      "dl_as_fraction_of_median": 0.0909,
+      "pct_mass_at_or_below_dl": 9.2,
+      "n_scored_against": 251,
+      "n_censored": 20,
+      "censored_consistency_pct": {
+        "substitute_half": 10.0,
+        "substitute_dl": 5.0,
+        "substitute_zero": 25.0,
+        "stochastic_imputation": 5.0
       },
-      "r2_spread": 0.01,
-      "median_abs_prediction_shift_half_vs_ros": 0.0138,
+      "r2_by_rule": {
+        "substitute_half": 0.257,
+        "substitute_dl": 0.2482,
+        "substitute_zero": 0.2483,
+        "stochastic_imputation": 0.2558
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.4251,
+        "substitute_dl": 0.4255,
+        "substitute_zero": 0.4151,
+        "stochastic_imputation": 0.4295
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.3448,
+        "substitute_dl": 0.3431,
+        "substitute_zero": 0.3479,
+        "stochastic_imputation": 0.3439
+      },
+      "r2_spread": 0.0088,
+      "r2_log_spread": 0.0143,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0138,
       "shift_as_pct_of_median": 1.3
     },
     "Ba": {
       "pct_censored": 0.0,
+      "largest_detection_limit": null,
+      "dl_as_fraction_of_median": null,
+      "pct_mass_at_or_below_dl": 0.0,
+      "n_scored_against": 271,
+      "n_censored": 0,
+      "censored_consistency_pct": {
+        "substitute_half": null,
+        "substitute_dl": null,
+        "substitute_zero": null,
+        "stochastic_imputation": null
+      },
       "r2_by_rule": {
-        "substitute_half": 0.577,
-        "substitute_dl": 0.577,
-        "substitute_zero": 0.577,
-        "ros": 0.577
+        "substitute_half": 0.5255,
+        "substitute_dl": 0.5255,
+        "substitute_zero": 0.5255,
+        "stochastic_imputation": 0.5255
+      },
+      "r2_log_by_rule": {
+        "substitute_half": 0.6254,
+        "substitute_dl": 0.6254,
+        "substitute_zero": 0.6254,
+        "stochastic_imputation": 0.6254
+      },
+      "mae_log_by_rule": {
+        "substitute_half": 0.401,
+        "substitute_dl": 0.401,
+        "substitute_zero": 0.401,
+        "stochastic_imputation": 0.401
       },
       "r2_spread": 0.0,
-      "median_abs_prediction_shift_half_vs_ros": 0.0,
+      "r2_log_spread": 0.0,
+      "median_abs_prediction_shift_half_vs_imputation": 0.0,
       "shift_as_pct_of_median": 0.0
     }
   }

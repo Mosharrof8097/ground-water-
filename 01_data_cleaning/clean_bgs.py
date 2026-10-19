@@ -185,6 +185,21 @@ def main():
                 "multiple": len(dls) > 1,
             }
 
+    # Targets must share one unit. Barium is the only one the survey reports in
+    # mg/L, and leaving it there makes log1p(y) a near-identity for barium and
+    # strongly compressive for everything else, so the transform would not mean
+    # the same thing across targets. Converted here, with the limits that came
+    # with it.
+    for c in TARGETS:
+        if c in out.columns and str(units.get(c, "")).strip().lower() == "mg/l":
+            out[c] = out[c] * 1000.0
+            units[c] = "ug/L"
+            report.setdefault("unit_conversions", {})[c] = "mg/L -> ug/L (x1000)"
+            if c in report.get("detection_limits", {}):
+                report["detection_limits"][c]["limits"] = [
+                    round(v * 1000.0, 6)
+                    for v in report["detection_limits"][c]["limits"]]
+
     # Per-column summary
     for c in PREDICTORS + TARGETS + GEOCHEM:
         if c not in out.columns:
@@ -196,7 +211,11 @@ def main():
             "unit": str(units.get(c, "")).strip(),
             "n_valid": int(v.notna().sum()),
             "n_censored": int(out[f"{c}_censored"].sum()),
-            "pct_censored": round(100.0 * out[f"{c}_censored"].sum() / len(out), 1),
+            # over measured rows: a determinand attempted in 19 wells and
+            # censored in all 19 is 100 % censored, not 7 % of the file
+            "pct_censored": (round(100.0 * out[f"{c}_censored"].sum()
+                                   / max(int(v.notna().sum()), 1), 1)),
+            "pct_censored_of_file": round(100.0 * out[f"{c}_censored"].sum() / len(out), 1),
             "median": None if v.notna().sum() == 0 else round(float(v.median()), 6),
             "min": None if v.notna().sum() == 0 else round(float(v.min()), 6),
             "max": None if v.notna().sum() == 0 else round(float(v.max()), 6),

@@ -148,3 +148,39 @@ about method, so `predictor_cost_class`, `validation_scheme`,
 `uncertainty_reported` and `censoring_handling` carry the weight. A paper with
 an unremarkable conclusion can still be the perfect citation for "everyone uses
 DL/2 substitution without saying so."
+
+---
+
+## Prior art for the iron result (added 19 Oct 2026)
+
+Found after stage 3.15 showed raw iron outranking the fitted model on the
+external wells. The idea that iron indicates arsenic is **not new**, and the
+novelty claim must be written around that, not over it.
+
+| Source | What it establishes | Where it must appear |
+|---|---|---|
+| Platform staining, TU Delft validation | Red staining tracks iron reduction and arsenic release; black staining tracks manganese reduction | Introduction, Discussion 4.5 |
+| Matlab study, 272 shallow tubewells | 99 % of 233 red-platform wells exceeded the WHO 10 µg/L guideline; a single-indicator screening result of the same kind as ours | Introduction, Discussion 4.5 |
+| iArsenic, University of Portsmouth, 2025 | Depth, location and platform staining, 84 % claimed accuracy. **A direct competitor** | Introduction and Discussion, both |
+| Horneman et al. 2004, As and Fe decoupling | Arsenic release accompanies conversion of Fe(III) coatings to Fe(II) phases such as siderite or vivianite, which need not release Fe to the water | Discussion 4.4, as the mechanism for why concentration fails and ranking holds |
+| Nawabganj study | No As-Fe correlation across all wells (r = -0.01), none at the high arsenic range | Discussion, explains why development iron AUC is only 0.742: 125 of our 271 wells are in Nawabganj |
+
+### What this does to the novelty claim
+
+Not claimable: that iron indicates arsenic, or that a cheap proxy can triage
+wells. Both are established, and iArsenic is already deployed.
+
+Claimable: a **quantitative, kit-measurable form** of the platform-stain
+heuristic, carried through honest validation on unseen districts, where it
+**beats a fitted model on the same wells** (DeLong p < 10^-6). The contribution
+is the validation design and the negative result about the model, not the
+discovery that iron matters.
+
+### Also to fix in the text
+
+The claim "the simplest ranking transfers best" is **wrong** and must not be
+written. Iron moves from 0.742 in development to 0.891 externally, a shift of
++0.149; the model moves only 0.039. Neither rule is stable across regions. The
+defensible statement is that no rule transfers unchanged, the model wins where
+it was fitted and iron wins in North Bengal, and a programme entering a new
+district should calibrate against a small laboratory sub-sample first.

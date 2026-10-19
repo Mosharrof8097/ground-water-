@@ -90,7 +90,7 @@
   "targets_excluded": [
     {
       "target": "AsIII",
-      "reason": "42% of rows share the single value 6.0 (> 40%)"
+      "reason": "43% of rows share the single value 6.0 (> 40%)"
     },
     {
       "target": "Cd",
@@ -110,7 +110,7 @@
     },
     {
       "target": "Se",
-      "reason": "only 19 measurements (< 100); only 1 distinct values (< 10)"
+      "reason": "only 19 measurements (< 100); 100% censored (> 60%); only 1 distinct values (< 10); 100% of rows share the single value 0.2 (> 40%)"
     }
   ],
   "screening_thresholds": {
@@ -122,7 +122,7 @@
   "who_limits_ug_L": {
     "AsTot": 10.0,
     "Cd": 3.0,
-    "Ni": 20.0,
+    "Ni": 70.0,
     "Pb": 10.0,
     "Cr": 50.0,
     "Cu": 2000.0,

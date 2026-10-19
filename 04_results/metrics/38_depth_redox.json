@@ -106,23 +106,23 @@
   "depth_vs_redox": {
     "by_zone": [
       {
-        "redox_zone": "Fe(III)-reducing",
+        "redox_zone": "Fe(III)- / sulfate-reducing",
         "n": 89,
         "median_depth_m": 25.9
       },
       {
-        "redox_zone": "sulfate-reducing / methanogenic",
-        "n": 68,
-        "median_depth_m": 31.2
+        "redox_zone": "methanogenic",
+        "n": 67,
+        "median_depth_m": 30.5
       },
       {
-        "redox_zone": "nitrate-reducing",
-        "n": 62,
-        "median_depth_m": 27.7
+        "redox_zone": "mixed (anoxic)",
+        "n": 60,
+        "median_depth_m": 26.7
       },
       {
-        "redox_zone": "oxic",
-        "n": 33,
+        "redox_zone": "mixed (oxic)",
+        "n": 29,
         "median_depth_m": 27.4
       },
       {
@@ -131,12 +131,22 @@
         "median_depth_m": 33.5
       },
       {
+        "redox_zone": "oxic",
+        "n": 4,
+        "median_depth_m": 38.9
+      },
+      {
         "redox_zone": "suboxic",
+        "n": 3,
+        "median_depth_m": 38.1
+      },
+      {
+        "redox_zone": "nitrate-reducing",
         "n": 2,
         "median_depth_m": 40.4
       }
     ],
-    "chi2_p": 0.0014837863987896918
+    "chi2_p": 0.000550901060697746
   },
   "verdict": "deeper wells are significantly cleaner in this dataset",
   "note": "Reported in both directions. Mitigation advice to deepen wells rests on depth predicting redox condition; where it does not, the advice does not follow from these data."
