@@ -1,8 +1,11 @@
+{{TITLE:Surrogate screening of trace metals in Bangladesh groundwater: detection limits bound feasibility and ranking transfers where concentration does not}}
+
 # Abstract
 
 > **Draft 1.** A single paragraph of at most 300 words, as the Science of the
 > Total Environment, Environmental Pollution and Journal of Hydrology class of
-> journal requires.
+> journal requires. The title tracks the two headline findings stated at the
+> end of the Introduction. Authors and affiliations are still to be added.
 
 ---
 

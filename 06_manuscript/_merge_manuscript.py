@@ -220,6 +220,11 @@ def read_markdown(path):
                 i += 1
             blocks.append(("table", 0, rows))
             continue
+        m = re.match(r"^\{\{TITLE:(.+)\}\}$", line.strip())
+        if m:
+            blocks.append(("title", 0, m.group(1).strip()))
+            i += 1
+            continue
         m = re.match(r"^\{\{(FIGURE|TABLE):([A-Za-z0-9]+)\}\}$", line.strip())
         if m:
             blocks.append(("figure" if m.group(1) == "FIGURE" else "csv",
@@ -437,6 +442,14 @@ def main():
                 doc.add_heading(payload, level=min(level, 3))
             elif kind == "table":
                 write_table(doc, payload)
+            elif kind == "title":
+                para = doc.add_paragraph()
+                para.paragraph_format.line_spacing = 1.5
+                para.paragraph_format.space_after = Pt(18)
+                para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                run = para.add_run(payload)
+                run.bold = True
+                run.font.size = Pt(BODY_PT + 4)
             elif kind == "caption":
                 add_caption(doc, payload)
             elif kind == "figure":
